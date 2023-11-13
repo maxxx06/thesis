@@ -1,0 +1,301 @@
+% \pdfobjcompresslevel 0 % Ligne souvent nécessaire pour la validité du PDF généré
+\documentclass[french,12pt,a4paper]{report}
+\usepackage[top=1.5cm,bottom=2cm,left=2.5cm,right=2.5cm,includehead]{geometry}
+\usepackage[T1]{fontenc}% pour la sortie
+\usepackage[utf8]{inputenc} % pour l'entrée
+\usepackage{graphicx}
+\usepackage{setspace}
+%\usepackage{comment}
+%\usepackage{amsmath}
+%\usepackage[authoryear,sort,numbers]{natbib}
+%\usepackage{xcolor}
+%\usepackage{tikz}
+%\usepackage{amssymb}
+%\usepackage{kbordermatrix} 
+%%\usepackage{tabularx}
+%%https://www.ctan.org/tex-archive/macros/generic/misc/kbordermatrix.sty
+%\usepackage{minitoc}
+%\usepackage{babel}[Francais]
+%\usepackage{comment}
+%\usepackage{pdfpages}
+%\usepackage[colorlinks=false]{hyperref}
+%\usepackage{mathtools}
+%%\usepackage{breakurl}
+%\usepackage{url}
+%\usepackage{appendix}
+%\usepackage{adjustbox}
+%\usepackage{multirow}
+%\usepackage{float}
+%\usepackage{siunitx}[2021/05/01]
+%\usepackage{mathrsfs}
+%\usepackage{xspace}
+%\usepackage{listings} 
+%\usepackage[table]{colortbl}
+%\usepackage[version=4]{mhchem}
+%\usepackage{rotating, lscape, longtable, tabu, booktabs, siunitx, multirow}
+%\usepackage{subfiles}
+%
+%
+%\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+%
+%%\lstset
+%{
+%    language=[LaTeX]TeX,
+%    breaklines=true,
+%    basicstyle=\tt\normalsize,
+%    keywordstyle=\color{blue},
+%    identifierstyle=\color{magenta},
+%    frame = single,
+%    numbers=left,
+%	numberstyle=\tiny \bf \color{blue},
+%	stepnumber=1,	
+%	numbersep=10pt,
+%	firstnumber=1,
+%	numberfirstline=true
+%}
+%
+%
+%
+%
+%\sisetup{locale = FR}
+%
+%\lstdefinestyle{yaml}{
+%     basicstyle=\color{orange}\footnotesize,
+%     rulecolor=\color{black},
+%     string=[s]{'}{'},
+%     stringstyle=\color{yellow},
+%     comment=[l]{:},
+%     commentstyle=\color{black},
+%     morecomment=[l]{-}
+% }
+%
+%\sisetup{output-exponent-marker=\ensuremath{\mathrm{e}}}
+%
+%\makeatletter
+%\let\ps@oldempty\ps@empty % save default definition of \ps@empty
+%\renewcommand\ps@empty\ps@plain
+%\makeatother
+%\usetikzlibrary{positioning,chains,fit,shapes,calc}
+%
+%\DeclareMathOperator*{\argmax}{arg\,max}
+%\DeclareMathOperator*{\argmin}{arg\,min}
+%\DeclareMathOperator*{\logten}{log_{10}}
+%\def\R{\mathbb{R}}
+%\def\freud{\textit{P.~freudenreichii}\xspace}
+%\def\lactis{\textit{L.~lactis}\xspace}
+%\def\plantarum{\textit{L.~plantarum}\xspace}
+%
+%\newcommand{\maxime}[1]{\textcolor{blue}{[\emph{ML} -- #1]}}
+%\renewcommand{\chaptername}{Chapitre}
+%
+%
+%\newcommand{\beginsupplement}{%
+%        \setcounter{table}{0}
+%        \renewcommand{\thetable}{S\arabic{table}}%
+%        \setcounter{figure}{0}
+%        \renewcommand{\thefigure}{S\arabic{figure}}%
+%        \setcounter{section}{0}
+%        \renewcommand{\thesection}{\Roman{section}}%
+%     }
+%\newcommand\TableBac[2]{\parbox[t]{2mm}{\multirow{#2}{*}{\rotatebox[origin=c]{90}{#1}}}}
+% 
+%\newcommand\TableReac[6]{\multirow{2}{*}{\small{#1}} & \small{#2} &\small{#3}&\multirow{2}{*}{\tiny{#6}} \\
+% &  & \small{#4} &\small{#5}& }
+%
+%\newcommand\ReacListItem[6]{\footnotesize{\item #1:\\\begin{minipage}[t]{0.99\linewidth} 
+%- #2:~\begin{minipage}[b]{0.95\linewidth} #3 \end{minipage} \\
+%- #4:~\begin{minipage}[b]{0.95\linewidth} #5 \end{minipage}
+%\begin{minipage}{\linewidth}
+%Justification: #6
+%\end{minipage}
+%\end{minipage}\\
+%}
+%}
+%\newcommand{\ccmc}{CoCoMiCo\xspace}
+%\newcommand{\comScope}{\textsf{exchangeable}\xspace}
+%\newcommand{\exc}{\textsf{exchangeable}\xspace}
+%\newcommand{\lims}{\ensuremath{\mbox{\textsf{polyopsonistic}}}\xspace}
+%
+%\newcommand{\cScope}{\textsf{cScope}\xspace}
+%\newcommand{\iScope}{\textsf{iScope}\xspace}
+%\newcommand{\iActivated}{\textsf{iActivated}\xspace}
+%\newcommand{\cActivated}{\textsf{cActivated}\xspace}
+%\newcommand{\reactant}{\textsf{reactant}\xspace}
+%\newcommand{\product}{\textsf{product}\xspace}
+%
+%
+%\newcommand{\Ms}{\ensuremath{\mathcal{M}}\xspace}
+%\newcommand{\Rs}{\ensuremath{\mathcal{R}}\xspace}
+%\newcommand{\Ts}{\ensuremath{\mathcal{T}}\xspace}
+%
+%\newcommand{\source}{\ensuremath{\mbox{\textsf{source}}}\xspace}
+%\newcommand{\name}{\ensuremath{\mbox{\textsf{nom}}}\xspace}
+%\newcommand{\products}{\ensuremath{\mbox{\textsf{products}}}\xspace}
+%\newcommand{\reactants}{\ensuremath{\mbox{\textsf{reactants}}}\xspace}
+%\newcommand{\taxons}{\ensuremath{\mbox{\textsf{taxa}}}\xspace}
+%\newcommand{\gmodel}[1][]{\ensuremath{G_{#1}}\xspace}
+%\newcommand{\gcommunity}{\ensuremath{\mathbf{G}}\xspace}
+%
+%\newcommand{\scope}{\ensuremath{\mbox{\textsf{scope}}}\xspace}
+%\newcommand{\iscope}{\ensuremath{\mbox{\textsf{iscope}}}\xspace}
+%\newcommand{\cscope}{\ensuremath{\mbox{\textsf{cscope}}}\xspace}
+%\newcommand{\projection}[1]{\ensuremath{\mathscr{P}_{#1}}}
+%\newcommand{\exchange}{\ensuremath{\mbox{\textsf{exchange}}}\xspace}
+%
+%\newcommand{\merge}{\ensuremath{\mbox{\textsf{merge}}}}
+%
+%\newcommand{\suchthat}{\ensuremath{\,\vert\,}}
+%
+%
+%\setcounter{tocdepth}{3}
+%\setcounter{secnumdepth}{4}
+%
+%\newlength{\Oldarrayrulewidth}
+%\newcommand{\Cline}[2]{%
+%  \noalign{\global\setlength{\Oldarrayrulewidth}{\arrayrulewidth}}%
+%  \noalign{\global\setlength{\arrayrulewidth}{#1}}\cline{#2}%
+%  \noalign{\global\setlength{\arrayrulewidth}{\Oldarrayrulewidth}}}
+%  
+%
+%
+\def\FromMain{1}
+
+%\dominitoc
+\begin{document}
+	
+\definecolor{myblue}{RGB}{80,80,160}
+\definecolor{mygreen}{RGB}{80,160,80}
+
+\pagestyle{empty}
+% Les logos en tête, ici une seule image incluse
+\includegraphics[height=0.9cm]{img/page de garde/logo_EDMI.png}
+\hfill
+\includegraphics[height=0.9cm]{img/page de garde/Inr_logo_rouge.png}
+\hfill
+\includegraphics[height=0.9cm]{img/page de garde/Logo-INRAE_Transparent.png}
+\hfill
+\includegraphics[height=0.9cm]{img/page de garde/logo_LaBRI.png}
+\begin{center}
+\begin{Large}
+
+THÈSE PRÉSENTÉE\\ POUR OBTENIR LE GRADE DE \\
+{\LARGE \textbf{DOCTEUR\\DE L'UNIVERSITÉ DE BORDEAUX} } \\
+\vspace{0.55cm}
+ÉCOLE DOCTORALE MATHÉMATIQUES ET INFORMATIQUE\\
+SPÉCIALITÉ INFORMATIQUE \\
+\vspace{0.55cm}
+Par \textbf{Maxime LECOMTE} \\
+\vspace{0.55cm}
+{\Large Approche hybride de modélisation explicable du métabolisme des écosystèmes microbiens}
+% {\Large Développement d'une approche hybride dans la modélisation d'écosystèmes microbiens}
+% {\Large Modélisation d'écosystèmes microbiens dans des environnements contrôlés et non contrôlés}
+\end{Large}\\
+\vspace{0.55cm}
+{\Large Hybrid approach of explainable metabolic modelling of microbial ecosystems}
+% {\Large Microbial ecosystem modelling in natural and control environnement}
+\vspace{0.55cm}
+\begin{normalsize}
+\begin{singlespace}
+Sous la direction de : \textbf{David SHERMAN} et \\ 
+\textbf{Hélène FALENTIN}\\
+\end{singlespace}
+\end{normalsize}
+\end{center}
+\vfill
+Soutenue le .../.../... \\
+\vfill
+\noindent
+Membres du jury:\\
+% \vspace{0.55cm}
+\begin{table}[h]
+\centering
+\makebox[\textwidth]{%
+\begin{tabular}{llll}
+Mme. BAROUKH, Caroline & Chargée de recherche HDR & INRAE & Rapportrice \\
+Mme. COCAIGN-BOUSQUET, Muriel & Directrice de recherche & INRAE & Rapportrice \\
+M. COTTRET, Ludovic & Ingénieur de recherche & INRAE & Examinateur \\
+Mme. LAROCHE, Béatrice & Directrice de recherche & INRAE & Examinatrice \\
+M. MARKOV, Gabriel & Chargé de recherche & CNRS & Examinateur \\
+M. SIMON, Laurent & Professeur & LaBRI & Président \\
+Mme. FALENTIN, Hélène & Ingénieure de Recherche HDR & INRAE & \begin{minipage}[t]{2.5cm}Co-Directrice de thèse\end{minipage} \\
+M. SHERMAN, David & Directeur de Recherche & \begin{minipage}[t]{3.8cm}Inria de l'université de bordeaux\end{minipage} & \begin{minipage}[t]{2.5cm}Co-Directeur de thèse\end{minipage}  \\
+\end{tabular}
+}
+\end{table}
+
+\vfill
+\noindent
+
+Membre invitée: \\
+\begin{table}[h]
+\centering
+\makebox[\textwidth]{%
+\begin{tabular}{llll}
+Mme. FRIOUX, Clémence & Chargée de Recherche & Inria de l'université de bordeaux & Encadrante 
+\end{tabular}
+}
+\end{table}
+
+\dominitoc
+\tableofcontents
+
+\adjustmtc
+
+\newpage
+
+%
+%\subfile{chapitres/abstract.tex}
+%% \include{chapitres/abstract.tex}
+% \newpage
+% 
+% \subfile{chapitres/remerciements.tex}
+%% \include{chapitres/abstract.tex}
+% \newpage
+%
+%\subfile{chapitres/introduction.tex}
+%% \include{chapitres/introduction.tex}
+% \newpage
+% 
+%\subfile{chapitres/etat_de_l_art.tex}
+%% \include{chapitres/etat_de_l_art.tex}
+% \newpage
+% 
+%\subfile{chapitres/tango2.tex}
+%% \include{chapitres/tango2.tex}
+% \newpage
+%
+%\subfile{chapitres/cocomico_v2.tex}
+%% \include{chapitres/cocomico_v2.tex}
+% \newpage
+%
+%% \include{chapitres/cocomico.tex}
+%% \newpage
+%\subfile{chapitres/enrichissement.tex}
+%% \include{chapitres/enrichissement.tex}
+% \newpage
+% 
+%\subfile{chapitres/Discussion.tex}
+%%\include{chapitres/Discussion.tex}
+%\newpage
+%
+%
+%\chapter*{Reference}
+%\addcontentsline{toc}{chapter}{Reference}
+%\bibliographystyle{apa}
+%\setcitestyle{numbers}
+%\bibliography{reference}
+%
+%
+%\appendix
+%% \beginsupplement
+% \subfile{annexe/annexes.tex}
+% \newpage
+% \noindent 
+% \subfile{chapitres/list-acronymes.tex}
+% \newpage
+%
+%\listoffigures \addcontentsline{toc}{chapter}{Liste des Figures} \mtcaddchapter                     %new code
+%\listoftables \addcontentsline{toc}{chapter}{Liste des Tables}   \mtcaddchapter   
+
+\end{document}
+

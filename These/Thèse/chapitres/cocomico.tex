@@ -1,0 +1,287 @@
+% \ifdefined\FromMain %
+% \else % 
+% 	\documentclass[../main.tex]{subfiles}
+% 	\let\FromMain\undefined
+%   	\begin{document}
+% \fi
+
+\chapter{CoCoMiCo : Modélisation logique de communautés bactériennes au sein d'écosystèmes non-contrôlé}
+\minitoc
+soumis a CMSB (Computational methods in systems biology) 
+\newpage
+
+\section{Introduction}
+
+Les communautés microbiennes sont gouvernées par des réseaux complexe d'interactions, principalement animés par la production et la consommation de biens métaboliques, et l'inférence au débit de ces interactions est crucial pour un large champs d'application \citep{Wilmes.2022,Fournier.2022,Rousk2016,Cao2021}. Les biens métaboliques échangés  peuvent conduire à des effets de \emph{coopération} positif, ou de l'alimentation croisée, où les \emph{substrats nutritionnels} échangés impactent les organismes receveurs sans effets néfastes sur le donneur; les effets de \emph{compétition} négatif, où la dépendance sur les \emph{substrats limitants} impacte négativement la production biosynthétique ou la croissance d'organismes; les effets \emph{neutres} \citep{Faust2012}.\\
+
+Utiliser la modélisation métaboliques pour identifier le potentiel de coopération or de compétition entre les organismes est une voie prometteuse. Les réseaux métaboliques à l'échelle du génome inférés en utilisant les données omiques associent les réactions métaboliques et de transports aux génomes de chacun des membres d'un microbiote \citep{Ankrah.2021}. En utilisant les relations réactions-protéines-gênes d'un GEM, les approches mathématiques, basées sur les graphes ou encore sur le raisonnement peuvent être appliqués pour déchiffrer le le potentiel de coopération ou de compétition au sein d'une communauté microbienne. Les méthodes basées sur les graphes permettent une analyses par paires d'espèces, caractérisant les potentiels de coopération \citep{Levy2015} et de compétition \citep{Kreimer2012}, mais ne sont pas appropriées pour des grandes communautés avec de nombreuses interactions. Les méthodes basées sur contraintes \citep{Zelezniak2015,diener2020} solutionne la limitation de l'analyse par paire pour calculer les potentiels de compétition et de coopération en utilisant une optimisation numérique et l'analyse par équilibre des flux (FBA), mais les coûts de calcul augmentent considérablement en fonction de la taille de la communauté. Malheureusement, pour les grandes communautés contenants des centaines ou des milliers de taxa différents, des approches numériques standard sont entravées par leur coûts de calcul et par leur dépendance des réseaux métaboliques curés. Dans un second temps, l'abstraction discrète de la productibilité métabolique, a été vu comme étant un bon compromis entre précision et passage à l'échelle des analyses d'espèces individuelles ou dans la sélection de communautés microbiennes \citep{Belcour.2020,Frioux2018}.\\
+
+Dans ce papier, nous étendons le travail de Frioux et ses collègues \citep{Frioux2018}, où le raisonnement logique au moyen d'une base de connaissance encodant les modèles métaboliques a été utilisé pour cribler and classifier la producibilité métabolique de grandes communautés, en particulier sur les termes de faisabilité, redondance, et de processus de coopération. La modélisation de la productibilité métabolique se prête au raisonnement machine parce que les données sont naturellements encodés comme une très grande base de connaissance de faits biologiques, et le problème lisiblement exprimé comme un ensemble de règles d'inférence directement inspirés de la connaissance des méchanismes biologiques. La Réalisation de l'inférence en utilisant le paradigme de "generer-filter" de la programmation par ensemble de réponse (ASP) \citep{Lifschitz2008} a été prouvé plutot avantageuse : il offre de solides garanties d'exactitude des résultats, une résolution efficace à l'aide de solveurs incrémentaux et, pour le raisonnement avec des données négatives, fait explicitement la distinction entre ce qui est inconnu et ce que l'on sait être faux. \\
+
+En se basant sur ce raisonnement, notre extension offre un nouvel ensemble de règles d'inférence logiques et de contraintes dérivés des défintions biologiques de coopération et de compétition. En emboittant l'algorithme d'extansion de réseaux métaboliques \citep{Ebenhoh2004}, nous inférons les échanges métaboliques que chaque organisme peut être impliqué pour modéliser le potentiel de coopération; et nous inférons les substrats qui limitent chaque organisme pour modéliser le potentiel de compétition. Ces échanges are inférés efficacement à partir d'une grande base de connaissance encodant chaque communauté microbienne. De plus, dans le but d'utiliser les potentiels de coopération et de compétition dans le criblage de communauté, nous avons conçu des scores pour chaque qui peuvent être utilisé comme critère d'optimisation. Nous avons étalonnée ces scores contre une grande collection de communautés et les avons comparé avec deux méthodes numériquement précises but coûteuses. 
+
+\section{Représentation de la connaissance}
+L'encodage judicieux de la connaissance est une préoccupation de toute approche par raisonnement effective. Depuis les GEMs comprenant les communautés d'intérêts, nous construisons une base de connaissance en traduisant les modèles d'entrée en faits représenté par des relations logiques, définie des ensembles de métabolites \Ms, réactions \Rs et d'un taxon \Ts. Dans le but de suivre des métabolites à travers les échanges entre les organismes, nous enrichissons l'encodage de \citep{Frioux2018} en donnant  pour chaque instance d'un métabolite or d'une réaction d'un organisme, un unique identifiant et en les étiquetant explicitement leurs organismes donneurs, définissant la projection \( \source: \Ms \rightarrow \Ts\) et
+\( \source: \Rs \rightarrow \Ts\) pour extraire la source, et
+\( \name: \Ms \rightarrow \mbox{\textit{term}}\) pour extraire le terme ontologique générique. N'importe quel ensemble de métabolites étiquetés  (resp. reactions) peut être filtré par un taxon \(
+\projection{t\in\Ts} = \{ m \in M \suchthat \source(m) = t \}
+\).
+
+GEMs sont des collections de réactions que nous encodons comme des relations entre les métabolites et les réactions. Les réactions réversibles sont encodées par les relations dans les deux directions. Nous adoptons une vue conservatrice stipulant qu'un métabolite produit dans un organisme est potentiellement disponible pour les autres organismes, due à la mort cellulaire et à la lyse \citep{Fazzino2020}, et parce que la sécrétion métabolique sans coût a été démontré pour être un mécanisme dominant dans les interactions microbiennes \citep{Pacheco.2019m3q}. De ce fait, nous ne contraignons pas les échanges métaboliques à ceux possédant une réaction de transport. Pour les métabolites \Ms and les réactions \Rs, un modèle
+\[
+\gmodel \in \mathcal{M} \times \mathcal{R} \times 
+    (\mathcal{M} \times \mathcal{R} \cup \mathcal{R} \times \mathcal{M})
+\]
+est un tuple 
+\(
+\gmodel = \langle M, R, E \rangle
+\)
+encodant une relation bipartite définit par les réactions $r\in\mathcal{R}$; où chaque $e = \langle m, r \rangle$ encode un \emph{reactant} consommé par $r$ et chaque $e = \langle r, m \rangle$ encode un \emph{produit} produit par $r$.
+Les ensembles de réactants et de produits d'un $\gmodel = \langle M, R, E \rangle$, et l'ensemble des taxons associé associé à l'ensemble des métabolites, sont trouvé par: 
+\[
+\begin{split}
+    \products(\gmodel) &= \{ m\in M \suchthat \langle r, m\rangle \in E \} \\
+    \reactants(\gmodel) &= \{ m\in M \suchthat \langle m, r\rangle \in E \} \\
+    \taxons(M) & = \{ t \in T \suchthat \exists m\in M ,\, \source(m) = t \}
+\end{split}
+\]
+
+Comme nous considérons que tous les métabolites produits sont disponibles comme dans \citep{Belcour.2020}, la combinaison de tous les modèle dans une communauté est simplement le produit Cartésien des unions des métabolites, des réactions et des relations bipartites : la \emph{communauté assemblé} d'une communauté \( \gcommunity = \{ \gmodel[1], ..., \gmodel[n] \}\)
+est
+\[
+\merge(\gcommunity) = 
+\langle \cup^{n}_{i=1} M_i, \cup^{n}_{i=1} R_i, \cup^{n}_{i=1} E_i \rangle \,.
+\]
+
+A partir d'un nouvel ensemble de métabolites \emph{graines} représentant la composition de l'environnement, le \emph{portée} d'un GEM est l'ensemble de métabolites qui peuvent être produits par des réactions dans le réaseau à partir des grains comme reactants d'entrée. Intuitivement, il s'agit d'une fermeture transitive de la relation de réaction bipartite ; à la suite de \citep{Handorf2005}, nous la définissons ci-dessous comme le point fixe d'une fonction $\scope_i$. La portée d'une communauté étend le concept de portée pour considérer les métabolites extra-cellulaires produits par les membres de la communauté comme des graines potentielles. Pour des raisons pratiques, \citep{Frioux2018} a établi une distinction entre la \emph{portée individuelle} \iscope et la \emph{portée communautaire} \cscope, mais notre étiquetage explicite des entités en fonction de leur organisme source nous permet de les unifier en un seul concept. Les métabolites échanges $M$ entre les organismes auront le même \name dans \Ms, ignorant leur \source. Formellement, pour \( \gcommunity % = \merge(G_1,...,G_n) 
+               = \langle M, R, E \rangle
+\)
+et des gaines $S$, nous définissons:
+
+\[
+\begin{split}
+    \scope(\gcommunity,S) & = \cup^{\infty}_{i=0} \scope_i \mbox{, where} \\[1ex]
+    \scope_0 & = S\\
+    \scope_{i+1} & = \scope_i \cup \products(\{ r \in R \suchthat \name(\reactants(r)) \subseteq \name(\scope_i) \}) \,.
+\end{split}
+\]
+
+Nous observons que les fonctions de portée de \citep{Belcour.2020} pouvait être définie par $\iscope(G,S) = \scope(\{ G \}, S)$
+et 
+$\cscope(G_1,...,G_n) = \scope(\merge(\{ G_1,...,G_n \}), S)$
+
+\section{L'approche basé sur le raisonnement pour approximer la coopération et la compétition dans des grandes communautés}
+\label{answers}
+
+\subsection{Les métabolites échangés utilisés comme un indicateur de la coopération.} Nous stipulons que les métabolites échangés entre les organismes sont la façon la plus directe pour évaluer le potentiel de coopération dans une communauté. Un métabolite qu'un organisme consomme mais qui ne peut pas le produire est opportun pour la coopération: toutes chose étant égales, une communauté pouvant disposer d'un échangé supplémentaire de ce type à un plus grand potentiel pour la coopération. Formellement, pour une communauté $\gcommunity = \langle M, R, E\rangle$ et une portée $S$, les \emph{échanges} d'un nom générique de métabolite $\hat{m}\ dans \Ms$ par rapport à $(\gcommunity, S)$ sont des paires de taxons producteurs et consommateurs $P$ et $C$:
+\[
+\begin{split}
+\exchange_{\gcommunity, S}(\hat{m}) = \{ \langle P, C \rangle \suchthat 
+    &   \exists \gmodel[C]\in\gcommunity,
+        \exists \gmodel[P]\in\gcommunity,
+        \exists m \in \reactants(\gmodel[C]), \\
+    & \name(m) = \hat{m}, \\
+    & m \in \products(\gmodel[P]), \\
+    & m \not\in \scope(\gmodel[C],S), \\
+    & m \in \projection{P}(\scope(\gcommunity, S)) \;\} \\
+\end{split}
+\]
+
+\subsection{La consommation de métabolites limitants utilisé pour approximer la compétition.} La compétition peut être évaluer en considérant les métabolites qui sont consommés par plus de un organisme. Notons qu'un métabolite échangé est un métabolite générique $\hat{m}$ pour lequel \(
+\exchange(\hat{m}) \neq\emptyset
+\). Nous définissons les \emph{substrats limitants} dans une communauté en comptant, pour chaque métabolite échangé $\hat{m}$, le nombre d'organisme impliqué dans les échanges. Pour une communauté $\gcommunity = \langle M, R, E\rangle$  et une portée $S$, 
+\[
+\begin{split}
+\lims(\gcommunity, S) = \{ \name(m) \suchthat
+    & \exists m\in \reactants(\scope(\gcommunity, S)), \\
+    & \vert \taxons(m) \vert > 1 \;\wedge \\
+    & (\name(m) \in S \vee 
+      \exchange_{\gcommunity,S}(\name(m)) \neq\emptyset) \;\} \, . \\
+\end{split}
+\]
+
+\subsection{Description des interactions potentielles dans les communautés microbienne au moyen du raisonnement.} Comme dans \citep{Frioux2018}, les règles inférées pour les concepts décrient au dessus sont implémentées comme un ensemble de règles en ASP. Solutionner ces règles génèrent des ensembles de réponses contenant les ensembles de métabolites qui représentent le potentiel de coopération et de compétition dans la communauté. Les réponses sont définis en utilisant un vocabulaire contrôlé qui peut être interprété par les utilisateurs et utilisatrices biologistes. Dans la section suivante nous nous reposerons sur ces réponses inférées pour calculer des scores qui peuvent être utilisés pour comparer le score de coopération et de compétition en communautés.
+
+\section{Calcul des potentiels de coopérations et de compétitions}\label{score}
+
+\subsection{Les propriétés voulus des critères d'optimisation} Les ensembles de réponses calculés dans la section \S\ref{answers} disent que les échanges entre les organismes sont basés sur la caractérisation de toute la communautés plutôt que sur une paire d'organisme. Dans le but d'utiliser ces réponses comme critères d'optimisation, nous concevons des résumes des scores calculés à partir des ensembles de réponses qui permet de trier les communautés de tailles comparables du plus petit au plus grand potentiel de coopératione et de compétition. Ces critères devraient permettre de classer les communautés comme attendu, mais aussi de résister aux pièges des cas artificiels, tels que le remplissage de la communauté par une quantité arbitraire d'aliments croisés redondants. 
+
+\subsection{Calcule du potentiel de coopération \textsf{CooP}} Le score de potentiel de coopération \textsf{CooP} est basé sur le comptage de taxon distinct impliqué dans chaque métabolite échangé, comme définit dans \S\ref{answers}, et illustré dans la Figure  \ref{fig:fig1}A. Comme les échanges métaboliques n'ont pas de priorités, nous avons construit un compromis entre la surestimation, i.e. tous les consommateurs (resp. producteurs) contribuent de façon égale, une sous-estimation, i.e. un consommateur (resp. producteur) contribue seul. Les taxons impliqués dans un échange sont identifiés en groupant les producteurs et les consommateurs du métabolite correspondant: 
+\[
+\begin{split}
+    \textsf{P}(\hat{m}) & =
+        \{ t\in \Ts \suchthat \langle t, C \rangle \in \exchange_{\gcommunity, S}(\hat{m}) \} \\
+    \textsf{C}(\hat{m}) & =
+        \{ t\in \Ts \suchthat \langle P, t \rangle \in \exchange_{\gcommunity, S}(\hat{m}) \} \,. 
+\end{split}
+\]
+Le nombre distinct de taxon peut être ainsi calculé, \( \vert P(\hat{m}) \vert \) and \( \vert C(\hat{m}) \vert \).
+
+Pour chaque métabolite échangé, le compromis attribut un poids $w$ de 1 pour le premier producteur (resp. consommateur) puis ajoute un bonus sous la forme d'une décroissance exponentielle pour chaque nouveau producteur (resp. consommateur) putatif; formellement, 
+\(
+w(k) = \sum_{i=0}^k 2^{-i}
+\).
+
+\textsf{CooP} est la somme des contributions des métabolites individuels: 
+\[
+    \textsf{CooP} = \sum\limits_{\hat{m}\in\Ms}
+                    w(\vert\textsf{P}(\hat{m})\vert) + 
+                    w(\vert\textsf{C}(\hat{m})\vert) \,.
+\]
+
+Décroître le poids de nouveaux producteurs et de consommateurs pour chaque alimentation croisés à pour but de pénaliser la redondance d'une alimentation croisée à travers un nouveau métabolite échangé, et suppose que le métabolite en question ne peut être disponible pour tous les membres de la communauté. Le vocabulaire contrôlé donne deux sous score de \textsf{CooP}, \textsf{CooP\raisebox{-0.4ex}{-}consommateurs} et \textsf{CooP\raisebox{-0.4ex}{-}producteurs} (Figure \ref{fig:fig1}A) qui mesure seulement la constribution des producteurs et des consmmateurs lors de l'alimentation croisés :
+\[
+\begin{split}
+    \textsf{CooP\raisebox{-0.4ex}{-}producteurs} & =  \sum\limits_{\hat{m}\in\Ms} w(\vert\textsf{P}(\hat{m})\vert) \\
+    \textsf{CooP\raisebox{-0.4ex}{-}consommateurs} & =  \sum\limits_{\hat{m}\in\Ms} w(\vert\textsf{C}(\hat{m})\vert)
+\end{split}
+\]
+
+\subsection{Calcul du score du potentiel de  compétition \textsf{ComP}} Le score de compétition \textsf{ComP}(Figure \ref{fig:fig1}A) prend en compte les consommateurs de tous les substrats \lims et divise la cardinalité des substrats \lims par la taille de la communauté. Formellement, pour une communauté  $\gcommunity$ et une portée $S$,
+\[
+    \textsf{ComP} = \frac{\vert\lims(\gcommunity,S)\vert}{\vert \gcommunity \vert} \,.
+\]
+
+
+\begin{figure*}
+    \centering
+    \includegraphics[width=\textwidth]{img/cocomico/Fig1_V3.1.pdf}
+    \caption{\textbf{Overview of the method and illustration on toy examples.}
+    (\textbf{A.}) Identifying exchanges and computing scores.
+    The community is represented by a collection of metabolic networks and the description of the environment. Reasoning in Answer Set Programming permits modelling a network expansion-based model of producibility together with the putative exchanges of metabolites, limiting substrates, metabolite producibility and consumption by species.
+    These are used to compute the cooperation potential (\textsf{CooP})
+    and the competition potential (\textsf{ComP}) of the community.
+    (\textbf{B.}) Illustration on two toy communities.
+    Producible metabolites from the initial environment and from interactions with other species
+    are used to compute \textsf{CooP} and \textsf{ComP}.}
+    \label{fig:fig1}
+\end{figure*}
+
+\subsection{Illustration sur l'exemple jouet} Pour illustrer l'approche, Figure \ref{fig:fig1}B montre l'application sur deux communautés jouets de trois and quatre réseaux métaboliques (incluant le premier trois). Les deux communautés partagent les mêmes trois graines comme nutriments. Les métabolites productible avec et sans l'alimentation croisée, et ceux non productibles sont illustrés dans la figure. Le nombre de producteurs et de consommateurs impliqués dans les échanges métaboliques, et les consommateurs des substtrats limitants sont utilisés pour calculer les scores. Alors que la consommation de métabolites du milieu nutritionnel est relativement similaire dans la deux communauté, la présence du quatrième réseaux métabolique crée quatre nouvelles opportunités pour l'alimentation croisée, qui résulte d'une augmentation du potentiel de coopération.
+
+\subsection{Implémentation} Le modèle basé sur le raisonnement approximant la coopération et la compétition  est implémenté en ASP. Ce modèle et le calcule respectif des interactions potentielles ont été évalué à travers le développement d'un package python appelé \texttt{CoCoMiCo}, pour \textit{Competition and Cooperation in Microbial Communities}. Cette outil peut être installé en utilisant \href{https://pypi.org/project/CoCoMiCo/}{Pypi}
+et son code source est disponible à  \url{https://gitlab.inria.fr/ccmc/CoCoMiCo}.
+
+\section{Analyses comparatives}
+
+\subsection{Données et génération de communautés artifcielles} Les génomes de référence d'espèce cultivable associés a différentes écosystèmes sont collectés : 857 génomes de référence du sol du la base de données RefSoil \citep{Choi2017}, 1520 génomes de références du microbiote de l'intestin humain \citep{Zou2019}, 189 génomes du microbiote de la feuille (numéro accession PRJNA297956) et 1868 génomes isolés de la racine (PRJNA297942) de \textit{Arabidopsis thaliana} \citep{Bai2015}. Tous les génomes ont été annoté en utilisant Prodigal \citep{Hyatt2010} v.2.6.3 et eggNOG-mapper \citep{Cantalapiedra2021} v.2.1.6 sur la base de donnée eggNOG \citep{Huerta-Cepas2019} v.5.0.2. Les réseaux métaboliques ont par le suite étaient reconstruit en utilisant Pathway-tools v.25.5 \citep{Karp2022} et mpwt v.0.7 \citep{Belcour.2020}. Un milieu de culture générique consistant en des macro et micro nutriment basiques ont été utilisé pour toute les simulations, complété par un faible ensemble de métabolites courant (voir les données associés). 
+
+Cinquante communautés artificielles de taille différente allant 5 à 150 GEMs (5,10,20,30,50,75,100,150) fut créé pour chacun des écosystèmes de l'intestin, de la feuille, racine et du sol. En plus, cinquante communautés de mêmes tailles  ont été crée en mixant les GEMs associés à des différents écosystems dans des proportions équivalentes.
+
+\subsection{Potentiels de coopération et de compétition à travers les différents écosystèmes} 
+Les potentiels de coopération et de compétitions sont calculé pour toutes les communautés de GEMs artificielles (Fig.~\ref{fig:fig2}A) démontrant que les scores varient selon les écosystèmes et selon la taille de la communauté. En particulier, nous observons que les écosystèmes avec des environnements ouverts -feuille, racine, sol- montre de plus grande valeur de compétition que celui de l'intestin humain, le plus grand étant obtenu par le sol, le seul écosystème où aucun hôte est associé dans notre étude. Les distribution des potentiels de coopération et de compétition entre les écosystèmes pour toutes les tailles de communautés sont disponibles en Supp. Fig.\ref{supp:scores_eco_size}. Alors que le potentiel de coopération tend à augmenter avec la taille de la communauté, le potentiel de compétition quant à lui tend à atteindre un plateau écosystème spécifique pour les tailles de communauté supérieur à 50. Seul le sol, l'environnement non lié à un hôte a montré un plus grand potentiel de coopération et de compétition par rapport aux autres habits associés à un hôte. Regardant le nombre putatif de métabolites échangés, le dernier écosystèmes montre en effet un plus grand nombre de métabolites échangeables que les trois autres ($1024\pm 18$ against $588\pm 33$, $693\pm 10$, $678\pm 18$ pour l'intestin, la feuille et la racine pour une taille de communauté = 150). Tous ensemble, bien que les communautés de petites tailles montrent des potentiels d'interactions similaires sans tenir compte de l'écosystème, les plus grandes communautés, ressemblant plus à la taille d'écosystème naturel, sont plus distinguable. Ces observations peuvent être relaté à la diversité taxonomique des GEMs composant les communautés (Supp. fig.\ref{supp:taxo}), et, les écosystèmes avec le plus de diversité taxonomique, le sol et l'intestin, montrent tous les deux respectivement le plu shaut et le plus bas scores de compétition, suggérant suggérant que la taxonomie seul ne peut expliquer les interactions potentielles. D'autre part, les écosystèmes de la feuille et la racine sont similaires et ont beaucoup de taxon en commun, ce qui explique le faible écart dans leur valeurs d'interaction. 
+
+Une observation notable est que la taille de la communauté est fortement associé aux deux potentiels, mais particulièrement à la coopération (\textsf{ComP}: Spearman $\rho = 0.74$, $P < \num{2.2e-16}$, \textsf{CooP}: Spearman $\rho = 0.80$, $P < \num{2.2e-16}$). Ce dernier est attendu comme le nombre de voies métaboliques augmente avec l'ajout de nouveaux membre. Nous avons testé l'impact d'un écosystème sur les potentiels de compétition et de coopération en communautés de tailles similaires (Fig.~\ref{fig:fig2}B and Supp.~Fig.\ref{supp:scores_eco_size}). Tous ensemble, le potentiel de compétition discrimine toutes les pairs d'écosystèmes, \maxime{alors que seul la paire feuille-racine ne diffère pas au regard des potentiels de coopérations}. Néanmoins, la comparaison par taille de communauté montre que la coopération discrimine mieux les communautés de petites tailles. Les écosystème de la feuille et la racine sont les plus difficile à distinguer, mais les différences significatives apparaissent toujours pour des communautés de plus de cinquante GEMs.
+
+Nous avons simulé une cinquième communauté dénoté comme \emph{mix}, composé d'une combinaison de GEMs des quatre écosystèmes, dans le but de construire une communauté microbienne non réaliste. Nous avons observé que les communautés de l'écosystème \emph{mix} possèdent des potentiels de compétition et de coopération significativement distinguable des autres (Fig.~\ref{fig:fig2}B) (tests Wilcoxon , P-values adjustés: $P < 0.01$) avec des scores de coopérations et de compétitions moyens respectifs de $4663\pm 115$ (contre $3943\pm 65$ pour l'écosystème du sol) and $330\pm 9$ (versus $263\pm 5$) pour les communautés de taille 150. De même, le nombre de métabolites échangeables pour la même taille de communauté montre un haut potentiel pour la communauté mix ($1211\pm 31$) comparé à celui du sol ($1025\pm 18$). Cette observation est aussi valable pour chaque taille de communauté testée où la communauté non réaliste obtient des valeurs de potentiels de coopération et de compétition plus élevé que les quatre autres (testsWilcoxon, P-valeurs ajustés: $P <0.001$) (Supp. Fig. \ref{supp:scores_eco_size_mix}). Pour une communauté de taille 150, les valeurs de coopération (resp. compétition) de l'écosystème \emph{mix} atteignent en moyenne $4663\pm 115$ ($330\pm 9$) comparé au sol $3943\pm 65$ ($263\pm 5$). Dans l'ensemble, ces résultats démontrent que l'on peut détecter que le métabolisme et les interactions associés à un assemblage aléatoire d'espèces diffère substantiellement du potentiel métabolique prédit d'apparaître dans des communautés réelles.
+
+
+\subsection{Impact de la similarité des GEMs sur les potentiels de compétition et de coopération} Nous avons par la suite demandé si une simple comparaison du contenu des GEMs pouvait donner des informations similaires aux potentiels de compétition et de coopération. En d'autres termes, Nous avons évalué l'association entre les potentiels interactions, se reposant sur le modèle de métabolites productibles et consommables, et sur la similarité du contenu des réseaux métaboliques à l'échelle des réactions. Les potentiels de compétition et de coopération ont été calculé pour cinquante paires de GEMs (Fig.~\ref{fig:fig2}C). Pour chaque paire de GEMs $G_1$ et $G_2$, l'indice de similarité de Jaccard fut calculé selon l'équation \ref{eq:jaccard}. Nous avons observé aucune association significative entre la similarité des réseaux métaboliques et leurs potentiels (résultats des tests de corrélation en Table supplémentaire \ref{tab:corjacpot}). Cette observation a été valide pour les quatre écosystèmes, et de ce fait, confirmant qu'un modèle discret du métabolisme communautaire prenant en compte les conditions environnementales donne un nouveau niveau d'information lors que la caractérisation de communauté microbienne.
+
+\begin{equation*}
+\label{eq:jaccard}
+    \mbox{\textit{Jaccard}}(G_1=\langle M_1, R_1, E_1\rangle, G_2=\langle M_2, R_2, E_2\rangle) = 
+    \frac{\vert R_1 \cap R_2 \vert}{\vert R_1 \cup R_2 \vert}
+\end{equation*}
+
+
+\begin{figure*}[ht]
+    \centering
+    \includegraphics[width=\textwidth]{img/cocomico/Fig2_v5.pdf}
+    \caption{\textbf{Cooperation and competition potentials in diverse ecosystems.}
+    (\textbf{A.}) Distribution of cooperation and competition potentials in simulated communities composed of 5 to 150 cultivable bacteria isolated in the human gut, the leaf, roots or soil.
+    (\textbf{B.}) Results of Kruskal-Wallis tests (Chi$^2$, adjusted $P$-value symbols) comparing cooperation and competition potentials across communities of panel A and artificial communities mixing bacteria from all ecosystems (``mix''). 
+    (*) Adjusted $P$-values (Benjamini-Hochberg): $P < 0.05$,
+    (**) Adjusted $P$-values (Benjamini-Hochberg): $P < 0.01$,
+    (***) Adjusted $P$-values (Benjamini-Hochberg): $P < 0.001$.
+    (\textbf{C.}) Jaccard similarity indices and competition/cooperation potentials of pairs of GSMNs from the four ecosystems. Lines are linear models drawn for each ecosystem.
+    (\textbf{D.}) Effect on the cooperation and competition potentials of removing one (``1 removed'') or adding one (``1 added'') community member, according to the community size.}
+    \label{fig:fig2}
+\end{figure*}
+
+\subsection{Impact des changements de compositions bactériens de la communauté sur les potentiels} La composition des communautés bactériennes change au cours du temps à la fois en terme d'abondance et en terme de la présence/ absence d'espèce. Bien que notre approche ne prend pas en compte l'abondance des microbes, des changements discrets peuvent néanmoins être considérés en altérant l'ensemble de GEMs d'une communauté. Nous avons évalué l'impact d'ajouter ou de retirer une espèce, pour les communautés de taille 3 à 150 associées aux GEMs de l'intestin.
+
+Les résultats sont résumés en Figure \ref{fig:fig2}D où les distributions des potentiels de coopération et de compétition dans la communauté original, la communauté après ajout d'un membre et la communauté après retrait d'une espèce sont référencées pour différentes taille de la communauté. Les comparaisons des potentiels obtenu après ajout et retrait d'espèces ont été réalisé aux respects de ceux de la communauté originel. Nous avons observé que \maxime{la perturbation de la communauté a affecté les potentiels de coopération et de compétition jusque pour une communauté de taile $n = 10$. Cela indique que les substrats limitants, leur nombre de consommateur, sur lequel se repose le potentiel de compétition, ainsi que les métabolites échangeables, sur lequel s'appuie le potentiel de coopération, sont robustes face à une perturbation de la composition bactérienne.}
+
+\subsection{Performance} La modélisation basé sur le raisonnement permet l'analyse de données massives à grande échelle \citep{Frioux2018}. En utilisant un ordinateur personnel de 16 GiB de mémoire RAM et la puce M1 d'Apple, le temps de calcule varie de moins de deux secondes pour une communauté de taille trois à moins de trois minutes pour une communauté de taille cent cinquante. Cela démontre l'efficacité de calcul et le potentiel de passage à l'échelle du modèle par raisonnement et permet d'être utilisé comme une méthode de criblage systématique pour des grandes collections de communautés microbiennes de tailles réelles.
+
+\section{Comparaison à des méthodes numériques}
+
+Les méthodes numériques pour mesurer les interactions entre les membres d'une communauté microbienne se repose sur des méthodes d'optimisation par contraintes de la distribution des flux métaboliques au sein d'un GEM. Ces méthodes sont numériquement précis mais coûtent chère en temps de calcul, et sont seulement appliqués à des communautés avec des GEMs de bonnes qualités. Notre approche par raisonnement est quant à lui, une approximation qui peut être appliqué pour des grandes communautés. Pour comparer notre méthode au standard OR fournit par les méthodes numériques, nous avons sélectionné SMETANA\citep{Zelezniak2015} et MiCOM \citep{diener2020}.
+
+\subsection{Méthodes} SMETANA calcule deux scores: Le potentiel d'interaction métabolique (MIP) calculant le nombre maximum de nutriments essentiels que la communauté peut fournir avec les échanges métaboliques entre les espèces, et le chevauchement de ressource métabolique (MRO), qui estime le chevauchement entre les pré-requis  minimum pour la croissance de chaque espèce. Ces scores sont une abstraction respective de la coopération et de la compétition; ils sont indépendants de leur habitat et reflète les limites théoriques des interactions \citep{Machado2021}. Les comparaisons avec SMETANA (v1.2.0) fut réalisés sur 250 communautés consistant de trois à trente GEMs reconstuits avec CaveMe \citep{Machado2018} sur une collection de génomes bactériens de référence du NCBI RefSeq (release 84)\footnote{\url{https://github.com/cdanielmachado/embl\_gems}}. Le chevauchement de ressource métabolique (MRO) et le potentiel d'interaction métabolique (MIP) obtenu avec SMETANA sont comparés avec les potentiels respectifs de ComP et CooP. 
+
+MiCOM est une approche computationelle originellement conçu spécifiquement pour la modélisation du microbiome de l'intestin humain, sur lequel il prédit le taux de croissance et de les échanges métaboliques. Les comparaison avec MiCOMM (v.0.32.0) ont été réalisé sur 188 communautés réelle de métagénomes ( de taille entre seize et quatre-vingt dix huit espèces) présenté dans \citep{diener2020}, et en utilisant un ensemble de modèle métabolique de la base de données VMH \citep{Noronha.2018}. Avant l'assemblage de communauté, les réactions d'import des GEMs sont bloqués dans le but d'assurer que seul les graines seront utilisés comme nutriment pour le calcul de ComP et de CooP. Le milieu de culture \textit{vmh\_high\_fiber\_agora.qza} a été utilisé pour les simulations de MiCOM. MiCOM ne fournit pas directement les potentiels de coopération et de compétition, ainsi nous avons utilisés la fonction \texttt{knockout\_taxa} dans MiCOM pour mesurer l'impact de la perte de la perte d'un taxon sur la croissance des autres membre de la communauté. La documentation de MiCOM dit que une diminution (resp. une augmentation) du taux de croissance après la suppression indique une sorte de compétition (resp. sorte de coopération) entre les deux espèces. Pour obtenir de potentiel de compétition (resp. coopération) nous avons sommé tous les scores d'impact positif (resp. négatif) entre les paires d'espèces d'une communauté.
+
+\subsection{Comparaison des approches par contraintes et celle par le raisonnement}
+
+La figure \ref{fig:fig3}A décrit les associations entre les deux scores SMETANA et l'approximation fait par l'approche par raisonnement calculé sur 250 communautés microbiennes. De façon intéressante, une forte corrélation est observée entre les deux scores de coopération (Spearman's $rho = 0.8$, $P < \num{2.2e-16}$) alors qu'aucune association significative apparait entre les scores de compétition (Spearman's $rho = 0.074$, $P = 0.3$). Les deux scores SMETANA sont des estimateurs des métriques d'interaction à leurs limites théoriques : ils ne s'appuient pas sur la composition nutritionnelle de l'environnement pour les prédictions, contrairement aux prédictions \textsf{CooP} et \textsf{ComP}. Cela suggère que les estimations de la compétition prenant en compte l'environnement diffèrent plus que leurs limites théoriques que la coopération.
+
+Nous avons ensuite comparé les sortent de potentiels de la coopération et de la compétition de MiCOM à \textsf{CooP} et \textsf{ComP} dans 181 communautés \ref{fig:fig3}B. Les deux scores de compétition et de coopération sont corrélés entre les deux outils (Spearman's $\rho = 0.64$, $P < \num{2.2e-16}$, et Spearman's $\rho = 0.9$, $P < \num{2.2e-16}$) suggérant que l'approche par raisonnement est une approximation pertinente des méthodes numériques.
+
+Nous avons également observé que les scores SMETANAN et MiCOM sont positivement corrélés avec la taille de la communauté (SMETANA MIP: Spearman's $\rho = 0.8$,SMETANA MRO: Spearman's $rho = 0.074$, $P = 0.3$, $P < \num{2.2e-16}$, MICOM competition: $\rho = 0.64$, $P < \num{2.2e-16}$, MICOM cooperation: $\rho = 0.9$, $P < \num{2.2e-16}$). Dans l'ensemble, en dépis des différences méthodologiques majeures entre notre approche par raisonnement et les approches sur contraintes dans SMETANA et MiCOM, nous avons observé des associations signifiantes entre les prédictions faites par les outils, indiquant que notre méthode est pertinente pour comparer les potentiels de compétition et de coopérations entre les communautés.
+
+\begin{figure*}
+    \centering
+    \includegraphics[width=\textwidth]{img/cocomico/Fig3_v2.pdf}
+    \caption{\textbf{Comparison of our approach predictions to SMETANA and MICOM.}
+    (\textbf{A.}) Comparison to SMETANA on 250 communities of size ranging from 3 to 30. \textsf{ComP} is compared to SMETANA metabolic resource overlap (MRO), and \textsf{CooP} to SMETANA metabolic interaction potential (MIP).
+    (\textbf{B.}) Comparison to MICOM's sums of pairwise positive and negative growth impact scores on 188 real metagenomic communities (size 16 to 98 species).}
+    \label{fig:fig3}
+\end{figure*}
+
+\section{Application à des données réelles}
+ Dans le but d'améliorer l'utilisation de notre approche discrète, nous l'avons utilisé avec SMETANA et MiCOM, aux communautés bactériennes associées au Kéfir décrit dans \citep{Blasche.2021}. Dans ce travail, les auteurs révèlent des interactions entre des paires de micro-organismes, dans le milieu de lait liquide ($n = 23$ souches bactériennes) et dans le milieu du lait solide ($n = 31$ souches incluant des levures). Les analyses par paires ont révélé un réseau d'interaction dense et majoritairement négatif parmi les paires d'espèce poussant sur le milieu solide. Nous avons testé les interactions potentielles dans les deux communautés au complet avec les trois outils, et évalué l'effet de la méthode de reconstruction des GEMs sur les prédictions.
+
+ \subsection{Méthodes} Les génomes des souches bactériennes isolé du Kéfir dans \citep{Blasche.2021} ont été retrouvé et leurs GEMs reconstruits avec gapseq v1.2 \citep{Zimmermann2021} et Pathway-tools v.25.5 \citep{Karp2022} en utilisant mpwt v.0.7 \citep{Belcour.2020}. Les modèles CarveMe \citep{Machado2018} pré-construit par les auteurs fut également retrouvé \footnote{\url{https://github.com/cdanielmachado/kefir\_paper}}. Deux communautés sont testées: une consistant en vingt-trois bactéries qui ont poussé deux-à-deux dans le milieu du lait liquide dans \citep{Blasche.2021}, et une consistant en trente et une souches intialement mis en culture deux-à-deux dans le milieu solide contenant exactement les mêmes nutriments du lait. Nous avons prédis les interactions au sein des deux communautés en utilisant SMETANA (v.1.2.0), MiCOM (v.0.32.0) et CoCoMiCo (\maxime{version à changer}0.2.0). à partir des nutriments du lait. Le score unique de coopération et de compétition pour MiCOM ont été retrouvé comme décrit plus haut. Pour MiCOM (\texttt{grow} workflow), SMETANA et notre approche, le nombre de métabolites échangeables ont été plus retrouvé.
+
+ \begin{table}[!t]
+\centering
+\begin{adjustbox}{width=1\textwidth}
+\begin{tabular}{cccccccc}
+\toprule[1.3pt]
+& \multicolumn{1}{c}{\multirow{2}{*}{community}}   & \multicolumn{2}{c}{Pathway Tools}             & \multicolumn{2}{c}{CarveMe}                   & \multicolumn{2}{c}{gapseq}                                                                   \\
+%\midrule[1.5pt]
+        & & \multicolumn{1}{c}{Cooperation} & Competition & \multicolumn{1}{c}{Cooperation} & Competition & \multicolumn{1}{c}{Cooperation} & Competition                                               \\
+\midrule[1pt]
+\multicolumn{1}{c}{\multirow{2}{*}{CoCoMiCo}} & Milk-liquid    & \multicolumn{1}{c}{{\begin{tabular}[c]{@{}l@{}} 1090.68 \\ (311) \end{tabular}}}           &     \multicolumn{1}{c}{129.48}         & \multicolumn{1}{c}{{\begin{tabular}[c]{@{}l@{}}2183 \\ (625) \end{tabular}}}     & {150.91}      & \multicolumn{1}{c}{{\begin{tabular}[c]{@{}l@{}}2039.34 \\ (571) \end{tabular}}}            &     \multicolumn{1}{c}{234.83}         \\ \Cline{0.2pt}{2-8}
+\multicolumn{1}{c}{} & Milk-solid & \multicolumn{1}{c}{{\begin{tabular}[c]{@{}l@{}}1098.85\\ (302) \end{tabular}}}            &      \multicolumn{1}{c}{130.70}        & \multicolumn{1}{c}{{\begin{tabular}[c]{@{}l@{}}2651.19\\ (758) \end{tabular}}}     & {163}       & \multicolumn{1}{c}{{\begin{tabular}[c]{@{}l@{}}2039.39\\ (547) \end{tabular}}}            &      \multicolumn{1}{c}{244.53}                                 \\
+\midrule[1pt]
+\multicolumn{1}{c}{\multirow{2}{*}{SMETANA}} & Milk-liquid    & \multicolumn{1}{c}{-}            &   \multicolumn{1}{c}{-}          & \multicolumn{1}{c}{{\begin{tabular}[c]{@{}l@{}}22\\ (59) \end{tabular}}}         & {0.329}       & \multicolumn{1}{c}{NA}            &      \multicolumn{1}{c}{{0.682}}    \\ \Cline{0.2pt}{2-8}
+ \multicolumn{1}{c}{} & Milk-solid & \multicolumn{1}{c}{-}            &   \multicolumn{1}{c}{-}          & \multicolumn{1}{c}{{\begin{tabular}[c]{@{}l@{}}22\\ (66) \end{tabular}}}           & {0.348}       & \multicolumn{1}{c}{NA}            &       \multicolumn{1}{c}{{0.693}}                               \\
+\midrule[1pt]
+\multicolumn{1}{c}{\multirow{2}{*}{MICOM}}  & Milk-liquid    & \multicolumn{1}{c}{-}            &     \multicolumn{1}{c}{-}        & \multicolumn{1}{c}{{\begin{tabular}[c]{@{}l@{}}24.75\\ (99) \end{tabular}}}      & \multicolumn{1}{c}{{2.75}}        & \multicolumn{1}{c}{{\begin{tabular}[c]{@{}l@{}}22.435\\ (95) \end{tabular}}}           &       \multicolumn{1}{c}{{22.432}}      \\ \Cline{0.2pt}{2-8}
+\multicolumn{1}{c}{}  & Milk-solid & \multicolumn{1}{c}{-}            &     \multicolumn{1}{c}{-}        & \multicolumn{1}{c}{{\begin{tabular}[c]{@{}l@{}}34.80\\ (109) \end{tabular}}}      & \multicolumn{1}{c}{{3.8}}         & \multicolumn{1}{c}{{\begin{tabular}[c]{@{}l@{}}31.476\\ (103) \end{tabular}}}            &        \multicolumn{1}{c}{{31.454}}                             \\
+\bottomrule[1.3pt]
+\end{tabular} 
+\end{adjustbox}
+\caption{\textbf{CoCoMiCo, SMETANA, and MICOM applied to the kefir experimental data from \citep{Blasche2021}. } Cooperation and competition potentials are obtained for the two communities grown either on liquid milk medium (n = 23 strains) or solid milk medium (n = 31 strains) \citep{Blasche2021} using metabolic networks reconstructed with Pathway Tools, CarveMe and gapseq, and analysed with MICOM, SMETANA and CoCoMiCo. As metabolic networks obtained with Pathway Tools do not possess a biomass reaction by default, only CoCoMiCo can assess their competition and cooperation potentials.
+SMETANA produced no results for the gapseq reconstructed GSMNs, indicating that at least one member failed to grow in the community model \maxime{Faire un tri sur l'identifiant du métabolite, cad, en enlevant le prefixe et le suffixe (M\_ et \_e ou c)}.
+\label{tab:kefirpotentials}}
+\end{table}
+
+\subsection{Application aux données expérimentales et impact de la méthode de reconstruction} 
+Les potentiels d'interactions obtenus avec les trois outils et reconstruits avec les trois méthodes de reconstruction sont présentes dans la Table \ref{tab:kefirpotentials}. Une première observation est qu'il n'était pas possible d'appliquer SMETANA ou MiCOM sur les GEMs reconstruits avec Pathway-tools, comme le protocole que nous utilisons ne donne pas de réaction de biomasse pour les réseaux. Tous les outils prédisent une augmentation du potentiel de coopération dans les plus grandes communautés, ce qui peut être expliqué en partie par l'association positive des scores de coopération et la taille de la communauté. Le nombre absolu de composés échangeables qui ont été prédis par l'approche de raisonnement a identifié plus de métabolites échangeable uniques dans les plus petites communautés reconstruit avec Pathway-tools et gapseq. Cela peut-être relié au réseau d'interaction coopérative dense observé dans les cultures par paires pour cette communauté \citep{Blasche.2021}. Le nombre de composés possiblement échangés prédit par CoCoMiCo surpasse largement les nombres prédis par les simulations numériques, ce qui est attendu puisque la méthode conservative identifie toutes les interactions potentielles, sans une optimisation numérique de la biomasse, qui pourrait contraitnes les échanges possibles. Les prédictions de la compétition sont plus élevé pour les communauté plus grandes, ce qui est conforme avec les résultats des interactions deux-à-deux des expériences en laboratoire, bien que les différences sont souvent négligeables.
+
+Ces résultats montrent la versatilité de notre approche, qui peut être appliqué à des communautés où les GEMs n'ont pas de réactions de biomasse. Les résultats souligne également l'importance du choix de la méthode de reconstructions des GEMs: le fait de s'assurer que chaque modèle individuel peut simuler la croissance sur un milieu typique conduit à des prédictions similaires de scores d'interaction, alors que les GSMN non curés, obtenus avec Pathway Tools, présentent des potentiels dissemblables.
+
+
+\section{Discussion}
+
+Nous proposons une approche basé sur le raisonnement inférant le potentiel de coopération et de compétition dans des communautés microbiennes modélisé par les réseaux métaboliques à l'échelle du génome. Des travaux précédent sur la sélection de communauté \citep{Belcour.2020,Frioux2018}, inspiré de l'approche de modélisation métabolique discret de \citep{Ebenhoh2004}, ont utilisé le raisonnement sur une large base de connaissance encodant les modèles métaboliques. Le travail que nous présentons ici est une extension de ce dernier en enrichissant la représentation de la connaissance et en ajoutant des règles permettant l'inférence du potentiel de coopération et de compétition dans une communauté microbienne. Notre approche combine la rigueur et la précision de la modélisation logique avec un calcul rapide à l'échelle de grandes communautés.
+
+Les interactions, identifié comme des échanges métaboliques par notre méthode, peuvent être interprétés en détails ou utilisés comme une fonction à optimiser. Pour faciliter cette tâche, l'ensemble des échanges sont par la suite combiné en des scores numériques décrivant quelles sont les communautés avec le plus haut degré de coopération positive et compétition négative. Ces scores rangent ces communautés selon leur potentiel et permet d'éviter les pièges des communautés artificielles. Il est important de noter que les scores définis ici ne sont comparables que pour des communautés de taille similaire; ils ne sont délibérément pas normalisés afin d'éviter les risques de comparaisons inappropriées.
+
+L'évalutation \emph{a priori} de la mesure dans laquelle une communauté microbienne est susceptible d'interagir, soit par la compétition pour les ressources, soit par l'alimentation croisée et le mutualisme, est particulièrement précieuse pour le criblage à haut débit des candidats lors de la conception des consortiums, pour modifier la composition des communautés afin de promouvoir un état d'intérêt, ou simplement pour mieux comprendre les règles de l'assemblage des microbes \citep{Oliveira.2023}. Cependant, la tâche n'est pas triviale, car les questions liées à la fonction d'objectif de fitness des communautés \citep{Diener.2023} ou à l'importance de la curation automatique du GEMs et du comblement des lacunes \citep{Bernstein.2019} persistent. L'utilisation d'une modélisation discrète sans fonction objective numérique réduit la nécessité d'une curation d'un GEM et convient à l'analyse d'organismes non cultivés. Elle peut donc constituer une première tentative peu coûteuse de modélisation des communautés microbiennes, une solution pour identifier les communautés qui pourraient le mieux bénéficier d'une curation supplémentaire, et un moyen de mettre ne avant et de comparer les métabolites échangés et les substrats limitants entre les communautés. 
+
+En appliquant la méthode à une large collection de communautés simulés venant de divers écosystèmes, nous avons relevé des différences dans les potentiels de coopération et de compétition. En particulier, notre observation que les communautés du sol montrent de plus grand scores de compétition comparé aux communautés de l'intestin est corroboré par le travail de \citep{Machado2021} qui observe plus de compétition dans les système vivant sans hôtes que ceux avec un hôte. Les comparaisons à grande échelle à SMETANA \citep{Zelezniak2015} et MiCOM \citep{diener2020} ont montré que notre méthode offre un pouvoir sélectif comparable à celui de ces approches numériques de référence, tout en s'adaptant à des communautés de milliers d'espèces en interaction. Cette évaluation souligne la nécessité de modéliser les interactions de plusieurs à plusieurs plutôt que par paire pour les membres de la communauté. Nous avons démontré que les potentiels d'interaction ne sont pas prédits par la seule topologie du réseau, mais qu'ils sont en corrélation avec les prédictions numériques basées sur les flux, en particulier dans le cas de la coopération.
+
+Les scores d'interaction sont fortement associés à la taille de la communauté. Ceci est particulièrement vrai pour le potentiel de coopération, bien que nous ayons illustré que ce score peut discriminer entre les écosystèmes et qu'il est complémentaire de la compétition à cette fin. Cette association a été observée non seulement pour notre approche, mais aussi pour SMETANA \citep{Zelezniak2015} et MICOM \citep{diener2020}, ce qui confirme l'hypothèse selon laquelle l'effet de taille est un facteur déterminant des potentiels d'interaction lorsque l'on compare des communautés de tailles très différentes.
+
+En comparant les potentiels d'interaction prédits à partir des GEMs construits avec trois méthodes de reconstruction, nous avons mis en évidence l'importance du choix entre une méthode qui assure la croissance individuelle de chaque espèce, mais qui ne peut guère être appliquée aux organismes non cultivables fréquemment traités en métagénomique, et une méthode qui ni ne cure d'avantage des GEMs ni ne déduit de réaction de biomasse. Ce choix incombe aux modélisateurs, mais nos résultats démontrent la difficulté de comparer les prédictions pour des communautés qui ne sont pas construites à l'aide des mêmes méthodes.
+
+Notre travail améliore l'état de l'art en fournissant une méthode économique pour évaluer simultanément la coopération et la compétition entre tous les membres d'une communauté microbienne, sans nécessiter une modélisation numérique coûteuse de l'abondance relative des organismes dans ces communautés ou la spécification d'une fonction de biomasse. Parmi les outils testés ici, seul MiCOM tient compte de l'abondance. Nous considérons la prise en compte de l'abondance des espèces comme une fonctionnalité future de CoCoMiCo, modélisée non pas numériquement mais en utilisant une logique descriptive des niveaux et des trajectoires d'abondance. D'autres extensions de ce travail incluent l'utilisation des potentiels de coopération et de compétition pour sélectionner des communautés d'intérêt au sein d'une collection d'espèces, afin de guider l'assemblage des communautés dans des applications biotechnologiques ou sanitaires d'intérêt. 
+
+%\ifdefined\FromMain %
+%\else % 
+%  \end{document} %

@@ -1,0 +1,65 @@
+\babel@toc {french}{}
+\contentsline {chapter}{\numberline {}Résumé}{5}{chapter*.2}%
+\contentsline {chapter}{\numberline {}Remerciements}{7}{chapter*.3}%
+\contentsline {chapter}{\numberline {}Introduction}{8}{chapter*.4}%
+\contentsline {section}{\numberline {0.1}Modèle \textit {in silico} pour étudier la microbiologie}{9}{section.0.1}%
+\contentsline {section}{\numberline {0.2}La biologie des systèmes comme support de l'étude du métabolisme}{10}{section.0.2}%
+\contentsline {section}{\numberline {0.3}Objectifs de la thèse}{10}{section.0.3}%
+\contentsline {chapter}{\numberline {1}Modélisation du métabolisme: d'une cellule à un écosystème}{13}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Les modèles du métabolisme comme support de l'analyse microbienne}{14}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Reconstruction de réseaux métaboliques}{14}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Représentations mathématiques et informatiques du métabolisme}{18}{subsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.2.1}Matrice st\oe {}chiométrique}{18}{subsubsection.1.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.1.2.2}Graphe}{19}{subsubsection.1.1.2.2}%
+\contentsline {subsection}{\numberline {1.1.3}Analyse structurelle de réseaux métaboliques}{19}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}Modélisation métabolique à l'échelle d'un génome}{22}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Méthodes numériques d'un réseau métabolique}{22}{subsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.1.1}Constantes cinétiques des réactions}{22}{subsubsection.1.2.1.1}%
+\contentsline {subsubsection}{\numberline {1.2.1.2}Contraintes numériques}{22}{subsubsection.1.2.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1.3}Intégration de données multi-omiques}{25}{subsubsection.1.2.1.3}%
+\contentsline {subsection}{\numberline {1.2.2}Méthodes qualitatives d'analyse d'un réseau métabolique}{26}{subsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.2.1}Résolution de problèmes SAT et SAT dérivés }{26}{subsubsection.1.2.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2.2}Graphes}{26}{subsubsection.1.2.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.2.3}Problème SAT}{26}{subsubsection.1.2.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.2.4}Application à des problèmes biologiques}{27}{subsubsection.1.2.2.4}%
+\contentsline {subsection}{\numberline {1.2.3}Défis rencontrés lors de la modélisation qualitative et numérique d'une cellule}{28}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Méthodes hybrides de modélisation à l'échelle d'un modèle métabolique}{29}{subsection.1.2.4}%
+\contentsline {subsubsection}{\numberline {1.2.4.1}Indépendants}{29}{subsubsection.1.2.4.1}%
+\contentsline {subsubsection}{\numberline {1.2.4.2}Couplé}{29}{subsubsection.1.2.4.2}%
+\contentsline {section}{\numberline {1.3}Modélisation du métabolisme des écosystèmes microbiens}{30}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Méthodes numériques appliquées à plusieurs réseaux métaboliques}{30}{subsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.1.1}Équations différentielles ordinaires (ODE)}{30}{subsubsection.1.3.1.1}%
+\contentsline {subsubsection}{\numberline {1.3.1.2}Analyse statique sous contraintes}{30}{subsubsection.1.3.1.2}%
+\contentsline {subsubsection}{\numberline {1.3.1.3}Analyse dynamique sous contraintes}{32}{subsubsection.1.3.1.3}%
+\contentsline {subsection}{\numberline {1.3.2}Applications}{33}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Méthodes et modèles qualitatifs de l'étude d'une communauté bactérienne}{34}{subsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {1.3.3.1}Approches basées sur les graphes}{34}{subsubsection.1.3.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.3.2}Modèle basés sur le raisonnement}{35}{subsubsection.1.3.3.2}%
+\contentsline {subsection}{\numberline {1.3.4}Défis rencontrés lors de l'analyse de la modélisation qualitative et quantitative du métabolisme des communautés}{35}{subsection.1.3.4}%
+\contentsline {chapter}{\numberline {2}Modèle numérique du métabolisme bactérien au cours de la production d'un fromage}{38}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{39}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Méthode pour la construction d'un modèle numérique du métabolisme}{40}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Présentation des données}{40}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Données omiques}{40}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}Données de calibration}{41}{subsubsection.2.2.1.2}%
+\contentsline {subsection}{\numberline {2.2.2}Du génome annoté au réseau métabolique à l'échelle du génome}{43}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Modélisation et implémentation numérique}{44}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Raffinement des modèles métaboliques individuels}{46}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Calibration des modèles métaboliques individuels}{46}{subsection.2.2.5}%
+\contentsline {section}{\numberline {2.3}Application de la méthode numérique sur 3 souches du fromage}{47}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}A l'échelle de chaque souche}{48}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Simulations à l'échelle de la communauté}{61}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Interactions bactériennes et exploration du modèle de communauté}{67}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Discussion et Conclusion}{73}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Modèle discret pour le criblage haut-débit du potentiel d'interaction métabolique dans les écosystèmes microbiens complexes}{79}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{80}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Méthode pour calculer un score d'interaction à partir d'une base de connaissance}{82}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Base de faits d’un réseau métabolique}{82}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Productibilité d'un métabolite}{83}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}L'inférence des règles logiques pour calculer les potentiels de coopération et de compétition}{83}{subsection.3.2.3}%
+\endcsname {\contentsline {subsection}{\numberline {3.2.4}Calcul des potentiels de coopération et de compétition à partir des règles logiques}{86}{subsection.3.2.4}%}
+\endcsname {\contentsline {subsection}{\numberline {3.2.5}Expériences \textit {in silico} pour tester différentes propriétés des scores}{87}{subsection.3.2.5}%}
+\endcsname {\contentsline {subsubsection}{\numberline {3.2.5.1}Implémentation}{89}{subsubsection.3.2.5.1}%}
+\endcsname {\contentsline {section}{\numberline {3.3}Application et description de notre approche sur des communautés jouets}{89}{section.3.3}%}
+\begingroup \@safe@activestrue{ \endgroup {section.3.4}
+\begingroup \@safe@activestrue{ \endgroup {subsection.3.4.1}

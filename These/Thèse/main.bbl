@@ -1,0 +1,1193 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\astroncite{Abedi and Hashemi}{2020}]{Abedi2020}
+Abedi, E. and Hashemi, S. M.~B. (2020).
+\newblock {Lactic acid production – producing microorganisms and substrates
+  sources-state of art}.
+\newblock {\em Heliyon}, 6(10):e04974.
+
+\bibitem[\protect\astroncite{Agren et~al.}{2012}]{Agren2012}
+Agren, R., Bordel, S., Mardinoglu, A., Pornputtapong, N., Nookaew, I., and
+  Nielsen, J. (2012).
+\newblock {Reconstruction of genome-scale active metabolic networks for 69
+  human cell types and 16 cancer types using INIT}.
+\newblock {\em PLoS Computational Biology}, 8(5).
+
+\bibitem[\protect\astroncite{Aite et~al.}{2018}]{Aite2018}
+Aite, M., Chevallier, M., Frioux, C., Trottier, C., Got, J., Cort{\'{e}}s,
+  M.~P., Mendoza, S.~N., Carrier, G., Dameron, O., Guillaudeux, N., Latorre,
+  M., Loira, N., Markov, G.~V., Maass, A., and Siegel, A. (2018).
+\newblock {Traceability, reproducibility and wiki-exploration for
+  “{\`{a}}-la-carte” reconstructions of genome-scale metabolic models}.
+\newblock {\em PLoS Computational Biology}, 14(5):1--25.
+
+\bibitem[\protect\astroncite{Altschul et~al.}{1990}]{Altschul1990}
+Altschul, S.~F., Gish, W., Miller, W., Myers, E.~W., and Lipman, D.~J. (1990).
+\newblock {Basic local alignment search tool}.
+\newblock {\em Journal of Molecular Biology}, 215(3):403--410.
+
+\bibitem[\protect\astroncite{Arabzadeh et~al.}{2018}]{Arabzadeh2018}
+Arabzadeh, M., {Saheb Zamani}, M., Sedighi, M., and Marashi, S.~A. (2018).
+\newblock {A graph-based approach to analyze flux-balanced pathways in
+  metabolic networks}.
+\newblock {\em BioSystems}, 165:40--51.
+
+\bibitem[\protect\astroncite{Arkin et~al.}{2018}]{Arkin2018}
+Arkin, A.~P., Cottingham, R.~W., Henry, C.~S., Harris, N.~L., Stevens, R.~L.,
+  Maslov, S., Dehal, P., Ware, D., Perez, F., Canon, S., Sneddon, M.~W.,
+  Henderson, M.~L., Riehl, W.~J., Murphy-Olson, D., Chan, S.~Y., Kamimura,
+  R.~T., Kumari, S., Drake, M.~M., Brettin, T.~S., Glass, E.~M., Chivian, D.,
+  Gunter, D., Weston, D.~J., Allen, B.~H., Baumohl, J., Best, A.~A., Bowen, B.,
+  Brenner, S.~E., Bun, C.~C., Chandonia, J.~M., Chia, J.~M., Colasanti, R.,
+  Conrad, N., Davis, J.~J., Davison, B.~H., Dejongh, M., Devoid, S., Dietrich,
+  E., Dubchak, I., Edirisinghe, J.~N., Fang, G., Faria, J.~P., Frybarger,
+  P.~M., Gerlach, W., Gerstein, M., Greiner, A., Gurtowski, J., Haun, H.~L.,
+  He, F., Jain, R., Joachimiak, M.~P., Keegan, K.~P., Kondo, S., Kumar, V.,
+  Land, M.~L., Meyer, F., Mills, M., Novichkov, P.~S., Oh, T., Olsen, G.~J.,
+  Olson, R., Parrello, B., Pasternak, S., Pearson, E., Poon, S.~S., Price,
+  G.~A., Ramakrishnan, S., Ranjan, P., Ronald, P.~C., Schatz, M.~C., Seaver,
+  S.~M., Shukla, M., Sutormin, R.~A., Syed, M.~H., Thomason, J., Tintle, N.~L.,
+  Wang, D., Xia, F., Yoo, H., Yoo, S., and Yu, D. (2018).
+\newblock {KBase: The United States department of energy systems biology
+  knowledgebase}.
+\newblock {\em Nature Biotechnology}, 36(7):566--569.
+
+\bibitem[\protect\astroncite{Ay et~al.}{2012}]{Ay2012}
+Ay, F., Dang, M., and Kahveci, T. (2012).
+\newblock {Metabolic network alignment in large scale by network compression}.
+\newblock {\em BMC Bioinformatics}, 13(SUPPL.3):1--19.
+
+\bibitem[\protect\astroncite{Aziz et~al.}{2008}]{Aziz2008}
+Aziz, R.~K., Bartels, D., Best, A., DeJongh, M., Disz, T., Edwards, R.~A.,
+  Formsma, K., Gerdes, S., Glass, E.~M., Kubal, M., Meyer, F., Olsen, G.~J.,
+  Olson, R., Osterman, A.~L., Overbeek, R.~A., McNeil, L.~K., Paarmann, D.,
+  Paczian, T., Parrello, B., Pusch, G.~D., Reich, C., Stevens, R., Vassieva,
+  O., Vonstein, V., Wilke, A., and Zagnitko, O. (2008).
+\newblock {The RAST Server: Rapid annotations using subsystems technology}.
+\newblock {\em BMC Genomics}, 9:1--15.
+
+\bibitem[\protect\astroncite{Bai et~al.}{2015}]{Bai2015}
+Bai, Y., M{\"{u}}ller, D.~B., Srinivas, G., Garrido-Oter, R., Potthoff, E.,
+  Rott, M., Dombrowski, N., M{\"{u}}nch, P.~C., Spaepen, S., Remus-Emsermann,
+  M., H{\"{u}}ttel, B., McHardy, A.~C., Vorholt, J.~A., and Schulze-Lefert, P.
+  (2015).
+\newblock {Functional overlap of the Arabidopsis leaf and root microbiota}.
+\newblock {\em Nature}, 528(7582):364--369.
+
+\bibitem[\protect\astroncite{Bakken and Olsen}{1983}]{Bakken1983}
+Bakken, L.~R. and Olsen, R.~A. (1983).
+\newblock {Buoyant densities and dry-matter contents of microorganisms:
+  Conversion of a measured biovolume into biomass}.
+\newblock {\em Applied and Environmental Microbiology}.
+
+\bibitem[\protect\astroncite{Baldini et~al.}{2019}]{Baldini2019}
+Baldini, F., Heinken, A., Heirendt, L., Magnusdottir, S., Fleming, R.~M., and
+  Thiele, I. (2019).
+\newblock {The microbiome modeling toolbox: From microbial interactions to
+  personalized microbial communities}.
+\newblock {\em Bioinformatics}, 35(13):2332--2334.
+
+\bibitem[\protect\astroncite{Barab{\'{a}}si and Oltvai}{2004}]{Barabasi2004}
+Barab{\'{a}}si, A.~L. and Oltvai, Z.~N. (2004).
+\newblock {Network biology: Understanding the cell's functional organization}.
+\newblock {\em Nature Reviews Genetics}, 5(2):101--113.
+
+\bibitem[\protect\astroncite{Becker and Palsson}{2008}]{Becker2008}
+Becker, S.~A. and Palsson, B.~O. (2008).
+\newblock {Context-Specific Metabolic Networks Are Consistent with
+  Experiments}.
+\newblock {\em PLoS Computational Biology}, 4(5):e1000082.
+
+\bibitem[\protect\astroncite{Belcour et~al.}{2020}]{Belcour.2020}
+Belcour, A., Frioux, C., Aite, M., Bretaudeau, A., Hildebrand, F., and Siegel,
+  A. (2020).
+\newblock {Metage2metabo, microbiota-scale metabolic complementarity for the
+  identi1cation of key species}.
+\newblock {\em eLife}.
+
+\bibitem[\protect\astroncite{Berry and Widder}{2014}]{Berry2014}
+Berry, D. and Widder, S. (2014).
+\newblock {Deciphering microbial interactions and detecting keystone species
+  with co-occurrence networks}.
+\newblock {\em Frontiers in Microbiology}, 5(MAY):1--14.
+
+\bibitem[\protect\astroncite{Biggs et~al.}{2015}]{Biggs2015}
+Biggs, M.~B., Medlock, G.~L., Kolling, G.~L., and Papin, J.~A. (2015).
+\newblock {Metabolic network modeling of microbial communities}.
+\newblock {\em Wiley Interdisciplinary Reviews: Systems Biology and Medicine},
+  7(5):317--334.
+
+\bibitem[\protect\astroncite{Blasche et~al.}{2021}]{Blasche.2021}
+Blasche, S., Kim, Y., Mars, R. A.~T., Machado, D., Maansson, M., Kafkia, E.,
+  Milanese, A., Zeller, G., Teusink, B., Nielsen, J., Benes, V., Neves, R.,
+  Sauer, U., and Patil, K.~R. (2021).
+\newblock {Metabolic cooperation and spatiotemporal niche partitioning in a
+  kefir microbial community}.
+\newblock {\em Nature Microbiology}, 6(2):196--208.
+
+\bibitem[\protect\astroncite{Boele and Olivier}{2012}]{Boele2012}
+Boele, J. and Olivier, B.~G. (2012).
+\newblock {MetabolicNetwork\_Modeling\_Server FAME , the Flux Analysis and
+  Modeling Environment}.
+\newblock {\em BMC Systems Biology}, 6(8).
+
+\bibitem[\protect\astroncite{Borghei et~al.}{2021}]{Borghei2021}
+Borghei, R., Mobasheri, M., and Sobati, T. (2021).
+\newblock {Genome Scale Constraint-Based Metabolic Reconstruction of
+  Propionibacterium Freudenreichii DSM 20271}.
+\newblock {\em Preprint from Research square}, pages 1--29.
+
+\bibitem[\protect\astroncite{Brook and Waters}{2008}]{Brook2008}
+Brook, B.~S. and Waters, S.~L. (2008).
+\newblock {Mathematical challenges in integrative physiology}.
+\newblock {\em Journal of Mathematical Biology}, 56(6):893--896.
+
+\bibitem[\protect\astroncite{Cabalar}{2019}]{Cabalar2019}
+Cabalar, P. (2019).
+\newblock {telingo = ASP + Time}.
+\newblock {\em LNCS}, pages 1--13.
+
+\bibitem[\protect\astroncite{Cai et~al.}{2020}]{Cai2020}
+Cai, J., Tan, T., and Chan, S.~H. (2020).
+\newblock {Predicting Nash equilibria for microbial metabolic interactions}.
+\newblock {\em Bioinformatics}, 36(24):5649--5655.
+
+\bibitem[\protect\astroncite{Cantalapiedra et~al.}{2021}]{Cantalapiedra2021}
+Cantalapiedra, C.~P., Hernandez-Plaza, A., Letunic, I., Bork, P., and
+  Huerta-Cepas, J. (2021).
+\newblock {eggNOG-mapper v2: Functional Annotation, Orthology Assignments, and
+  Domain Prediction at the Metagenomic Scale}.
+\newblock {\em Molecular Biology and Evolution}, 38(12):5825--5829.
+
+\bibitem[\protect\astroncite{Cao et~al.}{2021}]{Cao2021}
+Cao, W., Aubert, J., Maillard, M.~B., Boissel, F., Leduc, A., Thomas, J.~L.,
+  Deutsch, S.~M., Camier, B., Kerjouh, A., Parayre, S., Harel-Oger, M., Garric,
+  G., Thierry, A., and Falentin, H. (2021).
+\newblock {Fine-Tuning of Process Parameters Modulates Specific Metabolic
+  Bacterial Activities and Aroma Compound Production in Semi-Hard Cheese}.
+\newblock {\em Journal of Agricultural and Food Chemistry}, 69(30):8511--8529.
+
+\bibitem[\protect\astroncite{Carr and Borenstein}{2012}]{Carr2012}
+Carr, R. and Borenstein, E. (2012).
+\newblock {NetSeed : a network-based reverse-ecology tool for calculating the
+  metabolic interface of an organism with its environment}.
+\newblock 28(5):734--735.
+
+\bibitem[\protect\astroncite{Carroll et~al.}{1999}]{Carroll1999}
+Carroll, N.~M., Ross, R.~P., Kelly, S.~M., Price, N.~C., Sheehan, D., and
+  Cogan, T.~M. (1999).
+\newblock {Characterization of recombinant acetolactate synthase from
+  Leuconostoc lactis NCW1}.
+\newblock {\em Enzyme and Microbial Technology}, 25(1-2):61--67.
+
+\bibitem[\protect\astroncite{Caspi et~al.}{2018}]{Caspi2018}
+Caspi, R., Billington, R., Fulcher, C.~A., Keseler, I.~M., Kothari, A.,
+  Krummenacker, M., Latendresse, M., Midford, P.~E., Ong, Q., Ong, W.~K.,
+  Paley, S., Subhraveti, P., and Karp, P.~D. (2018).
+\newblock {The MetaCyc database of metabolic pathways and enzymes}.
+\newblock {\em Nucleic Acids Research}, 46(D1):D633--D639.
+
+\bibitem[\protect\astroncite{Chan et~al.}{2017}]{Chan2017}
+Chan, S. H.~J., Simons, M.~N., and Maranas, C.~D. (2017).
+\newblock {SteadyCom: Predicting microbial abundances while ensuring community
+  stability}.
+\newblock {\em PLoS Computational Biology}, 13(5):1--25.
+
+\bibitem[\protect\astroncite{Chang et~al.}{2021}]{Chang2021}
+Chang, A., Jeske, L., Ulbrich, S., Hofmann, J., Koblitz, J., Schomburg, I.,
+  Neumann-Schaal, M., Jahn, D., and Schomburg, D. (2021).
+\newblock {BRENDA, the ELIXIR core data resource in 2021: New developments and
+  updates}.
+\newblock {\em Nucleic Acids Research}, 49(D1):D498--D508.
+
+\bibitem[\protect\astroncite{Chiu et~al.}{2014}]{Chiu2014}
+Chiu, H.~C., Levy, R., and Borenstein, E. (2014).
+\newblock {Emergent Biosynthetic Capacity in Simple Microbial Communities}.
+\newblock {\em PLoS Computational Biology}, 10(7).
+
+\bibitem[\protect\astroncite{Choi et~al.}{2017}]{Choi2017}
+Choi, J., Yang, F., Stepanauskas, R., Cardenas, E., Garoutte, A., Williams, R.,
+  Flater, J., Tiedje, J.~M., Hofmockel, K.~S., Gelder, B., and Howe, A. (2017).
+\newblock {Strategies to improve reference databases for soil microbiomes}.
+\newblock {\em ISME Journal}, 11(4):829--834.
+
+\bibitem[\protect\astroncite{Colarusso et~al.}{2021}]{Colarusso2021}
+Colarusso, A.~V., Goodchild-Michelman, I., Rayle, M., and Zomorrodi, A.~R.
+  (2021).
+\newblock {Computational modeling of metabolism in microbial communities on a
+  genome-scale}.
+\newblock {\em Current Opinion in Systems Biology}, 26:46--57.
+
+\bibitem[\protect\astroncite{Collet et~al.}{2013}]{Collet2013}
+Collet, G., Eveillard, D., Gebser, M., Prigent, S., Schaub, T., Siegel, A., and
+  Thiele, S. (2013).
+\newblock Extending the metabolic network of ectocarpus siliculosus using
+  answer set programming.
+\newblock In Cabalar, P. and Son, T.~C., editors, {\em Logic Programming and
+  Nonmonotonic Reasoning}, pages 245--256, Berlin, Heidelberg. Springer Berlin
+  Heidelberg.
+
+\bibitem[\protect\astroncite{Corblin et~al.}{2006}]{Corblin2006}
+Corblin, F., Bordeaux, L., Hamadi, Y., Fanchon, E., and Trilling, L. (2006).
+\newblock {A SAT-based approach to decipher Gene Regulatory Networks}.
+\newblock {\em Gene}, pages 1088--1091.
+
+\bibitem[\protect\astroncite{Costa et~al.}{2016}]{costaKineticModelingCell2016}
+Costa, R.~S., Hartmann, A., and Vinga, S. (2016).
+\newblock Kinetic modeling of cell metabolism for microbial production.
+\newblock {\em Journal of Biotechnology}, 219:126--141.
+
+\bibitem[\protect\astroncite{Crow}{1986}]{Crow1986}
+Crow, V.~L. (1986).
+\newblock Metabolism of aspartate by propionibacterium freudenreichii subsp.
+  shermanii: Effect on lactate fermentation.
+\newblock {\em Applied and Environmental Microbiology}, 52(2):359--365.
+
+\bibitem[\protect\astroncite{Cruz and Kemp}{2022}]{Cruz2022}
+Cruz, D.~A. and Kemp, M.~L. (2022).
+\newblock {Hybrid computational modeling methods for systems biology}.
+\newblock {\em Progress in Biomedical Engineering}, 4(1).
+
+\bibitem[\protect\astroncite{Dank et~al.}{2021}]{Dank2021}
+Dank, A., van Mastrigt, O., Boeren, S., Lillevang, S.~K., Abee, T., and Smid,
+  E.~J. (2021).
+\newblock {Propionibacterium freudenreichii thrives in microaerobic conditions
+  by complete oxidation of lactate to CO2}.
+\newblock {\em Environmental Microbiology}, 23(6):3116--3129.
+
+\bibitem[\protect\astroncite{Deborde and Boyaval}{2000}]{Deborde2000}
+Deborde, C. and Boyaval, P. (2000).
+\newblock {Interactions between pyruvate and lactate metabolism in
+  Propionibacterium freudenreichii subsp. shermanii: In vivo 13C nuclear
+  magnetic resonance studies}.
+\newblock {\em Applied and Environmental Microbiology}, 66(5):2012--2020.
+
+\bibitem[\protect\astroncite{Delcher et~al.}{2007}]{Delcher2007}
+Delcher, A.~L., Bratke, K.~A., Powers, E.~C., and Salzberg, S.~L. (2007).
+\newblock {Identifying bacterial genes and endosymbiont DNA with Glimmer}.
+\newblock {\em Bioinformatics}, 23(6):673--679.
+
+\bibitem[\protect\astroncite{Demir et~al.}{2010}]{Demir2010}
+Demir, E., Cary, M.~P., Paley, S., Fukuda, K., Lemer, C., Vastrik, I., Wu, G.,
+  D'Eustachio, P., Schaefer, C., Luciano, J., Schacherer, F., Martinez-Flores,
+  I., Hu, Z., Jimenez-Jacinto, V., Joshi-Tope, G., Kandasamy, K.,
+  Lopez-Fuentes, A.~C., Mi, H., Pichler, E., Rodchenkov, I., Splendiani, A.,
+  Tkachev, S., Zucker, J., Gopinath, G., Rajasimha, H., Ramakrishnan, R., Shah,
+  I., Syed, M., Anwar, N., Babur, {\"{O}}., Blinov, M., Brauner, E., Corwin,
+  D., Donaldson, S., Gibbons, F., Goldberg, R., Hornbeck, P., Luna, A.,
+  Murray-Rust, P., Neumann, E., Reubenacker, O., Samwald, M., {Van Iersel}, M.,
+  Wimalaratne, S., Allen, K., Braun, B., Whirl-Carrillo, M., Cheung, K.~H.,
+  Dahlquist, K., Finney, A., Gillespie, M., Glass, E., Gong, L., Haw, R.,
+  Honig, M., Hubaut, O., Kane, D., Krupa, S., Kutmon, M., Leonard, J., Marks,
+  D., Merberg, D., Petri, V., Pico, A., Ravenscroft, D., Ren, L., Shah, N.,
+  Sunshine, M., Tang, R., Whaley, R., Letovksy, S., Buetow, K.~H., Rzhetsky,
+  A., Schachter, V., Sobral, B.~S., Dogrusoz, U., McWeeney, S., Aladjem, M.,
+  Birney, E., Collado-Vides, J., Goto, S., Hucka, M., Nov{\`{e}}re, N.~L.,
+  Maltsev, N., Pandey, A., Thomas, P., Wingender, E., Karp, P.~D., Sander, C.,
+  and Bader, G.~D. (2010).
+\newblock {The BioPAX community standard for pathway data sharing}.
+\newblock {\em Nature Biotechnology}, 28(9):935--942.
+
+\bibitem[\protect\astroncite{Dias et~al.}{2015}]{Dias2015}
+Dias, O., Rocha, M., Ferreira, E.~C., and Rocha, I. (2015).
+\newblock {Reconstructing genome-scale metabolic models with merlin}.
+\newblock {\em Nucleic acids research}, 43(8):3899--3910.
+
+\bibitem[\protect\astroncite{Diener et~al.}{2020}]{diener2020}
+Diener, C., Gibbons, S.~M., and Resendis-Antonio, O. (2020).
+\newblock {MICOM: Metagenome-Scale Modeling To Infer Metabolic Interactions in
+  the Gut Microbiota}.
+\newblock {\em mSystems}, 5(1).
+
+\bibitem[\protect\astroncite{Ebenh{\"{o}}h et~al.}{2004}]{Ebenhoh2004}
+Ebenh{\"{o}}h, O., Handorf, T., and Heinrich, R. (2004).
+\newblock {Structural analysis of expanding metabolic networks.}
+\newblock {\em Genome informatics. International Conference on Genome
+  Informatics}, 15(1):35--45.
+
+\bibitem[\protect\astroncite{F.}{1838}]{verhulst}
+F., V.~P. (1838).
+\newblock Notice sur la loi que la population suit dans son accroissement.
+\newblock {\em Correspondence mathematique et physique}, 10:113--129.
+
+\bibitem[\protect\astroncite{Faust and Raes}{2012}]{Faust2012}
+Faust, K. and Raes, J. (2012).
+\newblock {Microbial interactions: From networks to models}.
+\newblock {\em Nature Reviews Microbiology}, 10(8):538--550.
+
+\bibitem[\protect\astroncite{Fazzino et~al.}{2020}]{Fazzino2020}
+Fazzino, L., Anisman, J., Chac{\'{o}}n, J.~M., Heineman, R.~H., and Harcombe,
+  W.~R. (2020).
+\newblock {Lytic bacteriophage have diverse indirect effects in a synthetic
+  cross-feeding community}.
+\newblock {\em ISME Journal}, 14(1):123--134.
+
+\bibitem[\protect\astroncite{Feist and Palsson}{2010}]{FEIST2010344}
+Feist, A.~M. and Palsson, B.~O. (2010).
+\newblock The biomass objective function.
+\newblock {\em Current Opinion in Microbiology}, 13(3):344--349.
+\newblock Ecology and industrial microbiology * Special section: Systems
+  biology.
+
+\bibitem[\protect\astroncite{Fisher and Piterman}{2010}]{Fisher2010}
+Fisher, J. and Piterman, N. (2010).
+\newblock {The executable pathway to biological networks}.
+\newblock {\em Briefings in Functional Genomics and Proteomics}, 9(1):79--92.
+
+\bibitem[\protect\astroncite{Fournier et~al.}{2022}]{FOURNIER202227}
+Fournier, P., Pellan, L., Barroso-Bergadà, D., Bohan, D.~A., Candresse, T.,
+  Delmotte, F., Dufour, M.-C., Lauvergeat, V., {Le Marrec}, C., Marais, A.,
+  Martins, G., Masneuf-Pomarède, I., Rey, P., Sherman, D., This, P., Frioux,
+  C., Labarthe, S., and Vacher, C. (2022).
+\newblock Chapter two - the functional microbiome of grapevine throughout plant
+  evolutionary history and lifetime.
+\newblock In Bohan, D.~A. and Dumbrell, A., editors, {\em Functional
+  Microbiomes}, volume~67 of {\em Advances in Ecological Research}, pages
+  27--99. Academic Press.
+
+\bibitem[\protect\astroncite{Freilich et~al.}{2011}]{Freilich2011}
+Freilich, S., Zarecki, R., Eilam, O., Segal, E.~S., Henry, C.~S., Kupiec, M.,
+  Gophna, U., Sharan, R., and Ruppin, E. (2011).
+\newblock {Competitive and cooperative metabolic interactions in bacterial
+  communities}.
+\newblock {\em Nature Communications}, 2(1).
+
+\bibitem[\protect\astroncite{Frioux et~al.}{2018}]{Frioux2018}
+Frioux, C., Fremy, E., Trottier, C., and Siegel, A. (2018).
+\newblock {Scalable and exhaustive screening of metabolic functions carried out
+  by microbial consortia}.
+\newblock {\em Bioinformatics}, 34(17):i934--i943.
+
+\bibitem[\protect\astroncite{Frioux et~al.}{2019}]{Frioux2019}
+Frioux, C., Schaub, T., Schellhorn, S., Siegel, A., and Wanko, P. (2019).
+\newblock {Hybrid metabolic network completion}.
+\newblock {\em Theory and Practice of Logic Programming}, 19(1):83--108.
+
+\bibitem[\protect\astroncite{Garc{\'{i}}a-Jim{\'{e}}nez
+  et~al.}{2018}]{Garcia-Jimenez2018}
+Garc{\'{i}}a-Jim{\'{e}}nez, B., Garc{\'{i}}a, J.~L., and Nogales, J. (2018).
+\newblock {FLYCOP: Metabolic modeling-based analysis and engineering microbial
+  communities}.
+\newblock {\em Bioinformatics}, 34(17):i954--i963.
+
+\bibitem[\protect\astroncite{Gebser et~al.}{2019}]{Gebser2019}
+Gebser, M., Kaminski, R., Kaufmann, B., and Schaub, T. (2019).
+\newblock {Multi-shot ASP solving with clingo}.
+\newblock {\em Theory and Practice of Logic Programming}, 19(1):27--82.
+
+\bibitem[\protect\astroncite{Goelzer et~al.}{2015}]{Goelzer2015}
+Goelzer, A., Muntel, J., Chubukov, V., Jules, M., Prestel, E., N{\"{o}}lker,
+  R., Mariadassou, M., Aymerich, S., Hecker, M., Noirot, P., Becher, D., and
+  Fromion, V. (2015).
+\newblock {Quantitative prediction of genome-wide resource allocation in
+  bacteria}.
+\newblock {\em Metabolic Engineering}, 32:232--243.
+
+\bibitem[\protect\astroncite{Goldford and Segr{\`{e}}}{2018}]{Goldford2018}
+Goldford, J.~E. and Segr{\`{e}}, D. (2018).
+\newblock {Modern views of ancient metabolic networks}.
+\newblock {\em Current Opinion in Systems Biology}, 8:117--124.
+
+\bibitem[\protect\astroncite{Gomez and Barton}{2018}]{Gomez2018}
+Gomez, J.~A. and Barton, P.~I. (2018).
+\newblock {Dynamic flux balance analysis using DFBAlab}.
+\newblock {\em Methods in Molecular Biology}, 1716:353--370.
+
+\bibitem[\protect\astroncite{Gomez et~al.}{2014}]{gomez2014dfbalab}
+Gomez, J.~A., H{\"o}ffner, K., and Barton, P.~I. (2014).
+\newblock Dfbalab: a fast and reliable matlab code for dynamic flux balance
+  analysis.
+\newblock {\em BMC bioinformatics}, 15(1):1--10.
+
+\bibitem[\protect\astroncite{Harcombe et~al.}{2014}]{Harcombe2014}
+Harcombe, W.~R., Riehl, W.~J., Dukovski, I., Granger, B.~R., Betts, A., Lang,
+  A.~H., Bonilla, G., Kar, A., Leiby, N., Mehta, P., Marx, C.~J., and
+  Segr{\`{e}}, D. (2014).
+\newblock {Metabolic resource allocation in individual microbes determines
+  ecosystem interactions and spatial dynamics}.
+\newblock {\em Cell Reports}, 7(4):1104--1115.
+
+\bibitem[\protect\astroncite{Heiden et~al.}{2002}]{Heiden2002}
+Heiden, J.~V., Wernisch, L., Gilbert, D., and Wodak, S.~J. (2002).
+\newblock {Graph-Based Analysis of Metabolic Networks}.
+
+\bibitem[\protect\astroncite{Henry et~al.}{2016}]{Henry2016}
+Henry, C.~S., Bernstein, H.~C., Weisenhorn, P., Taylor, R.~C., Lee, J.~Y.,
+  Zucker, J., and Song, H.~S. (2016).
+\newblock {Microbial Community Metabolic Modeling: A Community Data-Driven
+  Network Reconstruction}.
+\newblock {\em Journal of Cellular Physiology}, 231(11):2339--2345.
+
+\bibitem[\protect\astroncite{Holme}{2011}]{Holme2011}
+Holme, P. (2011).
+\newblock {Metabolic robustness and network modularity: A model study}.
+\newblock {\em PLoS ONE}, 6(2):1--6.
+
+\bibitem[\protect\astroncite{Hoorman}{2011}]{Hoorman2011}
+Hoorman, J.~J. (2011).
+\newblock {The Role of Soil Bacteria}.
+\newblock {\em The Ohio State University Extension}, pages 1--4.
+
+\bibitem[\protect\astroncite{Hucka et~al.}{2019}]{Hucka2019}
+Hucka, M., Bergmann, F.~T., Chaouiya, C., Dr{\"{a}}ger, A., Hoops, S., Keating,
+  S.~M., K{\"{o}}nig, M., Nov{\`{e}}re, N.~L., Myers, C.~J., Olivier, B.~G.,
+  Sahle, S., Schaff, J.~C., Sheriff, R., Smith, L.~P., Waltemath, D.,
+  Wilkinson, D.~J., and Zhang, F. (2019).
+\newblock {\em {The Systems Biology Markup Language (SBML): Language
+  Specification for Level 3 Version 2 Core Release 2}}, volume~16.
+
+\bibitem[\protect\astroncite{Huerta-Cepas et~al.}{2019}]{Huerta-Cepas2019}
+Huerta-Cepas, J., Szklarczyk, D., Heller, D., Hernandez-Plaza, A., Forslund,
+  S.~K., Cook, H., Mende, D.~R., Letunic, I., Rattei, T., Jensen, L.~J., {Von
+  Mering}, C., and Bork, P. (2019).
+\newblock {EggNOG 5.0: A hierarchical, functionally and phylogenetically
+  annotated orthology resource based on 5090 organisms and 2502 viruses}.
+\newblock {\em Nucleic Acids Research}, 47(D1):D309--D314.
+
+\bibitem[\protect\astroncite{Hyatt et~al.}{2010}]{Hyatt2010}
+Hyatt, D., Chen, G.-L., LoCascio, P.~F., Land, M.~L., Larimer, F.~W., and
+  Hauser, L.~J. (2010).
+\newblock Prodigal: prokaryotic gene recognition and translation initiation
+  site identification.
+\newblock {\em BMC Bioinformatics}, 11(1):119.
+
+\bibitem[\protect\astroncite{Janhunen et~al.}{2017}]{Janhunen2017}
+Janhunen, T., Kaminski, R., Ostrowski, M., Schellhorn, S., Wanko, P., and
+  Schaub, T. (2017).
+\newblock {Clingo goes linear constraints over reals and integers}.
+\newblock {\em Theory and Practice of Logic Programming}, 17(5-6):872--888.
+
+\bibitem[\protect\astroncite{Jenior et~al.}{2020}]{Jenior2020}
+Jenior, M.~L., Moutinho, T.~J., Dougherty, B.~V., and Papin, J.~A. (2020).
+\newblock {Transcriptome-guided parsimonious flux analysis improves predictions
+  with metabolic networks in complex environments}.
+\newblock {\em PLoS Computational Biology}, 16(4).
+
+\bibitem[\protect\astroncite{Jeong et~al.}{2011}]{Jeong2011}
+Jeong, H., Tombort, B., Albert, R., Oltvait, Z.~N., and Barabasi, A.~L. (2011).
+\newblock {The large-scale organization of metabolic networks}.
+\newblock {\em The Structure and Dynamics of Networks},
+  9781400841356(1990):211--214.
+
+\bibitem[\protect\astroncite{Kanehisa and Goto}{2000}]{Kanehisa}
+Kanehisa, M. and Goto, S. (2000).
+\newblock {KEGG: Kyoto Encyclopedia of Genes and Genomes}.
+\newblock {\em Nucleic Acids Research}, 28(1):27--30.
+
+\bibitem[\protect\astroncite{Karlsen et~al.}{2018}]{Karlsen2018}
+Karlsen, E., Schulz, C., and Almaas, E. (2018).
+\newblock {Automated generation of genome-scale metabolic draft reconstructions
+  based on KEGG}.
+\newblock {\em BMC Bioinformatics}, 19(1):1--11.
+
+\bibitem[\protect\astroncite{Karp et~al.}{2018}]{Karp2018}
+Karp, P.~D., Billington, R., Caspi, R., Fulcher, C.~A., Latendresse, M.,
+  Kothari, A., Keseler, I.~M., Krummenacker, M., Midford, P.~E., Ong, Q., Ong,
+  W.~K., Paley, S.~M., and Subhraveti, P. (2018).
+\newblock {The BioCyc collection of microbial genomes and metabolic pathways}.
+\newblock {\em Briefings in Bioinformatics}, 20(4):1085--1093.
+
+\bibitem[\protect\astroncite{Karp et~al.}{2022}]{Karp2022}
+Karp, P.~D., Paley, S., Krummenacker, M., Kothari, A., Wannemuehler, M.~J., and
+  Phillips, G.~J. (2022).
+\newblock {Pathway Tools Management of Pathway/Genome Data for Microbial
+  Communities}.
+\newblock {\em Frontiers in Bioinformatics}, 2(April):1--11.
+
+\bibitem[\protect\astroncite{Khandelwal et~al.}{2013}]{Khandelwal2013}
+Khandelwal, R.~A., Olivier, B.~G., R{\"{o}}ling, W.~F., Teusink, B., and
+  Bruggeman, F.~J. (2013).
+\newblock {Community Flux Balance Analysis for Microbial Consortia at Balanced
+  Growth}.
+\newblock {\em PLoS ONE}, 8(5).
+
+\bibitem[\protect\astroncite{Kim et~al.}{2019}]{Kim2019}
+Kim, E.~Y., Ashlock, D., and Yoon, S.~H. (2019).
+\newblock {Identification of critical connectors in the directed
+  reaction-centric graphs of microbial metabolic networks}.
+\newblock {\em BMC Bioinformatics}, 20(1):1--13.
+
+\bibitem[\protect\astroncite{King et~al.}{2015}]{King2015}
+King, Z.~A., Dr{\"{a}}ger, A., Ebrahim, A., Sonnenschein, N., Lewis, N.~E., and
+  Palsson, B.~O. (2015).
+\newblock {Escher: A Web Application for Building, Sharing, and Embedding
+  Data-Rich Visualizations of Biological Pathways}.
+\newblock {\em PLoS Computational Biology}.
+
+\bibitem[\protect\astroncite{King et~al.}{2016}]{King2016}
+King, Z.~A., Lu, J., Dr{\"{a}}ger, A., Miller, P., Federowicz, S., Lerman,
+  J.~A., Ebrahim, A., Palsson, B.~O., and Lewis, N.~E. (2016).
+\newblock {BiGG Models: A platform for integrating, standardizing and sharing
+  genome-scale models}.
+\newblock {\em Nucleic Acids Research}.
+
+\bibitem[\protect\astroncite{Kitano}{2002}]{Kitano2002}
+Kitano, H. (2002).
+\newblock {Systems biology: A brief overview}.
+\newblock {\em Science}, 295(5560):1662--1664.
+
+\bibitem[\protect\astroncite{Klamt et~al.}{2002}]{Klamt2002}
+Klamt, S., Bettenbrock, K., Schuster, S., and Gilles, E.~D. (2002).
+\newblock 58345 151..202.
+\newblock 420(November):1--4.
+
+\bibitem[\protect\astroncite{Kleerebezem et~al.}{2003}]{Kleerebezem2003}
+Kleerebezem, M., Boekhorst, J., {Van Kranenburg}, R., Molenaar, D., Kuipers,
+  O.~P., Leer, R., Tarchini, R., Peters, S.~A., Sandbrink, H.~M., Fiers, M.~W.,
+  Stiekema, W., {Klein Lankhorst}, R.~M., Bron, P.~A., Hoffer, S.~M., {Nierop
+  Groot}, M.~N., Kerkhoven, R., {De Vries}, M., Ursing, B., {De Vos}, W.~M.,
+  and Siezen, R.~J. (2003).
+\newblock {Complete genome sequence of Lactobacillus plantarum WCFS1}.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 100(4):1990--1995.
+
+\bibitem[\protect\astroncite{Klitgord and Segr{\`e}}{2010}]{Klitgord2010}
+Klitgord, N. and Segr{\`e}, D. (2010).
+\newblock Environments that induce synthetic microbial ecosystems.
+\newblock {\em PLOS Computational Biology}, 6(11):1--17.
+
+\bibitem[\protect\astroncite{Koch et~al.}{2016}]{Koch2016}
+Koch, S., Benndorf, D., Fronk, K., Reichl, U., and Klamt, S. (2016).
+\newblock {Predicting compositions of microbial communities from stoichiometric
+  models with applications for the biogas process}.
+\newblock {\em Biotechnology for Biofuels}, 9(1):1--16.
+
+\bibitem[\protect\astroncite{Kreimer et~al.}{2012}]{Kreimer2012}
+Kreimer, A., Doron-Faigenboim, A., Borenstein, E., and Freilich, S. (2012).
+\newblock {NetCmpt: A network-based tool for calculating the metabolic
+  competition between bacterial species}.
+\newblock {\em Bioinformatics}.
+
+\bibitem[\protect\astroncite{Kuffner et~al.}{2000}]{kuffner2000}
+Kuffner, R., R, Z., and T, L. (2000).
+\newblock {Pathway analysis in metabolic databases via differential metabolic
+  display (DMD)}.
+\newblock {\em Bioinformatics}, 16(9):825--836.
+
+\bibitem[\protect\astroncite{Lacroix et~al.}{2006}]{Lacroix2006}
+Lacroix, V., Fernandes, C.~G., and Sagot, M.~F. (2006).
+\newblock {Motif search in graphs: Application to metabolic networks}.
+\newblock {\em IEEE/ACM Transactions on Computational Biology and
+  Bioinformatics}, 3(4):360--368.
+
+\bibitem[\protect\astroncite{Lecomte et~al.}{2023}]{Lecomte2023}
+Lecomte, M., Cao, W., Aubert, J., Sherman, D.~J., Falentin, H., Frioux, C., and
+  Labarthe, S. (2023).
+\newblock A digital twin of bacterial metabolism during cheese production.
+\newblock {\em bioRxiv}.
+
+\bibitem[\protect\astroncite{Lemke et~al.}{2004}]{Lemke2004}
+Lemke, N., Her{\'{e}}dia, F., Barcellos, C.~K., dos Reis, A.~N., and Mombach,
+  J.~C. (2004).
+\newblock {Essentiality and damage in metabolic networks}.
+\newblock {\em Bioinformatics}, 20(1):115--119.
+
+\bibitem[\protect\astroncite{Levesque}{1986}]{Levesque1986}
+Levesque, H.~J. (1986).
+\newblock Knowledge representation and reasoning.
+\newblock {\em Annual Review of Computer Science}, 1(1):255--287.
+
+\bibitem[\protect\astroncite{Levy and Borenstein}{}]{Levy}
+Levy, R. and Borenstein, E.
+\newblock {Reverse Ecology : From Systems to Environments and Back}.
+\newblock pages 329--345.
+
+\bibitem[\protect\astroncite{Levy and Borenstein}{2013}]{Levy2013}
+Levy, R. and Borenstein, E. (2013).
+\newblock {Metabolic modeling of species interaction in the human microbiome
+  elucidates community-level assembly rules}.
+\newblock {\em Proceedings of the National Academy of Sciences}, 110(31):12804
+  LP -- 12809.
+
+\bibitem[\protect\astroncite{Levy et~al.}{2015}]{Levy2015}
+Levy, R., Carr, R., Kreimer, A., Freilich, S., and Borenstein, E. (2015).
+\newblock {NetCooperate: A network-based tool for inferring host-microbe and
+  microbe-microbe cooperation}.
+\newblock {\em BMC Bioinformatics}.
+
+\bibitem[\protect\astroncite{Lewis et~al.}{2010}]{Lewis2010}
+Lewis, N.~E., Hixson, K.~K., Conrad, T.~M., Lerman, J.~A., Charusanti, P.,
+  Polpitiya, A.~D., Adkins, J.~N., Schramm, G., Purvine, S.~O., Lopez-Ferrer,
+  D., Weitz, K.~K., Eils, R., K{\"{o}}nig, R., Smith, R.~D., and Palsson, B.
+  (2010).
+\newblock {Omic data from evolved E. coli are consistent with computed optimal
+  growth from genome-scale models}.
+\newblock {\em Molecular Systems Biology}, 6(390).
+
+\bibitem[\protect\astroncite{Liao et~al.}{2012}]{Liao2012}
+Liao, Y.~C., Tsai, M.~H., Chen, F.~C., and Hsiung, C.~A. (2012).
+\newblock {GEMSiRV: A software platform for GEnome-scale metabolic model
+  simulation, reconstruction and visualization}.
+\newblock {\em Bioinformatics}, 28(13):1752--1758.
+
+\bibitem[\protect\astroncite{Lieven et~al.}{2020}]{Lieven.2020}
+Lieven, C., Beber, M.~E., Olivier, B.~G., Bergmann, F.~T., Ataman, M., Babaei,
+  P., Bartell, J.~A., Blank, L.~M., Chauhan, S., Correia, K., Diener, C.,
+  Dräger, A., Ebert, B.~E., Edirisinghe, J.~N., Faria, J.~P., Feist, A.~M.,
+  Fengos, G., Fleming, R. M.~T., García-Jiménez, B., Hatzimanikatis, V.,
+  Helvoirt, W.~v., Henry, C.~S., Hermjakob, H., Herrgård, M.~J., Kaafarani,
+  A., Kim, H.~U., King, Z., Klamt, S., Klipp, E., Koehorst, J.~J., König, M.,
+  Lakshmanan, M., Lee, D.-Y., Lee, S.~Y., Lee, S., Lewis, N.~E., Liu, F., Ma,
+  H., Machado, D., Mahadevan, R., Maia, P., Mardinoglu, A., Medlock, G.~L.,
+  Monk, J.~M., Nielsen, J., Nielsen, L.~K., Nogales, J., Nookaew, I., Palsson,
+  B.~O., Papin, J.~A., Patil, K.~R., Poolman, M., Price, N.~D.,
+  Resendis-Antonio, O., Richelle, A., Rocha, I., Sánchez, B.~J., Schaap,
+  P.~J., Sheriff, R. S.~M., Shoaie, S., Sonnenschein, N., Teusink, B., Vilaça,
+  P., Vik, J.~O., Wodke, J. A.~H., Xavier, J.~C., Yuan, Q., Zakhartsev, M., and
+  Zhang, C. (2020).
+\newblock {MEMOTE for standardized genome-scale metabolic model testing}.
+\newblock {\em Nature Biotechnology}, 38(3):272--276.
+
+\bibitem[\protect\astroncite{Lifschitz}{2008}]{Lifschitz2008}
+Lifschitz, V. (2008).
+\newblock {What is answer set programming?}
+\newblock {\em Proceedings of the National Conference on Artificial
+  Intelligence}, 3:1594--1597.
+
+\bibitem[\protect\astroncite{Lipton}{2017}]{lipton2017mythos}
+Lipton, Z.~C. (2017).
+\newblock The mythos of model interpretability.
+
+\bibitem[\protect\astroncite{Lloyd et~al.}{2019}]{Lloyd2019}
+Lloyd, C.~J., King, Z.~A., Sandberg, T.~E., Hefner, Y., Olson, C.~A., Phaneuf,
+  P.~V., O'Brien, E.~J., Sanders, J.~G., Salido, R.~A., Sanders, K., Brennan,
+  C., Humphrey, G., Knight, R., and Feist, A.~M. (2019).
+\newblock {The genetic basis for adaptation of modeldesigned syntrophic
+  co-cultures}.
+\newblock {\em PLoS Computational Biology}, 15(3):1--28.
+
+\bibitem[\protect\astroncite{Loux et~al.}{2015}]{Loux2015}
+Loux, V., Mariadassou, M., Almeida, S., Chiapello, H., Hammani, A., Buratti,
+  J., Gendrault, A., Barbe, V., Aury, J.~M., Deutsch, S.~M., Parayre, S.,
+  Madec, M.~N., Chuat, V., Jan, G., Peterlongo, P., Azevedo, V., {Le Loir}, Y.,
+  and Falentin, H. (2015).
+\newblock {Mutations and genomic islands can explain the strain dependency of
+  sugar utilization in 21 strains of Propionibacterium freudenreichii}.
+\newblock {\em BMC Genomics}, 16(1):1--19.
+
+\bibitem[\protect\astroncite{Ma and Zeng}{2003}]{Ma2003}
+Ma, H. and Zeng, A.-p. (2003).
+\newblock {Genome Data and Analysis of Their Global}.
+\newblock {\em Bioinformatics}, 19(2):270--277.
+
+\bibitem[\protect\astroncite{Macchi et~al.}{2021}]{Macchi2021}
+Macchi, M., Festa, S., Nieto, E., Irazoqui, J.~M., Vega-Vela, N.~E., Junca, H.,
+  Valacco, M.~P., Amadio, A.~F., Morelli, I.~S., and Coppotelli, B.~M. (2021).
+\newblock {Design and evaluation of synthetic bacterial consortia for optimized
+  phenanthrene degradation through the integration of genomics and shotgun
+  proteomics}.
+\newblock {\em Biotechnology Reports}, 29.
+
+\bibitem[\protect\astroncite{Machado et~al.}{2018}]{Machado2018}
+Machado, D., Andrejev, S., Tramontano, M., and Patil, K.~R. (2018).
+\newblock {Fast automated reconstruction of genome-scale metabolic models for
+  microbial species and communities}.
+\newblock {\em Nucleic Acids Research}.
+
+\bibitem[\protect\astroncite{Machado et~al.}{2021}]{Machado2021}
+Machado, D., Maistrenko, O.~M., Andrejev, S., Kim, Y., Bork, P., Patil, K.~R.,
+  and Patil, K.~R. (2021).
+\newblock {\em {Polarization of microbial communities between competitive and
+  cooperative metabolism}}, volume~5.
+
+\bibitem[\protect\astroncite{Mahadevan et~al.}{2002a}]{Mahadevan2002}
+Mahadevan, R., Edwards, J.~S., and Doyle, F.~J. (2002a).
+\newblock {Dynamic Flux Balance Analysis of Diauxic Growth in Escherichia
+  coli}.
+\newblock {\em Biophysical Journal}, 83(3):1331--1340.
+
+\bibitem[\protect\astroncite{Mahadevan et~al.}{2002b}]{Mahadevan.2002}
+Mahadevan, R., Edwards, J.~S., and Doyle, F.~J. (2002b).
+\newblock {Dynamic Flux Balance Analysis of Diauxic Growth in Escherichia
+  coli}.
+\newblock {\em Biophysical Journal}, 83(3):1331--1340.
+
+\bibitem[\protect\astroncite{Mahadevan and Schilling}{2003}]{Mahadevan2003}
+Mahadevan, R. and Schilling, C.~H. (2003).
+\newblock {The effects of alternate optimal solutions in constraint-based
+  genome-scale metabolic models}.
+\newblock {\em Metabolic Engineering}.
+
+\bibitem[\protect\astroncite{Mahout et~al.}{2020}]{Mahout2020}
+Mahout, M., Carlson, R.~P., and Peres, S. (2020).
+\newblock {Answer set programming for computing constraints-based elementary
+  flux modes: Application to escherichia coli core metabolism}.
+\newblock {\em Processes}, 8(12):1--17.
+
+\bibitem[\protect\astroncite{Makhlouf}{2006}]{Makhlouf2006}
+Makhlouf, A. (2006).
+\newblock {\em M{\'e}thodologie pour l'optimisation dynamique multicrit{\`e}re
+  d'un proc{\'e}d{\'e} discontinu aliment{\'e}: application {\`a} la production
+  bact{\'e}rienne d'ar{\^o}mes laitiers}.
+\newblock PhD thesis, Institut National Polytechnique de Lorraine.
+
+\bibitem[\protect\astroncite{McSweeney and Sousa}{2000}]{McSweeney2000}
+McSweeney, P.~L. and Sousa, M.~J. (2000).
+\newblock {Biochemical pathways for the production of flavour compounds in
+  cheeses during ripening: A review}.
+\newblock {\em Lait}, 80(3):293--324.
+
+\bibitem[\protect\astroncite{Mendes-Soares et~al.}{2016}]{Mendes-Soares2016}
+Mendes-Soares, H., Mundy, M., Soares, L.~M., and Chia, N. (2016).
+\newblock {MMinte: An application for predicting metabolic interactions among
+  the microbial species in a community}.
+\newblock {\em BMC Bioinformatics}, 17(1):1--10.
+
+\bibitem[\protect\astroncite{Mendoza et~al.}{2019}]{Mendoza2019}
+Mendoza, S.~N., Olivier, B.~G., Molenaar, D., and Teusink, B. (2019).
+\newblock {A systematic assessment of current genome-scale metabolic
+  reconstruction tools}.
+\newblock {\em Genome Biology}, 20(1):1--20.
+
+\bibitem[\protect\astroncite{Miyoshi et~al.}{2003}]{Miyoshi2003}
+Miyoshi, A., Rochat, T., and Gratadoux, J.-j. (2003).
+\newblock {Miyoshi}.
+\newblock {\em Genetics and Molecular Research}, 2(4):348--359.
+
+\bibitem[\protect\astroncite{Morin et~al.}{2022}]{Morin2022}
+Morin, M.~A., Morrison, A.~J., Harms, M.~J., and Dutton, R.~J. (2022).
+\newblock {Higher-order interactions shape microbial interactions as microbial
+  community complexity increases}.
+\newblock {\em Scientific Reports}, 12(1):1--16.
+
+\bibitem[\protect\astroncite{Nachtweide and Stanke}{2019}]{Nachtweide2019}
+Nachtweide, S. and Stanke, M. (2019).
+\newblock {Chapter 8}.
+\newblock 1962:139--160.
+
+\bibitem[\protect\astroncite{Nair et~al.}{2019}]{Nair2019}
+Nair, R.~R., Vasse, M., Wielgoss, S., Sun, L., Yu, Y. T.~N., and Velicer, G.~J.
+  (2019).
+\newblock {Bacterial predator-prey coevolution accelerates genome evolution and
+  selects on virulence-associated prey defences}.
+\newblock {\em Nature Communications}, 10(1):1--10.
+
+\bibitem[\protect\astroncite{Noronha et~al.}{2018}]{Noronha.2018}
+Noronha, A., Modamio, J., Jarosz, Y., Guerard, E., Sompairac, N., Preciat, G.,
+  Daníelsdóttir, A.~D., Krecke, M., Merten, D., Haraldsdóttir, H.~S.,
+  Heinken, A., Heirendt, L., Magnúsdóttir, S., Ravcheev, D.~A., Sahoo, S.,
+  Gawron, P., Friscioni, L., Garcia, B., Prendergast, M., Puente, A.,
+  Rodrigues, M., Roy, A., Rouquaya, M., Wiltgen, L., Žagare, A., John, E.,
+  Krueger, M., Kuperstein, I., Zinovyev, A., Schneider, R., Fleming, R. M.~T.,
+  and Thiele, I. (2018).
+\newblock {The Virtual Metabolic Human database: integrating human and gut
+  microbiome metabolism with nutrition and disease}.
+\newblock {\em Nucleic Acids Research}, 47(D1):D614--D624.
+
+\bibitem[\protect\astroncite{Odum}{1983}]{osti_5545893}
+Odum, H.~T. (1983).
+\newblock Systems ecology; an introduction.
+
+\bibitem[\protect\astroncite{Olivier}{2018}]{olivier2018}
+Olivier, B. (2018).
+\newblock {SystemsBioinformatics/cbmpy-metadraft: MetaDraft is now available}.
+
+\bibitem[\protect\astroncite{Orth et~al.}{2010}]{Orth2010}
+Orth, J.~D., Thiele, I., and Palsson, B.~O. (2010).
+\newblock {What is flux balance analysis?}
+
+\bibitem[\protect\astroncite{Pacheco et~al.}{2019}]{Pacheco.2019m3q}
+Pacheco, A.~R., Moel, M., and Segrè, D. (2019).
+\newblock {Costless metabolic secretions as drivers of interspecies
+  interactions in microbial ecosystems}.
+\newblock {\em Nature Communications}, 10(1):103.
+
+\bibitem[\protect\astroncite{Pacheco and Segr{\`{e}}}{2021}]{Pacheco2021}
+Pacheco, A.~R. and Segr{\`{e}}, D. (2021).
+\newblock {An evolutionary algorithm for designing microbial communities via
+  environmental modification}.
+\newblock {\em Journal of the Royal Society Interface}, 18(179).
+
+\bibitem[\protect\astroncite{Palles et~al.}{1998}]{Palles1998}
+Palles, T., Beresford, T., Condon, S., and Cogan, T.~M. (1998).
+\newblock {Citrate metabolism in Lactobacillus casei and Lactobacillus
+  plantarum}.
+\newblock {\em Journal of Applied Microbiology}, 85(1):147--154.
+
+\bibitem[\protect\astroncite{Palsson and Varma}{1994}]{Palsson1994}
+Palsson, B.~O. and Varma, A. (1994).
+\newblock {Metabolic Flux Balancing: Basic Concepts, Scientific and Practical
+  Use}.
+\newblock {\em Biotechnology}, 12(October):994--998.
+
+\bibitem[\protect\astroncite{Passi et~al.}{2022}]{Passi2022}
+Passi, A., Tibocha-Bonilla, J.~D., Kumar, M., Tec-Campos, D., Zengler, K., and
+  Zuniga, C. (2022).
+\newblock {Genome-scale metabolic modeling enables in-depth understanding of
+  big data}.
+\newblock {\em Metabolites}, 12(1).
+
+\bibitem[\protect\astroncite{Pettersen and Almaas}{2023}]{Pettersen2023}
+Pettersen, J.~P. and Almaas, E. (2023).
+\newblock {Parameter inference for enzyme and temperature constrained
+  genome-scale models}.
+\newblock {\em bioRxiv}, (1):2022.07.05.498798.
+
+\bibitem[\protect\astroncite{Pitk{\"{a}}nen et~al.}{2014}]{Pitkanen2014}
+Pitk{\"{a}}nen, E., Jouhten, P., Hou, J., Syed, M.~F., Blomberg, P., Kludas,
+  J., Oja, M., Holm, L., Penttil{\"{a}}, M., Rousu, J., and Arvas, M. (2014).
+\newblock {Comparative Genome-Scale Reconstruction of Gapless Metabolic
+  Networks for Present and Ancestral Species}.
+\newblock {\em PLoS Computational Biology}, 10(2).
+
+\bibitem[\protect\astroncite{Popp and Centler}{2020}]{Popp2020}
+Popp, D. and Centler, F. (2020).
+\newblock {$\mu$BialSim: Constraint-Based Dynamic Simulation of Complex
+  Microbiomes}.
+\newblock {\em Frontiers in Bioengineering and Biotechnology}, 8(June).
+
+\bibitem[\protect\astroncite{Prigent et~al.}{2017}]{Prigent2017}
+Prigent, S., Frioux, C., Dittami, S.~M., Thiele, S., Larhlimi, A., Collet, G.,
+  Gutknecht, F., Got, J., Eveillard, D., Bourdon, J., Plewniak, F., Tonon, T.,
+  and Siegel, A. (2017).
+\newblock {Meneco, a Topology-Based Gap-Filling Tool Applicable to Degraded
+  Genome-Wide Metabolic Networks}.
+\newblock {\em PLOS Computational Biology}, 13(1):e1005276.
+
+\bibitem[\protect\astroncite{Quatravaux et~al.}{2006}]{Quatravaux2006}
+Quatravaux, S., Remize, F., Bryckaert, E., Colavizza, D., and Guzzo, J. (2006).
+\newblock {Examination of Lactobacillus plantarum lactate metabolism side
+  effects in relation to the modulation of aeration parameters}.
+\newblock {\em Journal of Applied Microbiology}, 101(4):903--912.
+
+\bibitem[\protect\astroncite{Rajvanshi and Venkatesh}{2013}]{Rajvanshi2013}
+Rajvanshi, M. and Venkatesh, K.~V. (2013).
+\newblock {\em {Encyclopedia of Systems Biology}}.
+
+\bibitem[\protect\astroncite{Robinson et~al.}{2020}]{Robinson2020}
+Robinson, J.~L., Kocabaş, P., Wang, H., Cholley, P.~E., Cook, D., Nilsson, A.,
+  Anton, M., Ferreira, R., Domenzain, I., Billa, V., Limeta, A., Hedin, A.,
+  Gustafsson, J., Kerkhoven, E.~J., Svensson, L.~T., Palsson, B.~O.,
+  Mardinoglu, A., Hansson, L., Uhl{\'{e}}n, M., and Nielsen, J. (2020).
+\newblock {An atlas of human metabolism}.
+\newblock {\em Science Signaling}, 13(624):1--12.
+
+\bibitem[\protect\astroncite{Robinson et~al.}{2009}]{Robinson2010}
+Robinson, M.~D., McCarthy, D.~J., and Smyth, G.~K. (2009).
+\newblock {edgeR: a Bioconductor package for differential expression analysis
+  of digital gene expression data}.
+\newblock {\em Bioinformatics}, 26(1):139--140.
+
+\bibitem[\protect\astroncite{Roissart}{1994}]{alma991000892589705596}
+Roissart, H.~d. (DL 1994).
+\newblock {\em Bactéries lactiques : aspects fondamentaux et technologiques /
+  H. de Roissart, F. M. Luquet, coordonnateurs}.
+\newblock Lorica, Uriage.
+
+\bibitem[\protect\astroncite{R{\"{o}}mer et~al.}{2016}]{Romer2016}
+R{\"{o}}mer, M., Eichner, J., Dr{\"{a}}ger, A., Wrzodek, C., Wrzodek, F., and
+  Zell, A. (2016).
+\newblock {ZBIT bioinformatics toolbox: A web-platform for systems biology and
+  expression data analysis}.
+\newblock {\em PLoS ONE}.
+
+\bibitem[\protect\astroncite{Rousk et~al.}{2016}]{Rousk2016}
+Rousk, K., Michelsen, A., and Rousk, J. (2016).
+\newblock Microbial control of soil organic matter mineralization responses to
+  labile carbon in subarctic climate change treatments.
+\newblock {\em Global Change Biology}, 22(12):4150--4161.
+
+\bibitem[\protect\astroncite{Schroeder and Saha}{2020}]{Schroeder2020}
+Schroeder, W.~L. and Saha, R. (2020).
+\newblock {Introducing an Optimization- and explicit Runge-Kutta- based
+  Approach to Perform Dynamic Flux Balance Analysis}.
+\newblock {\em Scientific Reports}, 10(1):1--28.
+
+\bibitem[\protect\astroncite{SCHUSTER and HILGETAG}{1994}]{SCHUSTER1994}
+SCHUSTER, S. and HILGETAG, C. (1994).
+\newblock On elementary flux modes in biochemical reaction systems at steady
+  state.
+\newblock {\em Journal of Biological Systems}, 02(02):165--182.
+
+\bibitem[\protect\astroncite{Seaver et~al.}{2021}]{Seaver2021}
+Seaver, S.~M., Liu, F., Zhang, Q., Jeffryes, J., Faria, J.~P., Edirisinghe,
+  J.~N., Mundy, M., Chia, N., Noor, E., Beber, M.~E., Best, A.~A., DeJongh, M.,
+  Kimbrel, J.~A., D'haeseleer, P., McCorkle, S.~R., Bolton, J.~R., Pearson, E.,
+  Canon, S., Wood-Charlson, E.~M., Cottingham, R.~W., Arkin, A.~P., and Henry,
+  C.~S. (2021).
+\newblock {The ModelSEED Biochemistry Database for the integration of metabolic
+  annotations and the reconstruction, comparison and analysis of metabolic
+  models for plants, fungi and microbes}.
+\newblock {\em Nucleic Acids Research}.
+
+\bibitem[\protect\astroncite{Seemann}{2014}]{Seemann2014}
+Seemann, T. (2014).
+\newblock {Prokka: rapid prokaryotic genome annotation}.
+\newblock {\em Bioinformatics}, 30(14):2068--2069.
+
+\bibitem[\protect\astroncite{Sharma and Shukla}{2020}]{Sharma2020}
+Sharma, B. and Shukla, P. (2020).
+\newblock {Designing synthetic microbial communities for effectual
+  bioremediation: A review}.
+\newblock {\em Biocatalysis and Biotransformation}, 38(6):405--414.
+
+\bibitem[\protect\astroncite{Simeonidis et~al.}{2003}]{Simeonidis2003}
+Simeonidis, E., Rison, S.~C., Thornton, J.~M., Bogle, I. D.~L., and
+  Papageorgiou, L.~G. (2003).
+\newblock {Analysis of metabolic networks using a pathway distance metric
+  through linear programming}.
+\newblock {\em Metabolic Engineering}, 5(3):211--219.
+
+\bibitem[\protect\astroncite{Smid and Kleerebezem}{2014}]{Smid2014}
+Smid, E.~J. and Kleerebezem, M. (2014).
+\newblock {Production of aroma compounds in lactic fermentations}.
+\newblock {\em Annual Review of Food Science and Technology}, 5(1):313--326.
+
+\bibitem[\protect\astroncite{Stein et~al.}{2013}]{Stein2013}
+Stein, R.~R., Bucci, V., Toussaint, N.~C., Buffie, C.~G., R{\"{a}}tsch, G.,
+  Pamer, E.~G., Sander, C., and Xavier, J.~B. (2013).
+\newblock {Ecological Modeling from Time-Series Inference: Insight into
+  Dynamics and Stability of Intestinal Microbiota}.
+\newblock {\em PLoS Computational Biology}, 9(12):31--36.
+
+\bibitem[\protect\astroncite{St{\'{e}}phanou and Volpert}{2016}]{Stephanou2016}
+St{\'{e}}phanou, A. and Volpert, V. (2016).
+\newblock {Hybrid Modelling in Biology: A Classification Review}.
+\newblock {\em Mathematical Modelling of Natural Phenomena}, 11(1):37--38.
+
+\bibitem[\protect\astroncite{Steuer}{2007}]{Steuer2007}
+Steuer, R. (2007).
+\newblock {Computational approaches to the topology, stability and dynamics of
+  metabolic networks}.
+\newblock {\em Phytochemistry}, 68(16-18):2139--2151.
+
+\bibitem[\protect\astroncite{Stobbe et~al.}{2014}]{Stobbe2014}
+Stobbe, M.~D., Jansen, G.~A., Moerland, P.~D., and van Kampen, A.~H. (2014).
+\newblock {Knowledge representation in metabolic pathway databases}.
+\newblock {\em Briefings in Bioinformatics}, 15(3):455--470.
+
+\bibitem[\protect\astroncite{Succurro and Ebenh{\"{o}}h}{2018}]{Succurro2018}
+Succurro, A. and Ebenh{\"{o}}h, O. (2018).
+\newblock {Review and perspective on mathematical modeling of microbial
+  ecosystems}.
+\newblock {\em Biochemical Society Transactions}, 46(2):403--412.
+
+\bibitem[\protect\astroncite{Succurro and Ebenhöh}{2018}]{Succurro}
+Succurro, A. and Ebenhöh, O. (2018).
+\newblock {Review and perspective on mathematical modeling of microbial
+  ecosystems}.
+\newblock {\em Biochemical Society Transactions}, 46(2):403--412.
+
+\bibitem[\protect\astroncite{Sweetlove and Fernie}{2005}]{Sweetlove2005}
+Sweetlove, L.~J. and Fernie, A.~R. (2005).
+\newblock {Regulation of metabolic networks: Understanding metabolic complexity
+  in the systems biology era}.
+\newblock {\em New Phytologist}, 168(1):9--24.
+
+\bibitem[\protect\astroncite{Swindell et~al.}{1996}]{Swindell1996}
+Swindell, S.~R., Benson, K.~H., Griffin, H.~G., Renault, P., Ehrlich, S.~D.,
+  and Gasson, M.~J. (1996).
+\newblock {Genetic manipulation of the pathway for diacetyl metabolism in
+  Lactococcus lactis}.
+\newblock {\em Applied and Environmental Microbiology}, 62(7):2641--2643.
+
+\bibitem[\protect\astroncite{Sánchez López~de Nava~A}{2023}]{Nava2023}
+Sánchez López~de Nava~A, R.~A. (2023).
+\newblock {\em {Physiology, Metabolism.}}
+
+\bibitem[\protect\astroncite{Thiele and Palsson}{2010}]{Thiele.2010}
+Thiele, I. and Palsson, B.~O. (2010).
+\newblock {A protocol for generating a high-quality genome-scale metabolic
+  reconstruction}.
+\newblock {\em Nature Protocols}, 5(1):93--121.
+
+\bibitem[\protect\astroncite{Thierry et~al.}{2011}]{Thierry2011}
+Thierry, A., Deutsch, S.~M., Falentin, H., Dalmasso, M., Cousin, F.~J., and
+  Jan, G. (2011).
+\newblock {New insights into physiology and metabolism of Propionibacterium
+  freudenreichii}.
+\newblock {\em International Journal of Food Microbiology}, 149(1):19--27.
+
+\bibitem[\protect\astroncite{Thorleifsson and Thiele}{2011}]{Thorleifsson2011}
+Thorleifsson, S.~G. and Thiele, I. (2011).
+\newblock {rBioNet: A COBRA toolbox extension for reconstructing high-quality
+  biochemical networks}.
+\newblock {\em Bioinformatics}, 27(14):2009--2010.
+
+\bibitem[\protect\astroncite{Thuillier et~al.}{2022}]{Thuillier2022}
+Thuillier, K., Baroukh, C., Bockmayr, A., Cottret, L., Paulev{\'{e}}, L., and
+  Siegel, A. (2022).
+\newblock {MERRIN: MEtabolic regulation rule INference from time series data}.
+\newblock {\em Bioinformatics (Oxford, England)}, 38(2):ii127--ii133.
+
+\bibitem[\protect\astroncite{Tiwari et~al.}{2007}]{Tiwari2007}
+Tiwari, A., Talcott, C., Knapp, M., Lincoln, P., and Laderoute, K. (2007).
+\newblock Analyzing pathways using sat-based approaches.
+\newblock In Anai, H., Horimoto, K., and Kutsia, T., editors, {\em Algebraic
+  Biology}, pages 155--169, Berlin, Heidelberg. Springer Berlin Heidelberg.
+
+\bibitem[\protect\astroncite{Trinh et~al.}{2009}]{Trinh2009}
+Trinh, C.~T., Wlaschin, A., and Srienc, F. (2009).
+\newblock {Elementary mode analysis: A useful metabolic pathway analysis tool
+  for characterizing cellular metabolism}.
+\newblock {\em Applied Microbiology and Biotechnology}, 81(5):813--826.
+
+\bibitem[\protect\astroncite{Turgay et~al.}{2020}]{Turgay2020}
+Turgay, M., Bachmann, H.-P., Irmler, S., von Ah, U., Fr{\"o} Hlich-Wyder,
+  M.-T., Falentin, H., Deutsch, S.-M., Jan, G., and Thierry, A. (2020).
+\newblock {Propionibacterium spp. and Acidipropionibacterium spp.}
+\newblock In {\em {Reference Module in Food Science}}, Reference Module in Food
+  Science. {Elsevier}.
+
+\bibitem[\protect\astroncite{Vallenet et~al.}{2020}]{Vallenet2020}
+Vallenet, D., Calteau, A., Dubois, M., Amours, P., Bazin, A., Beuvin, M.,
+  Burlot, L., Bussell, X., Fouteau, S., Gautreau, G., Lajus, A., Langlois, J.,
+  Planel, R., Roche, D., Rollin, J., Rouy, Z., Sabatet, V., and M{\'{e}}digue,
+  C. (2020).
+\newblock {MicroScope: An integrated platform for the annotation and
+  exploration of microbial gene functions through genomic, pangenomic and
+  metabolic comparative analysis}.
+\newblock {\em Nucleic Acids Research}, 48(D1):D579--D589.
+
+\bibitem[\protect\astroncite{Vallenet et~al.}{2019}]{Vallenet.2019}
+Vallenet, D., Calteau, A., Dubois, M., Amours, P., Bazin, A., Beuvin, M.,
+  Burlot, L., Bussell, X., Fouteau, S., Gautreau, G., Lajus, A., Langlois, J.,
+  Planel, R., Roche, D., Rollin, J., Rouy, Z., Sabatet, V., and Médigue, C.
+  (2019).
+\newblock {MicroScope: an integrated platform for the annotation and
+  exploration of microbial gene functions through genomic, pangenomic and
+  metabolic comparative analysis}.
+\newblock {\em Nucleic Acids Research}.
+
+\bibitem[\protect\astroncite{{Van Rooijen} et~al.}{1991}]{VanRooijen1991}
+{Van Rooijen}, R.~J., {Van Schalkwijk}, S., and {De Vos}, W.~M. (1991).
+\newblock {Molecular cloning, characterization, and nucleotide sequence of the
+  tagatose 6-phosphate pathway gene cluster of the lactose operon of
+  Lactococcus lactis}.
+\newblock {\em Journal of Biological Chemistry}, 266(11):7176--7181.
+
+\bibitem[\protect\astroncite{{van Rosmalen}
+  et~al.}{2021}]{vanrosmalenModelReductionGenomescale2021}
+{van Rosmalen}, R., Smith, R., {Martins dos Santos}, V., Fleck, C., and
+  {Suarez-Diez}, M. (2021).
+\newblock Model reduction of genome-scale metabolic models as a basis for
+  targeted kinetic models.
+\newblock {\em Metabolic Engineering}, 64:74--84.
+
+\bibitem[\protect\astroncite{V{\'{a}}zquez-Castellanos
+  et~al.}{2019}]{Vazquez-Castellanos2019}
+V{\'{a}}zquez-Castellanos, J.~F., Biclot, A., Vrancken, G., Huys, G.~R., and
+  Raes, J. (2019).
+\newblock {Design of synthetic microbial consortia for gut microbiota
+  modulation}.
+\newblock {\em Current Opinion in Pharmacology}, 49:52--59.
+
+\bibitem[\protect\astroncite{Virdis et~al.}{2021}]{Virdis2021}
+Virdis, C., Sumby, K., Bartowsky, E., and Jiranek, V. (2021).
+\newblock {Lactic Acid Bacteria in Wine: Technological Advances and Evaluation
+  of Their Functional Role}.
+\newblock {\em Frontiers in Microbiology}, 11(January):1--16.
+
+\bibitem[\protect\astroncite{Wagner and Fell}{2001}]{Wagner2001}
+Wagner, A. and Fell, D.~A. (2001).
+\newblock {The small world inside large metabolic networks}.
+\newblock {\em Proceedings of the Royal Society B: Biological Sciences},
+  268(1478):1803--1810.
+
+\bibitem[\protect\astroncite{Wang et~al.}{2018}]{Wang2018}
+Wang, H., Marci{\v{s}}auskas, S., S{\'{a}}nchez, B.~J., Domenzain, I.,
+  Hermansson, D., Agren, R., Nielsen, J., and Kerkhoven, E.~J. (2018).
+\newblock {RAVEN 2.0: A versatile toolbox for metabolic network reconstruction
+  and a case study on Streptomyces coelicolor}.
+\newblock {\em PLoS Computational Biology}, 14(10):1--17.
+
+\bibitem[\protect\astroncite{Weiss et~al.}{2022}]{Weiss2022}
+Weiss, A.~S., Burrichter, A.~G., {Durai Raj}, A.~C., von Strempel, A., Meng,
+  C., Kleigrewe, K., M{\"{u}}nch, P.~C., R{\"{o}}ssler, L., Huber, C.,
+  Eisenreich, W., Jochum, L.~M., G{\"{o}}ing, S., Jung, K., Lincetto, C.,
+  H{\"{u}}bner, J., Marinos, G., Zimmermann, J., Kaleta, C., Sanchez, A., and
+  Stecher, B. (2022).
+\newblock {In vitro interaction network of a synthetic gut bacterial
+  community}.
+\newblock {\em ISME Journal}, 16(4):1095--1109.
+
+\bibitem[\protect\astroncite{Widyastuti et~al.}{2014}]{Widyastuti2014}
+Widyastuti, Y., ~, R., and Febrisiantosa, A. (2014).
+\newblock {The Role of Lactic Acid Bacteria in Milk Fermentation}.
+\newblock {\em Food and Nutrition Sciences}, 05(04):435--442.
+
+\bibitem[\protect\astroncite{Wilmes et~al.}{2022}]{WILMES20221201}
+Wilmes, P., Martin-Gallausiaux, C., Ostaszewski, M., Aho, V.~T., Novikova,
+  P.~V., Laczny, C.~C., and Schneider, J.~G. (2022).
+\newblock The gut microbiome molecular complex in human health and disease.
+\newblock {\em Cell Host \& Microbe}, 30(9):1201--1206.
+
+\bibitem[\protect\astroncite{Yadav et~al.}{2018}]{Yadav2018}
+Yadav, S.~K., Soni, R., and Rajput, A.~S. (2018).
+\newblock {Role of Microbes in Organic Farming for Sustainable Agro-Ecosystem}.
+\newblock pages 241--252.
+
+\bibitem[\protect\astroncite{Zelezniak et~al.}{2015}]{Zelezniak2015}
+Zelezniak, A., Andrejev, S., Ponomarova, O., Mende, D.~R., Bork, P., and Patil,
+  K.~R. (2015).
+\newblock {Metabolic dependencies drive species co-occurrence in diverse
+  microbial communities}.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}.
+
+\bibitem[\protect\astroncite{Zhang et~al.}{2015}]{Zhang2015}
+Zhang, Y.~J., Li, S., Gan, R.~Y., Zhou, T., Xu, D.~P., and Li, H.~B. (2015).
+\newblock {Impacts of gut bacteria on human health and diseases}.
+\newblock {\em International Journal of Molecular Sciences}, 16(4):7493--7519.
+
+\bibitem[\protect\astroncite{Zhuang et~al.}{2011}]{Zhuang2011}
+Zhuang, K., Izallalen, M., Mouser, P., Richter, H., Risso, C., Mahadevan, R.,
+  and Lovley, D.~R. (2011).
+\newblock {Genome-scale dynamic modeling of the competition between Rhodoferax
+  and Geobacter in anoxic subsurface environments}.
+\newblock {\em ISME Journal}, 5(2):305--316.
+
+\bibitem[\protect\astroncite{Zien et~al.}{2000}]{Zien2000}
+Zien, A., K{\"{u}}ffner, R., Zimmer, R., and Lengauer, T. (2000).
+\newblock {Analysis of gene expression data with pathway scores.}
+\newblock {\em Proceedings / ... International Conference on Intelligent
+  Systems for Molecular Biology ; ISMB. International Conference on Intelligent
+  Systems for Molecular Biology}, 8:407--417.
+
+\bibitem[\protect\astroncite{Zimmermann et~al.}{2021}]{Zimmermann2021}
+Zimmermann, J., Kaleta, C., and Waschina, S. (2021).
+\newblock gapseq: informed prediction of bacterial metabolic pathways and
+  reconstruction of accurate metabolic models.
+\newblock {\em Genome Biology}, 22(1):81.
+
+\bibitem[\protect\astroncite{Zomorrodi}{2014}]{Zomorrodi}
+Zomorrodi, A.~R. (2014).
+\newblock {d-OptCom: Dynamic Multi-level and Multi-objective Metabolic Modeling
+  of Microbial Communities}.
+
+\bibitem[\protect\astroncite{Zomorrodi and Maranas}{2012}]{Zomorrodi2012}
+Zomorrodi, A.~R. and Maranas, C.~D. (2012).
+\newblock {OptCom: A multi-level optimization framework for the metabolic
+  modeling and analysis of microbial communities}.
+\newblock {\em PLoS Computational Biology}, 8(2).
+
+\bibitem[\protect\astroncite{Zomorrodi and Segr{\`{e}}}{2017}]{Zomorrodi2017}
+Zomorrodi, A.~R. and Segr{\`{e}}, D. (2017).
+\newblock {Genome-driven evolutionary game theory helps understand the rise of
+  metabolic interdependencies in microbial communities}.
+\newblock {\em Nature Communications}, 8(1):1--11.
+
+\bibitem[\protect\astroncite{Zou et~al.}{2019}]{Zou2019}
+Zou, Y., Xue, W., Luo, G., Deng, Z., Qin, P., Guo, R., Sun, H., Xia, Y., Liang,
+  S., Dai, Y., Wan, D., Jiang, R., Su, L., Feng, Q., Jie, Z., Guo, T., Xia, Z.,
+  Liu, C., Yu, J., Lin, Y., Tang, S., Huo, G., Xu, X., Hou, Y., Liu, X., Wang,
+  J., Yang, H., Kristiansen, K., Li, J., Jia, H., and Xiao, L. (2019).
+\newblock {1,520 Reference Genomes From Cultivated Human Gut Bacteria Enable
+  Functional Microbiome Analyses}.
+\newblock {\em Nature Biotechnology}, 37(2):179--185.
+
+\bibitem[\protect\astroncite{Zu{\~{n}}iga et~al.}{2020}]{Zuniga2020}
+Zu{\~{n}}iga, C., Li, T., Guarnieri, M.~T., Jenkins, J.~P., Li, C.~T., Bingol,
+  K., Kim, Y.~M., Betenbaugh, M.~J., and Zengler, K. (2020).
+\newblock {Synthetic microbial communities of heterotrophs and phototrophs
+  facilitate sustainable growth}.
+\newblock {\em Nature Communications}, 11(1).
+
+\bibitem[\protect\astroncite{Özcan et~al.}{2020}]{Ozcan.2020}
+Özcan, E., Seven, M., Şirin, B., Çakır, T., Nikerel, E., Teusink, B., and
+  Öner, E.~T. (2020).
+\newblock {Dynamic co‐culture metabolic models reveal the fermentation
+  dynamics, metabolic capacities and interplays of cheese starter cultures}.
+\newblock {\em Biotechnology and Bioengineering}, 118(1):223--237.
+
+\end{thebibliography}

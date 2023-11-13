@@ -1,0 +1,2892 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2023.6.9)  23 AUG 2023 10:20
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**tango.tex
+(./tango.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+(/usr/local/texlive/2021/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2020/11/14 v2.2 Multi-file projects (class)
+Preamble taken from file `../main.tex'
+(/usr/local/texlive/2021/texmf-dist/tex/latex/import/import.sty
+Package: import 2020/04/01  v 6.2
+) (../main.tex
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count179
+\c@chapter=\count180
+\c@section=\count181
+\c@subsection=\count182
+\c@subsubsection=\count183
+\c@paragraph=\count184
+\c@subparagraph=\count185
+\c@figure=\count186
+\c@table=\count187
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count188
+\Gm@cntv=\count189
+\c@Gm@tempcnt=\count190
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks16
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen149
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen150
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count191
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count192
+\leftroot@=\count193
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count194
+\DOTSCASE@=\count195
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen151
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count196
+\c@MaxMatrixCols=\count197
+\dotsspace@=\muskip16
+\c@parentequation=\count198
+\dspbrk@lvl=\count199
+\tag@help=\toks20
+\row@=\count266
+\column@=\count267
+\maxfields@=\count268
+\andhelp@=\toks21
+\eqnshift@=\dimen152
+\alignsep@=\dimen153
+\tagshift@=\dimen154
+\tagwidth@=\dimen155
+\totwidth@=\dimen156
+\lineht@=\dimen157
+\@envbody=\toks22
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip52
+\bibsep=\skip53
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count269
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks24
+\pgfutil@tempdima=\dimen158
+\pgfutil@tempdimb=\dimen159
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box49
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks25
+\pgfkeys@temptoks=\toks26
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks27
+))
+\pgf@x=\dimen160
+\pgf@y=\dimen161
+\pgf@xa=\dimen162
+\pgf@ya=\dimen163
+\pgf@xb=\dimen164
+\pgf@yb=\dimen165
+\pgf@xc=\dimen166
+\pgf@yc=\dimen167
+\pgf@xd=\dimen168
+\pgf@yd=\dimen169
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count270
+\c@pgf@countb=\count271
+\c@pgf@countc=\count272
+\c@pgf@countd=\count273
+\t@pgf@toka=\toks28
+\t@pgf@tokb=\toks29
+\t@pgf@tokc=\toks30
+\pgf@sys@id@count=\count274
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count275
+\pgfsyssoftpath@bigbuffer@items=\count276
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen170
+\pgfmath@count=\count277
+\pgfmath@box=\box50
+\pgfmath@toks=\toks31
+\pgfmath@stack@operand=\toks32
+\pgfmath@stack@operation=\toks33
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count278
+)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen171
+\pgf@picmaxx=\dimen172
+\pgf@picminy=\dimen173
+\pgf@picmaxy=\dimen174
+\pgf@pathminx=\dimen175
+\pgf@pathmaxx=\dimen176
+\pgf@pathminy=\dimen177
+\pgf@pathmaxy=\dimen178
+\pgf@xx=\dimen179
+\pgf@xy=\dimen180
+\pgf@yx=\dimen181
+\pgf@yy=\dimen182
+\pgf@zx=\dimen183
+\pgf@zy=\dimen184
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen185
+\pgf@path@lasty=\dimen186
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen187
+\pgf@shorten@start@additional=\dimen188
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box51
+\pgf@hbox=\box52
+\pgf@layerbox@main=\box53
+\pgf@picture@serial@count=\count279
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen189
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen190
+\pgf@pt@y=\dimen191
+\pgf@pt@temp=\dimen192
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen193
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen194
+\pgf@sys@shading@range@num=\count280
+\pgf@shadingcount=\count281
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box54
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box55
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen195
+\pgf@nodesepend=\dimen196
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen197
+\pgffor@skip=\dimen198
+\pgffor@stack=\toks34
+\pgffor@toks=\toks35
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count282
+\pgfplotmarksize=\dimen199
+)
+\tikz@lastx=\dimen256
+\tikz@lasty=\dimen257
+\tikz@lastxsaved=\dimen258
+\tikz@lastysaved=\dimen259
+\tikz@lastmovetox=\dimen260
+\tikz@lastmovetoy=\dimen261
+\tikzleveldistance=\dimen262
+\tikzsiblingdistance=\dimen263
+\tikz@figbox=\box56
+\tikz@figbox@bg=\box57
+\tikz@tempbox=\box58
+\tikz@tempbox@bg=\box59
+\tikztreelevel=\count283
+\tikznumberofchildren=\count284
+\tikznumberofcurrentchild=\count285
+\tikz@fig@count=\count286
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count287
+\pgfmatrixcurrentcolumn=\count288
+\pgf@matrix@numberofcolumns=\count289
+)
+\tikz@expandcount=\count290
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(..//kbordermatrix.sty
+
+LaTeX Warning: You have requested package `..//kbordermatrix',
+               but the package provides `kbordermatrix'.
+
+Package: kbordermatrix 2011/09/21 Bordered matrix with brackets
+\kbcolsep=\skip54
+\kbrowsep=\skip55
+\br@kwd=\skip56
+\k@bordht=\skip57
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen264
+\ar@mcellbox=\box60
+\extrarowheight=\dimen265
+\NC@list=\toks36
+\extratabsurround=\skip58
+\backup@length=\skip59
+\ar@cellbox=\box61
+)
+\TX@col@width=\dimen266
+\TX@old@table=\dimen267
+\TX@old@col=\dimen268
+\TX@target=\dimen269
+\TX@delta=\dimen270
+\TX@cols=\count291
+\TX@ftn=\toks37
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/minitoc/minitoc.sty
+Package: minitoc 2018/07/12 v62 Package minitoc
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/minitoc/mtcmess.sty
+Package: mtcmess 2006/03/14
+)
+Package minitoc Info: I0001
+(minitoc)             *** minitoc package, version 62 ***.
+\tf@mtc=\write5
+\mtcindent=\skip60
+\mtcskipamount=\skip61
+Package minitoc Info: I0005
+(minitoc)             compatible with hyperref.
+Package minitoc Info: I0023
+(minitoc)             part level macros available.
+Package minitoc Info: I0003
+(minitoc)             chapter level macros available.
+\mtc@toks=\toks38
+\mtc@strutbox=\box62
+\mtc@hstrutbox=\box63
+Package minitoc Info: I0002
+(minitoc)             Autoconfiguration of extensions.
+\openout5 = `tango.mtc0'.
+
+\openout5 = `tango.mtc'.
+
+
+(./tango.mtc0)
+Package minitoc Info: I0012
+(minitoc)             Long extensions (Unix-like) will be used.
+Package minitoc Info: I0031
+(minitoc)             ==> this version is configured for UNIX-like 
+(minitoc)                 (long extensions) file names.
+\openout5 = `tango.mtc'.
+
+\openout5 = `tango.mtc0'.
+
+\c@mtc=\count292
+\c@minitocdepth=\count293
+\c@ptc=\count294
+\c@parttocdepth=\count295
+\ptcindent=\skip62
+Package minitoc Info: I0010
+(minitoc)             The english language is selected.
+(minitoc)              on input line 4910.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/minitoc/english.mld
+File: english.mld 2006/01/13
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/minitoc/english.mld
+File: english.mld 2006/01/13
+)
+Package minitoc Info: I0010
+(minitoc)             The french language is selected.
+(minitoc)              on input line 4911.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/minitoc/french.mld
+File: french.mld 2006/03/21
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2021/03/24 3.56 The Babel package
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2021/03/24 3.56 Babel common definitions
+\babel@savecnt=\count296
+\U@D=\dimen271
+\l@babelnohyphens=\language87
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read3
+)
+\bbl@dirlevel=\count297
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2020/10/10 v3.5l French support from the babel system
+Package babel Info: \l@acadian = using hyphenrules for french
+(babel)             (\language29) on input line 91.
+Package babel Info: \l@canadien = using hyphenrules for french
+(babel)             (\language29) on input line 92.
+\FB@nonchar=\count298
+Package babel Info: Making : an active character on input line 430.
+Package babel Info: Making ; an active character on input line 431.
+Package babel Info: Making ! an active character on input line 432.
+Package babel Info: Making ? an active character on input line 433.
+\FBguill@level=\count299
+\FBold@everypar=\toks39
+\FB@Mht=\dimen272
+\mc@charclass=\count300
+\mc@charfam=\count301
+\mc@charslot=\count302
+\std@mcc=\count303
+\dec@mcc=\count304
+\listindentFB=\dimen273
+\descindentFB=\dimen274
+\labelindentFB=\dimen275
+\labelwidthFB=\dimen276
+\leftmarginFB=\dimen277
+\parindentFFN=\dimen278
+\FBfnindent=\dimen279
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/subfiles/subfiles.sty
+Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count305
+\calc@Bcount=\count306
+\calc@Adimen=\dimen280
+\calc@Bdimen=\dimen281
+\calc@Askip=\skip63
+\calc@Bskip=\skip64
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count307
+\calc@Cskip=\skip65
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen282
+\ESO@tempdimb=\dimen283
+)
+\AM@pagewidth=\dimen284
+\AM@pageheight=\dimen285
+\AM@fboxrule=\dimen286
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count308
+\AM@pagebox=\box64
+\AM@global@opts=\toks40
+\AM@pagecnt=\count309
+\AM@toc@title=\toks41
+\c@AM@survey=\count310
+\AM@templatesizebox=\box65
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen287
+\Hy@linkcounter=\count311
+\Hy@pagecounter=\count312
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+nguages
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count313
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `colorlinks' set `false' on input line 4073.
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count314
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen288
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count315
+\Field@Width=\dimen289
+\Fld@charsize=\dimen290
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count316
+\c@Item=\count317
+\c@Hfootnote=\count318
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+\Fld@listcount=\count319
+\c@bookmark@seq@number=\count320
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip66
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen291
+\captionmargin@=\dimen292
+\captionwidth=\dimen293
+\caption@tempdima=\dimen294
+\caption@indent=\dimen295
+\caption@parindent=\dimen296
+\caption@hangindent=\dimen297
+Package caption Info: Standard document class detected.
+Package caption Info: french babel package is loaded.
+)
+\c@caption@flags=\count321
+\c@continuedfloat=\count322
+Package caption Info: hyperref package is loaded.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2021/03/18 v1.25 mathematical typesetting tools
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count323
+\l_MT_multwidth_dim=\dimen298
+\origjot=\skip67
+\l_MT_shortvdotswithinadjustabove_dim=\dimen299
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen300
+\l_MT_above_intertext_sep=\dimen301
+\l_MT_below_intertext_sep=\dimen302
+\l_MT_above_shortintertext_sep=\dimen303
+\l_MT_below_shortintertext_sep=\dimen304
+\xmathstrut@box=\box66
+\xmathstrut@dim=\dimen305
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/breakurl/breakurl.sty
+Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks42
+\XKV@tempa@toks=\toks43
+)
+\XKV@depth=\count324
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+
+Package breakurl Warning: You are using breakurl while processing via pdflatex.
+
+(breakurl)                \burl will be just a synonym of \url.
+(breakurl)                 on input line 48.
+
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count325
+\l__pdf_internal_box=\box67
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-
+01.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.
+tex)))
+Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2021-03-12 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box68
+\l__siunitx_tmp_dim=\dimen306
+\l__siunitx_tmp_int=\count326
+\l__siunitx_number_mantissa_length_int=\count327
+\l__siunitx_number_uncert_length_int=\count328
+\l__siunitx_round_int=\count329
+\l__siunitx_process_decimal_int=\count330
+\l__siunitx_process_uncertainty_int=\count331
+\l__siunitx_process_fixed_int=\count332
+\l__siunitx_process_integer_min_int=\count333
+\l__siunitx_process_precision_int=\count334
+\l__siunitx_group_min_int=\count335
+\l__siunitx_angle_marker_box=\box69
+\l__siunitx_angle_unit_box=\box70
+\l__siunitx_angle_marker_dim=\dimen307
+\l__siunitx_angle_unit_dim=\dimen308
+\l__siunitx_unit_int=\count336
+\l__siunitx_unit_denominator_int=\count337
+\l__siunitx_unit_numerator_int=\count338
+\l__siunitx_unit_prefix_int=\count339
+\l__siunitx_unit_prefix_base_int=\count340
+\l__siunitx_unit_prefix_gram_int=\count341
+\l__siunitx_number_product_int=\count342
+\c__siunitx_one_fill_skip=\skip68
+\l__siunitx_table_unit_align_skip=\skip69
+\l__siunitx_table_exponent_dim=\dimen309
+\l__siunitx_table_integer_dim=\dimen310
+\l__siunitx_table_mantissa_dim=\dimen311
+\l__siunitx_table_marker_dim=\dimen312
+\l__siunitx_table_result_dim=\dimen313
+\l__siunitx_table_uncert_dim=\dimen314
+\l__siunitx_table_fill_pre_dim=\dimen315
+\l__siunitx_table_fill_post_dim=\dimen316
+\l__siunitx_table_fill_mid_dim=\dimen317
+\l__siunitx_table_pre_box=\box71
+\l__siunitx_table_post_box=\box72
+\l__siunitx_table_mantissa_box=\box73
+\l__siunitx_table_result_box=\box74
+\l__siunitx_table_number_align_skip=\skip70
+\l__siunitx_table_text_align_skip=\skip71
+(/usr/local/texlive/2021/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count343
+\c@@ppsavesec=\count344
+\c@@ppsaveapp=\count345
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box75
+)
+\tc@llx=\dimen318
+\tc@lly=\dimen319
+\tc@urx=\dimen320
+\tc@ury=\dimen321
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen322
+\adjbox@Height=\dimen323
+\adjbox@Depth=\dimen324
+\adjbox@Totalheight=\dimen325
+\adjbox@pwidth=\dimen326
+\adjbox@pheight=\dimen327
+\adjbox@pdepth=\dimen328
+\adjbox@ptotalheight=\dimen329
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count346
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box76
+\sift@deathcycles=\count347
+\@vwid@loff=\dimen330
+\@vwid@roff=\dimen331
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip72
+\multirow@cntb=\count348
+\multirow@dima=\skip73
+\bigstrutjot=\dimen332
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count349
+\float@exts=\toks44
+\float@box=\box77
+\@float@everytoks=\toks45
+\@floatcapt=\box78
+)
+
+LaTeX Warning: You have requested, on input line 32, version
+               `2021/05/01' of package siunitx,
+               but only version
+               `2020/02/25 v2.8b A comprehensive (SI) units package'
+               is available.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen333
+\lightrulewidth=\dimen334
+\cmidrulewidth=\dimen335
+\belowrulesep=\dimen336
+\belowbottomsep=\dimen337
+\aboverulesep=\dimen338
+\abovetopsep=\dimen339
+\cmidrulesep=\dimen340
+\cmidrulekern=\dimen341
+\defaultaddspace=\dimen342
+\@cmidla=\count350
+\@cmidlb=\count351
+\@aboverulesep=\dimen343
+\@belowrulesep=\dimen344
+\@thisruleclass=\count352
+\@lastruleclass=\count353
+\@thisrulewidth=\dimen345
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarychains.code.tex
+File: tikzlibrarychains.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.callouts.code.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.callouts.code.tex))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodepartlowerbox=\box79
+\pgfnodeparttwobox=\box80
+\pgfnodepartthreebox=\box81
+\pgfnodepartfourbox=\box82
+\pgfnodeparttwentybox=\box83
+\pgfnodepartnineteenbox=\box84
+\pgfnodeparteighteenbox=\box85
+\pgfnodepartseventeenbox=\box86
+\pgfnodepartsixteenbox=\box87
+\pgfnodepartfifteenbox=\box88
+\pgfnodepartfourteenbox=\box89
+\pgfnodepartthirteenbox=\box90
+\pgfnodeparttwelvebox=\box91
+\pgfnodepartelevenbox=\box92
+\pgfnodeparttenbox=\box93
+\pgfnodepartninebox=\box94
+\pgfnodeparteightbox=\box95
+\pgfnodepartsevenbox=\box96
+\pgfnodepartsixbox=\box97
+\pgfnodepartfivebox=\box98
+)))
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+\Oldarrayrulewidth=\skip74
+)) (./tango.aux)
+\openout1 = `tango.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(42.67912pt, 745.46222pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=708.46222pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-29.59087pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count354
+\scratchdimen=\dimen346
+\scratchbox=\box99
+\nofMPsegments=\count355
+\nofMParguments=\count356
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count357
+\MPscratchDim=\dimen347
+\MPnumerator=\count358
+\makeMPintoPDFobject=\count359
+\everyMPtoPDFconversion=\toks47
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package minitoc(hints) Info: I0049
+(minitoc(hints))             ==> You requested the hints option. 
+(minitoc(hints))             Some hints are eventually given below.
+Package minitoc(hints) Info: I0042
+(minitoc(hints))             --- The appendix package is loaded. 
+(minitoc(hints))             See the minitoc package documentation 
+(minitoc(hints))             for specific precautions.
+
+
+Package minitoc(hints) Warning: W0030
+(minitoc(hints))                --- The \part command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+
+Package minitoc(hints) Warning: W0028
+(minitoc(hints))                --- The \chapter command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+LaTeX Info: Redefining \degres on input line 5.
+LaTeX Info: Redefining \dots on input line 5.
+LaTeX Info: Redefining \up on input line 5.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Package hyperref Info: Link coloring OFF on input line 5.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count360
+)
+LaTeX Info: Redefining \ref on input line 5.
+LaTeX Info: Redefining \pageref on input line 5.
+LaTeX Info: Redefining \nameref on input line 5.
+ (./tango.out) (./tango.out)
+\@outlinefile=\write6
+\openout6 = `tango.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/translator/translator-basic-dicti
+onary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/translator/translator-basic-dicti
+onary-French.dict
+Dictionary: translator-basic-dictionary, Language: French 
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 5.
+
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+Chapitre 1.
+Package minitoc Info: I0006
+(minitoc)             tango.mtc1 is empty on input line 12.
+[1
+
+
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `Tamang2016' on page 2 undefined on input line
+ 22.
+
+
+Package natbib Warning: Citation `Tamang.2016_Functional' on page 2 undefined o
+n input line 22.
+
+
+Package natbib Warning: Citation `Somerville.2021' on page 2 undefined on input
+ line 22.
+
+
+Package natbib Warning: Citation `Galimberti.2021' on page 2 undefined on input
+ line 22.
+
+
+Package natbib Warning: Citation `Tamang.2016_Functional' on page 2 undefined o
+n input line 22.
+
+
+Package natbib Warning: Citation `Blasche.2021' on page 2 undefined on input li
+ne 22.
+
+
+Package natbib Warning: Citation `Mannaa.2021' on page 2 undefined on input lin
+e 24.
+
+
+Package natbib Warning: Citation `Blasche.2021' on page 2 undefined on input li
+ne 24.
+
+
+Package natbib Warning: Citation `Ozcan.2020' on page 2 undefined on input line
+ 24.
+
+
+Package natbib Warning: Citation `Fang.2020' on page 2 undefined on input line 
+24.
+
+
+Package natbib Warning: Citation `Ozcan.2020' on page 2 undefined on input line
+ 24.
+
+
+Package natbib Warning: Citation `Rau.2018' on page 2 undefined on input line 2
+4.
+
+[2]
+
+Package natbib Warning: Citation `Rau.2018' on page 3 undefined on input line 2
+6.
+
+
+Package natbib Warning: Citation `Cao2021' on page 3 undefined on input line 29
+.
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+[4]
+
+Package natbib Warning: Citation `Lieven.2020' on page 5 undefined on input lin
+e 39.
+
+
+Package natbib Warning: Citation `Noronha.2018' on page 5 undefined on input li
+ne 39.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+
+Package natbib Warning: Citation `Palsson1994' on page 5 undefined on input lin
+e 41.
+
+
+Package natbib Warning: Citation `Orth2010' on page 5 undefined on input line 4
+1.
+
+
+Package natbib Warning: Citation `Miyoshi2003' on page 5 undefined on input lin
+e 41.
+
+[5]
+
+Package natbib Warning: Citation `Widyastuti2014' on page 6 undefined on input 
+line 46.
+
+
+Package natbib Warning: Citation `Palles1998' on page 6 undefined on input line
+ 46.
+
+
+Package natbib Warning: Citation `alma991000892589705596' on page 6 undefined o
+n input line 46.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+
+Package natbib Warning: Citation `Carroll1999' on page 6 undefined on input lin
+e 50.
+
+
+Package natbib Warning: Citation `Swindell1996' on page 6 undefined on input li
+ne 50.
+
+
+Package natbib Warning: Citation `Makhlouf2006' on page 6 undefined on input li
+ne 50.
+
+
+Overfull \hbox (5.1517pt too wide) in paragraph at lines 50--52
+ \T1/cmr/bx/n/12 1.2.1.1.1 \T1/cmr/bx/it/12 L. lac-tis[] \T1/cmr/m/n/12 Pour pe
+r-mettre la pro-duc-tion de cer-tains com-pos� d'in-t�-r�t, comme
+ []
+
+[6]
+
+Package natbib Warning: Citation `Abedi2020' on page 7 undefined on input line 
+54.
+
+
+Package natbib Warning: Citation `Quatravaux2006' on page 7 undefined on input 
+line 54.
+
+[7]
+
+Package natbib Warning: Citation `Thierry2011' on page 8 undefined on input lin
+e 58.
+
+
+Package natbib Warning: Citation `Dank2021' on page 8 undefined on input line 5
+8.
+
+
+Package natbib Warning: Citation `Loux2015' on page 8 undefined on input line 5
+8.
+
+
+Package natbib Warning: Citation `Turgay2020' on page 8 undefined on input line
+ 58.
+
+
+Package natbib Warning: Citation `Crow1986' on page 8 undefined on input line 6
+0.
+
+
+Package natbib Warning: Citation `Dank2021' on page 8 undefined on input line 6
+0.
+
+
+Package natbib Warning: Citation `Cao.2021' on page 8 undefined on input line 6
+0.
+
+
+Package natbib Warning: Citation `Turgay2020' on page 8 undefined on input line
+ 60.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--61
+
+ []
+
+
+Package natbib Warning: Citation `Smid2014' on page 8 undefined on input line 6
+3.
+
+
+Package natbib Warning: Citation `Cao.2021' on page 8 undefined on input line 6
+3.
+
+<..//img/tango/FIG1_metabolic_map.pdf, id=180, 8542.01837pt x 3350.84343pt>
+File: ..//img/tango/FIG1_metabolic_map.pdf Graphic file (type pdf)
+<use ..//img/tango/FIG1_metabolic_map.pdf>
+Package pdftex.def Info: ..//img/tango/FIG1_metabolic_map.pdf  used on input li
+ne 70.
+(pdftex.def)             Requested size: 455.24411pt x 178.54486pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+[]|\T1/cmr/m/n/12 Nom des g�-
+ []
+
+
+Overfull \hbox (8.67989pt too wide) in paragraph at lines 80--80
+[]|\T1/cmr/m/it/12 Propionibacterium
+ []
+
+
+Overfull \hbox (6.88033pt too wide) in paragraph at lines 80--80
+[]|\T1/cmr/m/it/12 Lactiplantibacillus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+[]|\T1/cmr/m/it/12 lactis \T1/cmr/m/n/12 bio-var
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+\T1/cmr/m/it/12 dia-ce-ty-lac-tis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|\T1/cmr/m/n/12 Identifiant
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 83--83
+[]|\T1/cmr/m/n/12 Num�ro d'ac-ce-
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 85--85
+[]|\T1/cmr/m/n/12 Taille des plas-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+[]|\T1/cmr/m/n/12 Taille des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
+\T1/cmr/m/n/12 g�-nomes cir-cu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+[]|\T1/cmr/m/n/12 Nombre de
+ []
+
+
+Underfull \hbox (badness 4341) in paragraph at lines 89--89
+[]|\T1/cmr/m/n/12 Pourcentage de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+\T1/cmr/m/n/12 GC (g�-nome,
+ []
+
+
+Underfull \hbox (badness 2644) in paragraph at lines 91--91
+\T1/cmr/m/n/12 p3 : 13, p4 :
+ []
+
+
+Overfull \hbox (4.47351pt too wide) in paragraph at lines 102--111
+[][] 
+ []
+
+[8] [9 <..//img/tango/FIG1_metabolic_map.pdf>] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
+
+ []
+
+
+LaTeX Warning: Reference `table:pure-culture-data' on page 11 undefined on inpu
+t line 121.
+
+
+LaTeX Warning: Reference `table:acids-dosage' on page 11 undefined on input lin
+e 121.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+[11] [12]
+Overfull \hbox (26.19727pt too wide) in paragraph at lines 140--140
+[]\T1/cmr/m/n/10 - in-f�-rieur: [] 
+ []
+
+
+Overfull \hbox (30.14075pt too wide) in paragraph at lines 140--140
+\T1/cmr/m/n/10 - su-p�-rieur: []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+
+Overfull \hbox (26.19727pt too wide) in paragraph at lines 153--153
+[]\T1/cmr/m/n/10 - in-f�-rieur: [] 
+ []
+
+
+Overfull \hbox (30.14075pt too wide) in paragraph at lines 153--153
+\T1/cmr/m/n/10 - su-p�-rieur: []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+
+ []
+
+
+Package natbib Warning: Citation `Ozcan.2020' on page 13 undefined on input lin
+e 158.
+
+
+LaTeX Warning: Reference `sec:dynamics-bounds' on page 13 undefined on input li
+ne 158.
+
+
+Overfull \hbox (26.19727pt too wide) in paragraph at lines 171--171
+[]\T1/cmr/m/n/10 - in-f�-rieur: [] 
+ []
+
+
+Overfull \hbox (30.14075pt too wide) in paragraph at lines 171--171
+\T1/cmr/m/n/10 - su-p�-rieur: []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+ []
+
+[13]
+Overfull \hbox (26.19727pt too wide) in paragraph at lines 186--186
+[]\T1/cmr/m/n/10 - in-f�-rieur: [] 
+ []
+
+
+Overfull \hbox (30.14075pt too wide) in paragraph at lines 186--186
+\T1/cmr/m/n/10 - su-p�-rieur: []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+
+ []
+
+
+LaTeX Warning: Reference `sec:estimate-bounds-freud' on page 14 undefined on in
+put line 195.
+
+
+Overfull \hbox (26.19727pt too wide) in paragraph at lines 195--195
+[]\T1/cmr/m/n/10 - in-f�-rieur: [] 
+ []
+
+
+Overfull \hbox (30.14075pt too wide) in paragraph at lines 195--195
+\T1/cmr/m/n/10 - su-p�-rieur: []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+
+ []
+
+[14]
+
+LaTeX Warning: Reference `sec:estimate-bounds-freud' on page 15 undefined on in
+put line 205.
+
+
+Overfull \hbox (26.19727pt too wide) in paragraph at lines 205--205
+[]\T1/cmr/m/n/10 - in-f�-rieur: [] 
+ []
+
+
+Overfull \hbox (30.14075pt too wide) in paragraph at lines 205--205
+\T1/cmr/m/n/10 - su-p�-rieur: []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
+
+ []
+
+
+LaTeX Warning: Reference `sec:estimate-bounds-freud' on page 15 undefined on in
+put line 207.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
+[]\T1/cmr/m/n/10 Justification: Le taux maxi-mal de pro-duc-tion est d�-fi-nie 
+par $\OML/cmm/m/it/10 F[]$\T1/cmr/m/n/10 , pour $\OML/cmm/m/it/10 i \OMS/cmsy/m
+/n/10 2
+ []
+
+
+Overfull \hbox (30.64063pt too wide) in paragraph at lines 207--207
+[]\T1/cmr/m/n/10 - in-f�-rieure: [] 
+ []
+
+
+Overfull \hbox (30.14075pt too wide) in paragraph at lines 207--207
+\T1/cmr/m/n/10 - su-p�-rieur: []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+
+ []
+
+[15]
+
+LaTeX Warning: Reference `sec:model-fitting' on page 16 undefined on input line
+ 213.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+
+Overfull \hbox (26.19727pt too wide) in paragraph at lines 230--230
+[]\T1/cmr/m/n/10 - in-f�-rieur: [] 
+ []
+
+
+Overfull \hbox (30.14075pt too wide) in paragraph at lines 230--230
+\T1/cmr/m/n/10 - su-p�-rieur: []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+
+ []
+
+[16]
+Overfull \hbox (26.19727pt too wide) in paragraph at lines 247--247
+[]\T1/cmr/m/n/10 - in-f�-rieur: [] 
+ []
+
+
+Overfull \hbox (30.14075pt too wide) in paragraph at lines 247--247
+\T1/cmr/m/n/10 - su-p�-rieur: []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
+
+ []
+
+
+Package natbib Warning: Citation `Palles1998' on page 18 undefined on input lin
+e 258.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
+
+ []
+
+
+Package natbib Warning: Citation `Deborde2000' on page 18 undefined on input li
+ne 260.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
+
+ []
+
+[18]
+<..//img/tango/FIG2_opt_explo_ll.pdf, id=330, 744.448pt x 513.99504pt>
+File: ..//img/tango/FIG2_opt_explo_ll.pdf Graphic file (type pdf)
+<use ..//img/tango/FIG2_opt_explo_ll.pdf>
+Package pdftex.def Info: ..//img/tango/FIG2_opt_explo_ll.pdf  used on input lin
+e 269.
+(pdftex.def)             Requested size: 455.24411pt x 314.32082pt.
+<..//img/tango/FIG3_opt_explo_lp.pdf, id=331, 764.33534pt x 551.91522pt>
+File: ..//img/tango/FIG3_opt_explo_lp.pdf Graphic file (type pdf)
+<use ..//img/tango/FIG3_opt_explo_lp.pdf>
+Package pdftex.def Info: ..//img/tango/FIG3_opt_explo_lp.pdf  used on input lin
+e 276.
+(pdftex.def)             Requested size: 455.24411pt x 328.72627pt.
+<..//img/tango/FIG4_opt_explo_pf.pdf, id=332, 659.06444pt x 460.77063pt>
+File: ..//img/tango/FIG4_opt_explo_pf.pdf Graphic file (type pdf)
+<use ..//img/tango/FIG4_opt_explo_pf.pdf>
+Package pdftex.def Info: ..//img/tango/FIG4_opt_explo_pf.pdf  used on input lin
+e 283.
+(pdftex.def)             Requested size: 455.24411pt x 318.26955pt.
+
+
+LaTeX Warning: Reference `sec:MandM-met-modelling' on page 19 undefined on inpu
+t line 295.
+
+[19] [20 <..//img/tango/FIG2_opt_explo_ll.pdf>] [21 <..//img/tango/FIG3_opt_exp
+lo_lp.pdf>] [22 <..//img/tango/FIG4_opt_explo_pf.pdf>]
+
+LaTeX Warning: Reference `table:co-culture-data' on page 23 undefined on input 
+line 297.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
+
+ []
+
+
+LaTeX Warning: File `img/tango/qqplot.pdf' not found on input line 303.
+
+
+! Package pdftex.def Error: File `img/tango/qqplot.pdf' not found: using draft 
+setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.303 ...idth = 1\textwidth]{img/tango/qqplot.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
+03.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+
+LaTeX Warning: File `img/tango/supp_fluxes_pathways.pdf' not found on input lin
+e 311.
+
+
+! Package pdftex.def Error: File `img/tango/supp_fluxes_pathways.pdf' not found
+: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.311 ...idth]{img/tango/supp_fluxes_pathways.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<..//img/tango/Fig5.pdf, id=1611, 497.92319pt x 497.92319pt>
+File: ..//img/tango/Fig5.pdf Graphic file (type pdf)
+<use ..//img/tango/Fig5.pdf>
+Package pdftex.def Info: ..//img/tango/Fig5.pdf  used on input line 318.
+(pdftex.def)             Requested size: 455.24411pt x 455.25336pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
+ []
+
+[23] [24] [25] [26 <..//img/tango/Fig5.pdf>] [27]
+
+Package natbib Warning: Citation `Zelezniak2015' on page 28 undefined on input 
+line 336.
+
+
+Package natbib Warning: Citation `diener2020' on page 28 undefined on input lin
+e 336.
+
+
+Package natbib Warning: Citation `Belcour.2020' on page 28 undefined on input l
+ine 336.
+
+[28]
+Overfull \hbox (91.06866pt too wide) in paragraph at lines 342--375
+ [] 
+ []
+
+[29]
+Overfull \hbox (91.05148pt too wide) in paragraph at lines 381--431
+ [] 
+ []
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 445--445
+[]\T1/cmr/m/n/12 Organic-heterocyclic-compound,All-Nucleosides,Nitrogen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--445
+\T1/cmr/m/n/12 Molecular-Entities,Organic-heteromonocyclic-compounds,Organic-
+ []
+
+
+Overfull \hbox (91.06282pt too wide) in paragraph at lines 438--457
+ [] 
+ []
+
+[31]
+
+LaTeX Warning: File `img/tango/FigS2_heatmap.pdf' not found on input line 463.
+
+
+! Package pdftex.def Error: File `img/tango/FigS2_heatmap.pdf' not found: using
+ draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.463 ...6\textwidth]{img/tango/FigS2_heatmap.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<..//img/tango/Fig6.pdf, id=2143, 497.99263pt x 470.66579pt>
+File: ..//img/tango/Fig6.pdf Graphic file (type pdf)
+<use ..//img/tango/Fig6.pdf>
+Package pdftex.def Info: ..//img/tango/Fig6.pdf  used on input line 471.
+(pdftex.def)             Requested size: 455.24411pt x 430.28151pt.
+[32] [33 <..//img/tango/Fig6.pdf>]
+
+Package natbib Warning: Citation `Widyastuti2014' on page 34 undefined on input
+ line 482.
+
+
+Package natbib Warning: Citation `VanRooijen1991' on page 34 undefined on input
+ line 482.
+
+
+Package natbib Warning: Citation `Kleerebezem2003' on page 34 undefined on inpu
+t line 482.
+
+
+Package natbib Warning: Citation `Quatravaux2006' on page 34 undefined on input
+ line 482.
+
+
+Package natbib Warning: Citation `Carroll1999' on page 34 undefined on input li
+ne 482.
+
+
+Package natbib Warning: Citation `Loux2015' on page 34 undefined on input line 
+482.
+
+
+Package natbib Warning: Citation `Thierry2011' on page 34 undefined on input li
+ne 482.
+
+
+Package natbib Warning: Citation `Borghei2021' on page 34 undefined on input li
+ne 482.
+
+
+Package natbib Warning: Citation `Ozcan.2020' on page 34 undefined on input lin
+e 484.
+
+
+Package natbib Warning: Citation `Mahadevan.2002' on page 34 undefined on input
+ line 484.
+
+[34]
+
+Package natbib Warning: Citation `Cao2021' on page 35 undefined on input line 4
+86.
+
+[35]
+
+Package natbib Warning: Citation `Cao2021' on page 36 undefined on input line 4
+97.
+
+[36]
+
+Package natbib Warning: Citation `Cao2021' on page 37 undefined on input line 4
+99.
+
+! Undefined control sequence.
+l.499 ...de lait frais, pasteurisé (\num{76}\unit
+                                                  {\degreeCelsius}, \num{20}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\degreeCelsius ->\ERROR 
+                        
+l.499 ...pasteurisé (\num{76}\unit{\degreeCelsius
+                                                  }, \num{20} \unit{secondes...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.499 ...{76}\unit{\degreeCelsius}, \num{20} \unit
+                                                  {secondes}), écrémer, st...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.499 ...é (jusqu'à 30 grams de gras et 36 \unit
+                                                  {mg} de calcium par \unit{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.499 ...gras et 36 \unit{mg} de calcium par \unit
+                                                  {kg} de lait, \lactis et \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.499 ...t inoculés a 5.7 et 5.2 log$_{10}$ \unit
+                                                  {CFU\per\gram} (Unité de ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\per ->\ERROR 
+              
+l.499 ...és a 5.7 et 5.2 log$_{10}$ \unit{CFU\per
+                                                  \gram} (Unité de Formant ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\gram ->\ERROR 
+               
+l.499 ... 5.7 et 5.2 log$_{10}$ \unit{CFU\per\gram
+                                                  } (Unité de Formant Colon...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.499 ...ation du lait inoculé ( a \num{14} \unit
+                                                  {\degreeCelsius} pour \num...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\degreeCelsius ->\ERROR 
+                        
+l.499 ...noculé ( a \num{14} \unit{\degreeCelsius
+                                                  } pour \num{18} \unit{h}),...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.499 ...\unit{\degreeCelsius} pour \num{18} \unit
+                                                  {h}), \freud a été inocu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.499 ...d a été inoculé a 6.1 log$_{10}$ \unit
+                                                  {CFU\per\gram} et remué p...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\per ->\ERROR 
+              
+l.499 ...� inoculé a 6.1 log$_{10}$ \unit{CFU\per
+                                                  \gram} et remué pendant \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\gram ->\ERROR 
+               
+l.499 ...culé a 6.1 log$_{10}$ \unit{CFU\per\gram
+                                                  } et remué pendant \unit{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.499 ...nit{CFU\per\gram} et remué pendant \unit
+                                                  {20} \unit{min}. Le lait e...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.499 ...r\gram} et remué pendant \unit{20} \unit
+                                                  {min}. Le lait est versé ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.499 ...ans des cuves et chauffé a \num{33}\unit
+                                                  {\degreeCelsius} pendant \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\degreeCelsius ->\ERROR 
+                        
+l.499 ...t chauffé a \num{33}\unit{\degreeCelsius
+                                                  } pendant \num{30} \unit{m...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.499 ...it{\degreeCelsius} pendant \num{30} \unit
+                                                  {min}. De la présure comm...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.499 ...nt été salé (immersion a \num{12}\unit
+                                                  {\degreeCelsius} pendant \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\degreeCelsius ->\ERROR 
+                        
+l.499 ...(immersion a \num{12}\unit{\degreeCelsius
+                                                  } pendant \num{10}\unit{h}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.499 ...nit{\degreeCelsius} pendant \num{10}\unit
+                                                  {h} avec de la saumure en ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.499 ...romage pour un affinage de  \num{7} \unit
+                                                  {weeks} à \num{13} \unit{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.499 ...e  \num{7} \unit{weeks} à \num{13} \unit
+                                                  {\degreeCelsius}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\degreeCelsius ->\ERROR 
+                        
+l.499 ...t{weeks} à \num{13} \unit{\degreeCelsius
+                                                  }.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.501 ... des bactéries lactiques (Linoc, t=\unit
+                                                  {h}) et de \freud (Finoc, ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.501 ...=\unit{h}) et de \freud (Finoc, t=18\unit
+                                                  {h}), les échantillons so...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package natbib Warning: Citation `Cao2021' on page 37 undefined on input line 5
+01.
+
+! Undefined control sequence.
+l.501 ...21}: l'étape de moulage (Cm, t=19.5\unit
+                                                  {h}), l'étape de démoula...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.501 ...), l'étape de démoulage (Cdm, t=40\unit
+                                                  {h}), le commencement de l...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.501 ...ommencement de l'affinage (C0w, t=60\unit
+                                                  {h}) après quatre et sept...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.501 ...sept semaines d'affinage (C4w, t=732\unit
+                                                  {h} et C7w, t=1236\unit{h}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.501 ...e (C4w, t=732\unit{h} et C7w, t=1236\unit
+                                                  {h}). Les fromages sont r�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[37]
+! Undefined control sequence.
+l.503 ...sans secouer dans l'incubateur a  30\unit
+                                                  {\degreeCelsius}, avec deu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\degreeCelsius ->\ERROR 
+                        
+l.503 ...ns l'incubateur a  30\unit{\degreeCelsius
+                                                  }, avec deux réplicats. P...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.503 ...it fut supplémenté en lactate (20 \unit
+                                                  {g\per\L}) et avec de la p...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\per ->\ERROR 
+              
+l.503 ... supplémenté en lactate (20 \unit{g\per
+                                                  \L}) et avec de la peptone...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.503 ...) et avec de la peptone caseine (10 \unit
+                                                  {g\per\L}). Une seconde ex...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\per ->\ERROR 
+              
+l.503 ...vec de la peptone caseine (10 \unit{g\per
+                                                  \L}). Une seconde expérie...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.503 ... $1\times10^{6}$ et $4\times10^{6}$ \unit
+                                                  {CFU\per\g}, \plantarum a ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\per ->\ERROR 
+              
+l.503 ...s10^{6}$ et $4\times10^{6}$ \unit{CFU\per
+                                                  \g}, \plantarum a $3\times...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\g ->\ERROR 
+            
+l.503 ...0^{6}$ et $4\times10^{6}$ \unit{CFU\per\g
+                                                  }, \plantarum a $3\times10...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.503 ...$3\times10^{6}$ and $6\times10^{6}$ \unit
+                                                  {CFU\per\g} et \freud a $1...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\per ->\ERROR 
+              
+l.503 ...10^{6}$ and $6\times10^{6}$ \unit{CFU\per
+                                                  \g} et \freud a $1.4\times...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\g ->\ERROR 
+            
+l.503 ...^{6}$ and $6\times10^{6}$ \unit{CFU\per\g
+                                                  } et \freud a $1.4\times10...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.503 ...1.4\times10^{7}$ et $9\times10^{6}$ \unit
+                                                  {CFU\per\g}. Les données ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\per ->\ERROR 
+              
+l.503 ...s10^{7}$ et $9\times10^{6}$ \unit{CFU\per
+                                                  \g}. Les données de crois...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\g ->\ERROR 
+            
+l.503 ...0^{7}$ et $9\times10^{6}$ \unit{CFU\per\g
+                                                  }. Les données de croissa...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `table:pure-culture-data' on page 38 undefined on inpu
+t line 503.
+
+! Undefined control sequence.
+l.505 ...� centrifugés à 10000 grammes à 4\unit
+                                                  {\degreeCelsius} pendant c...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\degreeCelsius ->\ERROR 
+                        
+l.505 ...à 10000 grammes à 4\unit{\degreeCelsius
+                                                  } pendant cinq minutes. Le...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.505 ...lulaires ont été conservés à -80\unit
+                                                  {\degreeCelsius} pour l'ex...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\degreeCelsius ->\ERROR 
+                        
+l.505 ...té conservés à -80\unit{\degreeCelsius
+                                                  } pour l'extraction de l'A...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.505 ...�s à nouveau pendant 5 minutes à 4\unit
+                                                  {\degreeCelsius}, 10 000 g...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\degreeCelsius ->\ERROR 
+                        
+l.505 ...endant 5 minutes à 4\unit{\degreeCelsius
+                                                  }, 10 000 grammes pour ret...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Unicode character μ (U+03BC)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.505 ...llulaires ont été suspendus dans 200 μ
+                                                  L de tampon de lyse (50 mM...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+! Undefined control sequence.
+l.505 ...ce) et incubés pendant 30 min à 24\unit
+                                                  {\degreeCelsius}. Les susp...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\degreeCelsius ->\ERROR 
+                        
+l.505 ... pendant 30 min à 24\unit{\degreeCelsius
+                                                  }. Les suspensions ont ens...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Unicode character μ (U+03BC)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.505 ... BioSpec Products, Bartlesville) et 50 μ
+                                                  L de SDS (20 \%). Les éch...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Package natbib Warning: Citation `Falentin.2010' on page 38 undefined on input 
+line 505.
+
+[38]
+
+Package natbib Warning: Citation `Langmead.2009' on page 39 undefined on input 
+line 508.
+
+
+Package natbib Warning: Citation `Putri.2022' on page 39 undefined on input lin
+e 508.
+
+
+Package natbib Warning: Citation `R2021' on page 39 undefined on input line 510
+.
+
+
+Package natbib Warning: Citation `Robinson2010' on page 39 undefined on input l
+ine 510.
+
+
+Package natbib Warning: Citation `Cao2021' on page 39 undefined on input line 5
+13.
+
+[39]
+
+Package natbib Warning: Citation `Falentin.2010' on page 40 undefined on input 
+line 517.
+
+
+Package natbib Warning: Citation `Wick2017a' on page 40 undefined on input line
+ 517.
+
+
+Package natbib Warning: Citation `Wick2017b' on page 40 undefined on input line
+ 517.
+
+
+Package natbib Warning: Citation `Vallenet.2019' on page 40 undefined on input 
+line 517.
+
+
+Package natbib Warning: Citation `Vallenet.2019' on page 40 undefined on input 
+line 519.
+
+
+Package natbib Warning: Citation `Machado2018' on page 40 undefined on input li
+ne 519.
+
+
+Package natbib Warning: Citation `Romer2016' on page 40 undefined on input line
+ 519.
+
+
+Package natbib Warning: Citation `King2016' on page 40 undefined on input line 
+519.
+
+
+Package natbib Warning: Citation `Lieven.2020' on page 40 undefined on input li
+ne 519.
+
+[40]
+
+Package natbib Warning: Citation `Orth2010' on page 41 undefined on input line 
+521.
+
+
+Package natbib Warning: Citation `Ebrahim2013' on page 41 undefined on input li
+ne 536.
+
+
+Package natbib Warning: Citation `gomez2014dfbalab' on page 41 undefined on inp
+ut line 536.
+
+
+Overfull \hbox (2.57411pt too wide) in paragraph at lines 545--545
+[][] 
+ []
+
+
+Overfull \hbox (4.90688pt too wide) in paragraph at lines 553--553
+[][] 
+ []
+
+
+Overfull \hbox (4.90688pt too wide) in paragraph at lines 563--563
+[][] 
+ []
+
+[41]
+
+Package natbib Warning: Citation `Mahadevan.2002' on page 42 undefined on input
+ line 582.
+
+
+Overfull \hbox (36.33517pt too wide) in paragraph at lines 582--583
+\T1/cmr/m/n/12 miques de la po-pu-la-tion. No-tons $\OML/cmm/m/it/12 b \OT1/cmr
+/m/n/12 = (\OML/cmm/m/it/12 b[]\OT1/cmr/m/n/12 )$ \T1/cmr/m/n/12 pour $\OML/cmm
+/m/it/12 i \OMS/cmsy/m/n/12 2 B \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f[]\OML/cmm/
+m/it/12 ; []; []\OMS/cmsy/m/n/12 g$
+ []
+
+[42]
+
+Package natbib Warning: Citation `Ozcan.2020' on page 43 undefined on input lin
+e 607.
+
+[43]
+
+Package natbib Warning: Citation `Ozcan.2020' on page 44 undefined on input lin
+e 611.
+
+
+LaTeX Warning: Reference `sec:dynamics-bounds' on page 44 undefined on input li
+ne 618.
+
+
+LaTeX Warning: Reference `sec:estimate-bounds-freud' on page 44 undefined on in
+put line 620.
+
+
+Package natbib Warning: Citation `Cao2021' on page 44 undefined on input line 6
+22.
+
+! Undefined control sequence.
+l.622 ... cellulaire de $0.33\times10^{-12}$ \unit
+                                                  {\gram \per CFU} a été a...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\gram ->\ERROR 
+               
+l.622 ...laire de $0.33\times10^{-12}$ \unit{\gram
+                                                   \per CFU} a été appliqu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\per ->\ERROR 
+              
+l.622 ... de $0.33\times10^{-12}$ \unit{\gram \per
+                                                   CFU} a été appliqué po...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[44]
+
+Package natbib Warning: Citation `harris2020array' on page 45 undefined on inpu
+t line 638.
+
+
+Package natbib Warning: Citation `mckinney2010data' on page 45 undefined on inp
+ut line 638.
+
+
+Package natbib Warning: Citation `mckinney-proc-scipy-2010' on page 45 undefine
+d on input line 638.
+
+
+Package natbib Warning: Citation `Gomez2018' on page 45 undefined on input line
+ 638.
+
+[45]
+
+LaTeX Warning: Reference `table:parameter-value' on page 46 undefined on input 
+line 657.
+
+
+Package natbib Warning: Citation `diener2020' on page 46 undefined on input lin
+e 661.
+
+
+Package natbib Warning: Citation `Zelezniak2015' on page 46 undefined on input 
+line 661.
+
+
+Package natbib Warning: Citation `Belcour.2020' on page 46 undefined on input l
+ine 661.
+
+
+Package natbib Warning: Citation `Caspi2018' on page 46 undefined on input line
+ 661.
+
+
+Package natbib Warning: Citation `Hunter.2007' on page 46 undefined on input li
+ne 667.
+
+
+Package natbib Warning: Citation `King2015' on page 46 undefined on input line 
+667.
+
+
+Package natbib Warning: Citation `rossum2009' on page 46 undefined on input lin
+e 667.
+
+[46]
+
+Package natbib Warning: Citation `Cao2021' on page 47 undefined on input line 6
+70.
+
+
+Overfull \hbox (6.67902pt too wide) in paragraph at lines 670--671
+\T1/cmr/m/n/12 pos� dans []https://entrepot.recherche.data.gouv.fr/privateurl.x
+html?token=4bf01466-29dd-
+ []
+
+[47] Excluding 'comment' comment.
+
+Package natbib Warning: There were undefined citations.
+
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the tango.maf file.
+\openout5 = `tango.maf'.
+
+
+Package minitoc(hints) Warning: W0059
+(minitoc(hints))                You have used \minitoc, 
+(minitoc(hints))                but not \dominitoc.
+
+
+Package minitoc(hints) Warning: W0068
+(minitoc(hints))                You have used \minitoc but not 
+(minitoc(hints))                \tableofcontents
+(minitoc(hints))                nor \faketableofcontents.
+
+
+Package minitoc(hints) Warning: W0033
+(minitoc(hints))                The caption package should be 
+(minitoc(hints))                loaded BEFORE the minitoc package.
+
+Package minitoc(hints) Info: I0053
+(minitoc(hints))             You have loaded the float package; 
+(minitoc(hints))             please be aware that the minitoc package 
+(minitoc(hints))             facilities can not be used for new types 
+(minitoc(hints))             of floats defined by the float package.
+
+Package minitoc(hints) Warning: W0024
+(minitoc(hints))                Some hints have been written 
+(minitoc(hints))                in the tango.log file.
+
+[48] (./tango.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `tango.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `tango.out':
+(rerunfilecheck)             Before: 5D4AB24C60B75C3096B7EB21B44ACC40;7728
+(rerunfilecheck)             After:  0EBECFA8571E98D951032463794CA59E;7511.
+ )
+(\end occurred when \ifdefined on line 822 was incomplete) 
+Here is how much of TeX's memory you used:
+ 32346 strings out of 478994
+ 616600 string characters out of 5858185
+ 1031633 words of memory out of 5000000
+ 48847 multiletter control sequences out of 15000+600000
+ 433078 words of font info for 98 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 107i,18n,105p,4016b,849s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest)
+: name{table.caption.25} has been referenced but does not exist, replaced by a 
+fixed one
+
+pdfTeX warning (dest): name{figure.caption.23} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.21} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.20} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.24} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.18} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.19} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.17} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.6} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.5} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{paragraph.1.2.1.1.3} has been referenced but does n
+ot exist, replaced by a fixed one
+
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb>
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.p
+fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
+b></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
+/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/te
+xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
+ve/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
+2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/202
+1/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2021/t
+exmf-dist/fonts/type1/public/cm-super/sfbi0800.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2021/texmf-d
+ist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/texmf-dis
+t/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/
+fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/texmf-dist/fo
+nts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/
+type1/public/cm-super/sfcc0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
+pe1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
+1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
+public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
+blic/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
+ic/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
+/cm-super/sfti0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/c
+m-super/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-
+super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-su
+per/sftt1200.pfb>
+Output written on tango.pdf (48 pages, 1214702 bytes).
+PDF statistics:
+ 2689 PDF objects out of 2984 (max. 8388607)
+ 1910 compressed objects within 20 object streams
+ 129 named destinations out of 1000 (max. 500000)
+ 283 words of extra memory for PDF output out of 10000 (max. 10000000)
+

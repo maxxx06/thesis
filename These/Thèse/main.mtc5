@@ -1,0 +1,14 @@
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.1}Introduction}{\reset@font\mtcSfont 39}{section.2.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Méthode pour la construction d'un modèle numérique du métabolisme}{\reset@font\mtcSfont 40}{section.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.1}Présentation des données}{\reset@font\mtcSSfont 40}{subsection.2.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.1.1}Données omiques}{\reset@font\mtcSSSfont 40}{subsubsection.2.2.1.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.1.2}Données de calibration}{\reset@font\mtcSSSfont 41}{subsubsection.2.2.1.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.2}Du génome annoté au réseau métabolique à l'échelle du génome}{\reset@font\mtcSSfont 43}{subsection.2.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.3}Modélisation et implémentation numérique}{\reset@font\mtcSSfont 44}{subsection.2.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.4}Raffinement des modèles métaboliques individuels}{\reset@font\mtcSSfont 46}{subsection.2.2.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.5}Calibration des modèles métaboliques individuels}{\reset@font\mtcSSfont 46}{subsection.2.2.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Application de la méthode numérique sur 3 souches du fromage}{\reset@font\mtcSfont 47}{section.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.1}A l'échelle de chaque souche}{\reset@font\mtcSSfont 48}{subsection.2.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.2}Simulations à l'échelle de la communauté}{\reset@font\mtcSSfont 61}{subsection.2.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.3}Interactions bactériennes et exploration du modèle de communauté}{\reset@font\mtcSSfont 67}{subsection.2.3.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Discussion et Conclusion}{\reset@font\mtcSfont 73}{section.2.4}}

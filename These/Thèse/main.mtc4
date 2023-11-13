@@ -1,0 +1,30 @@
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.1}Les modèles du métabolisme comme support de l'analyse microbienne}{\reset@font\mtcSfont 14}{section.1.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.1.1}Reconstruction de réseaux métaboliques}{\reset@font\mtcSSfont 14}{subsection.1.1.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.1.2}Représentations mathématiques et informatiques du métabolisme}{\reset@font\mtcSSfont 18}{subsection.1.1.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.1.2.1}Matrice st\oe {}chiométrique}{\reset@font\mtcSSSfont 18}{subsubsection.1.1.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.1.2.2}Graphe}{\reset@font\mtcSSSfont 19}{subsubsection.1.1.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.1.3}Analyse structurelle de réseaux métaboliques}{\reset@font\mtcSSfont 19}{subsection.1.1.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.2}Modélisation métabolique à l'échelle d'un génome}{\reset@font\mtcSfont 22}{section.1.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.1}Méthodes numériques d'un réseau métabolique}{\reset@font\mtcSSfont 22}{subsection.1.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.2.1.1}Constantes cinétiques des réactions}{\reset@font\mtcSSSfont 22}{subsubsection.1.2.1.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.2.1.2}Contraintes numériques}{\reset@font\mtcSSSfont 22}{subsubsection.1.2.1.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.2.1.3}Intégration de données multi-omiques}{\reset@font\mtcSSSfont 25}{subsubsection.1.2.1.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.2}Méthodes qualitatives d'analyse d'un réseau métabolique}{\reset@font\mtcSSfont 26}{subsection.1.2.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.2.2.1}Résolution de problèmes SAT et SAT dérivés }{\reset@font\mtcSSSfont 26}{subsubsection.1.2.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.2.2.2}Graphes}{\reset@font\mtcSSSfont 26}{subsubsection.1.2.2.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.2.2.3}Problème SAT}{\reset@font\mtcSSSfont 26}{subsubsection.1.2.2.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.2.2.4}Application à des problèmes biologiques}{\reset@font\mtcSSSfont 27}{subsubsection.1.2.2.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.3}Défis rencontrés lors de la modélisation qualitative et numérique d'une cellule}{\reset@font\mtcSSfont 28}{subsection.1.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.4}Méthodes hybrides de modélisation à l'échelle d'un modèle métabolique}{\reset@font\mtcSSfont 29}{subsection.1.2.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.2.4.1}Indépendants}{\reset@font\mtcSSSfont 29}{subsubsection.1.2.4.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.2.4.2}Couplé}{\reset@font\mtcSSSfont 29}{subsubsection.1.2.4.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.3}Modélisation du métabolisme des écosystèmes microbiens}{\reset@font\mtcSfont 30}{section.1.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3.1}Méthodes numériques appliquées à plusieurs réseaux métaboliques}{\reset@font\mtcSSfont 30}{subsection.1.3.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.3.1.1}Équations différentielles ordinaires (ODE)}{\reset@font\mtcSSSfont 30}{subsubsection.1.3.1.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.3.1.2}Analyse statique sous contraintes}{\reset@font\mtcSSSfont 30}{subsubsection.1.3.1.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.3.1.3}Analyse dynamique sous contraintes}{\reset@font\mtcSSSfont 32}{subsubsection.1.3.1.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3.2}Applications}{\reset@font\mtcSSfont 33}{subsection.1.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3.3}Méthodes et modèles qualitatifs de l'étude d'une communauté bactérienne}{\reset@font\mtcSSfont 34}{subsection.1.3.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.3.3.1}Approches basées sur les graphes}{\reset@font\mtcSSSfont 34}{subsubsection.1.3.3.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {1.3.3.2}Modèle basés sur le raisonnement}{\reset@font\mtcSSSfont 35}{subsubsection.1.3.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3.4}Défis rencontrés lors de l'analyse de la modélisation qualitative et quantitative du métabolisme des communautés}{\reset@font\mtcSSfont 35}{subsection.1.3.4}}

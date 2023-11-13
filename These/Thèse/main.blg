@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: apa.bst
+Database file #1: reference.bib
+Warning--entry type for "olivier2018" isn't style-file defined
+--line 357 of file reference.bib
+Warning--I didn't find a database entry for "Médigue2002"
+Warning--I didn't find a database entry for "Letunic2007"
+Warning--empty journal in Carr2012
+Warning--empty journal in Heiden2002
+Warning--can't use both volume and number fields in Hucka2019
+Warning--empty publisher in Hucka2019
+Warning--empty journal in Klamt2002
+Warning--empty year in Levy
+Warning--empty journal in Levy
+Warning--can't use both volume and number fields in Machado2021
+Warning--empty publisher in Machado2021
+Warning--empty journal in Nachtweide2019
+Warning--empty journal in osti_5545893
+Warning--there's a number but no volume in Pettersen2023
+Warning--empty publisher in Rajvanshi2013
+Warning--empty publisher in Nava2023
+Warning--empty journal in Yadav2018
+You've used 181 entries,
+            1940 wiz_defined-function locations,
+            1567 strings with 52395 characters,
+and the built_in function-call counts, 96541 in all, are:
+= -- 8703
+> -- 6753
+< -- 70
++ -- 2496
+- -- 2487
+* -- 9941
+:= -- 17183
+add.period$ -- 538
+call.type$ -- 181
+change.case$ -- 2139
+chr.to.int$ -- 180
+cite$ -- 196
+duplicate$ -- 2571
+empty$ -- 5043
+format.name$ -- 2750
+if$ -- 17757
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 181
+newline$ -- 899
+num.names$ -- 549
+pop$ -- 1828
+preamble$ -- 1
+purify$ -- 2145
+quote$ -- 0
+skip$ -- 1956
+stack$ -- 0
+substring$ -- 5513
+swap$ -- 426
+text.length$ -- 12
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1076
+warning$ -- 15
+while$ -- 633
+width$ -- 0
+write$ -- 2317
+(There were 18 warnings)

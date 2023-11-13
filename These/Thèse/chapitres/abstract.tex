@@ -1,0 +1,47 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+\chapter*{Résumé}
+ \addcontentsline{toc}{chapter}{\protect\numberline{}Résumé}
+
+\textbf{Titre: Approche hybride de modélisation explicable du métabolisme des écosystèmes microbiens} \\
+
+\textbf{Résumé:} Les communautés microbiennes sont des systèmes complexes composés de diverses espèces de micro-organismes interagissant entre elles et avec leur environnement. La biologie des systèmes offre un cadre pour leur étude, alliant expérimentation, génération de données à haut-débit et leur intégration dans des modèles informatiques. La compréhension de ces communautés passe notamment par celle de leur métabolisme et des échanges de molécules entre espèces susceptibles d’impacter positivement ou négativement chacun des membres. Le métabolisme est un ensemble des réactions biochimiques et peut s’abstraire à l’échelle d’un génome par des réseaux faisant le lien entre les gènes et les réactions d’un organisme. Ces réseaux permettent de construire des modèles métaboliques, représentations informatiques ou mathématiques du comportement des organismes dans des conditions expérimentales. Le passage de l’individu à la communauté, composée de quelques espèces en conditions contrôlées, ou de plusieurs centaines en conditions environnementales, soulève des difficultés méthodologiques dans la construction des modèles.  Ce manuscrit de thèse traite de l'analyse du métabolisme et des interactions métaboliques au sein des écosystèmes microbiens en mettant l’emphase sur l’explication des mécanismes cellulaires qui justifient les interactions bactériennes. Des solutions numériques sont majoritairement utilisées - assurant la précision des résultats - mais sont confrontées à l'importante combinatoire engendrée par les interactions bactériennes pour des communautés de grande taille. Les réponses apportées par les approches discrètes surmontent la problématique du passage à l'échelle mais sont limitées à une analyse par paire d'organismes. Afin d'identifier un potentiel ajustement méthodologique - conciliant les avantages des deux démarches, \textit{i.e.} trouver une approche hybride - une première contribution se focalise sur le développement d'un modèle numérique dynamique et précis d'une communauté fromagère composé de trois souches. Notre stratégie itérative a permis l'intégration de données hétérogènes au moyen d'étapes de raffinement et de calibration dynamique. Ces allers-retours entre la connaissance et le modèle ont assuré la bonne prédiction des concentrations des métabolites dosés en métabolomique ainsi que des densités bactériennes au cours de la cinétique de fabrication du fromage. Dans une seconde contribution, nous proposons un modèle par raisonnement permettant de cibler des potentiels de coopération et de compétition dans des communautés bactériennes. Ce modèle repose sur l'inférence de règles logiques inférées de la biologie pour évaluer et comparer les potentiels d'interaction de communautés. Des potentiels d'interaction spécifiques à des écosystèmes ont été révélés ainsi que la pertinence de son utilisation grâce à sa rapidité d'exécution. Enfin, la troisième contribution est une réflexion portant sur l'enrichissement du modèle logique.  Nous proposons un prototype s'appuyant sur l'inférence de règles logiques et permettant de (i) sélectionner la meilleure communauté à partir de contraintes biologiques et (ii) d'apporter une notion temporelle, pouvant influencer les potentiels d'interactions. Par cette thèse, nous avons montré que la construction d’un modèle de modélisation hybride du métabolisme n’est pas exigée, mais qu’une approche hybride, utilisant des modèles numériques, pour des communautés de petites tailles et des modèles discrets, pour analyser rapidement les communautés de taille réelle semble être pertinente. 
+
+
+
+
+%
+%
+%
+%
+%
+%
+%Cette thèse porte sur des méthodes numériques et discrètes de modélisation du métabolisme permettant d’analyser et expliquer le fonctionnement des écosystèmes microbiens. Ces biotopes sont sujets à des mécanismes d’interaction microbiens complexes avec son environnement, participant à l'équilibre de l'écosystème. Ces échanges microbiens que nous avons étudiés sont d'origine métabolique et ont des conséquences positives et/ou négatives sur les bactéries, et plus généralement sur l'écosystème. La caractérisation de ces échanges est rendue difficile en raison de leur nombre, augmentant avec la taille de la communauté, c'est à du nombre distinct de taxa. Le défi de cette thèse est de développer une approche hybride, utilisant le formalisme numérique et discret, pour analyser les écosystèmes microbiens en mettant en avant ces interactions métaboliques.  \maxime{Il manque une phrase sur les données non ?}
+%
+%Le premier chapitre de cette thèse porte sur les différentes méthodes d'analyse du métabolisme au moyen d'une représentation de ce dernier: le réseau métabolique. Une première partie est concentrée sur les outils existants construisant un réseau métabolique à partir d'un génome. Puis une deuxième partie montrera les apports numériques et discrets sur l'analyse d'un réseau métabolique à l'échelle d'un génome. Enfin la troisième partie montrera l'application et les limites de ces méthodes sur des communautés et écosystèmes microbiens.
+%
+%Le deuxième chapitre se concentre sur l'analyse numérique d'une communauté fromagère composée de trois bactéries: \lactis, \plantarum et \freud, essentielles pour la libération des composés d'arômes présents dans le fromage. L'application intéressante de ce chapitre est l'apport de données biologiques hétérogènes dans les différentes optimisations numériques afin de créer un modèle numérique fiable et explicable. En effet, le modèle numérique modélise dynamiquement la croissance des souches bactériennes ainsi que la libération des arômes lors du processus de fermentation. Les voies métaboliques activées sont explicitées, les concentrations des métabolites et densities microbiennes retrouvées et des hypothèses d'interaction métabolique formulées.
+%
+%Le troisième chapitre se focalise sur la mise en évidence de potentiels de coopération et de compétition au moyen d'une approche discrète se basant sur un modèle de raisonnement. L'idée principale consiste à densifier les informations portant sur l'analyse des communautés microbiennes de grande taille, tout en conservant l'applicabilité du résultat. Notre approche par le raisonnement permet ainsi cribler rapidement et de comparer les potentiels d'interaction des communautés microbiennes de taille importante. De plus, notre approche contribue à la formulation d'hypothèses d'interaction en identifiant les taxa impliqués dans des interactions, ainsi que les métabolites intervenant dans les interactions.
+%
+%Enfin, le quatrième chapitre clôture cette thèse interdisciplinaire en proposant deux moyens pour enrichir le modèle logique. Tout d'abord, nous proposons de restreindre les sorties du modèle logique en permettant la sélection de communautés microbiennes répondant aux caractéristiques demandées par l'utilisateur ou l'utilisatrice. Ils ou elles peuvent décider de la composition taxonomique de la communauté finale ainsi que les critères biologiques que la communauté doit privilégier. Enfin, nous proposons un enrichissement pseudo-temporel du modèle logique, qui apporte une information d'ordonnancement des processus activés dans la communauté. \\
+
+
+\textbf{Mots clés: réseaux métaboliques, communautés microbiennes, modélisation numérique et discrète} \\
+
+\textbf{Laboratoire d'acceuil:} Centre Inria de l'université de Bordeaux, 200 av. de la Vieille Tour, 33405 Talence.  
+
+\newpage
+
+\textbf{Title:}
+
+\textbf{abstract:}
+
+
+
+
+
+\textbf{Key words:}
+
+\end{document}

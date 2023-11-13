@@ -1,0 +1,19 @@
+\babel@toc {french}{}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Modélisation du métabolisme: d'une cellule à un écosystème}{13}{chapter.1}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Modèle numérique du métabolisme bactérien au cours de la production d'un fromage}{38}{chapter.2}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces \textbf {Données de cultures pures utilisés pour calibrer chaque souche. Temps en heures et les valeurs de densités bactériennes représentent des moyennes sur les différents réplicats en $\text {g.DW}^{-1}$.} }}{42}{table.2.1}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces \textbf {Données de dosage d'acide en g/L pour \textit {P.~freudenreichii}\xspace .}}}{42}{table.2.2}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces \textbf {Donnes de croissance en co-culture pour tester les prédictions de notre modèle de communauté} }}{43}{table.2.3}%
+\contentsline {table}{\numberline {2.4}{\ignorespaces \textbf {Données de pH.}}}{43}{table.2.4}%
+\contentsline {table}{\numberline {2.5}{\ignorespaces \textbf {Ensemble des paramètres optimisés pour chaque modèle individuel avec leur fonction.} }}{47}{table.2.5}%
+\contentsline {table}{\numberline {2.6}{\ignorespaces Caractéristiques générales des 3 modèles métaboliques}}{55}{table.2.6}%
+\contentsline {table}{\numberline {2.7}{\ignorespaces \textbf {Raffinement manuel des GEMs avec les justifications correspondantes} }}{56}{table.2.7}%
+\contentsline {table}{\numberline {2.8}{\ignorespaces \textbf {Métabolites échangeable sur la communauté du fromage identifiés par MICOM} Abréviations: Ll, \textit {L.~lactis}\xspace ; Lp, \textit {L.~plantarum}\xspace , Pf, \textit {P.~freudenreichii}\xspace }}{70}{table.2.8}%
+\contentsline {table}{\numberline {2.9}{\ignorespaces \textbf {Métabolites échangeable sur la communauté du fromage identifiés par SMETANA.} Abréviations: Ll, \textit {L.~lactis}\xspace ; Lp, \textit {L.~plantarum}\xspace , Pf, \textit {P.~freudenreichii}\xspace }}{71}{table.2.9}%
+\contentsline {table}{\numberline {2.10}{\ignorespaces \textbf {Liste de métabolites prédits par Metage2Metabo comme étant productibles uniquement par coopération métabolique}}}{73}{table.2.10}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Modèle discret pour le criblage haut-débit du potentiel d'interaction métabolique dans les écosystèmes microbiens complexes}{79}{chapter.3}%
+\begingroup \@safe@activestrue{ \endgroup {table.3.1}
+\begingroup \@safe@activestrue{ \endgroup {table.3.2}
