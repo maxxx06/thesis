@@ -16,10 +16,11 @@
 \usepackage{pgfplots}
 
 \usepackage{graphicx}
-
+\usepackage{kbordermatrix} 
 
 \usepackage{tikz}
 \usetikzlibrary{tikzmark}
+\usetikzlibrary {graphs,shapes.geometric}
  
 \usepackage{multimedia}
 \usepackage{sidecap}
@@ -48,7 +49,8 @@
 
 \definecolor{mygreen}{rgb}{0, 0.6, 0}
 
-
+\renewcommand{\kbldelim}{(}% Left delimiter
+\renewcommand{\kbrdelim}{)}% Right delimiter
 
 %%% Définition de l'en-tête de page
 \setbeamercolor{headcolor1}{fg=white,bg=blue!70}
@@ -341,12 +343,151 @@ Associate an organism to a system and study the all system \tiny \citep{Kitano20
 \caption{System biology modified from \cite{Kitano2002}}
 \end{figure}
 \end{minipage}
-\vspace{-0.3cm}
+\vspace{-0.2cm}
 \begin{block}{}
 \begin{itemize}
 \item System biology combines biology and informatic analysis for studying bacterial behavior
 \end{itemize}
 \end{block}
+\end{frame}
+
+
+\section{Background}
+\begin{frame}
+\frametitle{How the computational phase is concretely achieve ?}
+\framesubtitle{Metabolic network representation}
+\only<1>{
+$r_1 : $2 pyr $\rightarrow$ 1 acetoL + 1 $\text{CO}_2$ \\
+$r_2 : $1 acetoL  $\rightarrow$ 1 diac  + 1 $\text{CO}_2$ \\ 
+$r_3 : $1 acetoL  $\rightarrow$ 1 acetoin + 1 $\text{CO}_2$ \\
+$r_4 : $1 diac $\rightarrow$ 1 acetoin \\
+$r_5 : $1 acetoin  $\rightarrow$1 butanediol \\
+
+}
+
+\only<2>{
+
+$r_1 : $2 pyr $\rightarrow$ 1 acetoL + 1 $\text{CO}_2$ \\
+$r_2 : $1 acetoL  $\rightarrow$ 1 diac  + 1 $\text{CO}_2$ \\ 
+$r_3 : $1 acetoL  $\rightarrow$ 1 acetoin + 1 $\text{CO}_2$ \\
+$r_4 : $1 diac $\rightarrow$ 1 acetoin \\
+$r_5 : $1 acetoin  $\rightarrow$1 butanediol \\
+
+
+\begin{minipage}{0.5\textwidth}
+\textbf{Stoichiometry matrix}
+
+
+\[
+  \kbordermatrix{
+     & r_1  & r_2 & r_3 & r_4 & r_5 \\
+    \text{pyr}                                           & -2 & 0 & 0 & 0 & 0 \\
+    \text{acetoL}                      & 1 & -1 & -1 & 0 & 0  \\
+    \text{diac}                      & 0 & 1 & 0 & -1 & 0  \\
+    \text{CO}_2         & 1 & 1 & 1 & 0 & 0    \\
+    \text{acetoin}         & 0 & 0 & 1 & 1 & -1   \\
+    \text{butanediol}         & 0 & 0 & 0 & 0 & 1  \\
+        }
+\]
+
+
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
+
+
+\end{minipage}
+}
+
+\only<3>{
+
+$r_1 : $2 pyr $\rightarrow$ 1 acetoL + 1 $\text{CO}_2$ \\
+$r_2 : $1 acetoL  $\rightarrow$ 1 diac  + 1 $\text{CO}_2$ \\ 
+$r_3 : $1 acetoL  $\rightarrow$ 1 acetoin + 1 $\text{CO}_2$ \\
+$r_4 : $1 diac $\rightarrow$ 1 acetoin \\
+$r_5 : $1 acetoin  $\rightarrow$1 butanediol \\
+
+
+\begin{minipage}{0.5\textwidth}
+\textbf{Stoichiometry matrix}
+\[
+  \kbordermatrix{
+     & r_1  & r_2 & r_3 & r_4 & r_5 \\
+    \text{pyr}                                           & -2 & 0 & 0 & 0 & 0 \\
+    \text{acetoL}                      & 1 & -1 & -1 & 0 & 0  \\
+    \text{diac}                      & 0 & 1 & 0 & -1 & 0  \\
+    \text{CO}_2         & 1 & 1 & 1 & 0 & 0    \\
+    \text{acetoin}         & 0 & 0 & 1 & 1 & -1   \\
+    \text{butanediol}         & 0 & 0 & 0 & 0 & 1  \\
+        }
+\]
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
+\textbf{bipartite graph}
+
+\begin{tikzpicture}
+\node (x) [circle, draw] at (0,0)   {pyr};
+  \node (a) [circle, draw] at (2,0)   {acetoL};
+    \node (b) [circle, draw] at (4,0)   {diac};
+      \node (c) [circle, draw] at (3,1)   {$ \text{CO}_2 $};
+        \node (d) [circle, draw] at (5,-1)   {acetoin};
+          \node (e) [circle, draw] at (3.5,-2)   {butanediol};
+          
+  \node (f) [rectangle, draw] at (1,0) {$r_1$};
+  	\node (g) [rectangle, draw] at (3,0)  {$r_2$};
+  	  \node (h) [rectangle, draw] at (5,0)   {$r_3$};
+  		\node (i) [rectangle, draw] at (4,-1)   {$r_4$};
+  		  \node (j) [rectangle, draw] at (5,-2)   {$r_5$};
+
+  \graph { (x) -> (f) -> (a) };
+   \graph { (x) -> (f) -> (c) };
+   \graph { (a) -> (g) -> (c) };
+    \graph { (a) -> (g) -> (b) };
+	\graph { (b) -> (h) -> (c) };      
+	 \graph { (b) -> (h) -> (d) };            
+	 	 \graph { (b) -> (i) -> (d) };       
+	 	 	 	 \graph { (d) -> (j) -> (e) };                 
+	 
+\end{tikzpicture}
+
+\end{minipage}
+
+\begin{block}{}
+\textbf{Stoichiometry matrix} is commonly used for quantitative analysis instead of \textbf{graph}, more focused on topology analysis
+\end{block}
+
+
+}
+
+
+\end{frame}
+
+
+\begin{frame}
+\only<1>{
+\frametitle{How the computational phase is concretely achieve ?}
+\framesubtitle{Build a metabolic model}
+\begin{exampleblock}{Metabolic model}
+From a GEM, a model metabolic has the capacity to simulate and to predict on the metabolic content
+\end{exampleblock}
+}
+
+\only<2>{
+\frametitle{How the computational phase is concretely achieve ?}
+\framesubtitle{Build a metabolic model}
+\begin{exampleblock}{Metabolic model}
+From a GEM, a model metabolic has the capacity to simulate and to predict on the metabolic content
+\end{exampleblock}
+\begin{minipage}{0.5\textwidth}
+\textbf{Constraint-based approaches}
+\[
+\frac{dx}{dt} = S . v = 0
+\]
+
+\end{minipage}
+
+}
+
+
 \end{frame}
 
 \begin{frame}{Objectifs de la thèse}
