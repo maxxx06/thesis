@@ -17,6 +17,82 @@
 \endgroup
 
 \datalist[entry]{nyt/global//global/global}
+  \entry{Belcour.2020}{article}{}
+    \name{author}{6}{}{%
+      {{hash=BA}{%
+         family={Belcour},
+         familyi={B\bibinitperiod},
+         given={Arnaud},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FC}{%
+         family={Frioux},
+         familyi={F\bibinitperiod},
+         given={Cl{\'{e}}mence},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Aite},
+         familyi={A\bibinitperiod},
+         given={M{\'{e}}ziane},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bretaudeau},
+         familyi={B\bibinitperiod},
+         given={Anthony},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HF}{%
+         family={Hildebrand},
+         familyi={H\bibinitperiod},
+         given={Falk},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Siegel},
+         familyi={S\bibinitperiod},
+         given={Anne},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BA+1}
+    \strng{fullhash}{BAFCAMBAHFSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    To capture the functional diversity of microbiota, one must identify
+  metabolic functions and species of interest within hundreds or thousands of
+  microorganisms. We present Metage2Metabo (M2M) a resource that meets the need
+  for de-novo functional screening of genome-scale metabolic networks (GSMNs)
+  at the scale of a metagenome, and the identi1cation of critical species with
+  respect to metabolic cooperation. M2M comprises a 2exible pipeline for the
+  characterisation of individual metabolisms and collective metabolic
+  complementarity. In addition, M2M identies key species, that are meaningful
+  members of the community for functions of interest. We demonstrate that M2M
+  is applicable to collections of genomes as well as metagenome-assembled
+  genomes, permits an eZcient GSMN reconstruction with Pathway Tools, and
+  assesses the cooperation potential between species. M2M identies key
+  organisms by reducing the complexity of a large-scale microbiota into minimal
+  communities with equivalent properties, suitable for further analyses.%
+    }
+    \verb{doi}
+    \verb 10.7554/eLife.61968
+    \endverb
+    \field{issn}{2050084X}
+    \field{title}{{Metage2metabo, microbiota-scale metabolic complementarity
+  for the identi1cation of key species}}
+    \verb{file}
+    \verb :Users/mlecomte/Downloads/biblio_pdf/elife-61968-v2.pdf:pdf
+    \endverb
+    \field{journaltitle}{eLife}
+    \field{year}{2020}
+  \endentry
+
   \entry{BELKAID2014121}{article}{}
     \name{author}{2}{}{%
       {{hash=BY}{%
@@ -68,6 +144,63 @@
     \field{volume}{157}
     \field{journaltitle}{Cell}
     \field{year}{2014}
+  \endentry
+
+  \entry{Ebenhoh2004}{article}{}
+    \name{author}{3}{}{%
+      {{hash=EO}{%
+         family={Ebenh{\"{o}}h},
+         familyi={E\bibinitperiod},
+         given={Oliver},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Handorf},
+         familyi={H\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HR}{%
+         family={Heinrich},
+         familyi={H\bibinitperiod},
+         given={Reinhart},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EOHTHR1}
+    \strng{fullhash}{EOHTHR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{abstract}{%
+    Methods are developed for structural analysis of metabolic networks
+  expanding in size. Expansion proceeds in consecutive generations in which new
+  reactions are attached to the network produced in the previous stage.
+  Different rules are applied resulting in various modes of expansion.
+  Expansion is performed on the set of glycolytic reactions as well as on a
+  very large set of reactions taken from the KEGG database. It is shown that
+  reactions and compounds strongly differ in the generation in which they are
+  attached to the network allowing conclusions for the temporal order of the
+  acquisition during network evolution. The expansion provides efficient tools
+  for detecting new structural characteristics such as substrate-product
+  relationships over long distances.%
+    }
+    \field{issn}{09199454}
+    \field{number}{1}
+    \field{pages}{35\bibrangedash 45}
+    \field{title}{{Structural analysis of expanding metabolic networks.}}
+    \field{volume}{15}
+    \verb{file}
+    \verb :Users/mlecomte/Library/Application Support/Mendeley Desktop/Download
+    \verb ed/Ebenh{\"{o}}h, Handorf, Heinrich - 2004 - Structural analysis of e
+    \verb xpanding metabolic networks.pdf:pdf
+    \endverb
+    \field{journaltitle}{Genome informatics. International Conference on Genome
+  Informatics}
+    \field{year}{2004}
   \endentry
 
   \entry{Faust2012}{article}{}
@@ -126,6 +259,83 @@
     \field{year}{2012}
   \endentry
 
+  \entry{Frioux2018}{article}{}
+    \name{author}{4}{}{%
+      {{hash=FC}{%
+         family={Frioux},
+         familyi={F\bibinitperiod},
+         given={Cl{\'{e}}mence},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FE}{%
+         family={Fremy},
+         familyi={F\bibinitperiod},
+         given={Enora},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Trottier},
+         familyi={T\bibinitperiod},
+         given={Camille},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Siegel},
+         familyi={S\bibinitperiod},
+         given={Anne},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FC+1}
+    \strng{fullhash}{FCFETCSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    The selection of species exhibiting metabolic behaviors of interest is a
+  challenging step when switching from the investigation of a large microbiota
+  to the study of functions effectiveness. Approaches based on a
+  compartmentalized framework are not scalable. The output of scalable
+  approaches based on a non-compartmentalized modeling may be so large that it
+  has neither been explored nor handled so far.We present the Miscoto tool to
+  facilitate the selection of a community optimizing a desired function in a
+  microbiome by reporting several possibilities which can be then sorted
+  according to biological criteria. Communities are exhaustively identified
+  using logical programming and by combining the non-compartmentalized and the
+  compartmentalized frameworks. The benchmarking of 4.9 million metabolic
+  functions associated with the Human Microbiome Project, shows that Miscoto is
+  suited to screen and classify metabolic producibility in terms of
+  feasibility, functional redundancy and cooperation processes involved. As an
+  illustration of a host-microbial system, screening the Recon 2.2 human
+  metabolism highlights the role of different consortia within a family of 773
+  intestinal bacteria.Miscoto source code, instructions for use and examples
+  are available at: https://github.com/cfrioux/miscoto.%
+    }
+    \verb{doi}
+    \verb 10.1093/bioinformatics/bty588
+    \endverb
+    \field{issn}{1367-4803}
+    \field{number}{17}
+    \field{pages}{i934\bibrangedash i943}
+    \field{title}{{Scalable and exhaustive screening of metabolic functions
+  carried out by microbial consortia}}
+    \verb{url}
+    \verb https://doi.org/10.1093/bioinformatics/bty588
+    \endverb
+    \field{volume}{34}
+    \verb{file}
+    \verb :Users/mlecomte/Library/Application Support/Mendeley Desktop/Download
+    \verb ed/Frioux et al. - 2018 - Scalable and exhaustive screening of metabo
+    \verb lic functions carried out by microbial consortia.pdf:pdf
+    \endverb
+    \field{journaltitle}{Bioinformatics}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Hoorman2011}{article}{}
     \name{author}{1}{}{%
       {{hash=HJJ}{%
@@ -150,6 +360,51 @@
     \endverb
     \field{journaltitle}{The Ohio State University Extension}
     \field{year}{2011}
+  \endentry
+
+  \entry{Kaufmann2016GroundingAS}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KB}{%
+         family={Kaufmann},
+         familyi={K\bibinitperiod},
+         given={Benjamin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LN}{%
+         family={Leone},
+         familyi={L\bibinitperiod},
+         given={Nicola},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Perri},
+         familyi={P\bibinitperiod},
+         given={Simona},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Schaub},
+         familyi={S\bibinitperiod},
+         given={Torsten},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KB+1}
+    \strng{fullhash}{KBLNPSST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{pages}{25\bibrangedash 32}
+    \field{title}{Grounding and Solving in Answer Set Programming}
+    \verb{url}
+    \verb https://api.semanticscholar.org/CorpusID:30782765
+    \endverb
+    \field{volume}{37}
+    \field{journaltitle}{AI Mag.}
+    \field{year}{2016}
   \endentry
 
   \entry{Kitano2002}{article}{}
@@ -319,6 +574,49 @@
     \endverb
     \field{journaltitle}{Lait}
     \field{year}{2000}
+  \endentry
+
+  \entry{Orth2010}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=OJD}{%
+         family={Orth},
+         familyi={O\bibinitperiod},
+         given={Jeffrey\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=TI}{%
+         family={Thiele},
+         familyi={T\bibinitperiod},
+         given={Ines},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=PBO}{%
+         family={Palsson},
+         familyi={P\bibinitperiod},
+         given={Bernhard\bibnamedelima O.},
+         giveni={B\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OJDTIPBO1}
+    \strng{fullhash}{OJDTIPBO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{booktitle}{Nature Biotechnology}
+    \verb{doi}
+    \verb 10.1038/nbt.1614
+    \endverb
+    \field{issn}{10870156}
+    \field{title}{{What is flux balance analysis?}}
+    \verb{file}
+    \verb :Users/mlecomte/Library/Application Support/Mendeley Desktop/Download
+    \verb ed/Orth, Thiele, Palsson - 2010 - What is flux balance analysis.pdf:p
+    \verb df
+    \endverb
+    \field{year}{2010}
   \endentry
 
   \entry{10.1093/chemse/bjh067}{article}{}

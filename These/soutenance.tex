@@ -26,6 +26,7 @@
 \usepackage{sidecap}
 
 \usepackage{hanging}
+\usepackage{listings} 
 
 \usepackage[natbib=true,style=authoryear,backend=bibtex,useprefix=true]{biblatex}
 \addbibresource{bib.bib}
@@ -37,6 +38,26 @@
 
 \newcommand*{\Scale}[2][4]{\scalebox{#1}{$\displaystyle{#2}$}}%
 \newcommand{\ml}[1]{\textcolor{blue}{[\emph{ML} -- #1]}}
+
+\lstset
+{
+    language=[LaTeX]TeX,
+    breaklines=true,
+    basicstyle=\tt\normalsize,
+    keywordstyle=\color{blue},
+    identifierstyle=\color{magenta},
+    frame = single,
+    numbers=left,
+	numberstyle=\tiny \bf \color{blue},
+	stepnumber=1,	
+	numbersep=10pt,
+	firstnumber=1,
+	numberfirstline=true
+}
+
+\lstdefinestyle{asp}{
+     basicstyle=\tt\footnotesize,
+}
 
 
 \usefonttheme[onlymath]{serif} %% Pour écrire les maths comme dans les documents latex classiques
@@ -158,9 +179,10 @@ Encadrement: & Clémence FRIOUX
 
 \begin{frame}
 \frametitle{Why the study of microorganisms is relevant ?}
-\centering
-\includegraphics[width=\textwidth]{figures/bacterial-env.pdf}
-
+\begin{figure}[t]
+\centering   
+\includegraphics[width=0.9\textwidth]{figures/bacterial-env.pdf}
+\end{figure}
 \begin{block}{}
 \begin{itemize}
 \item High diversity of microorganisms
@@ -169,6 +191,19 @@ Encadrement: & Clémence FRIOUX
 \end{block}
 \end{frame}
 
+\begin{frame}
+\frametitle{Bacterial interaction are responsible of the observed roles}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/interaction.png}
+    \caption{List of different types of bacterial interactions \tiny \citep{Faust2012} }
+\end{figure}
+\begin{block}{}
+Easy to distinguish bacterial interactions effects within two species
+\end{block}
+
+\end{frame}
 
 \begin{frame}
 \frametitle{What underlying mechanisms are responsible of the observed activity ?}
@@ -463,37 +498,316 @@ $r_5 : $1 acetoin  $\rightarrow$1 butanediol \\
 
 
 \begin{frame}
+\frametitle{Numerical metabolic model of the metabolism}
+
 \only<1>{
-\frametitle{How the computational phase is concretely achieve ?}
-\framesubtitle{Build a metabolic model}
+\framesubtitle{definition}
 \begin{exampleblock}{Metabolic model}
 From a GEM, a model metabolic has the capacity to simulate and to predict on the metabolic content
 \end{exampleblock}
 }
 
 \only<2>{
-\frametitle{How the computational phase is concretely achieve ?}
+
 \framesubtitle{Build a metabolic model}
 \begin{exampleblock}{Metabolic model}
 From a GEM, a model metabolic has the capacity to simulate and to predict on the metabolic content
 \end{exampleblock}
-\begin{minipage}{0.5\textwidth}
 \textbf{Constraint-based approaches}
-\[
-\frac{dx}{dt} = S . v = 0
-\]
+\begin{minipage}{0.6\textwidth}
+\includegraphics[width=0.8\textwidth]{figures/fba}
+\end{minipage}%
+\begin{minipage}{0.4\textwidth}
+\begin{figure}
+\caption{Illustration of the Flux balance analysis \tiny \citep{Orth2010}}
+\end{figure}
 
+\begin{block}{}
+\begin{itemize}
+\item Topology and stoichiometry of metabolic goods
+\item Can explain metabolic  observations through reaction fluxes
+\item difficult to apply in larger scale
+\end{itemize}
+\end{block}
+\end{minipage}
+
+}
+\end{frame}
+
+\begin{frame}[fragile]
+%[containsverbatim]
+\frametitle{Reasoning-based metabolic analysis}
+
+\begin{onlyenv}<1>
+\framesubtitle{Definition}
+\begin{exampleblock}{Reasoning-based}
+Allow us to infer qualitative models from logical rules based on biological knowledge
+\end{exampleblock}
+\end{onlyenv}
+
+\begin{onlyenv}<2>
+\begin{exampleblock}{Reasoning-based}
+Allow us to infer qualitative models from logical rules based on biological knowledge
+\end{exampleblock}
+\textbf{topological-based approaches}\\
+\begin{minipage}{0.5\textwidth}
+\begin{tikzpicture}
+   \node (x) [circle, draw] at (0,0)   {X};
+   \node (a) [circle, draw] at (2,0)   {A};
+   \node (b) [circle, draw] at (4,0)   {C};
+   \node (c) [circle, draw] at (3,1)   {D};
+   \node (d) [circle, draw] at (5,-1)   {E};
+   \node (e) [circle, draw] at (3.5,-2)   {F};
+          
+    \node (f) [rectangle, draw] at (1,0) {$r_1$};
+  	\node (g) [rectangle, draw] at (3,0)  {$r_2$};
+  	\node (h) [rectangle, draw] at (5,0)   {$r_3$};
+  	\node (i) [rectangle, draw] at (4,-1)   {$r_4$};
+  	\node (j) [rectangle, draw] at (5,-2)   {$r_5$};
+
+    \graph { (x) -> (f) -> (a) };
+    \graph { (x) -> (f) -> (c) };
+    \graph { (a) -> (g) -> (c) };
+    \graph { (a) -> (g) -> (b) };
+	\graph { (b) -> (h) <-> (c) };
+	\graph { (b) -> (h) -> (d) };            
+	\graph { (b) <- (i) <- (d) };       
+	\graph { (d) <- (j) <- (e) };               
+\end{tikzpicture}
+
+\begin{block}{}
+How to compute metabolic capability ?
+\end{block}
+\end{minipage}%
+\end{onlyenv}
+
+\begin{onlyenv}<3>
+\begin{exampleblock}{Reasoning-based}
+Allow us to infer qualitative models from logical rules based on biological knowledge
+\end{exampleblock}
+\textbf{topological-based approaches}
+\begin{minipage}{0.5\textwidth}
+\hspace{-0.15\textwidth}
+\begin{tikzpicture}
+   \node (x) [circle, draw] at (0,0)   {X};
+   \node (a) [circle, draw] at (2,0)   {A};
+   \node (b) [circle, draw] at (4,0)   {C};
+   \node (c) [circle, draw] at (3,1)   {D};
+   \node (d) [circle, draw] at (5,-1)   {E};
+   \node (e) [circle, draw] at (3.5,-2)   {F};
+          
+    \node (f) [rectangle, draw] at (1,0) {$r_1$};
+  	\node (g) [rectangle, draw] at (3,0)  {$r_2$};
+  	\node (h) [rectangle, draw] at (5,0)   {$r_3$};
+  	\node (i) [rectangle, draw] at (4,-1)   {$r_4$};
+  	\node (j) [rectangle, draw] at (5,-2)   {$r_5$};
+
+    \graph { (x) -> (f) -> (a) };
+    \graph { (x) -> (f) -> (c) };
+    \graph { (a) -> (g) -> (c) };
+    \graph { (a) -> (g) -> (b) };
+	\graph { (b) -> (h) <-> (c) };
+	\graph { (b) -> (h) -> (d) };            
+	\graph { (b) <- (i) <- (d) };       
+	\graph { (d) <- (j) <- (e) };               
+\end{tikzpicture}
+\end{minipage}%
+\begin{minipage}{0.55\textwidth}
+\begin{lstlisting}[style=asp]
+scope(M) :- seed(M).
+scope(M) :- bacteria(B), product(M,R,B), reaction(R,B), scope(M2) : reactant(M2,R,B).
+\end{lstlisting}
+\end{minipage}
+
+\begin{block}{}
+Logical rules using Answer set programming describe scope a network \tiny \citep{Ebenhoh2004}
+\end{block}
+\end{onlyenv}
+\end{frame}
+
+\begin{frame}
+\frametitle{Why using Answer Set Programming}
+\centering
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{figures/asp}
+\caption{The workflow of Answer set programming (ASP) \tiny \citep{Kaufmann2016GroundingAS}}
+\end{figure}
+\begin{block}{}
+\begin{itemize}
+\item Explainable model
+\item Solve combinatorial problem
+\end{itemize}
+
+\end{block}
+\end{frame}
+
+\begin{frame}
+
+\only<1> {
+\frametitle{Reasoning-based metabolic analysis}
+\begin{exampleblock}{Reasoning-based}
+Allow us to infer qualitative models from logical rules based on biological knowledge
+\end{exampleblock}
+\textbf{topological-based approaches}
+\begin{minipage}{0.5\textwidth}
+\hspace{-0.05\textwidth}
+\begin{tikzpicture}
+   \node (x) [circle, draw,fill=black!30!yellow] at (0,0)   {X};
+   \node (a) [circle, draw] at (2,0)   {A};
+   \node (b) [circle, draw] at (4,0)   {C};
+   \node (c) [circle, draw] at (3,1)   {D};
+   \node (d) [circle, draw] at (5,-1)   {E};
+   \node (e) [circle, draw] at (3.5,-2)   {F};
+          
+    \node (f) [rectangle, draw] at (1,0) {$r_1$};
+  	\node (g) [rectangle, draw] at (3,0)  {$r_2$};
+  	\node (h) [rectangle, draw] at (5,0)   {$r_3$};
+  	\node (i) [rectangle, draw] at (4,-1)   {$r_4$};
+  	\node (j) [rectangle, draw] at (5,-2)   {$r_5$};
+
+    \graph { (x) -> (f) -> (a) };
+    \graph { (x) -> (f) -> (c) };
+    \graph { (a) -> (g) -> (c) };
+    \graph { (a) -> (g) -> (b) };
+	\graph { (b) -> (h) <-> (c) };
+	\graph { (b) -> (h) -> (d) };            
+	\graph { (b) <- (i) <- (d) };            
+	\graph { (d) <- (j) <- (e) };               
+\end{tikzpicture}
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
+\hspace{0.05\textwidth}
+\begin{tikzpicture}
+   \node (x) [circle, draw,fill=black!30!yellow] at (0,0)   {X};
+   \node (a) [circle, draw,fill=white!60!yellow] at (2,0)   {A};
+   \node (b) [circle, draw] at (4,0)   {C};
+   \node (c) [circle, draw,fill=white!60!yellow] at (3,1)   {D};
+   \node (d) [circle, draw] at (5,-1)   {E};
+   \node (e) [circle, draw] at (3.5,-2)   {F};
+          
+    \node (f) [rectangle, draw,fill=white!60!yellow] at (1,0) {$r_1$};
+  	\node (g) [rectangle, draw] at (3,0)  {$r_2$};
+  	\node (h) [rectangle, draw] at (5,0)   {$r_3$};
+  	\node (i) [rectangle, draw] at (4,-1)   {$r_4$};
+  	\node (j) [rectangle, draw] at (5,-2)   {$r_5$};
+
+    \graph { (x) -> (f) -> (a) };
+    \graph { (x) -> (f) -> (c) };
+    \graph { (a) -> (g) -> (c) };
+    \graph { (a) -> (g) -> (b) };
+	\graph { (b) -> (h) <-> (c) };
+	\graph { (b) -> (h) -> (d) };            
+	\graph { (b) <- (i) <- (d) };             
+	\graph { (d) <- (j) <- (e) };    
+\end{tikzpicture}
 \end{minipage}
 
 }
 
+\only<2> {
+\frametitle{Reasoning-based metabolic analysis}
+\begin{exampleblock}{Reasoning-based}
+Allow us to infer qualitative models from logical rules based on biological knowledge
+\end{exampleblock}
+\textbf{topological-based approaches}
+\begin{minipage}{0.5\textwidth}
+\hspace{-0.05\textwidth}
+\begin{tikzpicture}
+   \node (x) [circle, draw,fill=black!30!yellow] at (0,0)   {X};
+   \node (a) [circle, draw,fill=white!60!yellow] at (2,0)   {A};
+   \node (b) [circle, draw,fill=white!60!yellow] at (4,0)   {C};
+   \node (c) [circle, draw,fill=white!60!yellow] at (3,1)   {D};
+   \node (d) [circle, draw] at (5,-1)   {E};
+   \node (e) [circle, draw] at (3.5,-2)   {F};
+          
+    \node (f) [rectangle, draw,fill=white!60!yellow] at (1,0) {$r_1$};
+  	\node (g) [rectangle, draw,fill=white!60!yellow] at (3,0)  {$r_2$};
+  	\node (h) [rectangle, draw] at (5,0)   {$r_3$};
+  	\node (i) [rectangle, draw] at (4,-1)   {$r_4$};
+  	\node (j) [rectangle, draw] at (5,-2)   {$r_5$};
+
+    \graph { (x) -> (f) -> (a) };
+    \graph { (x) -> (f) -> (c) };
+    \graph { (a) -> (g) -> (c) };
+    \graph { (a) -> (g) -> (b) };
+	\graph { (b) -> (h) <-> (c) };
+	\graph { (b) -> (h) -> (d) };            
+	\graph { (b) <- (i) <- (d) };         
+	\graph { (d) <- (j) <- (e) };               
+\end{tikzpicture}
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
+\hspace{0.05\textwidth}
+\begin{tikzpicture}
+   \node (x) [circle, draw,fill=black!30!yellow] at (0,0)   {X};
+   \node (a) [circle, draw,fill=white!60!yellow] at (2,0)   {A};
+   \node (b) [circle, draw,fill=white!60!yellow] at (4,0)   {C};
+   \node (c) [circle, draw,fill=white!60!yellow] at (3,1)   {D};
+   \node (d) [circle, draw,fill=white!60!yellow] at (5,-1)   {E};
+   \node (e) [circle, draw] at (3.5,-2)   {F};
+          
+    \node (f) [rectangle, draw,fill=white!60!yellow] at (1,0) {$r_1$};
+  	\node (g) [rectangle, draw,fill=white!60!yellow] at (3,0)  {$r_2$};
+  	\node (h) [rectangle, draw,fill=white!60!yellow] at (5,0)   {$r_3$};
+  	\node (i) [rectangle, draw] at (4,-1)   {$r_4$};
+  	\node (j) [rectangle, draw] at (5,-2)   {$r_5$};
+
+    \graph { (x) -> (f) -> (a) };
+    \graph { (x) -> (f) -> (c) };
+    \graph { (a) -> (g) -> (c) };
+    \graph { (a) -> (g) -> (b) };
+	\graph { (b) -> (h) <-> (c) };
+	\graph { (b) -> (h) -> (d) };            
+	\graph { (b) <- (i) <- (d) };           
+	\graph { (d) <- (j) <- (e) };    
+\end{tikzpicture}
+\end{minipage}
+\begin{block}{}
+\begin{itemize}
+\item The potential metabolic capability and topology dependant
+\item Scale to large community \tiny \citep{Belcour.2020,Frioux2018}
+\item \normalsize Assessment of objective function ?
+\end{itemize}
+\end{block}
+
+}
 
 \end{frame}
 
-\begin{frame}{Objectifs de la thèse}
+\begin{frame}{Contributions and objective}
+\begin{block}{Objective}
+ Contribute to analyzing metabolic interactions of bacterial communities associated to two use cases: controlled and uncontrolled environment
+\end{block}
+\begin{itemize}
+\item Revealing the dynamics and mechanisms of bacterial interactions in cheese production with metabolic modelling (\textit{submitted article})
+\begin{itemize}
+\item \textcolor{blue}{Highlight pathway of interest}
+\item \textcolor{blue}{Generate mechanistic hypothesis}
+\item \textcolor{red}{Integrate heterogeneous data}
+\item \textcolor{red}{Generate robust GSMN}
+\end{itemize}
+\item Reasoning-based metabolic modelling of cooperation and competition potentials in large-scale microbial communities (\textit{in preparation})
+\begin{itemize}
+\item \textcolor{blue}{Generate mechanistic hypothesis}
+\item \textcolor{red}{Bacterial interaction rules}
+\item \textcolor{red}{Generic approach}
+\end{itemize}
+\item Enrichment of discrete models
+\begin{itemize}
+\item \textcolor{blue}{Highlight pathway}
+\item \textcolor{blue}{Generate mechanistic hypothesis}
+\item \textcolor{red}{Integrate heterogeneous constrains}
+\item \textcolor{red}{Generate logical rules}
+\end{itemize}
+
+\end{itemize}
 
 \end{frame}
 
+\section{Numerical model}
+\begin{frame}
+blablabla
+\end{frame}
 \tiny
 \printbibliography
 
