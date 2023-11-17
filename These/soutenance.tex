@@ -21,6 +21,16 @@
 \usepackage{tikz}
 \usetikzlibrary{tikzmark}
 \usetikzlibrary {graphs,shapes.geometric}
+\tikzset{
+mystyle/.style={
+  circle,
+  inner sep=1pt,
+  text width=12.4mm,
+  align=center,
+  draw=black,
+  fill=white
+  }
+}
  
 \usepackage{multimedia}
 \usepackage{sidecap}
@@ -199,199 +209,181 @@ Encadrement: & Clémence FRIOUX
 	\includegraphics[width=0.8\textwidth]{figures/interaction.png}
     \caption{List of different types of bacterial interactions \tiny \citep{Faust2012} }
 \end{figure}
+\vspace{-0.5cm}
 \begin{block}{}
-Easy to distinguish bacterial interactions effects within two species
+\begin{itemize}
+\item Bacterial interactions are distinguishable within two species
+\item And within ecosystems composed of thousand of species ? $\rightarrow$ need of informatic 
+\end{itemize}
 \end{block}
 
 \end{frame}
 
-\begin{frame}
-\frametitle{What underlying mechanisms are responsible of the observed activity ?}
-\only<1>{
-\framesubtitle{Metabolism}
-\begin{minipage}{0.4\textwidth}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.9\textwidth]{figures/aroma-cpd-rum}
-    \caption{Gas chromatograms of the major aroma compounds isolated from rum  \tiny (from \cite{Suomalainen1978})}
-\end{figure}
-\end{minipage}%
-}
-
-\only<2>{
-\framesubtitle{Metabolism}
-\begin{minipage}{0.4\textwidth}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.9\textwidth]{figures/aroma-cpd-rum}
-    \caption{Gas chromatograms of the major aroma compounds isolated from rum  \tiny (from \cite{Suomalainen1978})}
-\end{figure}0
-\vspace{-0.7cm}
-\begin{exampleblock}{What is metabolism ?}
-Set of all biochemical reactions occurring in the cell of an organism that permit the production of energy and metabolic goods. \tiny \citep{Nava2023}
-\end{exampleblock}
-\end{minipage}
-}
-
-\only<3>{
-\frametitle{What underlying mechanisms are responsible of the observed activity ?}
-\framesubtitle{Metabolism and Bacterial interactions}
-\begin{minipage}{0.4\textwidth}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.9\textwidth]{figures/aroma-cpd-rum}
-    \caption{Gas chromatograms of the major aroma compounds isolated from rum  \tiny (from \cite{Suomalainen1978})}
-\end{figure}
-\vspace{-0.7cm}
-\begin{exampleblock}{What is metabolism ?}
-Set of all biochemical reactions occurring in the cell of an organism that permit the production of energy and metabolic goods. \tiny \citep{Nava2023}
-\end{exampleblock}
-a fatty acyl-CoA + ethanol $\rightarrow$ ethyl palmitate + coA
-\begin{itemize}
-\item Metabolism of an organism explain observable phenotype
-\end{itemize}
-\end{minipage}%
-}
-
-\only<4>{
-\frametitle{What underlying mechanisms are responsible of the observed activity ?}
-\framesubtitle{Metabolism and Bacterial interactions}
-\begin{minipage}{0.4\textwidth}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.9\textwidth]{figures/aroma-cpd-rum}
-    \caption{Gas chromatograms of the major aroma compounds isolated from rum  \tiny (from \cite{Suomalainen1978})}
-\end{figure}
-\vspace{-0.7cm}
-\begin{exampleblock}{What is metabolism ?}
-Set of all biochemical reactions occurring in the cell of an organism that permit the production of energy and metabolic goods. \tiny \citep{Nava2023}
-\end{exampleblock}
-a fatty acyl-CoA + ethanol $\rightarrow$ ethyl palmitate + coA
-\begin{itemize}
-\item Metabolism of an organism explain observable phenotype
-\end{itemize}
-\end{minipage}%
-\hspace{0.1\textwidth}%
-\begin{minipage}{0.5\textwidth}
-\begin{figure}
-	\centering
-	\includegraphics[width=\textwidth]{figures/interaction.png}
-    \caption{List of different types of bacterial interactions \tiny \citep{Faust2012} }
-\end{figure}
-\begin{itemize}
-\item Bacterial interaction can affect positively / negatively other organisms
-\end{itemize}
-\end{minipage}
-}
-
-\only<5>{
-\frametitle{What underlying mechanisms are responsible of the observed activity ?}
-\framesubtitle{Metabolism and Bacterial interactions}
-\begin{minipage}{0.4\textwidth}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.9\textwidth]{figures/aroma-cpd-rum}
-    \caption{Gas chromatograms of the major aroma compounds isolated from rum  \tiny (from \cite{Suomalainen1978})}
-\end{figure}
-\vspace{-0.7cm}
-\begin{exampleblock}{What is metabolism ?}
-Set of all biochemical reactions occurring in the cell of an organism that permit the production of energy and metabolic goods. \tiny \citep{Nava2023}
-\end{exampleblock}
-a fatty acyl-CoA + ethanol $\rightarrow$ ethyl palmitate + coA
-\begin{itemize}
-\item Metabolism of an organism explain observable phenotype
-\end{itemize}
-\end{minipage}%
-\hspace{0.1\textwidth}%
-\begin{minipage}{0.5\textwidth}
-\begin{figure}
-	\centering
-	\includegraphics[width=\textwidth]{figures/interaction.png}
-    \caption{List of different types of bacterial interactions \tiny \citep{Faust2012} }
-\end{figure}
-\begin{itemize}
-\item Bacterial interaction can affect positively / negatively other organisms
-\end{itemize}
-\end{minipage}
-\begin{block}{}
-
-Bacterial interactions can modulate metabolic goods
-
-\end{block}}
-\end{frame}
 
 \begin{frame}
-\frametitle{How can we study this impact through metabolism? }
-\framesubtitle{Genome-scale metabolic network (GEMs) reconstruction}
-\begin{figure}
-\centering
-\includegraphics[width=0.55\textwidth]{figures/top-down}
-\caption{Top down genome-scale metabolic network reconstruction approach \tiny (modified from \cite{Machado2018})}
-\end{figure}
-\begin{itemize}
-\item For bacteria: average of 1500 reactions, 1000 genes, 800 metabolites
-\item Informatic can help to resolve combinatorial problem
-\end{itemize}
-\end{frame}
-
-%
-%\begin{frame}{Quels sont les apports biologiques et informatiques d'étudier les bactéries}
-%\centering
-%\begin{tikzpicture}
-%	\begin{scope} [fill opacity = .4]
-%    \draw[fill=green, draw = black] (-1.5,1) circle (3);
-%    \draw[fill=blue, draw = black] (1.5,1) circle (3);
-%
-%        \node at (2.5,2) {\LARGE\textbf{Simulate}};
-%    \node at (0,2) {\LARGE\textbf{Explain}};
-%    \node at (2.5,1) {\LARGE\textbf{Prediction}};
-%    \node at (0,1) {\LARGE\textbf{Generate}};
-%    \node at (0,0.5) {\LARGE\textbf{hypothesis}};
-%    \node at (-3,2) {\LARGE\textbf{Identifivation}};
-%    \node at (-3,1) {\LARGE\textbf{Improvement}};
-%%\draw[help lines](-5,5) grid (5,-6); %%%   This line can draw the grid lines to help guide you. I use these when I'm writing the code and then delete this line when I publish th
-%    \end{scope}
-%
-%        \node at (-3.5,4) {\LARGE\textbf{Biology}};
-%    \node at (3.5,4) {\LARGE\textbf{Informatic}};
-%
-%\end{tikzpicture}
-%
-%\begin{block}{}
-%\begin{itemize}
-%\item L'informatique semble nécessaire pour affiner l'étude des bactéries
-%\end{itemize}
-%\end{block}
-%\end{frame}
-
-\begin{frame}
-\frametitle{How can we study this impact through metabolism? }
+\frametitle{How can we combine biological knowledge and infomatic program ?}
 \framesubtitle{Systems biology}
 \begin{exampleblock}{System biology}
 Associate an organism to a system and study the all system \tiny \citep{Kitano2002}
 \end{exampleblock}
 \begin{minipage}{0.8\textwidth}
-\includegraphics[width=\textwidth]{figures/systeme-biology.pdf}
-\end{minipage}%
-\begin{minipage}{0.2\textwidth}
 \begin{figure}
+\includegraphics[width=0.9\textwidth]{figures/systeme-biology.pdf}
 \caption{System biology modified from \cite{Kitano2002}}
 \end{figure}
-\end{minipage}
-\vspace{-0.2cm}
+\end{minipage}%
+\hspace{-1.1cm}%
+\begin{minipage}{0.3\textwidth}
 \begin{block}{}
 \begin{itemize}
-\item System biology combines biology and informatic analysis for studying bacterial behavior
+\item Which type of computation model is involved ?
 \end{itemize}
 \end{block}
+\end{minipage}
 \end{frame}
 
 
+
+\begin{frame}
+\frametitle{Metabolism as a starter pack for analysing bacterial interactions}
+\only<1>{
+\framesubtitle{Metabolism}
+\vspace{-1.9cm}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{figures/aroma-cpd-rum}
+    \caption{Gas chromatograms of the major aroma compounds isolated from rum  \tiny (from \cite{Suomalainen1978})}
+\end{figure}
+
+}
+
+\only<2>{
+\framesubtitle{Metabolism}
+\vspace{-1.1cm}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{figures/aroma-cpd-rum}
+    \caption{Gas chromatograms of the major aroma compounds isolated from rum  \tiny (from \cite{Suomalainen1978})}
+\end{figure}
+\vspace{-0.7cm}
+\begin{exampleblock}{What is metabolism ?}
+Set of all biochemical reactions occurring in the cell of an organism that permit the production of energy and metabolic goods. \tiny \citep{Nava2023}
+\end{exampleblock}
+
+}
+
+\only<3>{
+\frametitle{What underlying mechanisms are responsible of the observed activity ?}
+\framesubtitle{Metabolism and Bacterial interactions}
+\vspace{-0.8cm}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{figures/aroma-cpd-rum}
+    \caption{Gas chromatograms of the major aroma compounds isolated from rum  \tiny (from \cite{Suomalainen1978})}
+\end{figure}
+\vspace{-0.5cm}
+\begin{exampleblock}{What is metabolism ?}
+Set of all biochemical reactions occurring in the cell of an organism that permit the production of energy and metabolic goods. \tiny \citep{Nava2023}
+\end{exampleblock}
+a fatty acyl-CoA + ethanol $\rightarrow$ ethyl palmitate + coA
+
+}
+
+\only<4>{
+\frametitle{What underlying mechanisms are responsible of the observed activity ?}
+\framesubtitle{Metabolism and Bacterial interactions}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{figures/aroma-cpd-rum}
+    \caption{Gas chromatograms of the major aroma compounds isolated from rum  \tiny (from \cite{Suomalainen1978})}
+\end{figure}
+\vspace{-0.5cm}
+\begin{exampleblock}{What is metabolism ?}
+Set of all biochemical reactions occurring in the cell of an organism that permit the production of energy and metabolic goods. \tiny \citep{Nava2023}
+\end{exampleblock}
+a fatty acyl-CoA + ethanol $\rightarrow$ ethyl palmitate + coA
+\begin{block}{}
+\begin{itemize}
+\item Metabolism of an organism explain observable phenotype
+\item Is impacted by bacterial interactions 
+\end{itemize}
+\end{block}
+
+}
+%
+%\only<4>{
+%\frametitle{What underlying mechanisms are responsible of the observed activity ?}
+%\framesubtitle{Metabolism and Bacterial interactions}
+%\begin{minipage}{0.4\textwidth}
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.9\textwidth]{figures/aroma-cpd-rum}
+%    \caption{Gas chromatograms of the major aroma compounds isolated from rum  \tiny (from \cite{Suomalainen1978})}
+%\end{figure}
+%\vspace{-0.7cm}
+%\begin{exampleblock}{What is metabolism ?}
+%Set of all biochemical reactions occurring in the cell of an organism that permit the production of energy and metabolic goods. \tiny \citep{Nava2023}
+%\end{exampleblock}
+%a fatty acyl-CoA + ethanol $\rightarrow$ ethyl palmitate + coA
+%\begin{itemize}
+%\item Metabolism of an organism explain observable phenotype
+%\end{itemize}
+%\end{minipage}%
+%\hspace{0.1\textwidth}%
+%\begin{minipage}{0.5\textwidth}
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=\textwidth]{figures/interaction.png}
+%    \caption{List of different types of bacterial interactions \tiny \citep{Faust2012} }
+%\end{figure}
+%\begin{itemize}
+%\item Bacterial interaction can affect positively / negatively other organisms
+%\end{itemize}
+%\end{minipage}
+%}
+%
+%\only<5>{
+%\frametitle{What underlying mechanisms are responsible of the observed activity ?}
+%\framesubtitle{Metabolism and Bacterial interactions}
+%\begin{minipage}{0.4\textwidth}
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.9\textwidth]{figures/aroma-cpd-rum}
+%    \caption{Gas chromatograms of the major aroma compounds isolated from rum  \tiny (from \cite{Suomalainen1978})}
+%\end{figure}
+%\vspace{-0.7cm}
+%\begin{exampleblock}{What is metabolism ?}
+%Set of all biochemical reactions occurring in the cell of an organism that permit the production of energy and metabolic goods. \tiny \citep{Nava2023}
+%\end{exampleblock}
+%a fatty acyl-CoA + ethanol $\rightarrow$ ethyl palmitate + coA
+%\begin{itemize}
+%\item Metabolism of an organism explain observable phenotype
+%\end{itemize}
+%\end{minipage}%
+%\hspace{0.1\textwidth}%
+%\begin{minipage}{0.5\textwidth}
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=\textwidth]{figures/interaction.png}
+%    \caption{List of different types of bacterial interactions \tiny \citep{Faust2012} }
+%\end{figure}
+%\begin{itemize}
+%\item Bacterial interaction can affect positively / negatively other organisms
+%\end{itemize}
+%\end{minipage}
+%\begin{block}{}
+%
+%Bacterial interactions can modulate metabolic goods
+%
+%\end{block}}
+\end{frame}
+
 \section{Background}
 \begin{frame}
-\frametitle{How the computational phase is concretely achieve ?}
-\framesubtitle{Metabolic network representation}
+\frametitle{How is the metabolism represented?}
 \only<1>{
+\vspace{-2.5cm}
 $r_1 : $2 pyr $\rightarrow$ 1 acetoL + 1 $\text{CO}_2$ \\
 $r_2 : $1 acetoL  $\rightarrow$ 1 diac  + 1 $\text{CO}_2$ \\ 
 $r_3 : $1 acetoL  $\rightarrow$ 1 acetoin + 1 $\text{CO}_2$ \\
@@ -401,7 +393,7 @@ $r_5 : $1 acetoin  $\rightarrow$1 butanediol \\
 }
 
 \only<2>{
-
+\begin{minipage}{0.5\textwidth}
 $r_1 : $2 pyr $\rightarrow$ 1 acetoL + 1 $\text{CO}_2$ \\
 $r_2 : $1 acetoL  $\rightarrow$ 1 diac  + 1 $\text{CO}_2$ \\ 
 $r_3 : $1 acetoL  $\rightarrow$ 1 acetoin + 1 $\text{CO}_2$ \\
@@ -409,7 +401,6 @@ $r_4 : $1 diac $\rightarrow$ 1 acetoin \\
 $r_5 : $1 acetoin  $\rightarrow$1 butanediol \\
 
 
-\begin{minipage}{0.5\textwidth}
 \textbf{Stoichiometry matrix}
 
 
@@ -434,15 +425,13 @@ $r_5 : $1 acetoin  $\rightarrow$1 butanediol \\
 }
 
 \only<3>{
-
+\begin{minipage}{0.5\textwidth}
 $r_1 : $2 pyr $\rightarrow$ 1 acetoL + 1 $\text{CO}_2$ \\
 $r_2 : $1 acetoL  $\rightarrow$ 1 diac  + 1 $\text{CO}_2$ \\ 
 $r_3 : $1 acetoL  $\rightarrow$ 1 acetoin + 1 $\text{CO}_2$ \\
 $r_4 : $1 diac $\rightarrow$ 1 acetoin \\
 $r_5 : $1 acetoin  $\rightarrow$1 butanediol \\
 
-
-\begin{minipage}{0.5\textwidth}
 \textbf{Stoichiometry matrix}
 \[
   \kbordermatrix{
@@ -457,21 +446,23 @@ $r_5 : $1 acetoin  $\rightarrow$1 butanediol \\
 \]
 \end{minipage}%
 \begin{minipage}{0.5\textwidth}
+\centering
 \textbf{bipartite graph}
 
+
 \begin{tikzpicture}
-\node (x) [circle, draw] at (0,0)   {pyr};
-  \node (a) [circle, draw] at (2,0)   {acetoL};
-    \node (b) [circle, draw] at (4,0)   {diac};
-      \node (c) [circle, draw] at (3,1)   {$ \text{CO}_2 $};
-        \node (d) [circle, draw] at (5,-1)   {acetoin};
-          \node (e) [circle, draw] at (3.5,-2)   {butanediol};
+\node (x) [circle, draw,mystyle] at (3,8)   {pyr};
+  \node (a) [circle, draw,mystyle] at (4.5,6.8)   {acetoL};
+    \node (b) [circle, draw,mystyle] at (4.5,4.4)   {diac};
+      \node (c) [circle, draw,mystyle] at (6,6.8)   {$ \text{CO}_2 $};
+        \node (d) [circle, draw,mystyle] at (4.5,3)   {acetoin};
+          \node (e) [circle, draw,mystyle] at (8,3)   {butanediol};
           
-  \node (f) [rectangle, draw] at (1,0) {$r_1$};
-  	\node (g) [rectangle, draw] at (3,0)  {$r_2$};
-  	  \node (h) [rectangle, draw] at (5,0)   {$r_3$};
-  		\node (i) [rectangle, draw] at (4,-1)   {$r_4$};
-  		  \node (j) [rectangle, draw] at (5,-2)   {$r_5$};
+  \node (f) [rectangle, draw] at (4.5,8) {$r_1$};
+  	\node (g) [rectangle, draw] at (4.5,5.6)  {$r_2$};
+  	  \node (h) [rectangle, draw] at (6,4.4)   {$r_3$};
+  		\node (i) [rectangle, draw] at (3,4.4)   {$r_4$};
+  		  \node (j) [rectangle, draw] at (6,3)   {$r_5$};
 
   \graph { (x) -> (f) -> (a) };
    \graph { (x) -> (f) -> (c) };
@@ -494,52 +485,49 @@ $r_5 : $1 acetoin  $\rightarrow$1 butanediol \\
 }
 
 
+ \end{frame}
+
+\begin{frame}
+\frametitle{How is the metabolism reconstructed?}
+\framesubtitle{Genome-scale metabolic network (GEMs) reconstruction}
+
+\begin{exampleblock}{Genome-scale metabolic network (GSMNs}
+Contain metabolic reactions predicted from the entire genomic content through gene-protein-reaction (GPR) relationships \tiny \citep{Thiele.2010}
+\end{exampleblock}
+\begin{minipage}{0.3\textwidth}
+\begin{align*}
+    r1 : (g1 \land g2) \lor (g1 \land g3)
+\end{align*}
+\begin{align*}
+    r2 : g1 \land (g2 \lor g3)
+\end{align*}
+\end{minipage}%
+\begin{minipage}{0.7\textwidth}
+\begin{figure}
+\includegraphics[width=0.7\textwidth]{figures/top-down}
+\caption{Top down genome-scale metabolic network reconstruction approach \tiny (modified from \cite{Machado2018})}
+\end{figure}
+\end{minipage}
+\vspace{-0.4cm}
+\begin{block}{}
+\begin{itemize}
+\item For bacteria: average of 1500 reactions, 1000 genes, 800 metabolites
+\item Informatic can help to resolve combinatorial problem
+\end{itemize}
+\end{block}
 \end{frame}
+
+
 
 
 \begin{frame}
-\frametitle{Numerical metabolic model of the metabolism}
-
-\only<1>{
-\framesubtitle{definition}
-\begin{exampleblock}{Metabolic model}
-From a GEM, a model metabolic has the capacity to simulate and to predict on the metabolic content
-\end{exampleblock}
-}
-
-\only<2>{
-
-\framesubtitle{Build a metabolic model}
-\begin{exampleblock}{Metabolic model}
-From a GEM, a model metabolic has the capacity to simulate and to predict on the metabolic content
-\end{exampleblock}
-\textbf{Constraint-based approaches}
-\begin{minipage}{0.6\textwidth}
-\includegraphics[width=0.8\textwidth]{figures/fba}
-\end{minipage}%
-\begin{minipage}{0.4\textwidth}
-\begin{figure}
-\caption{Illustration of the Flux balance analysis \tiny \citep{Orth2010}}
-\end{figure}
-
-\begin{block}{}
-\begin{itemize}
-\item Topology and stoichiometry of metabolic goods
-\item Can explain metabolic  observations through reaction fluxes
-\item difficult to apply in larger scale
-\end{itemize}
-\end{block}
-\end{minipage}
-
-}
-\end{frame}
-
-\begin{frame}[fragile]
+%[fragile]
 %[containsverbatim]
 \frametitle{Reasoning-based metabolic analysis}
 
 \begin{onlyenv}<1>
 \framesubtitle{Definition}
+\vspace{-3cm}
 \begin{exampleblock}{Reasoning-based}
 Allow us to infer qualitative models from logical rules based on biological knowledge
 \end{exampleblock}
@@ -551,6 +539,7 @@ Allow us to infer qualitative models from logical rules based on biological know
 \end{exampleblock}
 \textbf{topological-based approaches}\\
 \begin{minipage}{0.5\textwidth}
+\hspace{-0.15\textwidth}
 \begin{tikzpicture}
    \node (x) [circle, draw] at (0,0)   {X};
    \node (a) [circle, draw] at (2,0)   {A};
@@ -613,44 +602,31 @@ Allow us to infer qualitative models from logical rules based on biological know
 \end{tikzpicture}
 \end{minipage}%
 \begin{minipage}{0.55\textwidth}
-\begin{lstlisting}[style=asp]
-scope(M) :- seed(M).
-scope(M) :- bacteria(B), product(M,R,B), reaction(R,B), scope(M2) : reactant(M2,R,B).
-\end{lstlisting}
+\begin{itemize}
+\item Producibility is initiated by the presence of nutrients,
+\item The products of a reactions are producible if all reactants of this reaction are themselves producible
+\end{itemize}
+%
+%\begin{lstlisting}[style=asp]
+%scope(M) :- seed(M).
+%scope(M) :- bacteria(B), product(M,R,B), reaction(R,B), scope(M2) : reactant(M2,R,B).
+%\end{lstlisting}
 \end{minipage}
 
 \begin{block}{}
-Logical rules using Answer set programming describe scope a network \tiny \citep{Ebenhoh2004}
+The scope, \textit{i.e.} the metabolic capacity,  a network is reached in 2 logical rules \tiny \citep{Ebenhoh2004}
 \end{block}
 \end{onlyenv}
 \end{frame}
 
 \begin{frame}
-\frametitle{Why using Answer Set Programming}
-\centering
-\begin{figure}[h]
-\includegraphics[width=\textwidth]{figures/asp}
-\caption{The workflow of Answer set programming (ASP) \tiny \citep{Kaufmann2016GroundingAS}}
-\end{figure}
-\begin{block}{}
-\begin{itemize}
-\item Explainable model
-\item Solve combinatorial problem
-\end{itemize}
-
-\end{block}
-\end{frame}
-
-\begin{frame}
-
-\only<1> {
 \frametitle{Reasoning-based metabolic analysis}
 \begin{exampleblock}{Reasoning-based}
 Allow us to infer qualitative models from logical rules based on biological knowledge
 \end{exampleblock}
 \textbf{topological-based approaches}
-\begin{minipage}{0.5\textwidth}
-\hspace{-0.05\textwidth}
+\only<1> {
+\begin{center}
 \begin{tikzpicture}
    \node (x) [circle, draw,fill=black!30!yellow] at (0,0)   {X};
    \node (a) [circle, draw] at (2,0)   {A};
@@ -664,7 +640,7 @@ Allow us to infer qualitative models from logical rules based on biological know
   	\node (h) [rectangle, draw] at (5,0)   {$r_3$};
   	\node (i) [rectangle, draw] at (4,-1)   {$r_4$};
   	\node (j) [rectangle, draw] at (5,-2)   {$r_5$};
-
+  
     \graph { (x) -> (f) -> (a) };
     \graph { (x) -> (f) -> (c) };
     \graph { (a) -> (g) -> (c) };
@@ -672,11 +648,19 @@ Allow us to infer qualitative models from logical rules based on biological know
 	\graph { (b) -> (h) <-> (c) };
 	\graph { (b) -> (h) -> (d) };            
 	\graph { (b) <- (i) <- (d) };            
-	\graph { (d) <- (j) <- (e) };               
+	\graph { (d) <- (j) <- (e) };         
+	    \graph { (e) -> (i) };
+	
+     \draw [draw=black] (0.5,1.5) rectangle (5.5,-2.5);     
+	
+
 \end{tikzpicture}
-\end{minipage}%
-\begin{minipage}{0.5\textwidth}
-\hspace{0.05\textwidth}
+\end{center}
+r1 est active
+}
+
+\only<2> {
+\begin{center}
 \begin{tikzpicture}
    \node (x) [circle, draw,fill=black!30!yellow] at (0,0)   {X};
    \node (a) [circle, draw,fill=white!60!yellow] at (2,0)   {A};
@@ -699,19 +683,16 @@ Allow us to infer qualitative models from logical rules based on biological know
 	\graph { (b) -> (h) -> (d) };            
 	\graph { (b) <- (i) <- (d) };             
 	\graph { (d) <- (j) <- (e) };    
+	    \graph { (e) -> (i) };
+	
+	     \draw [draw=black] (0.5,1.5) rectangle (5.5,-2.5);     
 \end{tikzpicture}
-\end{minipage}
+\end{center}
 
 }
 
-\only<2> {
-\frametitle{Reasoning-based metabolic analysis}
-\begin{exampleblock}{Reasoning-based}
-Allow us to infer qualitative models from logical rules based on biological knowledge
-\end{exampleblock}
-\textbf{topological-based approaches}
-\begin{minipage}{0.5\textwidth}
-\hspace{-0.05\textwidth}
+\only<3> {
+\begin{center}
 \begin{tikzpicture}
    \node (x) [circle, draw,fill=black!30!yellow] at (0,0)   {X};
    \node (a) [circle, draw,fill=white!60!yellow] at (2,0)   {A};
@@ -734,10 +715,15 @@ Allow us to infer qualitative models from logical rules based on biological know
 	\graph { (b) -> (h) -> (d) };            
 	\graph { (b) <- (i) <- (d) };         
 	\graph { (d) <- (j) <- (e) };               
+	    \graph { (e) -> (i) };
+	
+	     \draw [draw=black] (0.5,1.5) rectangle (5.5,-2.5);     
 \end{tikzpicture}
-\end{minipage}%
-\begin{minipage}{0.5\textwidth}
-\hspace{0.05\textwidth}
+\end{center}
+}
+
+\only<4>{
+\begin{center}
 \begin{tikzpicture}
    \node (x) [circle, draw,fill=black!30!yellow] at (0,0)   {X};
    \node (a) [circle, draw,fill=white!60!yellow] at (2,0)   {A};
@@ -751,6 +737,8 @@ Allow us to infer qualitative models from logical rules based on biological know
   	\node (h) [rectangle, draw,fill=white!60!yellow] at (5,0)   {$r_3$};
   	\node (i) [rectangle, draw] at (4,-1)   {$r_4$};
   	\node (j) [rectangle, draw] at (5,-2)   {$r_5$};
+  	
+
 
     \graph { (x) -> (f) -> (a) };
     \graph { (x) -> (f) -> (c) };
@@ -760,19 +748,140 @@ Allow us to infer qualitative models from logical rules based on biological know
 	\graph { (b) -> (h) -> (d) };            
 	\graph { (b) <- (i) <- (d) };           
 	\graph { (d) <- (j) <- (e) };    
+    \graph { (e) -> (i) };    
+	
+	     \draw [draw=black] (0.5,1.5) rectangle (5.5,-2.5);     
 \end{tikzpicture}
-\end{minipage}
+\end{center}
 \begin{block}{}
 \begin{itemize}
 \item The potential metabolic capability and topology dependant
-\item Scale to large community \tiny \citep{Belcour.2020,Frioux2018}
-\item \normalsize Assessment of objective function ?
+%\item Scale to large community \tiny \citep{Belcour.2020,Frioux2018}
+%\item \normalsize Assessment of objective function ?
 \end{itemize}
 \end{block}
 
 }
 
 \end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Logical rules implementation}
+\begin{exampleblock}{Reasoning-based}
+Allow us to infer qualitative models from logical rules based on biological knowledge
+\end{exampleblock}
+\textbf{topological-based approaches}
+\begin{minipage}{0.5\textwidth}
+\hspace{-0.15\textwidth}
+\begin{tikzpicture}
+   \node (x) [circle, draw] at (0,0)   {X};
+   \node (a) [circle, draw] at (2,0)   {A};
+   \node (b) [circle, draw] at (4,0)   {C};
+   \node (c) [circle, draw] at (3,1)   {D};
+   \node (d) [circle, draw] at (5,-1)   {E};
+   \node (e) [circle, draw] at (3.5,-2)   {F};
+          
+    \node (f) [rectangle, draw] at (1,0) {$r_1$};
+  	\node (g) [rectangle, draw] at (3,0)  {$r_2$};
+  	\node (h) [rectangle, draw] at (5,0)   {$r_3$};
+  	\node (i) [rectangle, draw] at (4,-1)   {$r_4$};
+  	\node (j) [rectangle, draw] at (5,-2)   {$r_5$};
+
+    \graph { (x) -> (f) -> (a) };
+    \graph { (x) -> (f) -> (c) };
+    \graph { (a) -> (g) -> (c) };
+    \graph { (a) -> (g) -> (b) };
+	\graph { (b) -> (h) <-> (c) };
+	\graph { (b) -> (h) -> (d) };            
+	\graph { (b) <- (i) <- (d) };       
+	\graph { (d) <- (j) <- (e) };               
+\end{tikzpicture}
+\end{minipage}%
+\begin{minipage}{0.55\textwidth}
+\begin{itemize}
+\item Producibility is initiated by the presence of nutrients,
+\item The products of a reactions are producible if all reactants of this reaction are themselves producible
+\end{itemize}
+
+\begin{lstlisting}[style=asp]
+scope(M) :- seed(M).
+scope(M) :- bacteria(B), product(M,R,B), reaction(R,B), scope(M2) : reactant(M2,R,B).
+\end{lstlisting}
+\end{minipage}
+
+\begin{block}{}
+Logical rules are embedded using Answer Set Programming  \tiny \citep{Lifschitz2008}
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{Why using Answer Set Programming}
+\centering
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{figures/asp}
+\caption{The workflow of Answer set programming (ASP) \tiny \citep{Kaufmann2016GroundingAS}}
+\end{figure}
+\begin{block}{}
+\begin{itemize}
+\item Close assumption
+\item Explainable model
+\item Solve combinatorial problems
+\end{itemize}
+
+\end{block}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Numerical metabolic model of the metabolism}
+
+\only<1>{
+\framesubtitle{definition}
+%\vspace{-4.2cm}
+\begin{exampleblock}{Metabolic model}
+From a GEM, a model metabolic has the capacity to simulate and to predict on the metabolic content
+\end{exampleblock}
+}
+
+\only<2>{
+
+\framesubtitle{Build a metabolic model}
+\begin{exampleblock}{Metabolic model}
+From a GEM, a model metabolic has the capacity to simulate and to predict on the metabolic content
+\end{exampleblock}
+\textbf{Constraint-based approaches}
+\begin{minipage}{0.3\textwidth}
+
+\begin{align*}
+\begin{split}
+    \text{maximiser/minimiser }\text{$f_{obj}$} \\
+    \text{tel que } (S.v)_{int} = 0\\
+    \text{et } \text{$v_{i_{min}}$} \leq v_i \leq \text{$v_{i_{max}}$}
+\end{split}
+\end{align*}
+
+%\includegraphics[width=0.8\textwidth]{figures/fba}
+\end{minipage}%
+\begin{minipage}{0.7\textwidth}
+mass balanced
+\end{minipage}
+%\begin{minipage}{0.4\textwidth}
+%\begin{figure}
+%\caption{Illustration of the Flux balance analysis \tiny \citep{Orth2010}}
+%\end{figure}
+
+\begin{block}{}
+\begin{itemize}
+\item Topology and stoichiometry of metabolic goods
+\item Can explain metabolic  observations through reaction fluxes
+\item difficult to apply in larger scale
+\end{itemize}
+\end{block}
+
+
+}
+\end{frame}
+
 
 \begin{frame}{Contributions and objective}
 \begin{block}{Objective}

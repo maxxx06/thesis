@@ -2,6 +2,6 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {1}{Motivation}{2}{0}{1}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {2}{Background}{11}{0}{2}
+\beamer@sectionintoc {2}{Background}{9}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {3}{Numerical model}{23}{0}{3}
+\beamer@sectionintoc {3}{Numerical model}{25}{0}{3}

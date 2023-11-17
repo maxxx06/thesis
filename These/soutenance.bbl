@@ -738,6 +738,60 @@
     \field{year}{2023}
   \endentry
 
+  \entry{Thiele.2010}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TI}{%
+         family={Thiele},
+         familyi={T\bibinitperiod},
+         given={Ines},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=PBO}{%
+         family={Palsson},
+         familyi={P\bibinitperiod},
+         given={Bernhard\bibnamedelima O},
+         giveni={B\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TIPBO1}
+    \strng{fullhash}{TIPBO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{abstract}{%
+    Network reconstructions are a common denominator in systems biology.
+  Bottom\textendash up metabolic network reconstructions have been developed
+  over the last 10 years. These reconstructions represent structured knowledge
+  bases that abstract pertinent information on the biochemical transformations
+  taking place within specific target organisms. The conversion of a
+  reconstruction into a mathematical format facilitates a myriad of
+  computational biological studies, including evaluation of network content,
+  hypothesis testing and generation, analysis of phenotypic characteristics and
+  metabolic engineering. To date, genome-scale metabolic reconstructions for
+  more than 30 organisms have been published and this number is expected to
+  increase rapidly. However, these reconstructions differ in quality and
+  coverage that may minimize their predictive potential and use as knowledge
+  bases. Here we present a comprehensive protocol describing each step
+  necessary to build a high-quality genome-scale metabolic reconstruction, as
+  well as the common trials and tribulations. Therefore, this protocol provides
+  a helpful manual for all stages of the reconstruction process.%
+    }
+    \verb{doi}
+    \verb 10.1038/nprot.2009.203
+    \endverb
+    \field{issn}{1754-2189}
+    \field{number}{1}
+    \field{pages}{93\bibrangedash 121}
+    \field{title}{A Protocol for Generating a High-Quality Genome-Scale
+  Metabolic Reconstruction}
+    \field{volume}{5}
+    \field{journaltitle}{Nature Protocols}
+    \field{year}{2010}
+  \endentry
+
   \entry{Zhang2015}{article}{}
     \name{author}{6}{}{%
       {{hash=ZYJ}{%

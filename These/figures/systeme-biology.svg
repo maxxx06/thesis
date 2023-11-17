@@ -4,9 +4,9 @@
 <svg
    version="1.1"
    id="svg132"
-   width="1033.3333"
-   height="1002.6667"
-   viewBox="0 0 1033.3333 1002.6667"
+   width="1322.5413"
+   height="1002.6666"
+   viewBox="0 0 1322.5414 1002.6666"
    sodipodi:docname="systeme-biology.svg"
    inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
    inkscape:export-filename="systeme-biology.pdf"
@@ -42,26 +42,27 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="0.5"
-     inkscape:cx="71"
-     inkscape:cy="879"
+     inkscape:cx="397"
+     inkscape:cy="409"
      inkscape:window-width="1357"
      inkscape:window-height="847"
      inkscape:window-x="0"
      inkscape:window-y="729"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g140">
+     inkscape:current-layer="g140"
+     showguides="false">
     <inkscape:page
        x="0"
        y="0"
        id="page138"
-       width="1033.3333"
-       height="1002.6667" />
+       width="1322.5414"
+       height="1002.6666" />
   </sodipodi:namedview>
   <g
      id="g140"
      inkscape:groupmode="layer"
      inkscape:label="Page 1"
-     transform="matrix(1.3333333,0,0,-1.3333333,0,1002.6667)">
+     transform="matrix(1.3333333,0,0,-1.3333333,89.800775,1002.6666)">
     <g
        id="g142" />
     <g
@@ -77,7 +78,7 @@
     </g>
     <path
        style="fill:#ffffff;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 100.30662,648.70589 C 90.282572,636.2252 91.344719,626.00204 98.846358,624.7413 c 7.501642,-1.26074 21.441762,6.43951 36.112882,16.53007 14.67111,10.09057 30.07162,22.57029 34.91806,32.12937 4.84645,9.55908 -0.86237,16.19724 -5.50956,18.58759 -4.64718,2.39035 -8.23179,0.53167 -20.57956,-7.76654 -12.34777,-8.29821 -33.45751,-23.03521 -43.48156,-35.5159 z"
+       d="M 100.30662,648.70589 C 90.282572,636.2252 91.344719,626.00204 98.846357,624.7413 c 7.501633,-1.26074 21.441763,6.43951 36.112873,16.53008 14.67112,10.09056 30.07162,22.57028 34.91807,32.12937 4.84645,9.55908 -0.86237,16.19723 -5.50956,18.58758 -4.64719,2.39035 -8.23178,0.53167 -20.57956,-7.76654 -12.34777,-8.29822 -33.45751,-23.03521 -43.48156,-35.5159 z"
        id="path591"
        sodipodi:nodetypes="ccccccc"
        inkscape:original-d="m 89.220339,646.44918 c 1.062898,-10.22391 2.125045,-20.44707 3.186443,-30.66948 13.941708,7.69996 27.881828,15.40022 41.822038,23.10169 15.4022,12.47973 30.8027,24.95945 46.2034,37.44069 -5.70841,6.6378 -11.41723,13.27595 -17.12713,19.91525 -3.58407,-1.85955 -7.16867,-3.71823 -10.75424,-5.57628 -21.10984,-14.73833 -42.21959,-29.47532 -63.330511,-44.21187 z"
@@ -96,51 +97,56 @@
          y="-472.61554">O</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:22px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Italic';font-variant-ligatures:none;stroke-width:0.75;fill:#a51d2d"
-       x="774.17529"
-       y="-676.83844"
+       style="font-style:italic;font-size:30.54px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Italic';font-variant-ligatures:none;fill:#a51d2d;stroke-width:1.04114"
+       x="714.1427"
+       y="-670.1601"
        id="text1318"
        transform="scale(1,-1)"><tspan
          sodipodi:role="line"
          id="tspan1316"
-         style="font-size:22px;fill:#a51d2d;stroke-width:0.75"
-         x="774.17529"
-         y="-676.83844">System size</tspan></text>
+         style="font-size:30.54px;fill:#a51d2d;stroke-width:1.04114"
+         x="714.1427"
+         y="-670.1601">System size</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:22px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Italic';font-variant-ligatures:none;stroke-width:0.75;fill:#a51d2d"
-       x="774.68115"
-       y="-103.66872"
+       style="font-style:italic;font-size:30.54px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Italic';font-variant-ligatures:none;fill:#a51d2d;stroke-width:1.04114"
+       x="699.84485"
+       y="-82.997131"
        id="text1318-8"
        transform="scale(1,-1)"><tspan
          sodipodi:role="line"
          id="tspan1316-4"
-         style="font-size:22px;fill:#a51d2d;stroke-width:0.75"
-         x="774.68115"
-         y="-103.66872">Tedious analysis</tspan></text>
+         style="font-size:30.54px;fill:#a51d2d;stroke-width:1.04114"
+         x="699.84485"
+         y="-82.997131">Tedious analysis</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:22px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Italic';font-variant-ligatures:none;stroke-width:0.75;fill:#a51d2d"
-       x="-99.994049"
-       y="-126.47763"
+       style="font-style:italic;font-size:30.54px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Italic';font-variant-ligatures:none;fill:#a51d2d;stroke-width:1.04114"
+       x="-64.362083"
+       y="-95.160019"
        id="text1318-5"
        transform="scale(1,-1)"><tspan
          sodipodi:role="line"
          id="tspan1316-5"
-         style="font-size:22px;fill:#a51d2d;stroke-width:0.75"
-         x="-99.994049"
-         y="-126.47763">Data itself</tspan></text>
+         style="font-size:30.54px;fill:#a51d2d;stroke-width:1.04114"
+         x="-64.362083"
+         y="-95.160019">Data itself</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:22px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Italic';font-variant-ligatures:none;stroke-width:0.75;fill:#a51d2d"
-       x="-219.8132"
-       y="-682.15887"
+       style="font-style:italic;font-size:30.54px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Italic';font-variant-ligatures:none;fill:#a51d2d;stroke-width:1.04114"
+       x="-68.692673"
+       y="-688.04578"
        id="text1318-5-7"
        transform="scale(1,-1)"><tspan
          sodipodi:role="line"
-         id="tspan1316-5-1"
-         style="font-size:22px;fill:#a51d2d;stroke-width:0.75"
-         x="-219.8132"
-         y="-682.15887">Knowledge availability</tspan></text>
+         style="font-size:30.54px;fill:#a51d2d;stroke-width:1.04114"
+         x="-68.692673"
+         y="-688.04578"
+         id="tspan569">Knowledge</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:30.54px;fill:#a51d2d;stroke-width:1.04114"
+         x="-68.692673"
+         y="-649.87079"
+         id="tspan573">availability</tspan></text>
   </g>
 </svg>

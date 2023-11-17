@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2023.6.9)  16 NOV 2023 17:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2023.6.9)  17 NOV 2023 17:09
 entering extended mode
  %&-line parsing enabled.
 **soutenance.tex
@@ -1386,7 +1386,7 @@ y)
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 130.
+(hyperref)                removing `\new@ifnextchar' on input line 140.
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
@@ -1460,24 +1460,24 @@ File: tikzlibrarybackgrounds.code.tex 2020/12/27 v3.1.8b (3.1.8b)
  (./soutenance.aux)
 \openout1 = `soutenance.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1527,7 +1527,7 @@ LaTeX Font Info:    ... okay on input line 138.
 \makeMPintoPDFobject=\count483
 \everyMPtoPDFconversion=\toks55
 )
-Package hyperref Info: Link coloring OFF on input line 138.
+Package hyperref Info: Link coloring OFF on input line 148.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1540,9 +1540,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count484
 )
-LaTeX Info: Redefining \ref on input line 138.
-LaTeX Info: Redefining \pageref on input line 138.
-LaTeX Info: Redefining \nameref on input line 138.
+LaTeX Info: Redefining \ref on input line 148.
+LaTeX Info: Redefining \pageref on input line 148.
+LaTeX Info: Redefining \nameref on input line 148.
  (./soutenance.out) (./soutenance.out)
 \@outlinefile=\write7
 \openout7 = `soutenance.out'.
@@ -1576,7 +1576,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into 
 your preamble.
- on input line 138.
+ on input line 148.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2021/02/05 v3.0 ragged2e Package
@@ -1637,464 +1637,381 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Invalid format of field 'month'.
 
 )
-Package biblatex Info: Reference section=0 on input line 138.
-Package biblatex Info: Reference segment=0 on input line 138.
+Package biblatex Info: Reference section=0 on input line 148.
+Package biblatex Info: Reference segment=0 on input line 148.
  (./soutenance.nav)
-<figures/bacteria.png, id=37, 385.44pt x 385.44pt>
+<figures/bacteria.png, id=29, 385.44pt x 385.44pt>
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 138.
+Package pdftex.def Info: figures/bacteria.png  used on input line 148.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
-<figures/bacteria_2.png, id=39, 385.44pt x 385.44pt>
+<figures/bacteria_2.png, id=31, 385.44pt x 385.44pt>
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 138.
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 148.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 173
+LaTeX Font Info:    Trying to load font information for U+msa on input line 183
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 173
+LaTeX Font Info:    Trying to load font information for U+msb on input line 183
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 17
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 18
 3.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 173.
+ut line 183.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-Overfull \hbox (1.37546pt too wide) in paragraph at lines 173--173
+Overfull \hbox (1.37546pt too wide) in paragraph at lines 183--183
 [][][]  
  []
 
-<figures/logos/logo_EDMI.png, id=68, 1085.05376pt x 209.78375pt>
+<figures/logos/logo_EDMI.png, id=61, 1085.05376pt x 209.78375pt>
 File: figures/logos/logo_EDMI.png Graphic file (type png)
 <use figures/logos/logo_EDMI.png>
-Package pdftex.def Info: figures/logos/logo_EDMI.png  used on input line 173.
+Package pdftex.def Info: figures/logos/logo_EDMI.png  used on input line 183.
 (pdftex.def)             Requested size: 80.92848pt x 15.6491pt.
-<figures/logos/Logo-INRAE_Transparent.png, id=69, 2569.6pt x 678.535pt>
+<figures/logos/Logo-INRAE_Transparent.png, id=62, 2569.6pt x 678.535pt>
 File: figures/logos/Logo-INRAE_Transparent.png Graphic file (type png)
 <use figures/logos/Logo-INRAE_Transparent.png>
 Package pdftex.def Info: figures/logos/Logo-INRAE_Transparent.png  used on inpu
-t line 173.
+t line 183.
 (pdftex.def)             Requested size: 59.24463pt x 15.6491pt.
-<figures/logos/logo_inria.png, id=70, 285.065pt x 83.81313pt>
+<figures/logos/logo_inria.png, id=63, 285.065pt x 83.81313pt>
 File: figures/logos/logo_inria.png Graphic file (type png)
 <use figures/logos/logo_inria.png>
-Package pdftex.def Info: figures/logos/logo_inria.png  used on input line 173.
+Package pdftex.def Info: figures/logos/logo_inria.png  used on input line 183.
 (pdftex.def)             Requested size: 53.22336pt x 15.6491pt.
-<figures/logos/logo_LaBRI.png, id=71, 1630.09pt x 519.9425pt>
+<figures/logos/logo_LaBRI.png, id=64, 1630.09pt x 519.9425pt>
 File: figures/logos/logo_LaBRI.png Graphic file (type png)
 <use figures/logos/logo_LaBRI.png>
-Package pdftex.def Info: figures/logos/logo_LaBRI.png  used on input line 173.
+Package pdftex.def Info: figures/logos/logo_LaBRI.png  used on input line 183.
 (pdftex.def)             Requested size: 49.04982pt x 15.6491pt.
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 173.
+Package pdftex.def Info: figures/bacteria.png  used on input line 183.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 173.
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 183.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
 [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./figures/logos/logo_EDMI.png> <./figures/logos/Logo-INRAE_Transparent.png> <
 ./figures/logos/logo_inria.png> <./figures/logos/logo_LaBRI.png> <./figures/bac
 teria.png> <./figures/bacteria_2.png>]
-<figures/bacterial-env.pdf, id=118, 645.83655pt x 423.7696pt>
+<figures/bacterial-env.pdf, id=113, 645.83655pt x 423.7696pt>
 File: figures/bacterial-env.pdf Graphic file (type pdf)
 <use figures/bacterial-env.pdf>
-Package pdftex.def Info: figures/bacterial-env.pdf  used on input line 192.
+Package pdftex.def Info: figures/bacterial-env.pdf  used on input line 202.
 (pdftex.def)             Requested size: 276.559pt x 181.4673pt.
 
-Overfull \vbox (1.39224pt too high) detected at line 192
+Overfull \vbox (1.39224pt too high) detected at line 202
  []
 
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 192.
+Package pdftex.def Info: figures/bacteria.png  used on input line 202.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 192.
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 202.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
 [2
 
  <./figures/bacterial-env.pdf>]
-<figures/interaction.png, id=168, 418.56375pt x 286.06876pt>
+<figures/interaction.png, id=164, 418.56375pt x 286.06876pt>
 File: figures/interaction.png Graphic file (type png)
 <use figures/interaction.png>
-Package pdftex.def Info: figures/interaction.png  used on input line 206.
+Package pdftex.def Info: figures/interaction.png  used on input line 220.
 (pdftex.def)             Requested size: 245.83282pt x 168.01521pt.
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 206.
+Package pdftex.def Info: figures/bacteria.png  used on input line 220.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 206.
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 220.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
  [3
 
  <./figures/interaction.png>]
-<figures/aroma-cpd-rum.pdf, id=206, 758.835pt x 379.4175pt>
-File: figures/aroma-cpd-rum.pdf Graphic file (type pdf)
-<use figures/aroma-cpd-rum.pdf>
-Package pdftex.def Info: figures/aroma-cpd-rum.pdf  used on input line 321.
-(pdftex.def)             Requested size: 110.6219pt x 55.30649pt.
+<figures/systeme-biology.pdf, id=219, 995.6256pt x 754.81995pt>
+File: figures/systeme-biology.pdf Graphic file (type pdf)
+<use figures/systeme-biology.pdf>
+Package pdftex.def Info: figures/systeme-biology.pdf  used on input line 243.
+(pdftex.def)             Requested size: 221.24803pt x 167.73096pt.
+
+Overfull \vbox (8.82256pt too high) detected at line 243
+ []
+
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 321.
+Package pdftex.def Info: figures/bacteria.png  used on input line 243.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 321.
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 243.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
- [4
+[4
+
+ <./figures/systeme-biology.pdf>]
+<figures/aroma-cpd-rum.pdf, id=272, 758.835pt x 379.4175pt>
+File: figures/aroma-cpd-rum.pdf Graphic file (type pdf)
+<use figures/aroma-cpd-rum.pdf>
+Package pdftex.def Info: figures/aroma-cpd-rum.pdf  used on input line 380.
+(pdftex.def)             Requested size: 215.10196pt x 107.55037pt.
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package pdftex.def Info: figures/bacteria.png  used on input line 380.
+(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 380.
+(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
+ [5
 
  <./figures/aroma-cpd-rum.pdf>]
 File: figures/aroma-cpd-rum.pdf Graphic file (type pdf)
 <use figures/aroma-cpd-rum.pdf>
-Package pdftex.def Info: figures/aroma-cpd-rum.pdf  used on input line 321.
-(pdftex.def)             Requested size: 110.6219pt x 55.30649pt.
+Package pdftex.def Info: figures/aroma-cpd-rum.pdf  used on input line 380.
+(pdftex.def)             Requested size: 215.10196pt x 107.55037pt.
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 321.
+Package pdftex.def Info: figures/bacteria.png  used on input line 380.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 321.
-(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
- [5
-
-]
-File: figures/aroma-cpd-rum.pdf Graphic file (type pdf)
-<use figures/aroma-cpd-rum.pdf>
-Package pdftex.def Info: figures/aroma-cpd-rum.pdf  used on input line 321.
-(pdftex.def)             Requested size: 110.6219pt x 55.30649pt.
-File: figures/bacteria.png Graphic file (type png)
-<use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 321.
-(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
-File: figures/bacteria_2.png Graphic file (type png)
-<use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 321.
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 380.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
  [6
 
 ]
 File: figures/aroma-cpd-rum.pdf Graphic file (type pdf)
 <use figures/aroma-cpd-rum.pdf>
-Package pdftex.def Info: figures/aroma-cpd-rum.pdf  used on input line 321.
-(pdftex.def)             Requested size: 110.6219pt x 55.30649pt.
-File: figures/interaction.png Graphic file (type png)
-<use figures/interaction.png>
-Package pdftex.def Info: figures/interaction.png  used on input line 321.
-(pdftex.def)             Requested size: 153.64493pt x 105.00569pt.
+Package pdftex.def Info: figures/aroma-cpd-rum.pdf  used on input line 380.
+(pdftex.def)             Requested size: 215.10196pt x 107.55037pt.
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 321.
+Package pdftex.def Info: figures/bacteria.png  used on input line 380.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 321.
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 380.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
- [7
+
+[7
 
 ]
 File: figures/aroma-cpd-rum.pdf Graphic file (type pdf)
 <use figures/aroma-cpd-rum.pdf>
-Package pdftex.def Info: figures/aroma-cpd-rum.pdf  used on input line 321.
-(pdftex.def)             Requested size: 110.6219pt x 55.30649pt.
-File: figures/interaction.png Graphic file (type png)
-<use figures/interaction.png>
-Package pdftex.def Info: figures/interaction.png  used on input line 321.
-(pdftex.def)             Requested size: 153.64493pt x 105.00569pt.
+Package pdftex.def Info: figures/aroma-cpd-rum.pdf  used on input line 380.
+(pdftex.def)             Requested size: 215.10196pt x 107.55037pt.
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 321.
+Package pdftex.def Info: figures/bacteria.png  used on input line 380.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 321.
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 380.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
  [8
 
 ]
-<figures/top-down.pdf, id=395, 591.20876pt x 561.09625pt>
-File: figures/top-down.pdf Graphic file (type pdf)
-<use figures/top-down.pdf>
-Package pdftex.def Info: figures/top-down.pdf  used on input line 335.
-(pdftex.def)             Requested size: 169.01036pt x 160.4021pt.
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 335.
+Package pdftex.def Info: figures/bacteria.png  used on input line 488.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 335.
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 488.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
  [9
 
- <./figures/top-down.pdf>]
-<figures/systeme-biology.pdf, id=438, 1159.72359pt x 754.81995pt>
-File: figures/systeme-biology.pdf Graphic file (type pdf)
-<use figures/systeme-biology.pdf>
-Package pdftex.def Info: figures/systeme-biology.pdf  used on input line 387.
-(pdftex.def)             Requested size: 245.83282pt x 160.00264pt.
+]
+Underfull \hbox (badness 10000) in paragraph at lines 488--488
 
-Overfull \vbox (4.62823pt too high) detected at line 387
+ []
+
+
+Overfull \hbox (0.63068pt too wide) detected at line 488
+[][]
  []
 
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 387.
+Package pdftex.def Info: figures/bacteria.png  used on input line 488.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 387.
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 488.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
 [10
 
- <./figures/systeme-biology.pdf>]
-File: figures/bacteria.png Graphic file (type png)
-<use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 497.
-(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
-File: figures/bacteria_2.png Graphic file (type png)
-<use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 497.
-(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
- [11
-
 ]
-Overfull \hbox (0.63068pt too wide) detected at line 497
+Underfull \hbox (badness 10000) in paragraph at lines 488--488
+
+ []
+
+
+Overfull \hbox (0.63068pt too wide) detected at line 488
 [][]
+ []
+
+
+Overfull \hbox (1.51077pt too wide) in paragraph at lines 488--488
+ [][]\OT1/cmss/m/n/8 butanediol 
+ []
+
+
+Overfull \hbox (26.96727pt too wide) in paragraph at lines 488--488
+ [][] 
  []
 
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 497.
+Package pdftex.def Info: figures/bacteria.png  used on input line 488.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 497.
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 488.
+(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
+[11
+
+]
+<figures/top-down.pdf, id=523, 583.17876pt x 483.8075pt>
+File: figures/top-down.pdf Graphic file (type pdf)
+<use figures/top-down.pdf>
+Package pdftex.def Info: figures/top-down.pdf  used on input line 518.
+(pdftex.def)             Requested size: 150.57071pt x 124.90848pt.
+
+Overfull \vbox (6.87135pt too high) detected at line 518
+ []
+
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package pdftex.def Info: figures/bacteria.png  used on input line 518.
+(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 518.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
 [12
 
-]
-Overfull \hbox (0.63068pt too wide) detected at line 497
-[][]
- []
-
-
-Overfull \hbox (15.41087pt too wide) in paragraph at lines 497--497
-[][] 
+ <./figures/top-down.pdf>]
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 620--620
+[]$$[]$  
  []
 
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 497.
+Package pdftex.def Info: figures/bacteria.png  used on input line 620.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 497.
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 620.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
 [13
 
 ]
-File: figures/bacteria.png Graphic file (type png)
-<use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 535.
-(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
-File: figures/bacteria_2.png Graphic file (type png)
-<use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 535.
-(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
- [14
-
-]
-<figures/fba.png, id=621, 687.56876pt x 786.94pt>
-File: figures/fba.png Graphic file (type png)
-<use figures/fba.png>
-Package pdftex.def Info: figures/fba.png  used on input line 535.
-(pdftex.def)             Requested size: 147.50119pt x 168.81656pt.
-
-Overfull \vbox (3.9915pt too high) detected at line 535
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 620--620
+[]$$[]$  
  []
 
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 535.
+Package pdftex.def Info: figures/bacteria.png  used on input line 620.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 535.
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 620.
+(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
+[14
+
+]
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 620--620
+[]$$[]$  
+ []
+
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package pdftex.def Info: figures/bacteria.png  used on input line 620.
+(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 620.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
 [15
 
- <./figures/fba.png (PNG copy)>]
-\openout4 = `soutenance.vrb'.
-
- (./soutenance.vrb
-Overfull \hbox (4.75316pt too wide) in paragraph at lines 38--39
-[][] 
- []
-
-
-Overfull \hbox (15.36542pt too wide) in paragraph at lines 50--83
-[]$$[]$  
- []
-
-)
+]
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 626.
+Package pdftex.def Info: figures/bacteria.png  used on input line 766.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 626.
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 766.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
  [16
 
-] (./soutenance.vrb
-Overfull \hbox (4.75316pt too wide) in paragraph at lines 38--39
-[][] 
- []
-
-
-Overfull \hbox (15.36542pt too wide) in paragraph at lines 50--83
-[]$$[]$  
- []
-
-)
+]
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 626.
+Package pdftex.def Info: figures/bacteria.png  used on input line 766.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 626.
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 766.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
  [17
 
-] (./soutenance.vrb
-Overfull \hbox (4.75316pt too wide) in paragraph at lines 38--39
-[][] 
- []
-
-
-Overfull \hbox (15.36542pt too wide) in paragraph at lines 50--83
-[]$$[]$  
- []
-
-)
+]
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 626.
+Package pdftex.def Info: figures/bacteria.png  used on input line 766.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 626.
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 766.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
  [18
 
 ]
-<figures/asp.pdf, id=870, 715.43134pt x 301.2342pt>
-File: figures/asp.pdf Graphic file (type pdf)
-<use figures/asp.pdf>
-Package pdftex.def Info: figures/asp.pdf  used on input line 642.
-(pdftex.def)             Requested size: 307.28987pt x 129.38568pt.
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 642.
+Package pdftex.def Info: figures/bacteria.png  used on input line 766.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 642.
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 766.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
  [19
 
- <./figures/asp.pdf>]
-Overfull \hbox (14.32478pt too wide) in paragraph at lines 775--775
-[]  [] 
+]
+\openout4 = `soutenance.vrb'.
+
+ (./soutenance.vrb
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 5--43
+[]$$[]$  
  []
 
-File: figures/bacteria.png Graphic file (type png)
-<use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 775.
-(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
-File: figures/bacteria_2.png Graphic file (type png)
-<use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 775.
-(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
-[20
 
-]
-Overfull \hbox (14.32478pt too wide) in paragraph at lines 775--775
-[]  [] 
- []
+LaTeX Warning: Citation 'Lifschitz2008' on page 20 undefined on input line 45.
 
-File: figures/bacteria.png Graphic file (type png)
-<use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 775.
-(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
-File: figures/bacteria_2.png Graphic file (type png)
-<use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 775.
-(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
-[21
-
-]
-File: figures/bacteria.png Graphic file (type png)
-<use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 805.
-(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
-File: figures/bacteria_2.png Graphic file (type png)
-<use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 805.
-(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
- [22
-
-]
-File: figures/bacteria.png Graphic file (type png)
-<use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 810.
-(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
-File: figures/bacteria_2.png Graphic file (type png)
-<use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 810.
-(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
- [23
-
-]
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <8> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 812.
-
-File: figures/bacteria.png Graphic file (type png)
-<use figures/bacteria.png>
-Package pdftex.def Info: figures/bacteria.png  used on input line 812.
-(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
-File: figures/bacteria_2.png Graphic file (type png)
-<use figures/bacteria_2.png>
-Package pdftex.def Info: figures/bacteria_2.png  used on input line 812.
-(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
-[24
-
- </usr/local/texlive/2021/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
+)
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
 Package pdftex.def Info: figures/bacteria.png  used on input line 815.
@@ -2103,7 +2020,102 @@ File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
 Package pdftex.def Info: figures/bacteria_2.png  used on input line 815.
 (pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
- [25]
+ [20
+
+]
+<figures/asp.pdf, id=963, 715.43134pt x 301.2342pt>
+File: figures/asp.pdf Graphic file (type pdf)
+<use figures/asp.pdf>
+Package pdftex.def Info: figures/asp.pdf  used on input line 832.
+(pdftex.def)             Requested size: 307.28987pt x 129.38568pt.
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package pdftex.def Info: figures/bacteria.png  used on input line 832.
+(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 832.
+(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
+ [21
+
+ <./figures/asp.pdf>]
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package pdftex.def Info: figures/bacteria.png  used on input line 883.
+(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 883.
+(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
+ [22
+
+]
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package pdftex.def Info: figures/bacteria.png  used on input line 883.
+(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 883.
+(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
+ [23
+
+]
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package pdftex.def Info: figures/bacteria.png  used on input line 914.
+(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 914.
+(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
+ [24
+
+]
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package pdftex.def Info: figures/bacteria.png  used on input line 919.
+(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 919.
+(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
+ [25
+
+]
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <8> not available
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 921.
+
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package pdftex.def Info: figures/bacteria.png  used on input line 921.
+(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 921.
+(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
+[26
+
+ </usr/local/texlive/2021/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package pdftex.def Info: figures/bacteria.png  used on input line 921.
+(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 921.
+(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
+ [27]
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package pdftex.def Info: figures/bacteria.png  used on input line 924.
+(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package pdftex.def Info: figures/bacteria_2.png  used on input line 924.
+(pdftex.def)             Requested size: 8.5359pt x 8.53381pt.
+ [28]
 \tf@nav=\write8
 \openout8 = `soutenance.nav'.
 
@@ -2114,37 +2126,52 @@ Package pdftex.def Info: figures/bacteria_2.png  used on input line 815.
 \openout10 = `soutenance.snm'.
 
  (./soutenance.aux)
-Package rerunfilecheck Info: File `soutenance.out' has not changed.
-(rerunfilecheck)             Checksum: 1D4B62367CA03F2A6E14F64887963727;400.
+
+LaTeX Warning: There were undefined references.
+
+
+Package rerunfilecheck Warning: File `soutenance.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `soutenance.out':
+(rerunfilecheck)             Before: 5F7C44409AA9322D5965ABCBC07EEC1A;186
+(rerunfilecheck)             After:  1D4B62367CA03F2A6E14F64887963727;400.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                soutenance
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'soutenance.run.xml'.
 \openout1 = `soutenance.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47676 strings out of 478994
- 1082609 string characters out of 5858185
- 1835625 words of memory out of 5000000
- 64198 multiletter control sequences out of 15000+600000
+ 47659 strings out of 478994
+ 1082496 string characters out of 5858185
+ 1818777 words of memory out of 5000000
+ 64179 multiletter control sequences out of 15000+600000
  420381 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,20n,132p,1848b,2517s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 131i,23n,132p,1848b,2481s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pf
 b></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8
-.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.p
-fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></
-usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr
-/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
-cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/loc
-al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local
-/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/loca
-l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local
-/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
-exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on soutenance.pdf (25 pages, 7594733 bytes).
+.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.p
+fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
+l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local
+/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/t
+exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/
+texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/t
+exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
+live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on soutenance.pdf (28 pages, 7072490 bytes).
 PDF statistics:
- 1177 PDF objects out of 1200 (max. 8388607)
- 864 compressed objects within 9 object streams
- 70 named destinations out of 1000 (max. 500000)
- 1296 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1307 PDF objects out of 1440 (max. 8388607)
+ 970 compressed objects within 10 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 1425 words of extra memory for PDF output out of 10000 (max. 10000000)
 
