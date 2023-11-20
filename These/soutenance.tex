@@ -21,6 +21,9 @@
 \usepackage{tikz}
 \usetikzlibrary{tikzmark}
 \usetikzlibrary {graphs,shapes.geometric}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{graphdrawing}
+\usegdlibrary{circular}
 \tikzset{
 mystyle/.style={
   circle,
@@ -656,7 +659,7 @@ Allow us to infer qualitative models from logical rules based on biological know
 
 \end{tikzpicture}
 \end{center}
-r1 est active
+X is a seed
 }
 
 \only<2> {
@@ -688,6 +691,7 @@ r1 est active
 	     \draw [draw=black] (0.5,1.5) rectangle (5.5,-2.5);     
 \end{tikzpicture}
 \end{center}
+X is available;  $r_1$ is activated and A,D are producible
 
 }
 
@@ -720,6 +724,7 @@ r1 est active
 	     \draw [draw=black] (0.5,1.5) rectangle (5.5,-2.5);     
 \end{tikzpicture}
 \end{center}
+A,D are available;  $r_2$ is activated and C is producible
 }
 
 \only<4>{
@@ -845,12 +850,13 @@ From a GEM, a model metabolic has the capacity to simulate and to predict on the
 
 \only<2>{
 
-\framesubtitle{Build a metabolic model}
+\framesubtitle{Flux Balance Analysis \tiny \citep{Orth2010}}
+
 \begin{exampleblock}{Metabolic model}
 From a GEM, a model metabolic has the capacity to simulate and to predict on the metabolic content
 \end{exampleblock}
 \textbf{Constraint-based approaches}
-\begin{minipage}{0.3\textwidth}
+\begin{minipage}{0.5\textwidth}
 
 \begin{align*}
 \begin{split}
@@ -860,28 +866,100 @@ From a GEM, a model metabolic has the capacity to simulate and to predict on the
 \end{split}
 \end{align*}
 
-%\includegraphics[width=0.8\textwidth]{figures/fba}
-\end{minipage}%
-\begin{minipage}{0.7\textwidth}
-mass balanced
-\end{minipage}
-%\begin{minipage}{0.4\textwidth}
-%\begin{figure}
-%\caption{Illustration of the Flux balance analysis \tiny \citep{Orth2010}}
-%\end{figure}
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/mass-balance-1}
+\caption{Example of metabolic network}
+\end{figure}
 
-\begin{block}{}
-\begin{itemize}
-\item Topology and stoichiometry of metabolic goods
-\item Can explain metabolic  observations through reaction fluxes
-\item difficult to apply in larger scale
-\end{itemize}
-\end{block}
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/mass-balance-2}
+\caption{Stoichiometry matrix representation and the flux vector v}
+\end{figure}
+
+\end{minipage}
+
+}
+
+\only<3> {
+
+\framesubtitle{Flux Balance Analysis \tiny \citep{Orth2010}}
+
+\begin{exampleblock}{Metabolic model}
+From a GEM, a model metabolic has the capacity to simulate and to predict on the metabolic content
+\end{exampleblock}
+\textbf{Constraint-based approaches}
+\begin{minipage}{0.5\textwidth}
+
+\begin{align*}
+\begin{split}
+    \text{maximiser/minimiser }\text{$f_{obj}$} \\
+    \text{tel que } (S.v)_{int} = 0\\
+    \text{et } \text{$v_{i_{min}}$} \leq v_i \leq \text{$v_{i_{max}}$}
+\end{split}
+\end{align*}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/mass-balance-1}
+\caption{Example of metabolic network}
+\end{figure}
+
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/mass-balance-3}
+\caption{Linear programming problem.}
+\end{figure}
+
+\end{minipage}
+
 
 
 }
 \end{frame}
 
+\begin{frame}
+\frametitle{Flux application}
+\centering
+\begin{tikzpicture}
+   \node (x) [circle, draw] at (0,0)   {X};
+   \node (a) [circle, draw] at (2,0)   {A};
+   \node (b) [circle, draw] at (4,0)   {C};
+   \node (c) [circle, draw] at (3,1)   {D};
+   \node (d) [circle, draw] at (5,-1)   {E};
+   \node (e) [circle, draw] at (3.5,-2)   {F};
+          
+    \node (f) [rectangle, draw] at (1,0) {$r_1$};
+  	\node (g) [rectangle, draw] at (3,0)  {$r_2$};
+  	\node (h) [rectangle, draw] at (5,0)   {$r_3$};
+  	\node (i) [rectangle, draw] at (4,-1)   {$r_4$};
+  	\node (j) [rectangle, draw] at (5,-2)   {$r_5$};
+
+
+	\draw [line width=2pt,yellow] (x) edge[->] (f);	
+	\draw [line width=1.5pt,yellow](f) edge[->] (a);
+		\draw [line width=0.5pt,yellow](f) edge[->] (c);
+			\draw [line width=1.5pt,yellow](a) edge[->] (g);
+				\draw [line width=1.5pt,yellow](g) edge[->] (b);
+					\draw [line width=1.5pt,yellow](b) edge[->] (h);
+						\draw [line width=0.5pt,yellow](h) edge[<-] (c);
+							\draw [line width=2pt,yellow](h) edge[->] (d);
+      
+	\graph { (b) <- (i) <- (d) };       
+	\graph { (d) <- (j) <- (e) };              
+	\graph { (e) -> (i) };      
+		
+\end{tikzpicture}
+
+\begin{block}{}
+	\begin{itemize}
+		\item Topology and stoichiometry of metabolic goods
+		\item Can explain metabolic  observations through reaction fluxes
+		\item difficult to apply in larger scale
+	\end{itemize}
+\end{block}
+\end{frame}
 
 \begin{frame}{Contributions and objective}
 \begin{block}{Objective}
@@ -915,6 +993,7 @@ mass balanced
 
 \section{Numerical model}
 \begin{frame}
+\frametitle{}
 blablabla
 \end{frame}
 \tiny
