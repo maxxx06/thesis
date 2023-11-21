@@ -73,6 +73,7 @@ mystyle/.style={
      basicstyle=\tt\footnotesize,
 }
 
+\DeclareMathOperator*{\logten}{log_{10}}
 
 \usefonttheme[onlymath]{serif} %% Pour écrire les maths comme dans les documents latex classiques
 \setbeamertemplate{navigation symbols}{} %% Pour enlever les symboles de navigation en bas à droite, peu utiles
@@ -1026,12 +1027,207 @@ Dynamic and numerical model of the metabolism can integrate all the data
 
 \begin{frame}
 \frametitle{Model fitting strategy}
+
 \begin{adjustwidth}{-1cm}{}
 \begin{figure}
 \includegraphics[width=1.2\textwidth]{figures/global.pdf}
-\vspace{-0.7cm}\caption{Workflow}
+\vspace{-0.7cm}\caption{Numerical workflow for analysing cheese bacterial fermentation}
 \end{figure}
 \end{adjustwidth}
+\end{frame}
+
+\begin{frame}
+\frametitle{Refinement of metabolic networks - 1}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/global-a}
+\caption{First part of the numerical workflow}
+\end{figure}
+
+\begin{block}{}
+\begin{itemize}
+\item Adding/removing reactions
+\item Qualitative check of existing pathway and metabolic goods
+\item Tedious analysis
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Refinement of metabolic networks - 2}
+\framesubtitle{\textit{L. lactis} case}
+
+\only<1>{
+\begin{minipage}{0.7\textwidth}
+\begin{adjustwidth}{-1cm}{}
+\begin{figure}
+\vspace{-0.1cm}\includegraphics[width=\textwidth]{figures/carte_lactis.pdf}
+\end{figure}
+\end{adjustwidth}
+\end{minipage}%
+\begin{minipage}{0.35\textwidth}
+%\begin{adjustwidth}{}{15cm}
+\begin{block}{Objectif}
+\begin{itemize}
+\item Production of butanediol
+\item activation of acetolactate pathway
+\end{itemize}
+\end{block}
+%\end{adjustwidth}
+\end{minipage}
+}
+
+\only<2>{
+
+\begin{minipage}{0.6\textwidth}
+\begin{adjustwidth}{-0.8cm}{}
+\begin{figure}
+\vspace{-0.1cm}\includegraphics[width=0.95\textwidth]{figures/FIG2_opt_explo_ll.pdf}
+\end{figure}
+\end{adjustwidth}
+\end{minipage}%
+\begin{minipage}{0.45\textwidth}
+\begin{block}{Objectif}
+\begin{itemize}
+\item Production of butanediol
+\item activation of acetolactate pathway
+\end{itemize}
+\end{block}
+
+\begin{block}{Refinement}
+\begin{itemize}
+\item Acétoine-dehydrogenase was blocked (ACTD2)
+\item Modification of bounds: acétolactate decarboxylase (ACLDC) and acétolactate synthase (ACLS)
+\end{itemize}
+\end{block}
+
+\end{minipage}
+
+}
+\end{frame}
+
+\begin{frame}
+\frametitle{Dynamic individual calibration}
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/calibration.pdf}
+\caption{Second part of the numerical workflow}
+\end{figure}
+
+\begin{block}{}
+\begin{itemize}
+\item Finding optimal parameters for explaining \textbf{individual} biological observations
+\item Quantitative check of metabolic goods and biomass density
+\item Tedious analysis
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Dynamic model of the metabolism}
+\only<1>{
+\framesubtitle{Quorum sensing and dynamic of molecules}
+
+\begin{equation}
+\label{eq:logistic-growth}
+    \mathcal{R}_{i} = \lambda_i (1-\frac{b_i}{\beta_i}), \text{ for }i \in \mathcal{B} 
+\end{equation}
+
+\begin{equation}
+c^{ex}_{min,i,j} = max(-\frac{m_{lcts_e}}{\Delta t*\sum_{i \in \mathcal{M}(lcts_e)} b_i},-\mu_{max,lcts}*10^{(-k_{lac}*\phi_{undiss})}-\mu_{min,lcts})
+\end{equation}
+
+
+}
+
+\only<2>{
+\framesubtitle{Dynamic regulation of pH}
+
+\begin{equation}
+\phi_{undiss}(m_{lac\_\_L\_e},m_{lac\_\_D\_e}) = \frac{m_{lac\_\_L\_e}+m_{lac\_\_D\_e}}{1+ 10^{c_1 * (m_{lac\_\_L\_e}+m_{lac\_\_D\_e})+c_2}}.
+\label{eq:undissociated-lactate}
+\end{equation}
+
+}
+
+\only<3>{
+
+\[ F_j=\sum_{i \in \mathcal{B}} {\mu}_{i,j}\left((c^{ex}_{min,i},c^{ex}_{max,i})(b^n,m^n)\right) b_i \,,\]
+
+
+\begin{align*}
+b_i^{n+1}& = b_i^n+\Delta t* F_{b_i} \\
+m_j^{n+1}& = \begin{cases} m_i^n+\Delta t* F_{j} & \text{ si } F_j>0 \text{(cas explicit)}\\
+m_j^n/(1-\Delta t * F_j/m_j^n) & \text{ sinon (cas implicite)}
+\end{cases}
+\end{align*}
+
+}
+\end{frame}
+
+\begin{frame}
+\frametitle{Individual metabolic model calibration}
+
+\begin{exampleblock}{Goal}
+Make individual GSMN accurate for inferring mechanistic bacterial behavior
+\end{exampleblock}
+
+\textbf{LAB} 
+
+\begin{equation}
+J(b_i,pH | \theta_i, b_{i,exp},pH_{exp} ) = \left \Vert \frac{\logten(b_i) - \logten(b_{i,exp})}{\sigma_{log,i,exp}} \right \Vert^2 + \alpha \left \Vert\frac{pH - pH_{exp}}{\sigma_{pH,exp}} \right \Vert^2 
+\label{eq:optim_LAB}
+\end{equation}
+
+\textbf{\textit{P. freudenreichii}}
+
+\begin{equation} 
+J(b,m | \theta_i, b_{exp},m_{exp} ) = \left \Vert \frac{\logten(b) - \logten(b_{exp})}{\sigma_{log,b,exp}} \right \Vert ^2 + \alpha \left \Vert \frac{m - m_{exp}}{\sigma_{m,exp}} \right \Vert^2 
+\label{eq:optim_freud}
+\end{equation}
+
+\begin{block}{Data}
+\begin{itemize}
+\item Metabolomics
+\item Growth and pH in pure cultures
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Model validation}
+
+\only<1>{
+\framesubtitle{\textit{L. plantarum}}
+\includegraphics[width=\textwidth]{figures/validation-lp.pdf}
+\begin{block}{}
+
+\end{block}
+}
+
+
+\only<2>{
+\framesubtitle{\textit{L. lactis}}
+
+\includegraphics[width=\textwidth]{figures/validation-lp.pdf}
+
+}
+
+
+\only<3>{
+\framesubtitle{\textit{P. freudenreichii}}
+\includegraphics[width=\textwidth]{figures/validation-lp.pdf}
+
+
+
+}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{}
 \end{frame}
 
 \tiny
