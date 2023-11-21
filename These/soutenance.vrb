@@ -1,0 +1,46 @@
+\frametitle{Logical rules implementation}
+\begin{exampleblock}{Reasoning-based}
+Allow us to infer qualitative models from logical rules based on biological knowledge
+\end{exampleblock}
+\textbf{topological-based approaches}
+\begin{minipage}{0.5\textwidth}
+\hspace{-0.15\textwidth}
+\begin{tikzpicture}
+   \node (x) [circle, draw] at (0,0)   {X};
+   \node (a) [circle, draw] at (2,0)   {A};
+   \node (b) [circle, draw] at (4,0)   {C};
+   \node (c) [circle, draw] at (3,1)   {D};
+   \node (d) [circle, draw] at (5,-1)   {E};
+   \node (e) [circle, draw] at (3.5,-2)   {F};
+
+    \node (f) [rectangle, draw] at (1,0) {$r_1$};
+  	\node (g) [rectangle, draw] at (3,0)  {$r_2$};
+  	\node (h) [rectangle, draw] at (5,0)   {$r_3$};
+  	\node (i) [rectangle, draw] at (4,-1)   {$r_4$};
+  	\node (j) [rectangle, draw] at (5,-2)   {$r_5$};
+
+    \graph { (x) -> (f) -> (a) };
+    \graph { (x) -> (f) -> (c) };
+    \graph { (a) -> (g) -> (c) };
+    \graph { (a) -> (g) -> (b) };
+	\graph { (b) -> (h) <-> (c) };
+	\graph { (b) -> (h) -> (d) };
+	\graph { (b) <- (i) <- (d) };
+	\graph { (d) <- (j) <- (e) };
+\end{tikzpicture}
+\end{minipage}%
+\begin{minipage}{0.55\textwidth}
+\begin{itemize}
+\item Producibility is initiated by the presence of nutrients,
+\item The products of a reactions are producible if all reactants of this reaction are themselves producible
+\end{itemize}
+
+\begin{lstlisting}[style=asp]
+scope(M) :- seed(M).
+scope(M) :- bacteria(B), product(M,R,B), reaction(R,B), scope(M2) : reactant(M2,R,B).
+\end{lstlisting}
+\end{minipage}
+
+\begin{block}{}
+Logical rules are embedded using Answer Set Programming  \tiny \citep{Lifschitz2008}
+\end{block}
