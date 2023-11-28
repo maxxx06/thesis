@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2023.6.9)  21 NOV 2023 17:09
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021)  (format=lualatex 2023.6.9)  27 NOV 2023 09:23
  restricted system commands enabled.
 **soutenance.tex
 (./soutenance.tex
@@ -1078,6 +1078,31 @@ Package: kbordermatrix 2011/09/21 Bordered matrix with brackets
 \br@kwd=\skip75
 \k@bordht=\skip76
 )
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count336
+\lst@gtempboxa=\box78
+\lst@token=\toks54
+\lst@length=\count337
+\lst@currlwidth=\dimen322
+\lst@column=\count338
+\lst@pos=\count339
+\lst@lostspace=\dimen323
+\lst@width=\dimen324
+\lst@newlines=\count340
+\lst@lineno=\count341
+\lst@maxwidth=\dimen325
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count342
+\lst@skipnumbers=\count343
+\lst@framebox=\box79
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
 (/usr/local/texlive/2021/texmf-dist/tex/latex/tikzmark/tikzlibrarytikzmark.code
 .tex
 File: tikzlibrarytikzmark.code.tex 2021/02/16 v1.10 TikZ library for marking po
@@ -1087,8 +1112,8 @@ Package: expl3 2021-02-18 L3 programming layer (loader)
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
 File: l3backend-luatex.def 2021-03-18 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count336
-\l__pdf_internal_box=\box78
+\l__color_backend_stack_int=\count344
+\l__pdf_internal_box=\box80
 ))
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2021-03-12 LaTeX2e option processing using LaTeX3 keys
@@ -1097,16 +1122,16 @@ Package: l3keys2e 2021-03-12 LaTeX2e option processing using LaTeX3 keys
 01.sty
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.
 tex)))
-\l__sn_x_dim=\dimen322
-\l__sn_y_dim=\dimen323
-\l__sn_xa_dim=\dimen324
-\l__sn_ya_dim=\dimen325
+\l__sn_x_dim=\dimen326
+\l__sn_y_dim=\dimen327
+\l__sn_xa_dim=\dimen328
+\l__sn_ya_dim=\dimen329
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/graphs/tikzlibrarygraphs.code.tex
 File: tikzlibrarygraphs.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\tikz@lib@auto@number=\count337
-\tikz@qnode@count=\count338
+\tikz@lib@auto@number=\count345
+\tikz@qnode@count=\count346
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryshapes.geometric.code.tex
@@ -1119,10 +1144,10 @@ File: pgflibraryshapes.geometric.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
 meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfarrowinset=\dimen326
-\pgfarrowlength=\dimen327
-\pgfarrowwidth=\dimen328
-\pgfarrowlinewidth=\dimen329
+\pgfarrowinset=\dimen330
+\pgfarrowlength=\dimen331
+\pgfarrowwidth=\dimen332
+\pgfarrowlinewidth=\dimen333
 )
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/graphdrawing/tex/tikzlibrar
 ygraphdrawing.code.tex
@@ -1131,15 +1156,45 @@ File: tikzlibrarygraphdrawing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/graphdrawing/tex/pgflibrary
 graphdrawing.code.tex
 File: pgflibrarygraphdrawing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@gd@parameter@stack@height=\count339
-\pgf@gd@node@box=\box79
-\pgf@gd@edge@box=\box80
-\pgf@gd@prekind@box=\box81
-\pgf@gd@postkind@box=\box82
+\pgf@gd@parameter@stack@height=\count347
+\pgf@gd@node@box=\box81
+\pgf@gd@edge@box=\box82
+\pgf@gd@prekind@box=\box83
+\pgf@gd@postkind@box=\box84
 ))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2020/03/24 1.8d listings language file
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2020/03/24 1.8d listings language file
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2020/03/24 1.8d listings language file
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2020/03/24 1.8d listings language file
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2020/03/24 1.8d listings language file
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2020/03/24 1.8d listings language file
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/beamer/multimedia.sty
 Package: multimedia 2012/05/02 ver 0.02
-\mm@movie=\count340
+\mm@movie=\count348
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/sidecap/sidecap.sty
 Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
@@ -1147,12 +1202,12 @@ Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\SC@BOXWD=\dimen330
-\SC@CAPWD=\dimen331
-\SC@tempdima=\dimen332
-\SC@tempdimb=\dimen333
-\c@SC@C=\count341
-\SC@BOX=\box83
+\SC@BOXWD=\dimen334
+\SC@CAPWD=\dimen335
+\SC@tempdima=\dimen336
+\SC@tempdimb=\dimen337
+\c@SC@C=\count349
+\SC@BOX=\box85
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hanging/hanging.sty
 Package: hanging 2009/09/02 v1.2b hanging paragraphs and punctuation
@@ -1165,31 +1220,6 @@ Package: hanging 2009/09/02 v1.2b hanging paragraphs and punctuation
 \h@ngcolonwd=\skip83
 \h@ngscolonwd=\skip84
 )
-(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count342
-\lst@gtempboxa=\box84
-\lst@token=\toks54
-\lst@length=\count343
-\lst@currlwidth=\dimen334
-\lst@column=\count344
-\lst@pos=\count345
-\lst@lostspace=\dimen335
-\lst@width=\dimen336
-\lst@newlines=\count346
-\lst@lineno=\count347
-\lst@maxwidth=\dimen337
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count348
-\lst@skipnumbers=\count349
-\lst@framebox=\box85
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2020/03/24 1.8d listings configuration
-))
-Package: listings 2020/03/24 1.8d (Carsten Heinz)
-
 (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 
@@ -1427,36 +1457,6 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2020/03/24 1.8d listings language file
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2020/03/24 1.8d listings language file
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2020/03/24 1.8d listings language file
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2020/03/24 1.8d listings language file
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2020/03/24 1.8d listings language file
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2020/03/24 1.8d listings language file
-)
-(/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/beamer/beamerthemeFrankfurt.sty
 (/usr/local/texlive/2021/texmf-dist/tex/latex/beamer/beamerouterthemesmoothbars
@@ -1469,7 +1469,7 @@ y)
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 145.
+(hyperref)                removing `\new@ifnextchar' on input line 180.
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
@@ -1543,32 +1543,32 @@ File: tikzlibrarybackgrounds.code.tex 2020/12/27 v3.1.8b (3.1.8b)
  (./soutenance.aux)
 \openout1 = soutenance.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 153.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 188.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-53.
+88.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 153.
-LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1626,7 +1626,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 153.
+Package hyperref Info: Link coloring OFF on input line 188.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1640,75 +1640,75 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count483
 )
-LaTeX Info: Redefining \ref on input line 153.
-LaTeX Info: Redefining \pageref on input line 153.
-LaTeX Info: Redefining \nameref on input line 153.
+LaTeX Info: Redefining \ref on input line 188.
+LaTeX Info: Redefining \pageref on input line 188.
+LaTeX Info: Redefining \nameref on input line 188.
  (./soutenance.out) (./soutenance.out)
 \@outlinefile=\write7
 
 \openout7 = soutenance.out
 \symnumbers=\mathgroup12
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 153.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 188.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `pureletters' in the math version `normal' on input line 15
-3.
+(Font)              `pureletters' in the math version `normal' on input line 18
+8.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/mathkerncmss/m/sl --> TU/lmr/m/it on input line 153
+(Font)                  OT1/mathkerncmss/m/sl --> TU/lmr/m/it on input line 188
 .
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `pureletters' in the math version `bold' on input line 153.
+(Font)              `pureletters' in the math version `bold' on input line 188.
 
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/bx/sl --> TU/lmr/m/it on input line 15
-3.
+(Font)                  OT1/mathkerncmss/bx/sl --> TU/lmr/m/it on input line 18
+8.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 153.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 153.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 153.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 188.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 188.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 188.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 153.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 188.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/m/n on input line 153.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 153.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/m/n on input line 188.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 188.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 153.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 188.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/m/it on input line 153.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 153.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/m/it on input line 188.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 188.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 153.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 188.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 153.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 188.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 153.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 188.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  TU/lmr/m/it --> TU/lmr/b/it on input line 153.
+(Font)                  TU/lmr/m/it --> TU/lmr/b/it on input line 188.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 153.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 188.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  TU/lmr/b/n --> TU/lmr/b/n on input line 153.
+(Font)                  TU/lmr/b/n --> TU/lmr/b/n on input line 188.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 153.
+(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 188.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/lmr/m/it --> TU/lmr/b/it on input line 153.
+(Font)                  TU/lmr/m/it --> TU/lmr/b/it on input line 188.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/lmtt/m/n --> TU/lmtt/b/n on input line 153.
-LaTeX Font Info:    Redeclaring symbol font `boldpureletters' on input line 153
+(Font)                  TU/lmtt/m/n --> TU/lmtt/b/n on input line 188.
+LaTeX Font Info:    Redeclaring symbol font `boldpureletters' on input line 188
 .
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 (Font)              `boldpureletters' in the math version `normal' on input lin
-e 153.
+e 188.
 LaTeX Font Info:    Overwriting symbol font `boldpureletters' in version `norma
 l'
 (Font)                  OT1/mathkerncmss/bx/sl --> TU/lmr/bx/it on input line 1
-53.
+88.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 (Font)              `boldpureletters' in the math version `bold' on input line 
-153.
+188.
 LaTeX Font Info:    Overwriting symbol font `boldpureletters' in version `bold'
 
 (Font)                  OT1/mathkerncmss/bx/sl --> TU/lmr/bx/it on input line 1
-53.
+88.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -1738,8 +1738,9 @@ Dictionary: translator-theorem-dictionary, Language: English
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into 
 your preamble.
- on input line 153.
+ on input line 188.
 
+\c@lstlisting=\count484
 (/usr/local/texlive/2021/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2021/02/05 v3.0 ragged2e Package
 
@@ -1765,7 +1766,6 @@ LaTeX Info: Redefining \selectfont on input line 123.
 \RaggedRightParindent=\skip119
 \JustifyingParindent=\skip120
 )
-\c@lstlisting=\count484
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1793,182 +1793,176 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'soutenance.bbl' found.
 
-(./soutenance.bbl
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Frioux2018':
-(biblatex)                - Invalid format of field 'month'.
-
-)
-Package biblatex Info: Reference section=0 on input line 153.
-Package biblatex Info: Reference segment=0 on input line 153.
+(./soutenance.bbl)
+Package biblatex Info: Reference section=0 on input line 188.
+Package biblatex Info: Reference segment=0 on input line 188.
  (./soutenance.nav)
-<figures/bacteria.png, id=37, 385.44pt x 385.44pt>
+<figures/bacteria.png, id=41, 385.44pt x 385.44pt>
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 153.
+Package luatex.def Info: figures/bacteria.png  used on input line 188.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
-<figures/bacteria_2.png, id=38, 385.44pt x 385.44pt>
+<figures/bacteria_2.png, id=42, 385.44pt x 385.44pt>
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 153.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 188.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <7> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 188.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 188
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 223.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 223
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 188
+LaTeX Font Info:    Trying to load font information for U+msb on input line 223
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 18
-8.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 22
+3.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Overfull \hbox (1.37627pt too wide) in paragraph at lines 188--188
+Overfull \hbox (1.37627pt too wide) in paragraph at lines 223--223
 [][][]  
  []
 
-<figures/logos/logo_EDMI.png, id=77, 1085.05376pt x 209.78375pt>
+<figures/logos/logo_EDMI.png, id=94, 1085.05376pt x 209.78375pt>
 File: figures/logos/logo_EDMI.png Graphic file (type png)
 <use figures/logos/logo_EDMI.png>
-Package luatex.def Info: figures/logos/logo_EDMI.png  used on input line 188.
+Package luatex.def Info: figures/logos/logo_EDMI.png  used on input line 223.
 (luatex.def)             Requested size: 80.92848pt x 15.6491pt.
-<figures/logos/Logo-INRAE_Transparent.png, id=78, 2569.6pt x 678.535pt>
+<figures/logos/Logo-INRAE_Transparent.png, id=95, 2569.6pt x 678.535pt>
 File: figures/logos/Logo-INRAE_Transparent.png Graphic file (type png)
 <use figures/logos/Logo-INRAE_Transparent.png>
 Package luatex.def Info: figures/logos/Logo-INRAE_Transparent.png  used on inpu
-t line 188.
+t line 223.
 (luatex.def)             Requested size: 59.24463pt x 15.6491pt.
-<figures/logos/logo_inria.png, id=79, 285.065pt x 83.81313pt>
+<figures/logos/logo_inria.png, id=96, 285.065pt x 83.81313pt>
 File: figures/logos/logo_inria.png Graphic file (type png)
 <use figures/logos/logo_inria.png>
-Package luatex.def Info: figures/logos/logo_inria.png  used on input line 188.
+Package luatex.def Info: figures/logos/logo_inria.png  used on input line 223.
 (luatex.def)             Requested size: 53.22336pt x 15.6491pt.
-<figures/logos/logo_LaBRI.png, id=80, 1630.09pt x 519.9425pt>
+<figures/logos/logo_LaBRI.png, id=97, 1630.09pt x 519.9425pt>
 File: figures/logos/logo_LaBRI.png Graphic file (type png)
 <use figures/logos/logo_LaBRI.png>
-Package luatex.def Info: figures/logos/logo_LaBRI.png  used on input line 188.
+Package luatex.def Info: figures/logos/logo_LaBRI.png  used on input line 223.
 (luatex.def)             Requested size: 49.04982pt x 15.6491pt.
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 188.
+Package luatex.def Info: figures/bacteria.png  used on input line 223.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 188.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 223.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 <./figures/logos/logo_EDMI.png><./figures/logos/Logo-INRAE_Transparent.png><./fi
 gures/logos/logo_inria.png><./figures/logos/logo_LaBRI.png><./figures/bacteria.p
 ng><./figures/bacteria_2.png>]
-<figures/bacterial-env.pdf, id=148, 645.83658pt x 423.7696pt>
+<figures/bacterial-env.pdf, id=190, 645.83658pt x 423.7696pt>
 File: figures/bacterial-env.pdf Graphic file (type pdf)
 <use figures/bacterial-env.pdf>
-Package luatex.def Info: figures/bacterial-env.pdf  used on input line 207.
+Package luatex.def Info: figures/bacterial-env.pdf  used on input line 242.
 (luatex.def)             Requested size: 276.559pt x 181.4673pt.
 
-Overfull \vbox (1.47867pt too high) detected at line 207
+Overfull \vbox (1.47867pt too high) detected at line 242
  []
 
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 207.
+Package luatex.def Info: figures/bacteria.png  used on input line 242.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 207.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 242.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 [2
 
 <./figures/bacterial-env.pdf>]
-<figures/interaction.png, id=207, 418.56375pt x 286.06876pt>
+<figures/interaction.png, id=263, 418.56375pt x 286.06876pt>
 File: figures/interaction.png Graphic file (type png)
 <use figures/interaction.png>
-Package luatex.def Info: figures/interaction.png  used on input line 225.
+Package luatex.def Info: figures/interaction.png  used on input line 260.
 (luatex.def)             Requested size: 245.83282pt x 168.01521pt.
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 225.
+Package luatex.def Info: figures/bacteria.png  used on input line 260.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 225.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 260.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
  [3
 
 <./figures/interaction.png>]
-<figures/systeme-biology.pdf, id=272, 995.6256pt x 754.81996pt>
+<figures/systeme-biology.pdf, id=340, 995.6256pt x 754.81996pt>
 File: figures/systeme-biology.pdf Graphic file (type pdf)
 <use figures/systeme-biology.pdf>
-Package luatex.def Info: figures/systeme-biology.pdf  used on input line 248.
+Package luatex.def Info: figures/systeme-biology.pdf  used on input line 283.
 (luatex.def)             Requested size: 221.24803pt x 167.73096pt.
 
-Overfull \vbox (9.07532pt too high) detected at line 248
+Overfull \vbox (9.07532pt too high) detected at line 283
  []
 
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 248.
+Package luatex.def Info: figures/bacteria.png  used on input line 283.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 248.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 283.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 [4
 
 <./figures/systeme-biology.pdf>]
-<figures/aroma-cpd-rum.pdf, id=333, 758.835pt x 379.4175pt>
+<figures/aroma-cpd-rum.pdf, id=415, 758.835pt x 379.4175pt>
 File: figures/aroma-cpd-rum.pdf Graphic file (type pdf)
 <use figures/aroma-cpd-rum.pdf>
-Package luatex.def Info: figures/aroma-cpd-rum.pdf  used on input line 385.
+Package luatex.def Info: figures/aroma-cpd-rum.pdf  used on input line 420.
 (luatex.def)             Requested size: 215.10196pt x 107.55037pt.
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 385.
+Package luatex.def Info: figures/bacteria.png  used on input line 420.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 385.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 420.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
  [5
 
 <./figures/aroma-cpd-rum.pdf>]
 File: figures/aroma-cpd-rum.pdf Graphic file (type pdf)
 <use figures/aroma-cpd-rum.pdf>
-Package luatex.def Info: figures/aroma-cpd-rum.pdf  used on input line 385.
+Package luatex.def Info: figures/aroma-cpd-rum.pdf  used on input line 420.
 (luatex.def)             Requested size: 215.10196pt x 107.55037pt.
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 385.
+Package luatex.def Info: figures/bacteria.png  used on input line 420.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 385.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 420.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
  [6
 
 ]
 File: figures/aroma-cpd-rum.pdf Graphic file (type pdf)
 <use figures/aroma-cpd-rum.pdf>
-Package luatex.def Info: figures/aroma-cpd-rum.pdf  used on input line 385.
+Package luatex.def Info: figures/aroma-cpd-rum.pdf  used on input line 420.
 (luatex.def)             Requested size: 215.10196pt x 107.55037pt.
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 385.
+Package luatex.def Info: figures/bacteria.png  used on input line 420.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 385.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 420.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 
 [7
@@ -1976,186 +1970,184 @@ Package luatex.def Info: figures/bacteria_2.png  used on input line 385.
 ]
 File: figures/aroma-cpd-rum.pdf Graphic file (type pdf)
 <use figures/aroma-cpd-rum.pdf>
-Package luatex.def Info: figures/aroma-cpd-rum.pdf  used on input line 385.
+Package luatex.def Info: figures/aroma-cpd-rum.pdf  used on input line 420.
 (luatex.def)             Requested size: 215.10196pt x 107.55037pt.
 
-Overfull \vbox (0.12138pt too high) detected at line 385
+Overfull \vbox (0.12138pt too high) detected at line 420
  []
 
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 385.
+Package luatex.def Info: figures/bacteria.png  used on input line 420.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 385.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 420.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 [8
 
 ]
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 493.
+Package luatex.def Info: figures/bacteria.png  used on input line 528.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 493.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 528.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
  [9
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 493--493
+Underfull \hbox (badness 10000) in paragraph at lines 528--528
 
  []
 
 
-Overfull \hbox (0.62036pt too wide) detected at line 493
+Overfull \hbox (0.62036pt too wide) detected at line 528
 [][]
  []
 
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 493.
+Package luatex.def Info: figures/bacteria.png  used on input line 528.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 493.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 528.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 [10
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 493--493
+Underfull \hbox (badness 10000) in paragraph at lines 528--528
 
  []
 
 
-Overfull \hbox (0.62036pt too wide) detected at line 493
+Overfull \hbox (0.62036pt too wide) detected at line 528
 [][]
  []
 
 
-Overfull \hbox (28.43602pt too wide) in paragraph at lines 493--493
+Overfull \hbox (28.43602pt too wide) in paragraph at lines 528--528
  [][] 
  []
 
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 493.
+Package luatex.def Info: figures/bacteria.png  used on input line 528.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 493.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 528.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 [11
 
 ]
-<figures/top-down.pdf, id=658, 583.17876pt x 483.8075pt>
+<figures/top-down.pdf, id=832, 583.17876pt x 483.8075pt>
 File: figures/top-down.pdf Graphic file (type pdf)
 <use figures/top-down.pdf>
-Package luatex.def Info: figures/top-down.pdf  used on input line 523.
+Package luatex.def Info: figures/top-down.pdf  used on input line 561.
 (luatex.def)             Requested size: 150.57071pt x 124.90848pt.
-
-Overfull \vbox (7.02992pt too high) detected at line 523
- []
-
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 523.
+Package luatex.def Info: figures/bacteria.png  used on input line 561.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 523.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 561.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
-[12
+ [12
 
 <./figures/top-down.pdf>]
-Overfull \hbox (15.36542pt too wide) in paragraph at lines 625--625
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 663--663
 []$$[]$  
  []
 
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 625.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 663.
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 625.
+Package luatex.def Info: figures/bacteria.png  used on input line 663.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 625.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 663.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 [13
 
 ]
-Overfull \hbox (15.36542pt too wide) in paragraph at lines 625--625
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 663--663
 []$$[]$  
  []
 
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 625.
+Package luatex.def Info: figures/bacteria.png  used on input line 663.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 625.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 663.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 [14
 
 ]
-Overfull \hbox (15.36542pt too wide) in paragraph at lines 625--625
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 663--663
 []$$[]$  
  []
 
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 625.
+Package luatex.def Info: figures/bacteria.png  used on input line 663.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 625.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 663.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 [15
 
 ]
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 822.
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 773.
+Package luatex.def Info: figures/bacteria.png  used on input line 822.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 773.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 822.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
  [16
 
 ]
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 773.
+Package luatex.def Info: figures/bacteria.png  used on input line 822.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 773.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 822.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
  [17
 
 ]
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 773.
+Package luatex.def Info: figures/bacteria.png  used on input line 822.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 773.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 822.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
  [18
 
 ]
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 773.
+Package luatex.def Info: figures/bacteria.png  used on input line 822.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 773.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 822.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
  [19
 
@@ -2166,216 +2158,185 @@ Overfull \hbox (15.36542pt too wide) in paragraph at lines 5--43
 []$$[]$  
  []
 
-
-LaTeX Warning: Citation 'Lifschitz2008' on page 20 undefined on input line 45.
-
 )
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 822.
+Package luatex.def Info: figures/bacteria.png  used on input line 871.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 822.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 871.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
  [20
 
 ]
-<figures/asp.pdf, id=1192, 715.43135pt x 301.2342pt>
+<figures/asp.pdf, id=1486, 715.43135pt x 301.2342pt>
 File: figures/asp.pdf Graphic file (type pdf)
 <use figures/asp.pdf>
-Package luatex.def Info: figures/asp.pdf  used on input line 839.
+Package luatex.def Info: figures/asp.pdf  used on input line 888.
 (luatex.def)             Requested size: 307.28987pt x 129.38568pt.
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 839.
+Package luatex.def Info: figures/bacteria.png  used on input line 888.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 839.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 888.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
  [21
 
 <./figures/asp.pdf>]
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 922.
+Package luatex.def Info: figures/bacteria.png  used on input line 971.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 922.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 971.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
  [22
 
 ]
-<figures/mass-balance-1.pdf, id=1298, 639.38875pt x 319.1925pt>
+<figures/mass-balance-1.pdf, id=1618, 639.38875pt x 319.1925pt>
 File: figures/mass-balance-1.pdf Graphic file (type pdf)
 <use figures/mass-balance-1.pdf>
-Package luatex.def Info: figures/mass-balance-1.pdf  used on input line 922.
+Package luatex.def Info: figures/mass-balance-1.pdf  used on input line 971.
 (luatex.def)             Requested size: 153.64493pt x 76.7003pt.
-<figures/mass-balance-2.pdf, id=1299, 515.9275pt x 240.9pt>
+<figures/mass-balance-2.pdf, id=1619, 515.9275pt x 240.9pt>
 File: figures/mass-balance-2.pdf Graphic file (type pdf)
 <use figures/mass-balance-2.pdf>
-Package luatex.def Info: figures/mass-balance-2.pdf  used on input line 922.
+Package luatex.def Info: figures/mass-balance-2.pdf  used on input line 971.
 (luatex.def)             Requested size: 153.64493pt x 71.74123pt.
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 922.
+Package luatex.def Info: figures/bacteria.png  used on input line 971.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 922.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 971.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
  [23
 
 <./figures/mass-balance-1.pdf><./figures/mass-balance-2.pdf>]
 File: figures/mass-balance-1.pdf Graphic file (type pdf)
 <use figures/mass-balance-1.pdf>
-Package luatex.def Info: figures/mass-balance-1.pdf  used on input line 922.
+Package luatex.def Info: figures/mass-balance-1.pdf  used on input line 971.
 (luatex.def)             Requested size: 153.64493pt x 76.7003pt.
-<figures/mass-balance-3.pdf, id=1351, 418.56375pt x 250.9375pt>
+<figures/mass-balance-3.pdf, id=1684, 418.56375pt x 250.9375pt>
 File: figures/mass-balance-3.pdf Graphic file (type pdf)
 <use figures/mass-balance-3.pdf>
-Package luatex.def Info: figures/mass-balance-3.pdf  used on input line 922.
+Package luatex.def Info: figures/mass-balance-3.pdf  used on input line 971.
 (luatex.def)             Requested size: 153.64493pt x 92.11024pt.
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 922.
+Package luatex.def Info: figures/bacteria.png  used on input line 971.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 922.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 971.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
  [24
 
 <./figures/mass-balance-3.pdf>]
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 964.
+Package luatex.def Info: figures/bacteria.png  used on input line 1017.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 964.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1017.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
  [25
 
 ]
-<figures/objective.pdf, id=1447, 1047.915pt x 588.1975pt>
+<figures/objective.pdf, id=1806, 1047.915pt x 588.1975pt>
 File: figures/objective.pdf Graphic file (type pdf)
 <use figures/objective.pdf>
-Package luatex.def Info: figures/objective.pdf  used on input line 1001.
+Package luatex.def Info: figures/objective.pdf  used on input line 1054.
 (luatex.def)             Requested size: 307.28987pt x 172.47563pt.
 
-Overfull \vbox (10.23227pt too high) detected at line 1001
+Overfull \vbox (10.23227pt too high) detected at line 1054
  []
 
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 1001.
+Package luatex.def Info: figures/bacteria.png  used on input line 1054.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 1001.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1054.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 [26
 
 <./figures/objective.pdf>]
-<figures/context-cheese.pdf, id=1483, 1025.8325pt x 425.59pt>
+<figures/context-cheese.pdf, id=1856, 1025.8325pt x 425.59pt>
 File: figures/context-cheese.pdf Graphic file (type pdf)
 <use figures/context-cheese.pdf>
-Package luatex.def Info: figures/context-cheese.pdf  used on input line 1014.
+Package luatex.def Info: figures/context-cheese.pdf  used on input line 1067.
 (luatex.def)             Requested size: 353.38147pt x 146.6079pt.
 
-Overfull \hbox (23.32932pt too wide) in paragraph at lines 1014--1014
+Overfull \hbox (23.32932pt too wide) in paragraph at lines 1067--1067
  [] 
  []
 
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 1014.
+Package luatex.def Info: figures/bacteria.png  used on input line 1067.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 1014.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1067.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 [27
 
 <./figures/context-cheese.pdf>]
-<figures/multi-omics.pdf, id=1532, 1025.8325pt x 331.2375pt>
+<figures/multi-omics.pdf, id=1917, 1025.8325pt x 331.2375pt>
 File: figures/multi-omics.pdf Graphic file (type pdf)
 <use figures/multi-omics.pdf>
-Package luatex.def Info: figures/multi-omics.pdf  used on input line 1026.
+Package luatex.def Info: figures/multi-omics.pdf  used on input line 1079.
 (luatex.def)             Requested size: 353.38147pt x 114.10521pt.
 
-Overfull \hbox (23.32932pt too wide) in paragraph at lines 1026--1026
+Overfull \hbox (23.32932pt too wide) in paragraph at lines 1079--1079
  [] 
  []
 
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 1026.
+Package luatex.def Info: figures/bacteria.png  used on input line 1079.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 1026.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1079.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 [28
 
 <./figures/multi-omics.pdf>]
-<figures/global.pdf, id=1577, 769.45532pt x 399.32741pt>
+<figures/global.pdf, id=1976, 769.45532pt x 399.32741pt>
 File: figures/global.pdf Graphic file (type pdf)
 <use figures/global.pdf>
-Package luatex.def Info: figures/global.pdf  used on input line 1037.
+Package luatex.def Info: figures/global.pdf  used on input line 1090.
 (luatex.def)             Requested size: 368.7469pt x 191.3703pt.
 
-Overfull \hbox (33.00429pt too wide) in paragraph at lines 1037--1037
+Overfull \hbox (33.00429pt too wide) in paragraph at lines 1090--1090
  [] 
  []
 
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 1037.
+Package luatex.def Info: figures/bacteria.png  used on input line 1090.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 1037.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1090.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 [29
 
 <./figures/global.pdf>]
-<figures/global-a.pdf, id=1759, 744.7825pt x 276.03125pt>
+<figures/global-a.pdf, id=2171, 744.7825pt x 276.03125pt>
 File: figures/global-a.pdf Graphic file (type pdf)
 <use figures/global-a.pdf>
-Package luatex.def Info: figures/global-a.pdf  used on input line 1055.
+Package luatex.def Info: figures/global-a.pdf  used on input line 1108.
 (luatex.def)             Requested size: 307.28987pt x 113.88956pt.
-File: figures/bacteria.png Graphic file (type png)
-<use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 1055.
-(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
-File: figures/bacteria_2.png Graphic file (type png)
-<use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 1055.
-(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
- [30
-
-<./figures/global-a.pdf>]
-<figures/carte_lactis.pdf, id=1808, 497.86pt x 518.93875pt>
-File: figures/carte_lactis.pdf Graphic file (type pdf)
-<use figures/carte_lactis.pdf>
-Package luatex.def Info: figures/carte_lactis.pdf  used on input line 1108.
-(luatex.def)             Requested size: 215.10196pt x 224.20828pt.
-
-Overfull \hbox (15.36542pt too wide) in paragraph at lines 1108--1108
-[]$[]$$[]$ 
- []
-
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 1108.
-
-
-Overfull \vbox (2.1902pt too high) detected at line 1108
- []
-
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
 Package luatex.def Info: figures/bacteria.png  used on input line 1108.
@@ -2384,189 +2345,500 @@ File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
 Package luatex.def Info: figures/bacteria_2.png  used on input line 1108.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+ [30
+
+<./figures/global-a.pdf>]
+<figures/carte_lactis.pdf, id=2233, 497.86pt x 518.93875pt>
+File: figures/carte_lactis.pdf Graphic file (type pdf)
+<use figures/carte_lactis.pdf>
+Package luatex.def Info: figures/carte_lactis.pdf  used on input line 1161.
+(luatex.def)             Requested size: 215.10196pt x 224.20828pt.
+
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 1161--1161
+[]$[]$$[]$ 
+ []
+
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 1161.
+
+
+Overfull \vbox (2.1902pt too high) detected at line 1161
+ []
+
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package luatex.def Info: figures/bacteria.png  used on input line 1161.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1161.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 [31
 
 <./figures/carte_lactis.pdf>]
-<figures/FIG2_opt_explo_ll.pdf, id=1888, 407.5225pt x 494.84875pt>
+<figures/FIG2_opt_explo_ll.pdf, id=2326, 407.5225pt x 494.84875pt>
 File: figures/FIG2_opt_explo_ll.pdf Graphic file (type pdf)
 <use figures/FIG2_opt_explo_ll.pdf>
-Package luatex.def Info: figures/FIG2_opt_explo_ll.pdf  used on input line 1108
+Package luatex.def Info: figures/FIG2_opt_explo_ll.pdf  used on input line 1161
 .
 (luatex.def)             Requested size: 175.15643pt x 212.6902pt.
 
-Overfull \hbox (15.36542pt too wide) in paragraph at lines 1108--1108
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 1161--1161
 []$[]$$[]$  
  []
 
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 1108.
+Package luatex.def Info: figures/bacteria.png  used on input line 1161.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 1108.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1161.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 [32
 
 <./figures/FIG2_opt_explo_ll.pdf>]
-<figures/calibration.pdf, id=2145, 775.89874pt x 317.185pt>
+<figures/calibration.pdf, id=2596, 775.89874pt x 317.185pt>
 File: figures/calibration.pdf Graphic file (type pdf)
 <use figures/calibration.pdf>
-Package luatex.def Info: figures/calibration.pdf  used on input line 1125.
+Package luatex.def Info: figures/calibration.pdf  used on input line 1178.
 (luatex.def)             Requested size: 307.28987pt x 125.61823pt.
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 1125.
+Package luatex.def Info: figures/bacteria.png  used on input line 1178.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 1125.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1178.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
  [33
 
 <./figures/calibration.pdf>]
+LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <8> not available
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 1208
+.
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 1167.
+Package luatex.def Info: figures/bacteria.png  used on input line 1208.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 1167.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1208.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
  [34
 
 ]
-File: figures/bacteria.png Graphic file (type png)
-<use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 1167.
-(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
-File: figures/bacteria_2.png Graphic file (type png)
-<use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 1167.
-(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+<figures/tango.pdf, id=2770, 967.615pt x 308.15125pt>
+File: figures/tango.pdf Graphic file (type pdf)
+<use figures/tango.pdf>
+Package luatex.def Info: figures/tango.pdf  used on input line 1233.
+(luatex.def)             Requested size: 353.38147pt x 112.53773pt.
 
-[35
-
-]
-File: figures/bacteria.png Graphic file (type png)
-<use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 1167.
-(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
-File: figures/bacteria_2.png Graphic file (type png)
-<use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 1167.
-(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
- [36
-
-]
-LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <8> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 1197
-.
-File: figures/bacteria.png Graphic file (type png)
-<use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 1197.
-(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
-File: figures/bacteria_2.png Graphic file (type png)
-<use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 1197.
-(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
- [37
-
-]
-<figures/validation-lp.pdf, id=2394, 941.5175pt x 381.425pt>
-File: figures/validation-lp.pdf Graphic file (type pdf)
-<use figures/validation-lp.pdf>
-Package luatex.def Info: figures/validation-lp.pdf  used on input line 1227.
-(luatex.def)             Requested size: 307.28987pt x 124.48546pt.
-
-Overfull \vbox (4.00749pt too high) detected at line 1227
+Overfull \hbox (23.32932pt too wide) in paragraph at lines 1233--1233
+ [] 
  []
 
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 1227.
+Package luatex.def Info: figures/bacteria.png  used on input line 1233.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 1227.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1233.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
-[38
+[35
 
-<./figures/validation-lp.pdf>]
-File: figures/validation-lp.pdf Graphic file (type pdf)
-<use figures/validation-lp.pdf>
-Package luatex.def Info: figures/validation-lp.pdf  used on input line 1227.
-(luatex.def)             Requested size: 307.28987pt x 124.48546pt.
+<./figures/tango.pdf>]
+<figures/time-dfba.pdf, id=2861, 790.955pt x 160.6pt>
+File: figures/time-dfba.pdf Graphic file (type pdf)
+<use figures/time-dfba.pdf>
+Package luatex.def Info: figures/time-dfba.pdf  used on input line 1298.
+(luatex.def)             Requested size: 307.28987pt x 62.39359pt.
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 1227.
+Package luatex.def Info: figures/bacteria.png  used on input line 1298.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 1227.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1298.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+ [36
+
+<./figures/time-dfba.pdf>]
+File: figures/time-dfba.pdf Graphic file (type pdf)
+<use figures/time-dfba.pdf>
+Package luatex.def Info: figures/time-dfba.pdf  used on input line 1298.
+(luatex.def)             Requested size: 307.28987pt x 62.39359pt.
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package luatex.def Info: figures/bacteria.png  used on input line 1298.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1298.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+ [37
+
+]
+File: figures/time-dfba.pdf Graphic file (type pdf)
+<use figures/time-dfba.pdf>
+Package luatex.def Info: figures/time-dfba.pdf  used on input line 1298.
+(luatex.def)             Requested size: 307.28987pt x 62.39359pt.
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package luatex.def Info: figures/bacteria.png  used on input line 1298.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1298.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+ [38
+
+]
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package luatex.def Info: figures/bacteria.png  used on input line 1340.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1340.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
  [39
 
 ]
+<figures/validation-lp.pdf, id=3120, 941.5175pt x 381.425pt>
 File: figures/validation-lp.pdf Graphic file (type pdf)
 <use figures/validation-lp.pdf>
-Package luatex.def Info: figures/validation-lp.pdf  used on input line 1227.
-(luatex.def)             Requested size: 307.28987pt x 124.48546pt.
+Package luatex.def Info: figures/validation-lp.pdf  used on input line 1383.
+(luatex.def)             Requested size: 338.02072pt x 136.93459pt.
+
+Overfull \hbox (13.65903pt too wide) in paragraph at lines 1383--1383
+[]  
+ []
+
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 1227.
+Package luatex.def Info: figures/bacteria.png  used on input line 1383.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 1227.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1383.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
- [40
+[40
+
+<./figures/validation-lp.pdf>]
+<figures/validation-ll.pdf, id=3211, 634.37pt x 241.90375pt>
+File: figures/validation-ll.pdf Graphic file (type pdf)
+<use figures/validation-ll.pdf>
+Package luatex.def Info: figures/validation-ll.pdf  used on input line 1383.
+(luatex.def)             Requested size: 338.02072pt x 128.8986pt.
+
+Overfull \hbox (13.65903pt too wide) in paragraph at lines 1383--1383
+[]  
+ []
+
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package luatex.def Info: figures/bacteria.png  used on input line 1383.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1383.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+[41
+
+<./figures/validation-ll.pdf>]
+<figures/validation-pf.pdf, id=3299, 740.7675pt x 281.05pt>
+File: figures/validation-pf.pdf Graphic file (type pdf)
+<use figures/validation-pf.pdf>
+Package luatex.def Info: figures/validation-pf.pdf  used on input line 1383.
+(luatex.def)             Requested size: 338.02072pt x 128.24675pt.
+
+Overfull \hbox (13.65903pt too wide) in paragraph at lines 1383--1383
+[]  
+ []
+
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package luatex.def Info: figures/bacteria.png  used on input line 1383.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1383.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+[42
+
+<./figures/validation-pf.pdf>]
+<figures/com-validation.pdf, id=3386, 439.78502pt x 197.49782pt>
+File: figures/com-validation.pdf Graphic file (type pdf)
+<use figures/com-validation.pdf>
+Package luatex.def Info: figures/com-validation.pdf  used on input line 1398.
+(luatex.def)             Requested size: 307.28987pt x 137.99739pt.
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package luatex.def Info: figures/bacteria.png  used on input line 1398.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1398.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+ [43
+
+<./figures/com-validation.pdf>]
+<figures/community-pred-growth.pdf, id=3482, 946.53625pt x 457.71pt>
+File: figures/community-pred-growth.pdf Graphic file (type pdf)
+<use figures/community-pred-growth.pdf>
+Package luatex.def Info: figures/community-pred-growth.pdf  used on input line 
+1411.
+(luatex.def)             Requested size: 307.28987pt x 148.59335pt.
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package luatex.def Info: figures/bacteria.png  used on input line 1411.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1411.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+ [44
+
+<./figures/community-pred-growth.pdf>]
+<figures/community-pred-metabolo.pdf, id=3558, 533.995pt x 293.095pt>
+File: figures/community-pred-metabolo.pdf Graphic file (type pdf)
+<use figures/community-pred-metabolo.pdf>
+Package luatex.def Info: figures/community-pred-metabolo.pdf  used on input lin
+e 1424.
+(luatex.def)             Requested size: 338.02072pt x 185.53632pt.
+
+Overfull \hbox (13.65903pt too wide) in paragraph at lines 1424--1424
+[]  
+ []
+
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package luatex.def Info: figures/bacteria.png  used on input line 1424.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1424.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+[45
+
+<./figures/community-pred-metabolo.pdf>]
+<figures/relative-contribution.pdf, id=3635, 465.74pt x 130.4875pt>
+File: figures/relative-contribution.pdf Graphic file (type pdf)
+<use figures/relative-contribution.pdf>
+Package luatex.def Info: figures/relative-contribution.pdf  used on input line 
+1445.
+(luatex.def)             Requested size: 307.28987pt x 86.09612pt.
+<figures/lactose.pdf, id=3636, 161.60374pt x 108.405pt>
+File: figures/lactose.pdf Graphic file (type pdf)
+<use figures/lactose.pdf>
+Package luatex.def Info: figures/lactose.pdf  used on input line 1445.
+(luatex.def)             Requested size: 153.64493pt x 103.07182pt.
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package luatex.def Info: figures/bacteria.png  used on input line 1445.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1445.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+ [46
+
+<./figures/relative-contribution.pdf><./figures/lactose.pdf>]
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package luatex.def Info: figures/bacteria.png  used on input line 1479.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1479.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+ [47
 
 ]
+<figures/sota-discrete.pdf, id=3810, 720.6925pt x 301.125pt>
+File: figures/sota-discrete.pdf Graphic file (type pdf)
+<use figures/sota-discrete.pdf>
+Package luatex.def Info: figures/sota-discrete.pdf  used on input line 1498.
+(luatex.def)             Requested size: 307.28987pt x 128.39224pt.
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 1231.
+Package luatex.def Info: figures/bacteria.png  used on input line 1498.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 1231.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1498.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
- [41
+ [48
+
+<./figures/sota-discrete.pdf>]
+<figures/concept.pdf, id=3896, 587.39299pt x 275.53696pt>
+File: figures/concept.pdf Graphic file (type pdf)
+<use figures/concept.pdf>
+Package luatex.def Info: figures/concept.pdf  used on input line 1509.
+(luatex.def)             Requested size: 307.28987pt x 144.14613pt.
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package luatex.def Info: figures/bacteria.png  used on input line 1509.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1509.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+ [49
+
+<./figures/concept.pdf>]
+<figures/coop-properties.pdf, id=3995, 877.2775pt x 469.755pt>
+File: figures/coop-properties.pdf Graphic file (type pdf)
+<use figures/coop-properties.pdf>
+Package luatex.def Info: figures/coop-properties.pdf  used on input line 1520.
+(luatex.def)             Requested size: 307.28987pt x 164.54573pt.
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package luatex.def Info: figures/bacteria.png  used on input line 1520.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1520.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+ [50
+
+<./figures/coop-properties.pdf>]
+\openout4 = soutenance.vrb
+ (./soutenance.vrb
+
+Package Listings Warning: Text dropped after begin of listing on input line 5.
+
+<figures/poly-monoopsonie.pdf, id=4126, 205.51718pt x 262.52295pt>
+File: figures/poly-monoopsonie.pdf Graphic file (type pdf)
+<use figures/poly-monoopsonie.pdf>
+Package luatex.def Info: figures/poly-monoopsonie.pdf  used on input line 27.
+(luatex.def)             Requested size: 138.2795pt x 176.63452pt.
+File: figures/poly-monoopsonie.pdf Graphic file (type pdf)
+<use figures/poly-monoopsonie.pdf>
+Package luatex.def Info: figures/poly-monoopsonie.pdf  used on input line 52.
+(luatex.def)             Requested size: 138.2795pt x 176.63452pt.
+)
+Overfull \vbox (9.00323pt too high) detected at line 1578
+ []
+
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package luatex.def Info: figures/bacteria.png  used on input line 1578.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1578.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+[51
+
+<./figures/poly-monoopsonie.pdf>] (./soutenance.vrb
+
+Package Listings Warning: Text dropped after begin of listing on input line 5.
+
+File: figures/poly-monoopsonie.pdf Graphic file (type pdf)
+<use figures/poly-monoopsonie.pdf>
+Package luatex.def Info: figures/poly-monoopsonie.pdf  used on input line 27.
+(luatex.def)             Requested size: 138.2795pt x 176.63452pt.
+File: figures/poly-monoopsonie.pdf Graphic file (type pdf)
+<use figures/poly-monoopsonie.pdf>
+Package luatex.def Info: figures/poly-monoopsonie.pdf  used on input line 52.
+(luatex.def)             Requested size: 138.2795pt x 176.63452pt.
+)
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package luatex.def Info: figures/bacteria.png  used on input line 1578.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1578.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+ [52
+
+]
+\openout4 = soutenance.vrb
+ (./soutenance.vrb
+<figures/score-taille-3.pdf, id=4268, 179.67125pt x 358.33875pt>
+File: figures/score-taille-3.pdf Graphic file (type pdf)
+<use figures/score-taille-3.pdf>
+Package luatex.def Info: figures/score-taille-3.pdf  used on input line 36.
+(luatex.def)             Requested size: 122.91406pt x 245.1489pt.
+File: figures/score-taille-3.pdf Graphic file (type pdf)
+<use figures/score-taille-3.pdf>
+Package luatex.def Info: figures/score-taille-3.pdf  used on input line 69.
+(luatex.def)             Requested size: 122.91406pt x 245.1489pt.
+)
+Overfull \vbox (24.97626pt too high) detected at line 1655
+ []
+
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package luatex.def Info: figures/bacteria.png  used on input line 1655.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1655.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+[53
+
+<./figures/score-taille-3.pdf>] (./soutenance.vrb
+File: figures/score-taille-3.pdf Graphic file (type pdf)
+<use figures/score-taille-3.pdf>
+Package luatex.def Info: figures/score-taille-3.pdf  used on input line 36.
+(luatex.def)             Requested size: 122.91406pt x 245.1489pt.
+File: figures/score-taille-3.pdf Graphic file (type pdf)
+<use figures/score-taille-3.pdf>
+Package luatex.def Info: figures/score-taille-3.pdf  used on input line 69.
+(luatex.def)             Requested size: 122.91406pt x 245.1489pt.
+)
+Overfull \vbox (24.97626pt too high) detected at line 1655
+ []
+
+File: figures/bacteria.png Graphic file (type png)
+<use figures/bacteria.png>
+Package luatex.def Info: figures/bacteria.png  used on input line 1655.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+File: figures/bacteria_2.png Graphic file (type png)
+<use figures/bacteria_2.png>
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1655.
+(luatex.def)             Requested size: 8.5359pt x 8.53381pt.
+[54
 
 ]
 
 LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <8> not available
-(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 1234.
+(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 1658.
 
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 1234.
+Package luatex.def Info: figures/bacteria.png  used on input line 1658.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 1234.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1658.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
-[42
+[55
 
 </usr/local/texlive/2021/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 1234.
+Package luatex.def Info: figures/bacteria.png  used on input line 1658.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 1234.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1658.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
-[43]
+[56]
 File: figures/bacteria.png Graphic file (type png)
 <use figures/bacteria.png>
-Package luatex.def Info: figures/bacteria.png  used on input line 1237.
+Package luatex.def Info: figures/bacteria.png  used on input line 1661.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
 File: figures/bacteria_2.png Graphic file (type png)
 <use figures/bacteria_2.png>
-Package luatex.def Info: figures/bacteria_2.png  used on input line 1237.
+Package luatex.def Info: figures/bacteria_2.png  used on input line 1661.
 (luatex.def)             Requested size: 8.5359pt x 8.53381pt.
- [44]
+ [57]
 \tf@nav=\write8
 
 \openout8 = soutenance.nav
@@ -2577,58 +2849,52 @@ Package luatex.def Info: figures/bacteria_2.png  used on input line 1237.
 
 \openout10 = soutenance.snm
  (./soutenance.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `soutenance.out' has not changed.
-(rerunfilecheck)             Checksum: 1D4B62367CA03F2A6E14F64887963727;400.
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                soutenance
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 995F8AE85FD5903C8F573F9160804B27;516.
 Package logreq Info: Writing requests to 'soutenance.run.xml'.
 
 \openout1 = soutenance.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 51306 strings out of 478531
- 195352,1977958 words of node,token memory allocated
- 29467 words of node memory still in use:
-   874 hlist, 13 vlist, 122 rule, 12 disc, 1 local_par, 18 math, 717 glue, 42 ke
-rn, 8 penalty, 128 glyph, 2150 attribute, 97 glue_spec, 2150 attribute_list, 3 w
-rite, 1295 pdf_literal, 26 pdf_start_link, 26 pdf_end_link, 27 pdf_action, 120 p
-df_colorstack nodes
-   avail lists: 1:16,2:4583,3:2193,4:537,5:3010,6:115,7:6582,8:155,9:5783,10:24,
-11:363
- 68315 multiletter control sequences out of 65536+600000
- 90 fonts using 8610671 bytes
+ 51898 strings out of 478531
+ 244195,1977958 words of node,token memory allocated
+ 63887 words of node memory still in use:
+   1897 hlist, 28 vlist, 458 rule, 78 disc, 17 local_par, 30 math, 1590 glue, 51
+8 kern, 32 penalty, 524 glyph, 3781 attribute, 97 glue_spec, 3781 attribute_list
+, 3 write, 2168 pdf_literal, 39 pdf_start_link, 39 pdf_end_link, 40 pdf_action, 
+230 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
+   avail lists: 1:14,2:2919,3:1951,4:641,5:4384,6:120,7:6013,8:155,9:7550,10:24,
+11:348
+ 68570 multiletter control sequences out of 65536+600000
+ 94 fonts using 9132143 bytes
  131i,23n,125p,1847b,1940s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regul
-ar.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bol
-doblique.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono
-8-regular.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmrom
-an8-regular.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmr
-oman5-regular.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/l
-mroman7-italic.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/
-lmsans10-bold.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/l
-mroman6-regular.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm
-/lmroman8-italic.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/l
-m/lmsans8-oblique.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/
-lm/lmsans10-regular.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/publi
-c/lm/lmsans8-regular.otf></usr/local/texlive/2021/texmf-dist/fonts/type1/public/
-amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y8.pfb>
-Output written on soutenance.pdf (44 pages, 9935166 bytes).
+ar.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmono10-ita
+lic.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bo
+ldoblique.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmmon
+o8-regular.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmro
+man8-regular.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/lm
+roman5-regular.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/
+lmroman7-italic.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm
+/lmsans10-bold.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/lm/
+lmroman6-regular.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/l
+m/lmroman8-italic.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public/
+lm/lmsans8-oblique.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/public
+/lm/lmsans10-regular.otf></usr/local/texlive/2021/texmf-dist/fonts/opentype/publ
+ic/lm/lmsans8-regular.otf></usr/local/texlive/2021/texmf-dist/fonts/type1/public
+/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
+.pfb>
+Output written on soutenance.pdf (57 pages, 11320452 bytes).
 
-PDF statistics: 2792 PDF objects out of 2984 (max. 8388607)
- 2083 compressed objects within 21 object streams
- 112 named destinations out of 1000 (max. 131072)
- 2893 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 4746 PDF objects out of 5155 (max. 8388607)
+ 3592 compressed objects within 36 object streams
+ 141 named destinations out of 1000 (max. 131072)
+ 4521 words of extra memory for PDF output out of 10000 (max. 100000000)
 

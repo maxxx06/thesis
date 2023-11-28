@@ -17,82 +17,6 @@
 \endgroup
 
 \datalist[entry]{nyt/global//global/global}
-  \entry{Belcour.2020}{article}{}
-    \name{author}{6}{}{%
-      {{hash=BA}{%
-         family={Belcour},
-         familyi={B\bibinitperiod},
-         given={Arnaud},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=FC}{%
-         family={Frioux},
-         familyi={F\bibinitperiod},
-         given={Cl{\'{e}}mence},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=AM}{%
-         family={Aite},
-         familyi={A\bibinitperiod},
-         given={M{\'{e}}ziane},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=BA}{%
-         family={Bretaudeau},
-         familyi={B\bibinitperiod},
-         given={Anthony},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=HF}{%
-         family={Hildebrand},
-         familyi={H\bibinitperiod},
-         given={Falk},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=SA}{%
-         family={Siegel},
-         familyi={S\bibinitperiod},
-         given={Anne},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BA+1}
-    \strng{fullhash}{BAFCAMBAHFSA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2020}
-    \field{labeldatesource}{}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{abstract}{%
-    To capture the functional diversity of microbiota, one must identify
-  metabolic functions and species of interest within hundreds or thousands of
-  microorganisms. We present Metage2Metabo (M2M) a resource that meets the need
-  for de-novo functional screening of genome-scale metabolic networks (GSMNs)
-  at the scale of a metagenome, and the identi1cation of critical species with
-  respect to metabolic cooperation. M2M comprises a 2exible pipeline for the
-  characterisation of individual metabolisms and collective metabolic
-  complementarity. In addition, M2M identies key species, that are meaningful
-  members of the community for functions of interest. We demonstrate that M2M
-  is applicable to collections of genomes as well as metagenome-assembled
-  genomes, permits an eZcient GSMN reconstruction with Pathway Tools, and
-  assesses the cooperation potential between species. M2M identies key
-  organisms by reducing the complexity of a large-scale microbiota into minimal
-  communities with equivalent properties, suitable for further analyses.%
-    }
-    \verb{doi}
-    \verb 10.7554/eLife.61968
-    \endverb
-    \field{issn}{2050084X}
-    \field{title}{{Metage2metabo, microbiota-scale metabolic complementarity
-  for the identi1cation of key species}}
-    \verb{file}
-    \verb :Users/mlecomte/Downloads/biblio_pdf/elife-61968-v2.pdf:pdf
-    \endverb
-    \field{journaltitle}{eLife}
-    \field{year}{2020}
-  \endentry
-
   \entry{BELKAID2014121}{article}{}
     \name{author}{2}{}{%
       {{hash=BY}{%
@@ -259,83 +183,6 @@
     \field{year}{2012}
   \endentry
 
-  \entry{Frioux2018}{article}{}
-    \name{author}{4}{}{%
-      {{hash=FC}{%
-         family={Frioux},
-         familyi={F\bibinitperiod},
-         given={Cl{\'{e}}mence},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=FE}{%
-         family={Fremy},
-         familyi={F\bibinitperiod},
-         given={Enora},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=TC}{%
-         family={Trottier},
-         familyi={T\bibinitperiod},
-         given={Camille},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=SA}{%
-         family={Siegel},
-         familyi={S\bibinitperiod},
-         given={Anne},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{FC+1}
-    \strng{fullhash}{FCFETCSA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2018}
-    \field{labeldatesource}{}
-    \field{sortinit}{F}
-    \field{sortinithash}{F}
-    \field{abstract}{%
-    The selection of species exhibiting metabolic behaviors of interest is a
-  challenging step when switching from the investigation of a large microbiota
-  to the study of functions effectiveness. Approaches based on a
-  compartmentalized framework are not scalable. The output of scalable
-  approaches based on a non-compartmentalized modeling may be so large that it
-  has neither been explored nor handled so far.We present the Miscoto tool to
-  facilitate the selection of a community optimizing a desired function in a
-  microbiome by reporting several possibilities which can be then sorted
-  according to biological criteria. Communities are exhaustively identified
-  using logical programming and by combining the non-compartmentalized and the
-  compartmentalized frameworks. The benchmarking of 4.9 million metabolic
-  functions associated with the Human Microbiome Project, shows that Miscoto is
-  suited to screen and classify metabolic producibility in terms of
-  feasibility, functional redundancy and cooperation processes involved. As an
-  illustration of a host-microbial system, screening the Recon 2.2 human
-  metabolism highlights the role of different consortia within a family of 773
-  intestinal bacteria.Miscoto source code, instructions for use and examples
-  are available at: https://github.com/cfrioux/miscoto.%
-    }
-    \verb{doi}
-    \verb 10.1093/bioinformatics/bty588
-    \endverb
-    \field{issn}{1367-4803}
-    \field{number}{17}
-    \field{pages}{i934\bibrangedash i943}
-    \field{title}{{Scalable and exhaustive screening of metabolic functions
-  carried out by microbial consortia}}
-    \verb{url}
-    \verb https://doi.org/10.1093/bioinformatics/bty588
-    \endverb
-    \field{volume}{34}
-    \verb{file}
-    \verb :Users/mlecomte/Library/Application Support/Mendeley Desktop/Download
-    \verb ed/Frioux et al. - 2018 - Scalable and exhaustive screening of metabo
-    \verb lic functions carried out by microbial consortia.pdf:pdf
-    \endverb
-    \field{journaltitle}{Bioinformatics}
-    \field{year}{2018}
-    \warn{\item Invalid format of field 'month'}
-  \endentry
-
   \entry{Hoorman2011}{article}{}
     \name{author}{1}{}{%
       {{hash=HJJ}{%
@@ -449,6 +296,47 @@
     \field{year}{2002}
   \endentry
 
+  \entry{Lifschitz2008}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LV}{%
+         family={Lifschitz},
+         familyi={L\bibinitperiod},
+         given={Vladimir},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \keyw{Senior Member Papers}
+    \strng{namehash}{LV1}
+    \strng{fullhash}{LV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    Answer set programming (ASP) is a form of declarative programming oriented
+  towards difficult search problems. As an outgrowth of research on the use of
+  nonmonotonic reasoning in knowledge representation, it is particularly useful
+  in knowledge-intensive applications. ASP programs consist of rules that look
+  like Prolog rules, but the computational mechanisms used in ASP are
+  different: they are based on the ideas that have led to the creation of fast
+  satisfiability solvers for prepositional logic. Copyright {\textcopyright}
+  2008.%
+    }
+    \field{isbn}{9781577353683}
+    \field{pages}{1594\bibrangedash 1597}
+    \field{title}{{What is answer set programming?}}
+    \field{volume}{3}
+    \verb{file}
+    \verb :Users/mlecomte/Library/Application Support/Mendeley Desktop/Download
+    \verb ed/Lifschitz - 2008 - What is answer set programming.pdf:pdf
+    \endverb
+    \field{journaltitle}{Proceedings of the National Conference on Artificial
+  Intelligence}
+    \field{year}{2008}
+  \endentry
+
   \entry{Machado2018}{article}{}
     \name{author}{4}{}{%
       {{hash=MD}{%
@@ -519,6 +407,67 @@
     \endverb
     \field{journaltitle}{Nucleic Acids Research}
     \field{year}{2018}
+  \endentry
+
+  \entry{Mahadevan.2002}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MR}{%
+         family={Mahadevan},
+         familyi={M\bibinitperiod},
+         given={Radhakrishnan},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=EJS}{%
+         family={Edwards},
+         familyi={E\bibinitperiod},
+         given={Jeremy\bibnamedelima S},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=DFJ}{%
+         family={Doyle},
+         familyi={D\bibinitperiod},
+         given={Francis\bibnamedelima J},
+         giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MREJSDFJ1}
+    \strng{fullhash}{MREJSDFJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2002}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    {Flux Balance Analysis (FBA) has been used in the past to analyze microbial
+  metabolic networks. Typically, FBA is used to study the metabolic flux at a
+  particular steady state of the system. However, there are many situations
+  where the reprogramming of the metabolic network is important. Therefore, the
+  dynamics of these metabolic networks have to be studied. In this paper, we
+  have extended FBA to account for dynamics and present two different
+  formulations for dynamic FBA. These two approaches were used in the analysis
+  of diauxic growth in Escherichia coli. Dynamic FBA was used to simulate the
+  batch growth of E. coli on glucose, and the predictions were found to
+  qualitatively match experimental data. The dynamic FBA formalism was also
+  used to study the sensitivity to the objective function. It was found that an
+  instantaneous objective function resulted in better predictions than a
+  terminal-type objective function. The constraints that govern the growth at
+  different phases in the batch culture were also identified. Therefore,
+  dynamic FBA provides a framework for analyzing the transience of metabolism
+  due to metabolic reprogramming and for obtaining insights for the design of
+  metabolic networks.}%
+    }
+    \verb{doi}
+    \verb 10.1016/s0006-3495(02)73903-9
+    \endverb
+    \field{issn}{0006-3495}
+    \field{number}{3}
+    \field{pages}{1331\bibrangedash 1340}
+    \field{title}{{Dynamic Flux Balance Analysis of Diauxic Growth in
+  Escherichia coli}}
+    \field{volume}{83}
+    \field{journaltitle}{Biophysical Journal}
+    \field{year}{2002}
   \endentry
 
   \entry{McSweeney2000}{article}{}
@@ -790,6 +739,88 @@
     \field{volume}{5}
     \field{journaltitle}{Nature Protocols}
     \field{year}{2010}
+  \endentry
+
+  \entry{Zelezniak2015}{article}{}
+    \name{author}{6}{}{%
+      {{hash=ZA}{%
+         family={Zelezniak},
+         familyi={Z\bibinitperiod},
+         given={Aleksej},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Andrejev},
+         familyi={A\bibinitperiod},
+         given={Sergej},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PO}{%
+         family={Ponomarova},
+         familyi={P\bibinitperiod},
+         given={Olga},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=MDR}{%
+         family={Mende},
+         familyi={M\bibinitperiod},
+         given={Daniel\bibnamedelima R.},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Bork},
+         familyi={B\bibinitperiod},
+         given={Peer},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PKR}{%
+         family={Patil},
+         familyi={P\bibinitperiod},
+         given={Kiran\bibnamedelima Raosaheb},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \keyw{Community metabolism,Cooperation,Metabolic modeling,Naturalization
+  theory,Syntrophy}
+    \strng{namehash}{ZA+1}
+    \strng{fullhash}{ZAASPOMDRBPPKR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{abstract}{%
+    Microbial communities populate most environments on earth and play a
+  critical role in ecology and human health. Their composition is thought to be
+  largely shaped by interspecies competition for the available resources, but
+  cooperative interactions, such as metabolite exchanges, have also been
+  implicated in community assembly. The prevalence of metabolic interactions in
+  microbial communities, however, has remained largely unknown. Here, we
+  systematically survey, by using a genome-scale metabolic modeling approach,
+  the extent of resource competition and metabolic exchanges in over 800
+  communities. We find that, despite marked resource competition at the level
+  of whole assemblies, microbial communities harbor metabolically
+  interdependent groups that recur across diverse habitats. By enumerating
+  flux-balanced metabolic exchanges in these co-occurring subcommunities we
+  also predict the likely exchanged metabolites, such as amino acids and
+  sugars, that can promote group survival under nutritionally challenging
+  conditions. Our results highlight metabolic dependencies as a major driver of
+  species co-occurrence and hint at cooperative groups as recurring modules of
+  microbial community architecture.%
+    }
+    \verb{doi}
+    \verb 10.1073/pnas.1421834112
+    \endverb
+    \field{issn}{10916490}
+    \field{title}{{Metabolic dependencies drive species co-occurrence in
+  diverse microbial communities}}
+    \verb{file}
+    \verb :Users/mlecomte/Downloads/biblio_pdf/6449.full.pdf:pdf
+    \endverb
+    \field{journaltitle}{Proceedings of the National Academy of Sciences of the
+  United States of America}
+    \field{year}{2015}
   \endentry
 
   \entry{Zhang2015}{article}{}
