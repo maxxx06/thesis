@@ -12,10 +12,11 @@
 \usepackage{comment}
 \usepackage{tabto}
 \usepackage{changepage}
-
+\usepackage{adjustbox}
+\usepackage{multirow}
 \usepackage{pict2e}
 \usepackage{pgfplots}
-
+\usepackage{xspace}
 \usepackage{graphicx}
 \usepackage{kbordermatrix} 
 \usepackage{listings} 
@@ -87,6 +88,13 @@ showstringspaces=false
 
 \newcommand*{\Scale}[2][4]{\scalebox{#1}{$\displaystyle{#2}$}}%
 \newcommand{\ml}[1]{\textcolor{blue}{[\emph{ML} -- #1]}}
+\newcommand\TableBac[2]{\parbox[t]{2mm}{\multirow{#2}{*}{\rotatebox[origin=c]{90}{#1}}}}
+\newcommand\TableReac[6]{\multirow{2}{*}{\small{#1}} & \small{#2} &\small{#3}&\multirow{2}{*}{\tiny{#6}} \\
+ &  & \small{#4} &\small{#5}& }
+ 
+ \def\freud{\textit{P.~freudenreichii}\xspace}
+\def\lactis{\textit{L.~lactis}\xspace}
+\def\plantarum{\textit{L.~plantarum}\xspace}
 
 \lstset
 {
@@ -228,14 +236,14 @@ Encadrement: & Clémence FRIOUX
 \section{Motivation}
 
 \begin{frame}
-\frametitle{Why the study of microorganisms is relevant ?}
+\frametitle{Why study microorganisms ?}
 \begin{figure}[t]
 \centering   
 \includegraphics[width=0.9\textwidth]{figures/bacterial-env.pdf}
 \end{figure}
 \begin{block}{}
 \begin{itemize}
-\item High diversity of microorganisms
+\item High diversity of microorganisms in all ecosystems
 \item Microorganisms roles specific to the environment \tiny\citep{10.1093/chemse/bjh067,BELKAID2014121,Zhang2015,Hoorman2011,McSweeney2000}
 \end{itemize}
 \end{block}
@@ -253,7 +261,7 @@ Encadrement: & Clémence FRIOUX
 \begin{block}{}
 \begin{itemize}
 \item Bacterial interactions are distinguishable within two species
-\item And within ecosystems composed of thousand of species ? $\rightarrow$ need of informatic 
+\item And within ecosystems composed of thousand of species ? $\rightarrow$ computational biology 
 \end{itemize}
 \end{block}
 
@@ -303,7 +311,7 @@ Associate an organism to a system and study the all system \tiny \citep{Kitano20
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\textwidth]{figures/aroma-cpd-rum}
-    \caption{Gas chromatograms of the major aroma compounds isolated from rum  \tiny (from \cite{Suomalainen1978})}
+    \caption{Gas chromatograms of the lower fatty acids produced by yeast in a nitrogen-free sugar fermentation  \tiny (from \cite{Suomalainen1978})}
 \end{figure}
 \vspace{-0.7cm}
 \begin{exampleblock}{What is metabolism ?}
@@ -319,13 +327,13 @@ Set of all biochemical reactions occurring in the cell of an organism that permi
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\textwidth]{figures/aroma-cpd-rum}
-    \caption{Gas chromatograms of the major aroma compounds isolated from rum  \tiny (from \cite{Suomalainen1978})}
+    \caption{Gas chromatograms of the lower fatty acids produced by yeast in a nitrogen-free sugar fermentation  \tiny (from \cite{Suomalainen1978})}
 \end{figure}
 \vspace{-0.5cm}
 \begin{exampleblock}{What is metabolism ?}
 Set of all biochemical reactions occurring in the cell of an organism that permit the production of energy and metabolic goods. \tiny \citep{Nava2023}
 \end{exampleblock}
-a fatty acyl-CoA + ethanol $\rightarrow$ ethyl palmitate + coA
+1-octanal + NAD$^+$ + H$_2$O  $\rightarrow$ caprylic acid + NADH + 2 H$^+$
 
 }
 
@@ -336,21 +344,21 @@ a fatty acyl-CoA + ethanol $\rightarrow$ ethyl palmitate + coA
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\textwidth]{figures/aroma-cpd-rum}
-    \caption{Gas chromatograms of the major aroma compounds isolated from rum  \tiny (from \cite{Suomalainen1978})}
+    \caption{Gas chromatograms of the lower fatty acids produced by yeast in a nitrogen-free sugar fermentation  \tiny (from \cite{Suomalainen1978})}
 \end{figure}
 \vspace{-0.5cm}
 \begin{exampleblock}{What is metabolism ?}
 Set of all biochemical reactions occurring in the cell of an organism that permit the production of energy and metabolic goods. \tiny \citep{Nava2023}
 \end{exampleblock}
-a fatty acyl-CoA + ethanol $\rightarrow$ ethyl palmitate + coA
+1-octanal + NAD$^+$ + H$_2$O  $\rightarrow$ caprylic acid + NADH + 2 H$^+$
 \begin{block}{}
 \begin{itemize}
 \item Metabolism of an organism explain observable phenotype
 \item Is impacted by bacterial interactions 
 \end{itemize}
 \end{block}
-
 }
+
 %
 %\only<4>{
 %\frametitle{What underlying mechanisms are responsible of the observed activity ?}
@@ -424,7 +432,7 @@ a fatty acyl-CoA + ethanol $\rightarrow$ ethyl palmitate + coA
 \frametitle{How is the metabolism represented?}
 \only<1>{
 \vspace{-2.5cm}
-$r_1 : $2 pyr $\rightarrow$ 1 acetoL + 1 $\text{CO}_2$ \\
+$r_1 : $2 pyr $\rightarrow$ 1 aceto-Lac + 1 $\text{CO}_2$ \\
 $r_2 : $1 aceto-Lac  $\rightarrow$ 1 diac  + 1 $\text{CO}_2$ \\ 
 $r_3 : $1 aceto-Lac  $\rightarrow$ 1 acetoin + 1 $\text{CO}_2$ \\
 $r_4 : $1 diac $\rightarrow$ 1 acetoin \\
@@ -434,7 +442,7 @@ $r_5 : $1 acetoin  $\rightarrow$1 butanediol \\
 
 \only<2>{
 \begin{minipage}{0.5\textwidth}
-$r_1 : $2 pyr $\rightarrow$ 1 acetoL + 1 $\text{CO}_2$ \\
+$r_1 : $2 pyr $\rightarrow$ 1 aceto-Lac + 1 $\text{CO}_2$ \\
 $r_2 : $1 aceto-Lac  $\rightarrow$ 1 diac  + 1 $\text{CO}_2$ \\ 
 $r_3 : $1 aceto-Lac  $\rightarrow$ 1 acetoin + 1 $\text{CO}_2$ \\
 $r_4 : $1 diac $\rightarrow$ 1 acetoin \\
@@ -466,7 +474,7 @@ $r_5 : $1 acetoin  $\rightarrow$1 butanediol \\
 
 \only<3>{
 \begin{minipage}{0.5\textwidth}
-$r_1 : $2 pyr $\rightarrow$ 1 acetoL + 1 $\text{CO}_2$ \\
+$r_1 : $2 pyr $\rightarrow$ 1 aceto-Lac + 1 $\text{CO}_2$ \\
 $r_2 : $1 aceto-Lac  $\rightarrow$ 1 diac  + 1 $\text{CO}_2$ \\ 
 $r_3 : $1 aceto-Lac $\rightarrow$ 1 acetoin + 1 $\text{CO}_2$ \\
 $r_4 : $1 diac $\rightarrow$ 1 acetoin \\
@@ -498,20 +506,22 @@ $r_5 : $1 acetoin  $\rightarrow$1 butanediol \\
         \node (d) [circle, draw,mystyle] at (4.5,3)   {acetoin};
           \node (e) [circle, draw,mystyle] at (8,3)   {butanediol};
           
-  \node (f) [rectangle, draw] at (4.5,8) {$r_1$};
-  	\node (g) [rectangle, draw] at (4.5,5.6)  {$r_2$};
-  	  \node (h) [rectangle, draw] at (6,4.4)   {$r_3$};
-  		\node (i) [rectangle, draw] at (3,4.4)   {$r_4$};
-  		  \node (j) [rectangle, draw] at (6,3)   {$r_5$};
+     \node (f) [rectangle, draw] at (4.5,8) {$r_1$};
+  	 \node (g) [rectangle, draw] at (4.5,5.6)  {$r_2$};
+  	 \node (h) [rectangle, draw] at (6,4.4)   {$r_3$};
+  	 \node (i) [rectangle, draw] at (3,4.4)   {$r_4$};
+  	 \node (j) [rectangle, draw] at (6,3)   {$r_5$};
 
-  \graph { (x) -> (f) -> (a) };
-   \graph { (x) -> (f) -> (c) };
-   \graph { (a) -> (g) -> (c) };
-    \graph { (a) -> (g) -> (b) };
-	\graph { (b) -> (h) -> (c) };      
+	\node () [] at (3.85,8.15) {\tiny-2};
+
+     \graph { (x) -> (f) -> (a) };
+     \graph { (x) -> (f) -> (c) };
+     \graph { (a) -> (g) -> (c) };
+     \graph { (a) -> (g) -> (b) };
+	 \graph { (b) -> (h) -> (c) };      
 	 \graph { (b) -> (h) -> (d) };            
-	 	 \graph { (b) -> (i) -> (d) };       
-	 	 	 	 \graph { (d) -> (j) -> (e) };                 
+	 \graph { (b) -> (i) -> (d) };       
+	 \graph { (d) -> (j) -> (e) };                 
 	 
 \end{tikzpicture}
 
@@ -555,7 +565,7 @@ Example of trivial boolean GPR relationship
 \begin{block}{}
 \begin{itemize}
 \item For bacteria: average of 2000 reactions, 1200 genes, 1000 metabolites
-\item Informatic can help to resolve combinatorial problem
+\item In ecosystem, combinatorial problem occurs
 \end{itemize}
 \end{block}
 \end{frame}
@@ -604,7 +614,12 @@ Allow us to infer qualitative models from logical rules based on biological know
 	\graph { (b) -> (h) <-> (c) };
 	\graph { (b) -> (h) -> (d) };            
 	\graph { (b) <- (i) <- (d) };       
-	\graph { (d) <- (j) <- (e) };               
+	\graph { (d) <- (j) <- (e) };            
+	
+		     \draw [draw=black] (0.5,1.5) rectangle (5.5,-2.5);     
+     
+     \node (extracellular) [] at (6.5,1.5) {\tiny \textit{extracellular}};
+     \node (intracellular) [] at (4.5,01) {\tiny \textit{intracellular}};	   
 \end{tikzpicture}
 
 \begin{block}{}
@@ -642,6 +657,12 @@ Allow us to infer qualitative models from logical rules based on biological know
 	\graph { (b) -> (h) -> (d) };            
 	\graph { (b) <- (i) <- (d) };       
 	\graph { (d) <- (j) <- (e) };               
+	
+	     \draw [draw=black] (0.5,1.5) rectangle (5.5,-2.5);     
+     
+     \node (extracellular) [] at (6.5,1.5) {\tiny \textit{extracellular}};
+     \node (intracellular) [] at (4.5,01) {\tiny \textit{intracellular}};	
+
 \end{tikzpicture}
 \end{minipage}%
 \begin{minipage}{0.55\textwidth}
@@ -669,9 +690,10 @@ Allow us to infer qualitative models from logical rules based on biological know
 \end{exampleblock}
 \textbf{topological-based approaches}
 \only<1> {
-\begin{center}
+\begin{minipage}{0.5\textwidth}
+\hspace{-0.15\textwidth}
 \begin{tikzpicture}
-   \node (x) [circle, draw,fill=black!30!yellow] at (0,0)   {X};
+   \node (x) [circle, draw] at (0,0)   {X};
    \node (a) [circle, draw] at (2,0)   {A};
    \node (b) [circle, draw] at (4,0)   {C};
    \node (c) [circle, draw] at (3,1)   {D};
@@ -683,29 +705,32 @@ Allow us to infer qualitative models from logical rules based on biological know
   	\node (h) [rectangle, draw] at (5,0)   {$r_3$};
   	\node (i) [rectangle, draw] at (4,-1)   {$r_4$};
   	\node (j) [rectangle, draw] at (5,-2)   {$r_5$};
-  
+
     \graph { (x) -> (f) -> (a) };
     \graph { (x) -> (f) -> (c) };
     \graph { (a) -> (g) -> (c) };
     \graph { (a) -> (g) -> (b) };
 	\graph { (b) -> (h) <-> (c) };
 	\graph { (b) -> (h) -> (d) };            
-	\graph { (b) <- (i) <- (d) };            
-	\graph { (d) <- (j) <- (e) };         
-	    \graph { (e) -> (i) };
+	\graph { (b) <- (i) <- (d) };       
+	\graph { (d) <- (j) <- (e) };               
 	
-     \draw [draw=black] (0.5,1.5) rectangle (5.5,-2.5);     
+	     \draw [draw=black] (0.5,1.5) rectangle (5.5,-2.5);     
      
      \node (extracellular) [] at (6.5,1.5) {\tiny \textit{extracellular}};
      \node (intracellular) [] at (4.5,01) {\tiny \textit{intracellular}};	
 
 \end{tikzpicture}
-\end{center}
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
 X is a seed
+\end{minipage}
+
 }
 
 \only<2> {
-\begin{center}
+\begin{minipage}{0.5\textwidth}
+\hspace{-0.15\textwidth}
 \begin{tikzpicture}
    \node (x) [circle, draw,fill=black!30!yellow] at (0,0)   {X};
    \node (a) [circle, draw,fill=white!60!yellow] at (2,0)   {A};
@@ -734,14 +759,18 @@ X is a seed
 	     
 	          \node (extracellular) [] at (6.5,1.5) {\tiny \textit{extracellular}};
      \node (intracellular) [] at (4.5,01) {\tiny \textit{intracellular}};	
-\end{tikzpicture}
-\end{center}
+ \end{tikzpicture}
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
 X is available;  $r_1$ is activated and A,D are producible
+\end{minipage}
+
 
 }
 
 \only<3> {
-\begin{center}
+\begin{minipage}{0.5\textwidth}
+\hspace{-0.15\textwidth}
 \begin{tikzpicture}
    \node (x) [circle, draw,fill=black!30!yellow] at (0,0)   {X};
    \node (a) [circle, draw,fill=white!60!yellow] at (2,0)   {A};
@@ -771,12 +800,16 @@ X is available;  $r_1$ is activated and A,D are producible
 	          \node (extracellular) [] at (6.5,1.5) {\tiny \textit{extracellular}};
      \node (intracellular) [] at (4.5,01) {\tiny \textit{intracellular}};	
 \end{tikzpicture}
-\end{center}
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
 A,D are available;  $r_2$ is activated and C is producible
+\end{minipage}
+
 }
 
 \only<4>{
-\begin{center}
+\begin{minipage}{0.5\textwidth}
+\hspace{-0.15\textwidth}
 \begin{tikzpicture}
    \node (x) [circle, draw,fill=black!30!yellow] at (0,0)   {X};
    \node (a) [circle, draw,fill=white!60!yellow] at (2,0)   {A};
@@ -808,7 +841,11 @@ A,D are available;  $r_2$ is activated and C is producible
 	          \node (extracellular) [] at (6.5,1.5) {\tiny \textit{extracellular}};
      \node (intracellular) [] at (4.5,01) {\tiny \textit{intracellular}};	
 \end{tikzpicture}
-\end{center}
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
+C,D are available;  $r_3$ is activated and E is producible\\
+Fixed point : E
+\end{minipage}
 \begin{block}{}
 \begin{itemize}
 \item The potential metabolic capability and topology dependant
@@ -851,6 +888,12 @@ Allow us to infer qualitative models from logical rules based on biological know
 	\graph { (b) -> (h) -> (d) };            
 	\graph { (b) <- (i) <- (d) };       
 	\graph { (d) <- (j) <- (e) };               
+	
+		
+	     \draw [draw=black] (0.5,1.5) rectangle (5.5,-2.5);     
+	     
+	          \node (extracellular) [] at (6.5,1.5) {\tiny \textit{extracellular}};
+     \node (intracellular) [] at (4.5,01) {\tiny \textit{intracellular}};	
 \end{tikzpicture}
 \end{minipage}%
 \begin{minipage}{0.55\textwidth}
@@ -864,7 +907,7 @@ scope(M) :- seed(M).
 scope(M) :- bacteria(B), product(M,R,B), reaction(R,B), scope(M2) : reactant(M2,R,B).
 \end{lstlisting}
 \end{minipage}
-
+\hspace{1cm}
 \begin{block}{}
 Logical rules are embedded using Answer Set Programming  \tiny \citep{Lifschitz2008}
 \end{block}
@@ -874,13 +917,13 @@ Logical rules are embedded using Answer Set Programming  \tiny \citep{Lifschitz2
 \frametitle{Why using Answer Set Programming}
 \centering
 \begin{figure}[h]
-\includegraphics[width=\textwidth]{figures/asp}
+\includegraphics[width=\textwidth]{figures/asp.pdf}
 \caption{The workflow of Answer set programming (ASP) \tiny \citep{Kaufmann2016GroundingAS}}
 \end{figure}
 \begin{block}{}
 \begin{itemize}
 \item Close assumption
-\item Explainable model
+\item Mechanistic model
 \item Solve combinatorial problems
 \end{itemize}
 
@@ -895,7 +938,7 @@ Logical rules are embedded using Answer Set Programming  \tiny \citep{Lifschitz2
 \framesubtitle{definition}
 %\vspace{-4.2cm}
 \begin{exampleblock}{Metabolic model}
-From a GEM, a model metabolic has the capacity to simulate and to predict on the metabolic content
+From a GEM, a model metabolic has the capacity to simulate and to predict on the metabolic activity
 \end{exampleblock}
 }
 
@@ -904,7 +947,7 @@ From a GEM, a model metabolic has the capacity to simulate and to predict on the
 \framesubtitle{Flux Balance Analysis \tiny \citep{Orth2010}}
 
 \begin{exampleblock}{Metabolic model}
-From a GEM, a model metabolic has the capacity to simulate and to predict on the metabolic content
+From a GEM, a model metabolic has the capacity to simulate and to predict on the metabolic activity
 \end{exampleblock}
 \textbf{Constraint-based approaches}
 \begin{minipage}{0.5\textwidth}
@@ -988,14 +1031,14 @@ From a GEM, a model metabolic has the capacity to simulate and to predict on the
   	\node (j) [rectangle, draw] at (5,-2)   {$r_5$};
 
 
-	\draw [line width=2pt,yellow] (x) edge[->] (f);	
-	\draw [line width=1.5pt,yellow](f) edge[->] (a);
-		\draw [line width=0.5pt,yellow](f) edge[->] (c);
-			\draw [line width=1.5pt,yellow](a) edge[->] (g);
-				\draw [line width=1.5pt,yellow](g) edge[->] (b);
-					\draw [line width=1.5pt,yellow](b) edge[->] (h);
-						\draw [line width=0.5pt,yellow](h) edge[<-] (c);
-							\draw [line width=2pt,yellow](h) edge[->] (d);
+	\draw [line width=2pt,blue] (x) edge[->] (f);	
+	\draw [line width=1.5pt,blue](f) edge[->] (a);
+		\draw [line width=0.5pt,blue](f) edge[->] (c);
+			\draw [line width=1.5pt,blue](a) edge[->] (g);
+				\draw [line width=1.5pt,blue](g) edge[->] (b);
+					\draw [line width=1.5pt,blue](b) edge[->] (h);
+						\draw [line width=0.5pt,blue](h) edge[<-] (c);
+							\draw [line width=2pt,blue](h) edge[->] (d);
       
 	\graph { (b) <- (i) <- (d) };       
 	\graph { (d) <- (j) <- (e) };              
@@ -1009,9 +1052,9 @@ From a GEM, a model metabolic has the capacity to simulate and to predict on the
 
 \begin{block}{}
 	\begin{itemize}
-		\item Topology and stoichiometry of metabolic goods
+		\item Reaction flux depending of the stoichiometry coefficient 
 		\item Can explain metabolic  observations through reaction fluxes
-		\item difficult to apply in larger scale
+		\item difficult to apply to large-scale: computational cost, cultivated species
 	\end{itemize}
 \end{block}
 \end{frame}
@@ -1062,7 +1105,7 @@ From a GEM, a model metabolic has the capacity to simulate and to predict on the
 \end{figure}
 \end{adjustwidth}
 \begin{block}{}
-Heterogenous data are necessary for analysing bacterial fermentation
+Heterogenous data are available for analysing bacterial fermentation
 \end{block}
 \end{frame}
 
@@ -1078,17 +1121,17 @@ Dynamic and numerical model of the metabolism can integrate all the data
 \end{block}
 \end{frame}
 
-\begin{frame}
-\frametitle{Model fitting strategy}
-
-\begin{adjustwidth}{-1cm}{}
-\begin{figure}
-\includegraphics[width=1.2\textwidth]{figures/global.pdf}
-\vspace{-0.7cm}\caption{Numerical workflow for analysing cheese bacterial fermentation}
-\end{figure}
-\end{adjustwidth}
-\end{frame}
-
+%\begin{frame}
+%\frametitle{Model fitting strategy}
+%
+%\begin{adjustwidth}{-1cm}{}
+%\begin{figure}
+%\includegraphics[width=1.2\textwidth]{figures/global.pdf}
+%\vspace{-0.7cm}\caption{Numerical workflow for analysing cheese bacterial fermentation}
+%\end{figure}
+%\end{adjustwidth}
+%\end{frame}
+%
 \begin{frame}
 \frametitle{Refinement of metabolic networks - 1}
 
@@ -1171,7 +1214,6 @@ Dynamic and numerical model of the metabolism can integrate all the data
 \begin{itemize}
 \item Finding optimal parameters for explaining \textbf{individual} biological observations
 \item Quantitative check of metabolic goods and biomass density
-\item Tedious analysis
 \end{itemize}
 \end{block}
 
@@ -1184,6 +1226,7 @@ Dynamic and numerical model of the metabolism can integrate all the data
 Make individual GSMN accurate for inferring mechanistic bacterial behavior
 \end{exampleblock}
 
+\only<1>{
 \textbf{LAB} 
 
 \begin{equation}
@@ -1191,6 +1234,36 @@ J(b_i,pH | \theta_i, b_{i,exp},pH_{exp} ) = \left \Vert \frac{\logten(b_i) - \lo
 \label{eq:optim_LAB}
 \end{equation}
 
+\begin{table}
+\begin{adjustbox}{width=0.5\textwidth}
+\begin{tabular}{|c|c|c|c|}
+\hline
+GEM & Temps & Densité bactériennes & pH  \\
+ \hline
+ \TableBac{\plantarum}{7} 
+  & 0 & 1.485e-06 & 6.7\\
+  & 5 & 3.795e-06 & 6.68\\
+  & 7 & 5.28e-06 & 6.66\\
+  & 9 & 8.415e-06 & 6.555\\
+  & 14 & 1.386e-05 & 6.54\\
+  & 16 & 2.3595e-05 & 6.51\\
+  & 79 & 3.762e-05 & 5.705\\
+ \hline
+ \TableBac{\lactis}{7} 
+  & 0  & 8.25e-07 & 6.7\\
+  & 5 & 5.230500e-05 & 6.49\\
+  & 7 &6.831e-05 & 6.315\\
+  & 9 & 6.649500e-05 & 6.075\\
+  & 14 & 6.468e-05& 5.935\\
+  & 16 & 4.735e-05 & 5.865 \\
+  & 79 & 6.171e-05 &5.115\\
+\hline
+\end{tabular}
+\end{adjustbox}
+\end{table}
+}
+
+\only<2>{
 \textbf{\textit{P. freudenreichii}}
 
 \begin{equation} 
@@ -1198,12 +1271,32 @@ J(b,m | \theta_i, b_{exp},m_{exp} ) = \left \Vert \frac{\logten(b) - \logten(b_{
 \label{eq:optim_freud}
 \end{equation}
 
-\begin{block}{Data}
-\begin{itemize}
-\item Metabolomics
-\item Growth and pH in pure cultures
-\end{itemize}
-\end{block}
+\begin{table}
+\centering
+\begin{adjustbox}{width=0.5\textwidth}
+\begin{tabular}{|c|c|c|c|}
+\hline
+GEM & Temps & Densité bactériennes & pH  \\
+ \hline
+ \TableBac{\freud}{7} 
+ & & & \\
+ &  0 & 0.000001 & ø \\
+ & 23 & 0.000099 & ø \\
+ & 40 & 0.000561 & ø\\
+  & 48 & 0.000412 & ø\\
+  & 130 & 0.000710 & ø\\
+  & & & \\
+  \hline
+\end{tabular}
+\end{adjustbox}
+\end{table}
+}
+%\begin{block}{Data}
+%\begin{itemize}
+%\item Metabolomics
+%\item Growth and pH in pure cultures
+%\end{itemize}
+%\end{block}
 
 \end{frame}
 
@@ -1234,6 +1327,7 @@ J(b,m | \theta_i, b_{exp},m_{exp} ) = \left \Vert \frac{\logten(b) - \logten(b_{
 
 \begin{frame}
 \frametitle{Dynamic modeling of the metabolism (dFBA)}
+\maxime{illustrer le dFBA comme un FBA que tu resouds à chaque pas de temps}
 
 \only<1>{
 \framesubtitle{Compute the total flux}
@@ -1296,6 +1390,89 @@ Bacterial densities and metabolites concentrations are therefore computed in $g.
 \end{block}
 }
 \end{frame}
+
+
+\begin{frame}
+\frametitle{Individual metabolic model calibration}
+
+\begin{exampleblock}{Goal}
+Make individual GSMN accurate for inferring mechanistic bacterial behavior
+\end{exampleblock}
+
+\only<1>{
+\textbf{LAB} 
+
+\begin{equation}
+J(b_i,pH | \theta_i, b_{i,exp},pH_{exp} ) = \left \Vert \frac{\logten(b_i) - \logten(b_{i,exp})}{\sigma_{log,i,exp}} \right \Vert^2 + \alpha \left \Vert\frac{pH - pH_{exp}}{\sigma_{pH,exp}} \right \Vert^2 
+\label{eq:optim_LAB}
+\end{equation}
+
+\begin{table}
+\begin{adjustbox}{width=0.5\textwidth}
+\begin{tabular}{|c|c|c|c|}
+\hline
+GEM & Temps & Densité bactériennes & pH  \\
+ \hline
+ \TableBac{\plantarum}{7} 
+  & 0 & 1.485e-06 & 6.7\\
+  & 5 & 3.795e-06 & 6.68\\
+  & 7 & 5.28e-06 & 6.66\\
+  & 9 & 8.415e-06 & 6.555\\
+  & 14 & 1.386e-05 & 6.54\\
+  & 16 & 2.3595e-05 & 6.51\\
+  & 79 & 3.762e-05 & 5.705\\
+ \hline
+ \TableBac{\lactis}{7} 
+  & 0  & 8.25e-07 & 6.7\\
+  & 5 & 5.230500e-05 & 6.49\\
+  & 7 &6.831e-05 & 6.315\\
+  & 9 & 6.649500e-05 & 6.075\\
+  & 14 & 6.468e-05& 5.935\\
+  & 16 & 4.735e-05 & 5.865 \\
+  & 79 & 6.171e-05 &5.115\\
+\hline
+\end{tabular}
+\end{adjustbox}
+\end{table}
+}
+
+\only<2>{
+\textbf{\textit{P. freudenreichii}}
+
+\begin{equation} 
+J(b,m | \theta_i, b_{exp},m_{exp} ) = \left \Vert \frac{\logten(b) - \logten(b_{exp})}{\sigma_{log,b,exp}} \right \Vert ^2 + \alpha \left \Vert \frac{m - m_{exp}}{\sigma_{m,exp}} \right \Vert^2 
+\label{eq:optim_freud}
+\end{equation}
+
+\begin{table}
+\centering
+\begin{adjustbox}{width=0.5\textwidth}
+\begin{tabular}{|c|c|c|c|}
+\hline
+GEM & Temps & Densité bactériennes & pH  \\
+ \hline
+ \TableBac{\freud}{7} 
+ & & & \\
+ &  0 & 0.000001 & ø \\
+ & 23 & 0.000099 & ø \\
+ & 40 & 0.000561 & ø\\
+  & 48 & 0.000412 & ø\\
+  & 130 & 0.000710 & ø\\
+  & & & \\
+  \hline
+\end{tabular}
+\end{adjustbox}
+\end{table}
+}
+%\begin{block}{Data}
+%\begin{itemize}
+%\item Metabolomics
+%\item Growth and pH in pure cultures
+%\end{itemize}
+%\end{block}
+
+\end{frame}
+
 
 \begin{frame}
 \frametitle{Dynamic modulations}
