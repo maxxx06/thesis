@@ -50,7 +50,7 @@ Number of consumers involve in exchangeable metabolites and seed > 1
 
 \begin{lstlisting}[mathescape=True]
 H:{Org2,Org3} % exchanged metabolite
-H:{Org1,Org3} %  the nutrient
+X1:{Org1,Org3} %  the nutrient
 \end{lstlisting}
 
 \begin{lstlisting}[mathescape=True]
