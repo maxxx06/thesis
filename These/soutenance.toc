@@ -6,4 +6,8 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {3}{Numerical model}{27}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{Discrete model}{48}{0}{4}
+\beamer@sectionintoc {4}{Discrete model}{44}{0}{4}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {5}{Conclusion and perspectives}{63}{0}{5}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {6}{Supplementary}{66}{0}{6}

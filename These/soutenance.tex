@@ -1,4 +1,4 @@
-\documentclass[8pt]{beamer}
+\documentclass[8pt,usenames,dvipsnames]{beamer}
 %\usepackage[T1]{fontenc}% pour la sortie
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
@@ -12,10 +12,11 @@
 \usepackage{comment}
 \usepackage{tabto}
 \usepackage{changepage}
-
+\usepackage{adjustbox}
+\usepackage{multirow}
 \usepackage{pict2e}
 \usepackage{pgfplots}
-
+\usepackage{xspace}
 \usepackage{graphicx}
 \usepackage{kbordermatrix} 
 \usepackage{listings} 
@@ -87,6 +88,13 @@ showstringspaces=false
 
 \newcommand*{\Scale}[2][4]{\scalebox{#1}{$\displaystyle{#2}$}}%
 \newcommand{\ml}[1]{\textcolor{blue}{[\emph{ML} -- #1]}}
+\newcommand\TableBac[2]{\parbox[t]{2mm}{\multirow{#2}{*}{\rotatebox[origin=c]{90}{#1}}}}
+\newcommand\TableReac[6]{\multirow{2}{*}{\small{#1}} & \small{#2} &\small{#3}&\multirow{2}{*}{\tiny{#6}} \\
+ &  & \small{#4} &\small{#5}& }
+ 
+ \def\freud{\textit{P.~freudenreichii}\xspace}
+\def\lactis{\textit{L.~lactis}\xspace}
+\def\plantarum{\textit{L.~plantarum}\xspace}
 
 \lstset
 {
@@ -97,7 +105,7 @@ showstringspaces=false
     identifierstyle=\color{magenta},
     frame = single,
     numbers=left,
-	numberstyle=\tiny \bf \color{blue},
+	numberstyle=\tiny \bf \color{black},
 	stepnumber=1,	
 	numbersep=10pt,
 	firstnumber=1,
@@ -116,16 +124,16 @@ showstringspaces=false
 % \usetheme{Warsaw}
 \usetheme{Frankfurt}
 
-\setbeamercolor{structure}{fg =blue!70}
+\setbeamercolor{structure}{fg =MidnightBlue}
 
-\definecolor{mygreen}{rgb}{0, 0.6, 0}
+%\definecolor{mygreen}{rgb}{0, 0.6, 0}
 
 \renewcommand{\kbldelim}{(}% Left delimiter
 \renewcommand{\kbrdelim}{)}% Right delimiter
 
 %%% Définition de l'en-tête de page
-\setbeamercolor{headcolor1}{fg=white,bg=blue!70}
-\setbeamercolor{headcolor2}{fg=white,bg=red!75}
+\setbeamercolor{headcolor1}{fg=white,bg=black!80}
+\setbeamercolor{headcolor2}{fg=white,bg=MidnightBlue}
 
 
 \makeatletter
@@ -155,7 +163,7 @@ showstringspaces=false
 
 
 %% Définition du pied de page
-\setbeamercolor{footcolor}{fg=white,bg=blue!70}
+\setbeamercolor{footcolor}{fg=white,bg=black!80}
 
 \setbeamertemplate{footline}{
 \leavevmode%
@@ -177,7 +185,7 @@ showstringspaces=false
 }
 
 \makeatother
-\author[Maxime LECOMTE]{Présenté par Maxime LECOMTE \vspace{-0.5cm}}
+\author[Maxime LECOMTE]{PhD defense of Maxime LECOMTE \vspace{-0.5cm}}
 \title[Hybrid approach for explainable metabolic modelling of microbial ecosystems']{Approche hybride de modélisation explicable du métabolisme des écosystèmes microbiens}
 \subtitle{Hybrid approach for explainable metabolic modelling of microbial ecosystems'}
 \date{\today}
@@ -228,14 +236,14 @@ Encadrement: & Clémence FRIOUX
 \section{Motivation}
 
 \begin{frame}
-\frametitle{Why the study of microorganisms is relevant ?}
+\frametitle{Why study microorganisms ?}
 \begin{figure}[t]
 \centering   
 \includegraphics[width=0.9\textwidth]{figures/bacterial-env.pdf}
 \end{figure}
 \begin{block}{}
 \begin{itemize}
-\item High diversity of microorganisms
+\item High diversity of microorganisms in all ecosystems
 \item Microorganisms roles specific to the environment \tiny\citep{10.1093/chemse/bjh067,BELKAID2014121,Zhang2015,Hoorman2011,McSweeney2000}
 \end{itemize}
 \end{block}
@@ -253,7 +261,7 @@ Encadrement: & Clémence FRIOUX
 \begin{block}{}
 \begin{itemize}
 \item Bacterial interactions are distinguishable within two species
-\item And within ecosystems composed of thousand of species ? $\rightarrow$ need of informatic 
+\item And within ecosystems composed of thousand of species ? $\rightarrow$ computational biology 
 \end{itemize}
 \end{block}
 
@@ -292,7 +300,7 @@ Associate an organism to a system and study the all system \tiny \citep{Kitano20
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\textwidth]{figures/aroma-cpd-rum}
-    \caption{Gas chromatograms of the major aroma compounds isolated from rum  \tiny (from \cite{Suomalainen1978})}
+    \caption{Gas chromatograms of the lower fatty acids produced by yeast in a nitrogen-free sugar fermentation  \tiny (from \cite{Suomalainen1978})}
 \end{figure}
 
 }
@@ -303,7 +311,7 @@ Associate an organism to a system and study the all system \tiny \citep{Kitano20
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\textwidth]{figures/aroma-cpd-rum}
-    \caption{Gas chromatograms of the major aroma compounds isolated from rum  \tiny (from \cite{Suomalainen1978})}
+    \caption{Gas chromatograms of the lower fatty acids produced by yeast in a nitrogen-free sugar fermentation  \tiny (from \cite{Suomalainen1978})}
 \end{figure}
 \vspace{-0.7cm}
 \begin{exampleblock}{What is metabolism ?}
@@ -319,13 +327,13 @@ Set of all biochemical reactions occurring in the cell of an organism that permi
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\textwidth]{figures/aroma-cpd-rum}
-    \caption{Gas chromatograms of the major aroma compounds isolated from rum  \tiny (from \cite{Suomalainen1978})}
+    \caption{Gas chromatograms of the lower fatty acids produced by yeast in a nitrogen-free sugar fermentation  \tiny (from \cite{Suomalainen1978})}
 \end{figure}
 \vspace{-0.5cm}
 \begin{exampleblock}{What is metabolism ?}
 Set of all biochemical reactions occurring in the cell of an organism that permit the production of energy and metabolic goods. \tiny \citep{Nava2023}
 \end{exampleblock}
-a fatty acyl-CoA + ethanol $\rightarrow$ ethyl palmitate + coA
+1-octanal + NAD$^+$ + H$_2$O  $\rightarrow$ caprylic acid + NADH + 2 H$^+$
 
 }
 
@@ -336,21 +344,21 @@ a fatty acyl-CoA + ethanol $\rightarrow$ ethyl palmitate + coA
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\textwidth]{figures/aroma-cpd-rum}
-    \caption{Gas chromatograms of the major aroma compounds isolated from rum  \tiny (from \cite{Suomalainen1978})}
+    \caption{Gas chromatograms of the lower fatty acids produced by yeast in a nitrogen-free sugar fermentation  \tiny (from \cite{Suomalainen1978})}
 \end{figure}
 \vspace{-0.5cm}
 \begin{exampleblock}{What is metabolism ?}
 Set of all biochemical reactions occurring in the cell of an organism that permit the production of energy and metabolic goods. \tiny \citep{Nava2023}
 \end{exampleblock}
-a fatty acyl-CoA + ethanol $\rightarrow$ ethyl palmitate + coA
+1-octanal + NAD$^+$ + H$_2$O  $\rightarrow$ caprylic acid + NADH + 2 H$^+$
 \begin{block}{}
 \begin{itemize}
 \item Metabolism of an organism explain observable phenotype
 \item Is impacted by bacterial interactions 
 \end{itemize}
 \end{block}
-
 }
+
 %
 %\only<4>{
 %\frametitle{What underlying mechanisms are responsible of the observed activity ?}
@@ -424,7 +432,7 @@ a fatty acyl-CoA + ethanol $\rightarrow$ ethyl palmitate + coA
 \frametitle{How is the metabolism represented?}
 \only<1>{
 \vspace{-2.5cm}
-$r_1 : $2 pyr $\rightarrow$ 1 acetoL + 1 $\text{CO}_2$ \\
+$r_1 : $2 pyr $\rightarrow$ 1 aceto-Lac + 1 $\text{CO}_2$ \\
 $r_2 : $1 aceto-Lac  $\rightarrow$ 1 diac  + 1 $\text{CO}_2$ \\ 
 $r_3 : $1 aceto-Lac  $\rightarrow$ 1 acetoin + 1 $\text{CO}_2$ \\
 $r_4 : $1 diac $\rightarrow$ 1 acetoin \\
@@ -434,7 +442,7 @@ $r_5 : $1 acetoin  $\rightarrow$1 butanediol \\
 
 \only<2>{
 \begin{minipage}{0.5\textwidth}
-$r_1 : $2 pyr $\rightarrow$ 1 acetoL + 1 $\text{CO}_2$ \\
+$r_1 : $2 pyr $\rightarrow$ 1 aceto-Lac + 1 $\text{CO}_2$ \\
 $r_2 : $1 aceto-Lac  $\rightarrow$ 1 diac  + 1 $\text{CO}_2$ \\ 
 $r_3 : $1 aceto-Lac  $\rightarrow$ 1 acetoin + 1 $\text{CO}_2$ \\
 $r_4 : $1 diac $\rightarrow$ 1 acetoin \\
@@ -466,7 +474,7 @@ $r_5 : $1 acetoin  $\rightarrow$1 butanediol \\
 
 \only<3>{
 \begin{minipage}{0.5\textwidth}
-$r_1 : $2 pyr $\rightarrow$ 1 acetoL + 1 $\text{CO}_2$ \\
+$r_1 : $2 pyr $\rightarrow$ 1 aceto-Lac + 1 $\text{CO}_2$ \\
 $r_2 : $1 aceto-Lac  $\rightarrow$ 1 diac  + 1 $\text{CO}_2$ \\ 
 $r_3 : $1 aceto-Lac $\rightarrow$ 1 acetoin + 1 $\text{CO}_2$ \\
 $r_4 : $1 diac $\rightarrow$ 1 acetoin \\
@@ -498,20 +506,22 @@ $r_5 : $1 acetoin  $\rightarrow$1 butanediol \\
         \node (d) [circle, draw,mystyle] at (4.5,3)   {acetoin};
           \node (e) [circle, draw,mystyle] at (8,3)   {butanediol};
           
-  \node (f) [rectangle, draw] at (4.5,8) {$r_1$};
-  	\node (g) [rectangle, draw] at (4.5,5.6)  {$r_2$};
-  	  \node (h) [rectangle, draw] at (6,4.4)   {$r_3$};
-  		\node (i) [rectangle, draw] at (3,4.4)   {$r_4$};
-  		  \node (j) [rectangle, draw] at (6,3)   {$r_5$};
+     \node (f) [rectangle, draw] at (4.5,8) {$r_1$};
+  	 \node (g) [rectangle, draw] at (4.5,5.6)  {$r_2$};
+  	 \node (h) [rectangle, draw] at (6,4.4)   {$r_3$};
+  	 \node (i) [rectangle, draw] at (3,4.4)   {$r_4$};
+  	 \node (j) [rectangle, draw] at (6,3)   {$r_5$};
 
-  \graph { (x) -> (f) -> (a) };
-   \graph { (x) -> (f) -> (c) };
-   \graph { (a) -> (g) -> (c) };
-    \graph { (a) -> (g) -> (b) };
-	\graph { (b) -> (h) -> (c) };      
+	\node () [] at (3.85,8.15) {\tiny-2};
+
+     \graph { (x) -> (f) -> (a) };
+     \graph { (x) -> (f) -> (c) };
+     \graph { (a) -> (g) -> (c) };
+     \graph { (a) -> (g) -> (b) };
+	 \graph { (b) -> (h) -> (c) };      
 	 \graph { (b) -> (h) -> (d) };            
-	 	 \graph { (b) -> (i) -> (d) };       
-	 	 	 	 \graph { (d) -> (j) -> (e) };                 
+	 \graph { (b) -> (i) -> (d) };       
+	 \graph { (d) -> (j) -> (e) };                 
 	 
 \end{tikzpicture}
 
@@ -555,7 +565,7 @@ Example of trivial boolean GPR relationship
 \begin{block}{}
 \begin{itemize}
 \item For bacteria: average of 2000 reactions, 1200 genes, 1000 metabolites
-\item Informatic can help to resolve combinatorial problem
+\item In ecosystem, combinatorial problem occurs
 \end{itemize}
 \end{block}
 \end{frame}
@@ -604,7 +614,12 @@ Allow us to infer qualitative models from logical rules based on biological know
 	\graph { (b) -> (h) <-> (c) };
 	\graph { (b) -> (h) -> (d) };            
 	\graph { (b) <- (i) <- (d) };       
-	\graph { (d) <- (j) <- (e) };               
+	\graph { (d) <- (j) <- (e) };            
+	
+		     \draw [draw=black] (0.5,1.5) rectangle (5.5,-2.5);     
+     
+     \node (extracellular) [] at (6.5,1.5) {\tiny \textit{extracellular}};
+     \node (intracellular) [] at (4.5,01) {\tiny \textit{intracellular}};	   
 \end{tikzpicture}
 
 \begin{block}{}
@@ -642,6 +657,12 @@ Allow us to infer qualitative models from logical rules based on biological know
 	\graph { (b) -> (h) -> (d) };            
 	\graph { (b) <- (i) <- (d) };       
 	\graph { (d) <- (j) <- (e) };               
+	
+	     \draw [draw=black] (0.5,1.5) rectangle (5.5,-2.5);     
+     
+     \node (extracellular) [] at (6.5,1.5) {\tiny \textit{extracellular}};
+     \node (intracellular) [] at (4.5,01) {\tiny \textit{intracellular}};	
+
 \end{tikzpicture}
 \end{minipage}%
 \begin{minipage}{0.55\textwidth}
@@ -669,9 +690,10 @@ Allow us to infer qualitative models from logical rules based on biological know
 \end{exampleblock}
 \textbf{topological-based approaches}
 \only<1> {
-\begin{center}
+\begin{minipage}{0.5\textwidth}
+\hspace{-0.15\textwidth}
 \begin{tikzpicture}
-   \node (x) [circle, draw,fill=black!30!yellow] at (0,0)   {X};
+   \node (x) [circle, draw] at (0,0)   {X};
    \node (a) [circle, draw] at (2,0)   {A};
    \node (b) [circle, draw] at (4,0)   {C};
    \node (c) [circle, draw] at (3,1)   {D};
@@ -683,29 +705,32 @@ Allow us to infer qualitative models from logical rules based on biological know
   	\node (h) [rectangle, draw] at (5,0)   {$r_3$};
   	\node (i) [rectangle, draw] at (4,-1)   {$r_4$};
   	\node (j) [rectangle, draw] at (5,-2)   {$r_5$};
-  
+
     \graph { (x) -> (f) -> (a) };
     \graph { (x) -> (f) -> (c) };
     \graph { (a) -> (g) -> (c) };
     \graph { (a) -> (g) -> (b) };
 	\graph { (b) -> (h) <-> (c) };
 	\graph { (b) -> (h) -> (d) };            
-	\graph { (b) <- (i) <- (d) };            
-	\graph { (d) <- (j) <- (e) };         
-	    \graph { (e) -> (i) };
+	\graph { (b) <- (i) <- (d) };       
+	\graph { (d) <- (j) <- (e) };               
 	
-     \draw [draw=black] (0.5,1.5) rectangle (5.5,-2.5);     
+	     \draw [draw=black] (0.5,1.5) rectangle (5.5,-2.5);     
      
      \node (extracellular) [] at (6.5,1.5) {\tiny \textit{extracellular}};
      \node (intracellular) [] at (4.5,01) {\tiny \textit{intracellular}};	
 
 \end{tikzpicture}
-\end{center}
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
 X is a seed
+\end{minipage}
+
 }
 
 \only<2> {
-\begin{center}
+\begin{minipage}{0.5\textwidth}
+\hspace{-0.15\textwidth}
 \begin{tikzpicture}
    \node (x) [circle, draw,fill=black!30!yellow] at (0,0)   {X};
    \node (a) [circle, draw,fill=white!60!yellow] at (2,0)   {A};
@@ -734,14 +759,18 @@ X is a seed
 	     
 	          \node (extracellular) [] at (6.5,1.5) {\tiny \textit{extracellular}};
      \node (intracellular) [] at (4.5,01) {\tiny \textit{intracellular}};	
-\end{tikzpicture}
-\end{center}
+ \end{tikzpicture}
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
 X is available;  $r_1$ is activated and A,D are producible
+\end{minipage}
+
 
 }
 
 \only<3> {
-\begin{center}
+\begin{minipage}{0.5\textwidth}
+\hspace{-0.15\textwidth}
 \begin{tikzpicture}
    \node (x) [circle, draw,fill=black!30!yellow] at (0,0)   {X};
    \node (a) [circle, draw,fill=white!60!yellow] at (2,0)   {A};
@@ -771,12 +800,16 @@ X is available;  $r_1$ is activated and A,D are producible
 	          \node (extracellular) [] at (6.5,1.5) {\tiny \textit{extracellular}};
      \node (intracellular) [] at (4.5,01) {\tiny \textit{intracellular}};	
 \end{tikzpicture}
-\end{center}
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
 A,D are available;  $r_2$ is activated and C is producible
+\end{minipage}
+
 }
 
 \only<4>{
-\begin{center}
+\begin{minipage}{0.5\textwidth}
+\hspace{-0.15\textwidth}
 \begin{tikzpicture}
    \node (x) [circle, draw,fill=black!30!yellow] at (0,0)   {X};
    \node (a) [circle, draw,fill=white!60!yellow] at (2,0)   {A};
@@ -808,7 +841,11 @@ A,D are available;  $r_2$ is activated and C is producible
 	          \node (extracellular) [] at (6.5,1.5) {\tiny \textit{extracellular}};
      \node (intracellular) [] at (4.5,01) {\tiny \textit{intracellular}};	
 \end{tikzpicture}
-\end{center}
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
+C,D are available;  $r_3$ is activated and E is producible\\
+Fixed point : E
+\end{minipage}
 \begin{block}{}
 \begin{itemize}
 \item The potential metabolic capability and topology dependant
@@ -851,6 +888,12 @@ Allow us to infer qualitative models from logical rules based on biological know
 	\graph { (b) -> (h) -> (d) };            
 	\graph { (b) <- (i) <- (d) };       
 	\graph { (d) <- (j) <- (e) };               
+	
+		
+	     \draw [draw=black] (0.5,1.5) rectangle (5.5,-2.5);     
+	     
+	          \node (extracellular) [] at (6.5,1.5) {\tiny \textit{extracellular}};
+     \node (intracellular) [] at (4.5,01) {\tiny \textit{intracellular}};	
 \end{tikzpicture}
 \end{minipage}%
 \begin{minipage}{0.55\textwidth}
@@ -864,7 +907,7 @@ scope(M) :- seed(M).
 scope(M) :- bacteria(B), product(M,R,B), reaction(R,B), scope(M2) : reactant(M2,R,B).
 \end{lstlisting}
 \end{minipage}
-
+\hspace{1cm}
 \begin{block}{}
 Logical rules are embedded using Answer Set Programming  \tiny \citep{Lifschitz2008}
 \end{block}
@@ -874,13 +917,13 @@ Logical rules are embedded using Answer Set Programming  \tiny \citep{Lifschitz2
 \frametitle{Why using Answer Set Programming}
 \centering
 \begin{figure}[h]
-\includegraphics[width=\textwidth]{figures/asp}
+\includegraphics[width=\textwidth]{figures/asp.pdf}
 \caption{The workflow of Answer set programming (ASP) \tiny \citep{Kaufmann2016GroundingAS}}
 \end{figure}
 \begin{block}{}
 \begin{itemize}
 \item Close assumption
-\item Explainable model
+\item Mechanistic model
 \item Solve combinatorial problems
 \end{itemize}
 
@@ -895,7 +938,7 @@ Logical rules are embedded using Answer Set Programming  \tiny \citep{Lifschitz2
 \framesubtitle{definition}
 %\vspace{-4.2cm}
 \begin{exampleblock}{Metabolic model}
-From a GEM, a model metabolic has the capacity to simulate and to predict on the metabolic content
+From a GEM, a model metabolic has the capacity to simulate and to predict on the metabolic activity
 \end{exampleblock}
 }
 
@@ -904,7 +947,7 @@ From a GEM, a model metabolic has the capacity to simulate and to predict on the
 \framesubtitle{Flux Balance Analysis \tiny \citep{Orth2010}}
 
 \begin{exampleblock}{Metabolic model}
-From a GEM, a model metabolic has the capacity to simulate and to predict on the metabolic content
+From a GEM, a model metabolic has the capacity to simulate and to predict on the metabolic activity
 \end{exampleblock}
 \textbf{Constraint-based approaches}
 \begin{minipage}{0.5\textwidth}
@@ -988,14 +1031,14 @@ From a GEM, a model metabolic has the capacity to simulate and to predict on the
   	\node (j) [rectangle, draw] at (5,-2)   {$r_5$};
 
 
-	\draw [line width=2pt,yellow] (x) edge[->] (f);	
-	\draw [line width=1.5pt,yellow](f) edge[->] (a);
-		\draw [line width=0.5pt,yellow](f) edge[->] (c);
-			\draw [line width=1.5pt,yellow](a) edge[->] (g);
-				\draw [line width=1.5pt,yellow](g) edge[->] (b);
-					\draw [line width=1.5pt,yellow](b) edge[->] (h);
-						\draw [line width=0.5pt,yellow](h) edge[<-] (c);
-							\draw [line width=2pt,yellow](h) edge[->] (d);
+	\draw [line width=2pt,blue] (x) edge[->] (f);	
+	\draw [line width=1.5pt,blue](f) edge[->] (a);
+		\draw [line width=0.5pt,blue](f) edge[->] (c);
+			\draw [line width=1.5pt,blue](a) edge[->] (g);
+				\draw [line width=1.5pt,blue](g) edge[->] (b);
+					\draw [line width=1.5pt,blue](b) edge[->] (h);
+						\draw [line width=0.5pt,blue](h) edge[<-] (c);
+							\draw [line width=2pt,blue](h) edge[->] (d);
       
 	\graph { (b) <- (i) <- (d) };       
 	\graph { (d) <- (j) <- (e) };              
@@ -1009,9 +1052,9 @@ From a GEM, a model metabolic has the capacity to simulate and to predict on the
 
 \begin{block}{}
 	\begin{itemize}
-		\item Topology and stoichiometry of metabolic goods
+		\item Reaction flux depending of the stoichiometry coefficient 
 		\item Can explain metabolic  observations through reaction fluxes
-		\item difficult to apply in larger scale
+		\item difficult to apply to large-scale: computational cost, cultivated species
 	\end{itemize}
 \end{block}
 \end{frame}
@@ -1062,7 +1105,7 @@ From a GEM, a model metabolic has the capacity to simulate and to predict on the
 \end{figure}
 \end{adjustwidth}
 \begin{block}{}
-Heterogenous data are necessary for analysing bacterial fermentation
+Heterogenous data are available for analysing bacterial fermentation
 \end{block}
 \end{frame}
 
@@ -1078,17 +1121,17 @@ Dynamic and numerical model of the metabolism can integrate all the data
 \end{block}
 \end{frame}
 
-\begin{frame}
-\frametitle{Model fitting strategy}
-
-\begin{adjustwidth}{-1cm}{}
-\begin{figure}
-\includegraphics[width=1.2\textwidth]{figures/global.pdf}
-\vspace{-0.7cm}\caption{Numerical workflow for analysing cheese bacterial fermentation}
-\end{figure}
-\end{adjustwidth}
-\end{frame}
-
+%\begin{frame}
+%\frametitle{Model fitting strategy}
+%
+%\begin{adjustwidth}{-1cm}{}
+%\begin{figure}
+%\includegraphics[width=1.2\textwidth]{figures/global.pdf}
+%\vspace{-0.7cm}\caption{Numerical workflow for analysing cheese bacterial fermentation}
+%\end{figure}
+%\end{adjustwidth}
+%\end{frame}
+%
 \begin{frame}
 \frametitle{Refinement of metabolic networks - 1}
 
@@ -1123,7 +1166,7 @@ Dynamic and numerical model of the metabolism can integrate all the data
 %\begin{adjustwidth}{}{15cm}
 \begin{block}{Objectif}
 \begin{itemize}
-\item Production of butanediol
+\item Production of diacetyl
 \item activation of acetolactate pathway
 \end{itemize}
 \end{block}
@@ -1143,7 +1186,7 @@ Dynamic and numerical model of the metabolism can integrate all the data
 \begin{minipage}{0.45\textwidth}
 \begin{block}{Objectif}
 \begin{itemize}
-\item Production of butanediol
+\item Production of diacetyl
 \item activation of acetolactate pathway
 \end{itemize}
 \end{block}
@@ -1171,37 +1214,6 @@ Dynamic and numerical model of the metabolism can integrate all the data
 \begin{itemize}
 \item Finding optimal parameters for explaining \textbf{individual} biological observations
 \item Quantitative check of metabolic goods and biomass density
-\item Tedious analysis
-\end{itemize}
-\end{block}
-
-\end{frame}
-
-\begin{frame}
-\frametitle{Individual metabolic model calibration}
-
-\begin{exampleblock}{Goal}
-Make individual GSMN accurate for inferring mechanistic bacterial behavior
-\end{exampleblock}
-
-\textbf{LAB} 
-
-\begin{equation}
-J(b_i,pH | \theta_i, b_{i,exp},pH_{exp} ) = \left \Vert \frac{\logten(b_i) - \logten(b_{i,exp})}{\sigma_{log,i,exp}} \right \Vert^2 + \alpha \left \Vert\frac{pH - pH_{exp}}{\sigma_{pH,exp}} \right \Vert^2 
-\label{eq:optim_LAB}
-\end{equation}
-
-\textbf{\textit{P. freudenreichii}}
-
-\begin{equation} 
-J(b,m | \theta_i, b_{exp},m_{exp} ) = \left \Vert \frac{\logten(b) - \logten(b_{exp})}{\sigma_{log,b,exp}} \right \Vert ^2 + \alpha \left \Vert \frac{m - m_{exp}}{\sigma_{m,exp}} \right \Vert^2 
-\label{eq:optim_freud}
-\end{equation}
-
-\begin{block}{Data}
-\begin{itemize}
-\item Metabolomics
-\item Growth and pH in pure cultures
 \end{itemize}
 \end{block}
 
@@ -1230,155 +1242,325 @@ J(b,m | \theta_i, b_{exp},m_{exp} ) = \left \Vert \frac{\logten(b) - \logten(b_{
 \item Compute dynamic model of the metabolism (dFBA) \tiny \citep{Mahadevan.2002}
 \end{itemize}
 \end{block}
+
 \end{frame}
 
 \begin{frame}
 \frametitle{Dynamic modeling of the metabolism (dFBA)}
 
-\only<1>{
-\framesubtitle{Compute the total flux}
+\begin{block}{What is a dynamic version of the FBA}
+FBA is solved at each time step.
+\end{block}
 
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{figures/time-dfba.pdf}
-\end{figure}
-\begin{align}
-\hspace{-2cm}
-F_j & =\sum_{i \in \mathcal{B}} {\mu}_{i,j}\left((c^{ex}_{min,i},c^{ex}_{max,i})(b^n,m^n)\right) b_i 
-\end{align} 
-$F_j$ total flux computed in $mmol.gDW^{-1}.h^{-1}$\\
-${\mu}_{i,j}\left((c^{ex}_{min,i},c^{ex}_{max,i})(b^n,m^n)\right) b_i$ is the correspondence between exchange reaction, bacterial and metabolite constraints in the system  from a given environment.
+\only<1>{
+\begin{minipage}{0.5\textwidth}
+\begin{tikzpicture}
+   \node (x) [circle, draw] at (0,0)   {Xe};
+   \node (a) [circle, draw,fill=white!60!yellow] at (2,0)   {A};
+   \node (b) [circle, draw,fill=white!60!yellow] at (4,0)   {C};
+   \node (c) [circle, draw,fill=white!60!yellow] at (3,1)   {D};
+   \node (d) [circle, draw,fill=white!60!yellow] at (5,-1)   {E};
+   \node (e) [circle, draw,fill=white!60!yellow] at (3.5,-2)   {F};
+      \node (fe) [circle, draw] at (3.5,-3)   {Fe};
+          
+    \node (f) [rectangle, draw,fill=white!60!yellow] at (1,0) {$r_1$};
+  	\node (g) [rectangle, draw,fill=white!60!yellow] at (3,0)  {$r_2$};
+  	\node (h) [rectangle, draw,fill=white!60!yellow] at (5,0)   {$r_3$};
+  	\node (i) [rectangle, draw,fill=white!60!yellow] at (4,-1)   {$r_4$};
+  	\node (j) [rectangle, draw,fill=white!60!yellow] at (5,-2)   {$r_5$};
+
+    \graph { (x) -> (f) -> (a) };
+    \graph { (x) -> (f) -> (c) };
+    \graph { (a) -> (g) -> (c) };
+    \graph { (a) -> (g) -> (b) };
+	\graph { (b) -> (h) <-> (c) };
+	\graph { (b) -> (h) -> (d) };            
+	\graph { (b) <- (i) <- (d) };       
+	\graph { (d) <- (j) <- (e) };               
+	\graph { (fe) -> (e) };   	
+		
+	     \draw [draw=black] (0.5,1.5) rectangle (5.5,-2.5);     
+	     
+	          \node (extracellular) [] at (6.5,1.5) {\tiny \textit{extracellular}};
+     \node (intracellular) [] at (4.5,01) {\tiny \textit{intracellular}};	
+     \end{tikzpicture}
+\end{minipage}
+\hspace{0.5cm}
+\hfill
+\begin{minipage}{0.4\textwidth}
+\begin{itemize}
+\item Intracellular dynamics are faster than the extracellular dynamics $\rightarrow$ Steady-state assumption\tiny\citep{DEOLIVEIRA2023108101}
+\end{itemize}
+\end{minipage}
 }
 
 \only<2>{
-\framesubtitle{Compute bacteria \textbf{densities} and metabolites \textbf{concentrations}}
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{figures/time-dfba.pdf}
-\end{figure}
-\begin{align}
-\hspace{-2cm}
-F_j & =\sum_{i \in \mathcal{B}} {\mu}_{i,j}\left((c^{ex}_{min,i},c^{ex}_{max,i})(b^n,m^n)\right) b_i \\
-\hspace{-2cm}
-b_i^{n+1}& = b_i^n+\Delta t* F_{b_i} \\
-\hspace{-2cm}
-m_j^{n+1}& = \begin{cases} m_i^n+\Delta t* F_{j} & \text{ si } F_j>0 \text{ (cas explicite)}\\
-m_j^n/(1-\Delta t * F_j/m_j^n) & \text{ sinon (cas implicite)}
-\end{cases}
-\end{align}
+\begin{minipage}{0.5\textwidth}
+\begin{tikzpicture}
+   \node (x) [circle, draw,fill=white!60!yellow] at (0,0)   {Xe};
+   \node (a) [circle, draw] at (2,0)   {A};
+   \node (b) [circle, draw] at (4,0)   {C};
+   \node (c) [circle, draw] at (3,1)   {D};
+   \node (d) [circle, draw] at (5,-1)   {E};
+   \node (e) [circle, draw] at (3.5,-2)   {F};
+      \node (fe) [circle, draw,fill=white!60!yellow] at (3.5,-3)  {Fe};
+          
+    \node (f) [rectangle, draw] at (1,0) {$r_1$};
+  	\node (g) [rectangle, draw] at (3,0)  {$r_2$};
+  	\node (h) [rectangle, draw] at (5,0)   {$r_3$};
+  	\node (i) [rectangle, draw] at (4,-1)   {$r_4$};
+  	\node (j) [rectangle, draw] at (5,-2)   {$r_5$};
 
-\begin{block}{}
-Euler semi implicit schema guarantees the positivity of the solution
-\end{block}
+    \graph { (x) -> (f) -> (a) };
+    \graph { (x) -> (f) -> (c) };
+    \graph { (a) -> (g) -> (c) };
+    \graph { (a) -> (g) -> (b) };
+	\graph { (b) -> (h) <-> (c) };
+	\graph { (b) -> (h) -> (d) };            
+	\graph { (b) <- (i) <- (d) };       
+	\graph { (d) <- (j) <- (e) };               
+	\graph { (fe) -> (e) };   	
+		
+	     \draw [draw=black] (0.5,1.5) rectangle (5.5,-2.5);     
+	     
+	          \node (extracellular) [] at (6.5,1.5) {\tiny \textit{extracellular}};
+     \node (intracellular) [] at (4.5,01) {\tiny \textit{intracellular}};	
+     \end{tikzpicture}
+\end{minipage}
+\hspace{0.5cm}
+\hfill
+\begin{minipage}{0.4\textwidth}
+\begin{itemize}
+\item Intracellular dynamics are faster than the extracellular dynamics $\rightarrow$ Steady-state assumption\tiny\citep{DEOLIVEIRA2023108101}
+\vspace{0.5cm}
+\item  \normalsize Apply mass balance equations to describe the behavior of the extracellular metabolites \tiny\citep{DEOLIVEIRA2023108101}
+\end{itemize}
+\end{minipage}
+
 }
 
-\only<3>{
-
-\framesubtitle{General dynamic model}
-\begin{figure}[t]
-\includegraphics[width=\textwidth]{figures/time-dfba.pdf}
-\end{figure}
-\begin{align}
-\hspace{-2cm}
-F_j & =\sum_{i \in \mathcal{B}} {\mu}_{i,j}\left((c^{ex}_{min,i},c^{ex}_{max,i})(b^n,m^n)\right) b_i \\
-\hspace{-2cm}
-b_i^{n+1}& = b_i^n+\Delta t* F_{b_i} \\
-\hspace{-2cm}
-m_j^{n+1}& = \begin{cases} m_i^n+\Delta t* F_{j} & \text{ si } F_j>0 \text{ (cas explicite)}\\
-m_j^n/(1-\Delta t * F_j/m_j^n) & \text{ sinon (cas implicite)}
-\end{cases}\\
-\hspace{-2cm}
-    \partial_t b_i& = \mathcal{R}_{i}(b_i) {\mu}_{i,i}\left((c^{ex}_{min,i},c^{ex}_{max,i})(b,m)\right) b_i  \\
-    \hspace{-2cm}
-    \partial_t m_j &= \sum_{i \in \mathcal{B}} {\mu}_{i,j}\left((c^{ex}_{min,i},c^{ex}_{max,i})(b,m)\right) b_i 
-\end{align}
-
-\begin{block}{}
-Bacterial densities and metabolites concentrations are therefore computed in $g.L^{-1}$ and $mmol.L{-1}$ 
-\end{block}
-}
 \end{frame}
+
+
+\begin{frame}
+\frametitle{Objectif of the individual metabolic model calibration}
+
+\begin{exampleblock}{Goal}
+Make individual GSMN accurate for inferring mechanistic bacterial behavior
+\end{exampleblock}
+
+\only<1>{
+\textbf{LAB} 
+
+\begin{equation}
+J(b_i,pH | \theta_i, b_{i,exp},pH_{exp} ) = \left \Vert \frac{\logten(b_i) - \logten(b_{i,exp})}{\sigma_{log,i,exp}} \right \Vert^2 + \alpha \left \Vert\frac{pH - pH_{exp}}{\sigma_{pH,exp}} \right \Vert^2 
+\label{eq:optim_LAB}
+\end{equation}
+
+\begin{minipage}{0.5\textwidth}
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/ind-data-plantarum.pdf}
+\end{figure}
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
+\includegraphics[width=\textwidth]{figures/ph-data-lactis.pdf}
+\end{minipage}%
+
+\begin{block}{}
+\begin{itemize}
+\item Without adding extra nutrient
+\item Experimental and simulated data must fit
+\end{itemize}
+\end{block}
+}
+
+\only<2>{
+\textbf{\textit{P. freudenreichii}}
+
+\begin{equation} 
+J(b,m | \theta_i, b_{exp},m_{exp} ) = \left \Vert \frac{\logten(b) - \logten(b_{exp})}{\sigma_{log,b,exp}} \right \Vert ^2 + \alpha \left \Vert \frac{m - m_{exp}}{\sigma_{m,exp}} \right \Vert^2 
+\label{eq:optim_freud}
+\end{equation}
+%\begin{minipage}{0.5\textwidth}
+%\begin{figure}
+%\includegraphics[width=0.7\textwidth]{figures/ind-data-plantarum.pdf}
+%\end{figure}
+%\end{minipage}%
+%\begin{minipage}{0.5\textwidth}
+\begin{table}[H]
+\centering
+\begin{adjustbox}{width=0.9\textwidth}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Acides & Concentration $T_0$ & Concentration $T_{f}$ = 89 h  & Erreur standard \\
+\hline
+Lactate & 16.5 & 7.88 & 0.08 \\
+Acetate & 0 & 3.07 & 0.02\\
+Succinate & 0 & 0.371 & 0.063 \\
+Propionate & 0 & 8.31 & 0.02 \\
+ \hline
+\end{tabular}
+\end{adjustbox}
+\caption{Acids data in g/L}
+\label{table:acids-dosage}
+\end{table}
+
+\begin{block}{}
+\begin{itemize}
+\item Adding lactate in the nutritional environment
+\item Experimental and simulated data must fit
+\end{itemize}
+\end{block}
+}
+
+%\end{minipage}
+%
+%\begin{table}
+%\centering
+%\begin{adjustbox}{width=0.5\textwidth}
+%\begin{tabular}{|c|c|c|c|}
+%\hline
+%GEM & Temps & Densité bactériennes & pH  \\
+% \hline
+% \TableBac{\freud}{7} 
+% & & & \\
+% &  0 & 0.000001 & ø \\
+% & 23 & 0.000099 & ø \\
+% & 40 & 0.000561 & ø\\
+%  & 48 & 0.000412 & ø\\
+%  & 130 & 0.000710 & ø\\
+%  & & & \\
+%  \hline
+%\end{tabular}
+%\end{adjustbox}
+%\end{table}
+
+%\begin{block}{Data}
+%\begin{itemize}
+%\item Metabolomics
+%\item Growth and pH in pure cultures
+%\end{itemize}
+%\end{block}
+
+\end{frame}
+
 
 \begin{frame}
 \frametitle{Dynamic modulations}
 
-\textbf{Usual consumption limitation}
+\textbf{Defining the usual consumption limitation in the model}
+\begin{block}{availaible for a specific set of metabolites}
 \begin{equation}
-c^{ex}_{min,i,j} = max(-\frac{m_{lcts_e}}{\Delta t*\sum_{i \in \mathcal{M_j}} b_i}, v^{int}_{i,j})
+c^{ex}_{min,i,j} = max(-\frac{m_{j}}{\Delta t*\sum_{i \in \mathcal{M_j}} b_i}, v^{int}_{i,j})
 \end{equation}
 
-\begin{block}{}
 \begin{itemize}
 \item $\mathcal{M_j}$ Bacteria subset can metabolize $_j$
+\item $v^{int}_{i,j}$ close to the FBA value
 \item Balanced resource sharing 
 \end{itemize}
 
 \end{block}
 
-\textbf{Lactose consumption}
+\textbf{Lactose consumption case for LAB}
+
+1- Calcul of pH\\
+
+\begin{block}{pH value from lactate concentration following the approach of Ozcan \tiny \citep{Ozcan.2020}}
+$pH = pKa_{lac} c_1 * (m_{lac\_\_L\_e}+m_{lac\_\_D\_e})+c_2$
+\end{block}
+
+2- Regulate lactose consumption \\
+\begin{block}{Model the effect of pH on the lactose consumption}
 \begin{equation}
 c^{ex}_{min,i,j} = max(-\frac{m_{lcts_e}}{\Delta t*\sum_{i \in \mathcal{M}(lcts_e)} b_i},-\mu_{max,lcts}*10^{(-k_{lac}*\phi_{undiss})}-\mu_{min,lcts})
 \end{equation}
-\begin{block}{}
-\begin{itemize}
-\item Lactose consumption negatively regulated by the non dissociated form of acid lactic
-\end{itemize}
 \end{block}
 
+%
+%\begin{equation}
+%c^{ex}_{min,i,j} = max(-\frac{m_{lcts_e}}{\Delta t*\sum_{i \in \mathcal{M}(lcts_e)} b_i},-\mu_{max,lcts}*10^{(-k_{lac}*\phi_{undiss})}-\mu_{min,lcts})
+%\end{equation}
+%\begin{block}{}
+%\begin{itemize}
+%\item Lactose consumption negatively regulated by the non dissociated form of acid lactic
+%\end{itemize}
+%\end{block}
 
-\textbf{pH regulation}
-
-
-\begin{equation}
-\phi_{undiss}(m_{lac\_\_L\_e},m_{lac\_\_D\_e}) = \frac{m_{lac\_\_L\_e}+m_{lac\_\_D\_e}}{1+ 10^{c_1 * (m_{lac\_\_L\_e}+m_{lac\_\_D\_e})+c_2}}.
-\label{eq:undissociated-lactate}
-\end{equation}
-
-\begin{block}{}
-\begin{itemize}
-\item approximation of pH - pKa
-\end{itemize}
-\end{block}
+%
+%\textbf{pH regulation}
+%
+%
+%\begin{equation}
+%\phi_{undiss}(m_{lac\_\_L\_e},m_{lac\_\_D\_e}) = \frac{m_{lac\_\_L\_e}+m_{lac\_\_D\_e}}{1+ 10^{c_1 * (m_{lac\_\_L\_e}+m_{lac\_\_D\_e})+c_2}}.
+%\label{eq:undissociated-lactate}
+%\end{equation}
+%
+%\begin{block}{}
+%\begin{itemize}
+%\item approximation of pH - pKa
+%\end{itemize}
+%\end{block}
 \end{frame}
 
 
 \begin{frame}
 \frametitle{Model validation}
-
-\only<1>{
-\framesubtitle{\textit{L. plantarum}}
-\begin{adjustwidth}{-0.6cm}{}
-\includegraphics[width=1.1\textwidth]{figures/validation-lp.pdf}
-\end{adjustwidth}
-\begin{block}{}
-Dynamic model of \textit{L. plantarum} explains its experimental growth and pH
-\end{block}
-}
-
-
-\only<2>{
-\framesubtitle{\textit{L. lactis}}
-\begin{adjustwidth}{-0.6cm}{}
-\includegraphics[width=1.1\textwidth]{figures/validation-ll.pdf}
-\end{adjustwidth}
-\begin{block}{}
-Dynamic model of \textit{L. lactis} explains its experimental growth and pH
-\end{block}
-}
-
-
-\only<3>{
-\framesubtitle{\textit{P. freudenreichii}}
-\begin{adjustwidth}{-0.6cm}{}
-\includegraphics[width=1.1\textwidth]{figures/validation-pf.pdf}
-\end{adjustwidth}
-\begin{block}{}
-Dynamic model of \textit{P. freudenreichii} explains its experimental growth and acid dosages
+\begin{minipage}{0.5\textwidth}
+\includegraphics[width=\textwidth]{figures/validation-lp.pdf}
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
+\vspace{-0.5cm}
+\includegraphics[width=\textwidth]{figures/validation-pf.pdf}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\vspace{-0.3cm}
+\includegraphics[width=\textwidth]{figures/validation-ll.pdf}
+\end{minipage}%
+\hspace{0.3cm}
+\hfill
+\begin{minipage}{0.4\textwidth}
+\begin{block}{Take home message}
+Individual metabolic model well calibrated on know behavior $\rightarrow$ retrieve experimental data
 \end{block}
 
-}
+\end{minipage}
 
-\begin{block}{home message}
-Individual metabolic model well calibrated $\rightarrow$ retrieve experimental data
-\end{block}
+%
+%
+%\only<1>{
+%\framesubtitle{\textit{L. plantarum}}
+%\begin{adjustwidth}{-0.6cm}{}
+%\includegraphics[width=1.1\textwidth]{figures/validation-lp.pdf}
+%\end{adjustwidth}
+%\begin{block}{}
+%Dynamic model of \textit{L. plantarum} explains its experimental growth and pH
+%\end{block}
+%}
+%
+%
+%\only<2>{
+%\framesubtitle{\textit{L. lactis}}
+%\begin{adjustwidth}{-0.6cm}{}
+%\includegraphics[width=1.1\textwidth]{figures/validation-ll.pdf}
+%\end{adjustwidth}
+%\begin{block}{}
+%Dynamic model of \textit{L. lactis} explains its experimental growth and pH
+%\end{block}
+%}
+%
+%
+%\only<3>{
+%\framesubtitle{\textit{P. freudenreichii}}
+%\begin{adjustwidth}{-0.6cm}{}
+%\includegraphics[width=1.1\textwidth]{figures/validation-pf.pdf}
+%\end{adjustwidth}
+%\begin{block}{}
+%Dynamic model of \textit{P. freudenreichii} explains its experimental growth and acid dosages
+%\end{block}
+%
+%}
+
 
 \end{frame}
 
@@ -1400,48 +1582,48 @@ Individual metabolic model well calibrated $\rightarrow$ retrieve experimental d
 \begin{frame}
 \frametitle{Community prediction}
 \framesubtitle{Growth and pH}
-
-\includegraphics[width=\textwidth]{figures/community-pred-growth.pdf}
+\centering
+\includegraphics[width=0.8\textwidth]{figures/community-pred-growth.pdf}
 \begin{block}{}
 \begin{itemize}
 \item Growth well predicted for all bacteria
 \item Lactate proxy production can explain the observed pH
-\end{itemize}
-\end{block}
-\end{frame}
-
-\begin{frame}
-\frametitle{Community prediction}
-\framesubtitle{Metabolomics}
-\begin{adjustwidth}{-0.6cm}{}
-\includegraphics[width=1.1\textwidth]{figures/community-pred-metabolo.pdf}
-\end{adjustwidth}
-\begin{block}{}
-\begin{itemize}
 \item Metabolomic is well predicted 
 \end{itemize}
 \end{block}
 \end{frame}
-
+%
+%\begin{frame}
+%\frametitle{Community prediction}
+%\framesubtitle{Metabolomics}
+%\begin{adjustwidth}{-0.6cm}{}
+%\includegraphics[width=1.1\textwidth]{figures/community-pred-metabolo.pdf}
+%\end{adjustwidth}
+%\begin{block}{}
+%\begin{itemize}
+%
+%\end{itemize}
+%\end{block}
+%\end{frame}
+%
 
 \begin{frame}
-\frametitle{So what....}
+\frametitle{Highlighted bacterial behavior}
 \includegraphics[width=\textwidth]{figures/relative-contribution.pdf}
 \begin{minipage}{0.5\textwidth}
-\includegraphics[width=\textwidth]{figures/lactose.pdf}
-\end{minipage}%
-\begin{minipage}{0.5\textwidth}
-\begin{itemize}
-\item 11 shared metabolites predicted with SMETANA, MiCOM (phénylalanine, succinate, xanthine..)
-\item H$_2$S, ribose and glycerol seams to be relevant
-\end{itemize}
-\end{minipage}
 
 \begin{itemize}
 \item No competition for lactose
 \item \textit{L. lactis} main lactate producer 
-\item \textit{P. freudenreichii} main producer of Acetate
+\item Cooperation between \lactis and \freud
 \end{itemize}
+
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
+\begin{itemize}
+\item 11 shared metabolites predicted with SMETANA, MiCOM (phénylalanine, succinate, xanthine..)
+\end{itemize}
+\end{minipage}
 \end{frame}
 
 
@@ -1454,8 +1636,7 @@ Individual metabolic model well calibrated $\rightarrow$ retrieve experimental d
 \begin{block}{Originality}
 \begin{itemize}
 \item High quality of refinement and well calibrated individual GSMN from cheese %
-\item Accurate dynamic model with few optimized parameters %
-\item No need of community calibration to predict community behavior %
+\item Individual calibrations based on community behavior permit the prediction metabolites concentrations %
 \end{itemize}
 \end{block} %
 \end{minipage}\hfill
@@ -1483,47 +1664,142 @@ For screening large community, use of different formalism is required
 \section{Discrete model}
 
 \begin{frame}
-\frametitle{Discrete modelling able to screen large community}
+\frametitle{How large-scale bacterial communities are characterized ?}
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/sota-num.pdf}
+\end{figure}
+\begin{block}{}
+\begin{itemize}
+\item Community size analysis up to 18 \normalsize in a reasonable time (SMETANA  \tiny \cite{Zelezniak2015})
+\end{itemize}
+\end{block}
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/sota-discrete.pdf}
 \end{figure}
 \begin{block}{}
 \begin{itemize}
-\item Competition and cooperation potential are used for describing ecosystems
-\item Community size analysis up to 18 \tiny \citep{Zelezniak2015} \normalsize in a reasonable time 
-\item tedious pairwise analysis for graph base methods
-\item Discrete-based methods not limited by the size of community
+\item Tedious pairwise analysis for graph base methods (NetCoop \tiny \cite{Levy2015} \normalsize )
+\item Discrete-based methods not limited by the size of community 
 \end{itemize}
 \end{block}
 \end{frame}
 
 \begin{frame}
-\frametitle{Contributions 2: Discrete approach for characterizing large-scale bacterial}
-\includegraphics[width=\textwidth]{figures/concept.pdf}
+\frametitle{Contribution 2: Discrete approach for characterizing large-scale bacterial}
+\centering
+\includegraphics[width=0.65\textwidth]{figures/concept.pdf}
 \begin{block}{}
 \begin{itemize}
 \item Combination of the extension of network expansion algorithm and answer set programming for the calculation of cooperation and competition potentials
-\item How to define cooperation and competition potentials ?
+\item Which cooperation and competition properties am  I interested in?
 \end{itemize}
 \end{block}
 \end{frame}
 
 \begin{frame}
-\frametitle{Cooperation \& competition properties}
-\includegraphics[width=\textwidth]{figures/coop-properties.pdf}
-\begin{block}{}
+\frametitle{Contribution 2: Discrete approach for characterizing large-scale bacterial}
+\only<1>{
+%\hspace{-0.5cm}
+\begin{minipage}{0.4\textwidth}
+\begin{block}{Cooperation properties}
 \begin{itemize}
-\item Inference of polyopsonistic substrate and exchanged compounds in logical rules (ASP)
-\item Index of cooperation and competition in python
+\item Exchanged metabolites
 \end{itemize}
 \end{block}
+\end{minipage}%
+\hspace{0.5cm}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\includegraphics[width=\textwidth]{figures/properties-2.pdf}
+\end{minipage}
+}
+
+\only<2>{
+%\hspace{-0.5cm}
+\begin{minipage}{0.4\textwidth}
+\begin{block}{Cooperation properties}
+\begin{itemize}
+\item Exchanged metabolites
+\item Can a species give to everyone in the system ?
+\item added-value of adding species 
+\end{itemize}
+\end{block}
+\end{minipage}%
+\hspace{0.5cm}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\includegraphics[width=\textwidth]{figures/properties.pdf}
+\end{minipage}
+}
+
+\only<3>{
+\begin{minipage}{0.4\textwidth}
+\begin{block}{Cooperation properties}
+\begin{itemize}
+\item Exchanged metabolites
+\item Can a species give to everyone in the systeme ?
+\item Compare cooperation indexes 
+\end{itemize}
+\end{block}
+\end{minipage}%
+\hspace{0.5cm}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\includegraphics[width=\textwidth]{figures/properties-3.pdf}
+\end{minipage}
+}
+
+\only<4>{
+\begin{minipage}{0.4\textwidth}
+\begin{block}{Cooperation properties}
+\begin{itemize}
+\item Exchanged metabolites
+\item Can a species give to everyone in the systeme ?
+\item Compare cooperation indexes 
+\end{itemize}
+\end{block}
+
+\begin{block}{Competition property}
+\begin{itemize}
+\item Polyopsonic substrates
+\end{itemize}
+\end{block}
+\end{minipage}%
+\hspace{0.5cm}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\includegraphics[width=\textwidth]{figures/properties-3.pdf}
+\end{minipage}
+
+\begin{block}{}
+\begin{itemize}
+\item How cooperation and competition rules are defined ?
+\end{itemize}
+\end{block}
+
+}
+
+
 \end{frame}
+
+
+
+%
+%\begin{frame}
+%\frametitle{Cooperation \& competition properties}
+%\includegraphics[width=\textwidth]{figures/coop-properties.pdf}
+%\begin{block}{}
+%\begin{itemize}
+%\item Inference of polyopsonistic substrate and exchanged compounds in logical rules (ASP)
+%\item Index of cooperation and competition in python
+%\end{itemize}
+%\end{block}
+%\end{frame}
 
 
 \begin{frame}[fragile]
 \frametitle{Potential interactions rules}
 \begin{onlyenv}<1>
-\framesubtitle{Cooperation rules development}
 \begin{minipage}{0.5\textwidth}
 \begin{lstlisting}[mathescape=True, label={lst:echange}] captionpos=b,style=aspwide]
 exchange(M,P,C) :- taxon(P),
@@ -1534,27 +1810,34 @@ product(M,_,P),
 scope(metabolite(M,P), all),
 not scope(metabolite(M,C), self(C)).
 \end{lstlisting}
-\begin{itemize}
-	\item[ligne 1:] un métabolite \texttt{M} est échangeable entre un producteur \texttt{P} et un consommateur \texttt{C} si \texttt{P} est un taxon et 
-	\item[ligne 2:] que \texttt{C} est un taxon et
-	\item[ligne 3:] \texttt{P} est différent de \texttt{C} et
-	\item[ligne 4:] que \texttt{M} est un réactant de n'importe quelle réaction de \texttt{C} et 
-	\item[ligne 5:] que \texttt{M} est un produit de n'importe quelle réaction de \texttt{P} et
-	\item[ligne 6:] que \texttt{M} est dans le \texttt{scope} communautaire produit par \texttt{P} et 
-	\item[ligne 7:] que \texttt{M} n'est pas dans le \texttt{scope} de \texttt{C}.
-\end{itemize}
+%\begin{itemize}
+%	\item[ligne 1:] un métabolite \texttt{M} est échangeable entre un producteur \texttt{P} et un consommateur \texttt{C} si \texttt{P} est un taxon et 
+%	\item[ligne 2:] que \texttt{C} est un taxon et
+%	\item[ligne 3:] \texttt{P} est différent de \texttt{C} et
+%	\item[ligne 4:] que \texttt{M} est un réactant de n'importe quelle réaction de \texttt{C} et 
+%	\item[ligne 5:] que \texttt{M} est un produit de n'importe quelle réaction de \texttt{P} et
+%	\item[ligne 6:] que \texttt{M} est dans le \texttt{scope} communautaire produit par \texttt{P} et 
+%	\item[ligne 7:] que \texttt{M} n'est pas dans le \texttt{scope} de \texttt{C}.
+%\end{itemize}
 \end{minipage}%
 \hspace{0.25cm}
 \hfill
 \begin{minipage}{0.45\textwidth}
-\includegraphics[width=\textwidth]{figures/poly-monoopsonie.pdf}
+\includegraphics[width=\textwidth]{figures/exchanged.pdf}
 \end{minipage}
-
 \end{onlyenv}
 
 \begin{onlyenv}<2>
-\framesubtitle{Competition rules}
 \begin{minipage}{0.5\textwidth}
+\begin{lstlisting}[mathescape=True, label={lst:echange}] captionpos=b,style=aspwide]
+exchange(M,P,C) :- taxon(P),
+taxon(C),
+P != C,
+reactant(M,_,C),
+product(M,_,P),
+scope(metabolite(M,P), all),
+not scope(metabolite(M,C), self(C)).
+\end{lstlisting}
 \begin{lstlisting}[mathescape=True,label={lst:competition}, captionpos=b]
 % cas pour les metabolites echangeables
 polyopsonist(M,N) :- N=#count{C,M:exchange(M,_,C)},
@@ -1564,47 +1847,49 @@ exchange(M,_,_), N > 1.
 polyopsonist(S,N) :- N=#count{B:seed_consumed_by_taxon(S,B)}, 
 	N > 1, seed(S).
 \end{lstlisting}
-\begin{itemize}
-	\item[ligne 2-3:] Un composé échangé \texttt{M} est limitant si lorsque le nombre de consommateurs \texttt{C} impliqués dans l'échange de ce métabolite \texttt{M} est strictement supérieur à 1.
-	\item[ligne 6-7:] Une graine \texttt{M} est considérée limitante lorsque le nombre de consommateurs \texttt{C} de cette graine \texttt{M} est strictement supérieur à 1. \\
-\end{itemize}
+%\begin{itemize}
+%	\item[ligne 2-3:] Un composé échangé \texttt{M} est limitant si lorsque le nombre de consommateurs \texttt{C} impliqués dans l'échange de ce métabolite \texttt{M} est strictement supérieur à 1.
+%	\item[ligne 6-7:] Une graine \texttt{M} est considérée limitante lorsque le nombre de consommateurs \texttt{C} de cette graine \texttt{M} est strictement supérieur à 1. \\
+%\end{itemize}
 \end{minipage}%
 \hspace{0.25cm}
 \hfill
 \begin{minipage}{0.45\textwidth}
-\includegraphics[width=\textwidth]{figures/poly-monoopsonie.pdf}
+\includegraphics[width=\textwidth]{figures/exchanged.pdf}
 \end{minipage}
 \end{onlyenv}
 \end{frame}
 
+
 \begin{frame}[fragile]
-\frametitle{Scores}
-\framesubtitle{Contributors}
+\frametitle{Cooperation and polyopsonistic indexes}
+
 \begin{onlyenv}<1>
+
 \begin{minipage}{0.5\textwidth}
-\vspace{-1cm}
-\begin{block}{Goal}
-Distinguish community with a difference in the number of consumers (resp. producers)
+\begin{block}{Cooperation weight}
+how to qualitatively model the contributions of exchange species?
 \end{block}
 \textbf{Exchangeable metabolites}\\
-2 --- C --- 2\\
-1 --- A --- 1\\
-1 --- B --- 1\\
-1 --- Y --- 1
+\begin{lstlisting}[mathescape=True]
+H:{Org1} % producer
+H:{Org2,Org3} % consumers
+\end{lstlisting}
+
 
 \[
 w(k) = 2-{0.5^{k-1}}
 \]
 
-1.5 --- C --- 1.5\\
-1 --- A --- 1\\
-1 --- B --- 1\\
-1 --- Y --- 1
 
+\begin{lstlisting}[mathescape=True]
+H:{1} % producer
+H:{1.5} % consumers
+\end{lstlisting}
 \[
 \begin{split}
     \textsf{CooP} &= \sum_{m\in M} w(|P_m|) + \sum_{m\in M} w(|C_m|)\\
-     \textsf{CooP} &=  9
+     \textsf{CooP} &=  2.5
 \end{split}
 \]
 
@@ -1613,44 +1898,280 @@ w(k) = 2-{0.5^{k-1}}
 \hspace{0.5cm}
 \hfill
 \begin{minipage}{0.4\textwidth}
-\includegraphics[width=\textwidth]{figures/score-taille-3.pdf}
+\includegraphics[width=\textwidth]{figures/exchanged.pdf}
 \end{minipage}
+%\end{frame}
+
 \end{onlyenv}
-
-
-
+%\begin{frame}[fragile]
 \begin{onlyenv}<2>
-\framesubtitle{Polyopsonistic, $\rho$ and $\delta$}
+
 \begin{minipage}{0.5\textwidth}
-\vspace{-1cm}
+
 \begin{exampleblock}{Polyopsonistic}
 Number of consumers involve in exchangeable metabolites and seed > 1
 \end{exampleblock}{}
 
-C --- 2
+\begin{lstlisting}[mathescape=True]
+H:{Org2,Org3} % exchanged metabolite
+X1:{Org1,Org3} %  the nutrient
+\end{lstlisting}
 
 \begin{lstlisting}[mathescape=True]
  Comp = sum(polyopsonist.values())) / len(community.taxa)
- Comp = 0.67
+ Comp = 4/3 
 \end{lstlisting}
 
-\begin{exampleblock}{$\rho$}
-Identify the reactionary added-value between the reaction scope in community and individually
-\end{exampleblock}{}
-
-\begin{exampleblock}{$\delta$}
-Identify the producible compounds added-value between the metabolite scope in community and individually
-\end{exampleblock}{}
+%\begin{exampleblock}{$\rho$}
+%Identify the reactionary added-value between the reaction scope in community and individually
+%\end{exampleblock}{}
+%
+%\begin{exampleblock}{$\delta$}
+%Identify the producible compounds added-value between the metabolite scope in community and individually
+%\end{exampleblock}{}
 
 \end{minipage}%
 \hspace{0.5cm}
 \hfill
 \begin{minipage}{0.4\textwidth}
-\includegraphics[width=\textwidth]{figures/score-taille-3.pdf}
+\includegraphics[width=\textwidth]{figures/exchanged.pdf}
 \end{minipage}
 \end{onlyenv}
 
 
+\end{frame}
+
+\begin{frame}
+\frametitle{Workflow}
+
+\includegraphics[width=\textwidth]{figures/workflow-ccmc.pdf}
+
+\begin{block}{Goal}
+\begin{itemize}
+\item Ecosystem consistency
+\item Added-value of removing/adding species
+\item Generic and specific seeds
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Are scores ecosystem consistent ?}
+\begin{minipage}{0.65\textwidth}
+\textbf{Generic seeds}
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/coop-comp-ecosys.pdf}
+\end{figure}
+\textbf{Specific seeds}
+\begin{figure}
+\includegraphics[width=\textwidth]{figures/coop-comp-ecosys-specific.pdf}
+\end{figure}
+\end{minipage}
+\hspace{0.1cm}
+\hfill
+\begin{minipage}{0.3\textwidth}
+\begin{block}{}
+\begin{itemize}
+\item Overlap between leaf and root
+\item Better ecosystem consistency with specific seeds
+\end{itemize}
+\end{block}
+\end{minipage}
+\end{frame}
+
+\begin{frame}
+\frametitle{added-value of removing/adding species on the gut microbiota}
+\begin{minipage}{0.6\textwidth}
+\includegraphics[width=\textwidth]{figures/added-value.pdf}
+\end{minipage}%
+\hspace{0.2cm}
+\hfill
+\begin{minipage}{0.37\textwidth}
+\begin{block}{}
+\begin{itemize}
+\item Small communities are impacted by species modifications
+\item Changes in the nutritional environment do not impact the taxonomic disturbance
+\end{itemize}
+\end{block}
+\end{minipage}
+\end{frame}
+
+\begin{frame}
+\frametitle{Comparison with quantitative state-of-the-art tools for deciphering cooperation and competition in microbial communities}
+\includegraphics[width=\textwidth]{figures/comparaison-sota-coop-comp.pdf}
+\begin{block}{}
+\begin{itemize}
+\item Our approach is faster than SMETANA \tiny \citep{Zelezniak2015} \normalsize and MiCOM \tiny \citep{diener2020}
+\item \normalsize Compare cooperation and competition potentials
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{Cooperation and competition potentials}
+\begin{minipage}{0.7\textwidth}
+\includegraphics[width=\textwidth]{figures/ccmc-micom-smetana.pdf}
+\end{minipage}%
+\hspace{0.1cm}
+\hfill
+\begin{minipage}{0.28\textwidth}
+\begin{block}{}
+\begin{itemize}
+\item Competition and cooperation coherent with MiCOM
+\end{itemize}
+\end{block}
+\end{minipage}
+\end{frame}
+
+\begin{frame}
+\frametitle{Discrete model added-value and limitations}
+\centering
+\textbf{\huge Take home message}
+
+\begin{minipage}{0.45\textwidth}
+\begin{block}{Originality}
+\begin{itemize}
+\item Using ASP for inferring competition-like potentials %
+\item Enrichment of previous ASP metabolism-based models
+\item Mechanistic models 
+\end{itemize}
+\end{block} %
+\end{minipage}\hfill
+\hspace{0.5cm}
+\hfill
+\begin{minipage}{0.45\textwidth}
+\begin{block}{Qualitative issue}
+\begin{itemize}
+\item Bacterial interactions
+\item State of the cell
+\end{itemize}
+\end{block}
+\end{minipage}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Can we go further with discrete models?}
+\begin{figure}
+\textbf{Hybrid approach of the metabolism}
+\includegraphics[width=\textwidth]{figures/further-discrete.pdf}
+\end{figure}
+\begin{block}{}
+\begin{itemize}
+\item No need to create hybrid model for inferring community behaviors
+\item Can we add accuracy to discrete model ?
+\end{itemize}
+\end{block}
+\end{frame}
+
+%\section{Enrichment}
+
+\begin{frame}
+\frametitle{Adding \textit{a priori} constraints}
+
+\includegraphics[width=\textwidth]{figures/enrichissement.pdf}
+\begin{block}{Goal}
+\begin{itemize}
+\item Add flexibility to MISCoTo \tiny \citep{Frioux2018}
+\item \normalsize Friendly user
+\item Use our discrete model output as constraints
+\item Data and hypothesis driven modeling
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{Adding logic temporal}
+\begin{block}{Objectif}
+Based on the same formalisme of the discrete model, we use temporal operator to characterize bacterial communities
+\end{block}
+
+\includegraphics[width=\textwidth]{figures/syntaxe_telingo.pdf}
+
+\begin{block}{}
+\begin{itemize}
+\item Infer potential bacterial interactions
+\item Temporal qualitative description of metabolite ``concentrations''
+\item Mechanistic information (set of activated reactions activated at specific ``time'')
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+
+
+\section{Conclusion and perspectives}
+\begin{frame}
+\frametitle{Conclusion}
+\begin{block}{Contributions}
+\begin{itemize}
+\item Numerical model of the metabolism. 
+\begin{itemize}
+\item Integrate heterogeneous data
+\item High quality of GEM
+\item Individual calibration based on community know behavior
+\end{itemize}
+\end{itemize}
+\begin{itemize}
+\item Discrete model 
+\begin{itemize}
+\item Scalable and generic method
+\item Decipher cooperation and competition from KB
+\end{itemize}
+\end{itemize}
+\end{block}
+
+\begin{block}{Limitations}
+\begin{itemize}
+\item Availability of the data/knowledge
+\item Discrete model output 
+\end{itemize}
+\end{block}
+\ml{pas fan}
+\end{frame}
+
+\begin{frame}
+\frametitle{Perspective and discussion}
+
+\begin{itemize}
+\item Validate experimentally bacterial interactions 
+\item Make easy access and generic software
+\item How can we use metatranscriptomic data in both model 
+\end{itemize}
+\ml{peux faire mieux}
+\end{frame}
+
+\begin{frame}
+\includegraphics[width=\textwidth]{figures/merci.pdf}
+\end{frame}
+
+\section{Supplementary}
+\begin{frame}[noframenumbering]
+\frametitle{Dynamic modeling of the metabolism (dFBA)}
+\framesubtitle{General dynamic model}
+\begin{figure}[t]
+\includegraphics[width=\textwidth]{figures/time-dfba.pdf}
+\end{figure}
+\begin{align}
+\hspace{-2cm}
+F_j & =\sum_{i \in \mathcal{B}} {\mu}_{i,j}\left((c^{ex}_{min,i},c^{ex}_{max,i})(b^n,m^n)\right) b_i \\
+\hspace{-2cm}
+b_i^{n+1}& = b_i^n+\Delta t* F_{b_i} \\
+\hspace{-2cm}
+m_j^{n+1}& = \begin{cases} m_i^n+\Delta t* F_{j} & \text{ si } F_j>0 \text{ (cas explicite)}\\
+m_j^n/(1-\Delta t * F_j/m_j^n) & \text{ sinon (cas implicite)}
+\end{cases}\\
+\hspace{-2cm}
+    \partial_t b_i& = \mathcal{R}_{i}(b_i) {\mu}_{i,i}\left((c^{ex}_{min,i},c^{ex}_{max,i})(b,m)\right) b_i  \\
+    \hspace{-2cm}
+    \partial_t m_j &= \sum_{i \in \mathcal{B}} {\mu}_{i,j}\left((c^{ex}_{min,i},c^{ex}_{max,i})(b,m)\right) b_i 
+\end{align}
+
+\begin{block}{}
+Bacterial densities and metabolites concentrations are therefore computed in $g.L^{-1}$ and $mmol.L{-1}$ 
+\end{block}
 
 \end{frame}
 

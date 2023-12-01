@@ -70,6 +70,167 @@
     \field{year}{2014}
   \endentry
 
+  \entry{DEOLIVEIRA2023108101}{article}{}
+    \name{author}{3}{}{%
+      {{hash=dRD}{%
+         family={{de Oliveira}},
+         familyi={d\bibinitperiod},
+         given={Rafael\bibnamedelima D.},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=LGA}{%
+         family={{Le Roux}},
+         familyi={L\bibinitperiod},
+         given={Galo\bibnamedelima A.C.},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Mahadevan},
+         familyi={M\bibinitperiod},
+         given={Radhakrishnan},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \keyw{Dynamic flux balance analysis, Ordinary differential equations with
+  embedded optimization, Karush–Kuhn–Tucker conditions, Metabolic network
+  model}
+    \strng{namehash}{dRDLGAMR1}
+    \strng{fullhash}{dRDLGAMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{abstract}{%
+    Dynamic flux balance analysis (dFBA) models are very popular in systems
+  biology because of the many possible applications. dFBA consists of dynamic
+  mass balance equations that describe the concentration of external
+  metabolites and an optimization model to compute the internal flux
+  distribution of the cell. Here, we applied a nonlinear programming
+  formulation for solving dFBA models. The ODE system is discretized using the
+  orthogonal collocation technique and the optimization problem is replaced by
+  its first-order optimality conditions. In addition, an adaptive mesh scheme
+  is applied to improve performance by efficiently handling changes in the
+  active set of constraints. This formulation ensures total differentiability
+  of the model, which can be solved by large-scale solvers and take advantage
+  of automatic differentiation packages. The new approach presents results
+  equivalent to state-of-the-art methods and outperforms them in dynamic
+  optimization problems by avoiding calling an external solver to handle the
+  embedded optimization model.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.compchemeng.2022.108101
+    \endverb
+    \field{issn}{0098-1354}
+    \field{pages}{108101}
+    \field{title}{Nonlinear programming reformulation of dynamic flux balance
+  analysis models}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0098135422004343
+    \endverb
+    \field{volume}{170}
+    \field{journaltitle}{Computers \& Chemical Engineering}
+    \field{year}{2023}
+  \endentry
+
+  \entry{diener2020}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DC}{%
+         family={Diener},
+         familyi={D\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GSM}{%
+         family={Gibbons},
+         familyi={G\bibinitperiod},
+         given={Sean\bibnamedelima M},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=RAO}{%
+         family={Resendis-Antonio},
+         familyi={R\bibinithyphendelim A\bibinitperiod},
+         given={Osbaldo},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=CN}{%
+         family={Chia},
+         familyi={C\bibinitperiod},
+         given={Nicholas},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Society for Microbiology Journals}%
+    }
+    \strng{namehash}{DCGSMRAO1}
+    \strng{fullhash}{DCGSMRAO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{abstract}{%
+    Compositional changes in the gut microbiota have been associated with a
+  variety of medical conditions such as obesity, Crohn\textquoterights disease,
+  and diabetes. However, connecting microbial community composition to
+  ecosystem function remains a challenge. Here, we introduce MICOM, a
+  customizable metabolic model of the human gut microbiome. By using a
+  heuristic optimization approach based on L2 regularization, we were able to
+  obtain a unique set of realistic growth rates that corresponded well with
+  observed replication rates. We integrated adjustable dietary and taxon
+  abundance constraints to generate personalized metabolic models for
+  individual metagenomic samples. We applied MICOM to a balanced cohort of
+  metagenomes from 186 people, including a metabolically healthy population and
+  individuals with type 1 and type 2 diabetes. Model results showed that
+  individual bacterial genera maintained conserved niche structures across
+  humans, while the community-level production of short-chain fatty acids
+  (SCFAs) was heterogeneous and highly individual specific. Model output
+  revealed complex cross-feeding interactions that would be difficult to
+  measure in vivo. Metabolic interaction networks differed somewhat
+  consistently between healthy and diabetic subjects. In particular, MICOM
+  predicted reduced butyrate and propionate production in a diabetic cohort,
+  with restoration of SCFA production profiles found in healthy subjects
+  following metformin treatment. Overall, we found that changes in diet or
+  taxon abundances have highly personalized effects. We believe MICOM can serve
+  as a useful tool for generating mechanistic hypotheses for how diet and
+  microbiome composition influence community function. All methods are
+  implemented in an open-source Python package, which is available at
+  https://github.com/micom-dev/micom.IMPORTANCE The bacterial communities that
+  live within the human gut have been linked to health and disease. However, we
+  are still just beginning to understand how those bacteria interact and what
+  potential interventions to our gut microbiome can make us healthier. Here, we
+  present a mathematical modeling framework (named MICOM) that can recapitulate
+  the growth rates of diverse bacterial species in the gut and can simulate
+  metabolic interactions within microbial communities. We show that MICOM can
+  unravel the ecological rules that shape the microbial landscape in our gut
+  and that a given dietary or probiotic intervention can have widely different
+  effects in different people.%
+    }
+    \verb{doi}
+    \verb 10.1128/mSystems.00606-19
+    \endverb
+    \field{number}{1}
+    \field{title}{{MICOM: Metagenome-Scale Modeling To Infer Metabolic
+  Interactions in the Gut Microbiota}}
+    \verb{url}
+    \verb https://msystems.asm.org/content/5/1/e00606-19
+    \endverb
+    \field{volume}{5}
+    \verb{file}
+    \verb :Users/mlecomte/Library/Application Support/Mendeley Desktop/Download
+    \verb ed/Diener, Gibbons, Resendis-Antonio - 2020 - MICOM Metagenome-Scale
+    \verb Modeling To Infer Metabolic Interactions in the Gut Microbiota.pdf:pd
+    \verb f
+    \endverb
+    \field{journaltitle}{mSystems}
+    \field{year}{2020}
+  \endentry
+
   \entry{Ebenhoh2004}{article}{}
     \name{author}{3}{}{%
       {{hash=EO}{%
@@ -183,6 +344,83 @@
     \field{year}{2012}
   \endentry
 
+  \entry{Frioux2018}{article}{}
+    \name{author}{4}{}{%
+      {{hash=FC}{%
+         family={Frioux},
+         familyi={F\bibinitperiod},
+         given={Cl{\'{e}}mence},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FE}{%
+         family={Fremy},
+         familyi={F\bibinitperiod},
+         given={Enora},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Trottier},
+         familyi={T\bibinitperiod},
+         given={Camille},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Siegel},
+         familyi={S\bibinitperiod},
+         given={Anne},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FC+1}
+    \strng{fullhash}{FCFETCSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    The selection of species exhibiting metabolic behaviors of interest is a
+  challenging step when switching from the investigation of a large microbiota
+  to the study of functions effectiveness. Approaches based on a
+  compartmentalized framework are not scalable. The output of scalable
+  approaches based on a non-compartmentalized modeling may be so large that it
+  has neither been explored nor handled so far.We present the Miscoto tool to
+  facilitate the selection of a community optimizing a desired function in a
+  microbiome by reporting several possibilities which can be then sorted
+  according to biological criteria. Communities are exhaustively identified
+  using logical programming and by combining the non-compartmentalized and the
+  compartmentalized frameworks. The benchmarking of 4.9 million metabolic
+  functions associated with the Human Microbiome Project, shows that Miscoto is
+  suited to screen and classify metabolic producibility in terms of
+  feasibility, functional redundancy and cooperation processes involved. As an
+  illustration of a host-microbial system, screening the Recon 2.2 human
+  metabolism highlights the role of different consortia within a family of 773
+  intestinal bacteria.Miscoto source code, instructions for use and examples
+  are available at: https://github.com/cfrioux/miscoto.%
+    }
+    \verb{doi}
+    \verb 10.1093/bioinformatics/bty588
+    \endverb
+    \field{issn}{1367-4803}
+    \field{number}{17}
+    \field{pages}{i934\bibrangedash i943}
+    \field{title}{{Scalable and exhaustive screening of metabolic functions
+  carried out by microbial consortia}}
+    \verb{url}
+    \verb https://doi.org/10.1093/bioinformatics/bty588
+    \endverb
+    \field{volume}{34}
+    \verb{file}
+    \verb :Users/mlecomte/Library/Application Support/Mendeley Desktop/Download
+    \verb ed/Frioux et al. - 2018 - Scalable and exhaustive screening of metabo
+    \verb lic functions carried out by microbial consortia.pdf:pdf
+    \endverb
+    \field{journaltitle}{Bioinformatics}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Hoorman2011}{article}{}
     \name{author}{1}{}{%
       {{hash=HJJ}{%
@@ -294,6 +532,105 @@
     \endverb
     \field{journaltitle}{Science}
     \field{year}{2002}
+  \endentry
+
+  \entry{Levy2015}{article}{}
+    \name{author}{5}{}{%
+      {{hash=LR}{%
+         family={Levy},
+         familyi={L\bibinitperiod},
+         given={Roie},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Carr},
+         familyi={C\bibinitperiod},
+         given={Rogan},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kreimer},
+         familyi={K\bibinitperiod},
+         given={Anat},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FS}{%
+         family={Freilich},
+         familyi={F\bibinitperiod},
+         given={Shiri},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Borenstein},
+         familyi={B\bibinitperiod},
+         given={Elhanan},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \keyw{Community assembly,Metabolic networks,Microbial ecology,Reverse
+  ecology,Species interactions,Systems biology}
+    \strng{namehash}{LR+1}
+    \strng{fullhash}{LRCRKAFSBE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    Background: Host-microbe and microbe-microbe interactions are often
+  governed by the complex exchange of metabolites. Such interactions play a key
+  role in determining the way pathogenic and commensal species impact their
+  host and in the assembly of complex microbial communities. Recently, several
+  studies have demonstrated how such interactions are reflected in the
+  organization of the metabolic networks of the interacting species, and
+  introduced various graph theory-based methods to predict host-microbe and
+  microbe-microbe interactions directly from network topology. Using these
+  methods, such studies have revealed evolutionary and ecological processes
+  that shape species interactions and community assembly, highlighting the
+  potential of this reverse-ecology research paradigm. Results: NetCooperate is
+  a web-based tool and a software package for determining host-microbe and
+  microbe-microbe cooperative potential. It specifically calculates two
+  previously developed and validated metrics for species interaction: the
+  Biosynthetic Support Score which quantifies the ability of a host species to
+  supply the nutritional requirements of a parasitic or a commensal species,
+  and the Metabolic Complementarity Index which quantifies the complementarity
+  of a pair of microbial organisms' niches. NetCooperate takes as input a pair
+  of metabolic networks, and returns the pairwise metrics as well as a list of
+  potential syntrophic metabolic compounds. Conclusions: The Biosynthetic
+  Support Score and Metabolic Complementarity Index provide insight into
+  host-microbe and microbe-microbe metabolic interactions. NetCooperate
+  determines these interaction indices from metabolic network topology, and can
+  be used for small- or large-scale analyses. NetCooperate is provided as both
+  a web-based tool and an open-source Python module; both are freely available
+  online at http://elbo.gs.washington.edu/software_netcooperate.html.%
+    }
+    \verb{doi}
+    \verb 10.1186/s12859-015-0588-y
+    \endverb
+    \field{issn}{14712105}
+    \field{title}{{NetCooperate: A network-based tool for inferring
+  host-microbe and microbe-microbe cooperation}}
+    \verb{file}
+    \verb :Users/mlecomte/Downloads/biblio_pdf/s12859-015-0588-y.pdf:pdf
+    \endverb
+    \field{journaltitle}{BMC Bioinformatics}
+    \field{annotation}{%
+    From Duplicate 1 (NetCooperate: A network-based tool for inferring
+  host-microbe and microbe-microbe cooperation - Levy, Roie; Carr, Rogan;
+  Kreimer, Anat; Freilich, Shiri; Borenstein, Elhanan) Qualitative:
+  Biosynthetic Support Score : capacit{\'{e}} d'organisme hote {\`{a}}
+  r{\'{e}}pondre aux besoins nutritionnel d'un parasite ensosymbiothique
+  Metabolic Complementarity Index: quantifie la mesure dans laquelle deux
+  esp{\`{e}}ces s'aident mutuellement et fournit un indice du potentiel
+  syntrophie qui existe entre eux 0 --> no potential for cooperation 1 --> full
+  cooperation No threshold to determine cooperation or not. parasite's
+  metabolic network infer parasitic life-style and its preferred host MCI
+  depend de l'environnement : les esp{\`{e}}ces dependent de la
+  disponibilit{\'{e}} dans l'ennvironnement de nutriments plut{\^{o}}t que du
+  potentiel d'interaction entre deux esp{\`{e}}ces.%
+    }
+    \field{year}{2015}
   \endentry
 
   \entry{Lifschitz2008}{article}{}
@@ -566,6 +903,96 @@
     \verb df
     \endverb
     \field{year}{2010}
+  \endentry
+
+  \entry{Ozcan.2020}{article}{}
+    \name{author}{7}{}{%
+      {{hash=OE}{%
+         family={Ozcan},
+         familyi={O\bibinitperiod},
+         given={Emrah},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Seven},
+         familyi={S\bibinitperiod},
+         given={Merve},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Sirin},
+         familyi={S\bibinitperiod},
+         given={Burcu},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CT}{%
+         family={Cakır},
+         familyi={C\bibinitperiod},
+         given={Tunahan},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=NE}{%
+         family={Nikerel},
+         familyi={N\bibinitperiod},
+         given={Emrah},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=TB}{%
+         family={Teusink},
+         familyi={T\bibinitperiod},
+         given={Bas},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=OET}{%
+         family={Oner},
+         familyi={O\bibinitperiod},
+         given={Ebru\bibnamedelima Toksoy},
+         giveni={E\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OE+1}
+    \strng{fullhash}{OESMSBCTNETBOET1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{abstract}{%
+    {In this study, we have investigated the cheese starter culture as a
+  microbial community through a question: can the metabolic behaviour of a
+  co-culture be explained by the characterized individual organism that
+  constituted the co-culture? To address this question, the dairy-origin lactic
+  acid bacteria Lactococcus lactis subsp. cremoris, Lactococcus lactis subsp.
+  lactis, Streptococcus thermophilus and Leuconostoc mesenteroides, commonly
+  used in cheese starter cultures, were grown in pure and four different
+  co-cultures. We used a dynamic metabolic modelling approach based on the
+  integration of the genome-scale metabolic networks of the involved organisms
+  to simulate the co-cultures. The strain-specific kinetic parameters of
+  dynamic models were estimated using the pure culture experiments and they
+  were subsequently applied to co-culture models. Biomass, carbon source,
+  lactic acid and most of the amino acid concentration profiles simulated by
+  the co-culture models fit closely to the experimental results and the
+  co-culture models explained the mechanisms behind the dynamic microbial
+  abundance. We then applied the co-culture models to estimate further
+  information on the co-cultures that could not be obtained by the experimental
+  method used. This includes estimation of the profile of various metabolites
+  in the co-culture medium such as flavour compounds produced and the
+  individual organism level metabolic exchange flux profiles, which revealed
+  the potential metabolic interactions between organisms in the co-cultures.}%
+    }
+    \verb{doi}
+    \verb 10.1002/bit.27565
+    \endverb
+    \field{issn}{0006-3592}
+    \field{number}{1}
+    \field{pages}{223\bibrangedash 237}
+    \field{title}{{Dynamic co‐culture metabolic models reveal the
+  fermentation dynamics, metabolic capacities and interplays of cheese starter
+  cultures}}
+    \field{volume}{118}
+    \field{journaltitle}{Biotechnology and Bioengineering}
+    \field{year}{2020}
   \endentry
 
   \entry{10.1093/chemse/bjh067}{article}{}
