@@ -183,47 +183,49 @@
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {60}{60}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@sectionpages {44}{60}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {44}{60}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\sectionentry {5}{Enrichment}{61}{Enrichment}{0}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {5}{0}{1}{61/61}{}{0}}
+\headcommand {\slideentry {4}{0}{13}{61/61}{}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {61}{61}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@sectionpages {61}{61}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {61}{61}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\sectionentry {6}{Conclusion and perspectives}{62}{Conclusion and perspectives}{0}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {6}{0}{1}{62/62}{}{0}}
+\headcommand {\slideentry {4}{0}{14}{62/62}{}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {62}{62}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {6}{0}{2}{63/63}{}{0}}
+\headcommand {\beamer@sectionpages {44}{62}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {44}{62}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {5}{Conclusion and perspectives}{63}{Conclusion and perspectives}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {5}{0}{1}{63/63}{}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {63}{63}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@sectionpages {62}{63}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {62}{63}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\sectionentry {7}{Supplementary}{64}{Supplementary}{0}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {7}{0}{1}{64/64}{}{0}}
+\headcommand {\slideentry {5}{0}{2}{64/64}{}{0}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {64}{64}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@sectionpages {64}{64}}
+\headcommand {\slideentry {5}{0}{3}{65/65}{}{0}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\beamer@subsectionpages {64}{64}}
+\headcommand {\beamer@framepages {65}{65}}
 \defcounter {refsection}{0}\relax 
-\headcommand {\sectionentry {8}{References}{65}{References}{0}}
-\headcommand {\beamer@partpages {1}{67}}
-\headcommand {\beamer@subsectionpages {64}{67}}
-\headcommand {\beamer@sectionpages {64}{67}}
-\headcommand {\beamer@documentpages {67}}
-\headcommand {\gdef \inserttotalframenumber {43}}
+\headcommand {\beamer@sectionpages {63}{65}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {63}{65}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {6}{Supplementary}{66}{Supplementary}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {6}{0}{1}{66/66}{}{0}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {66}{66}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@sectionpages {66}{66}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@subsectionpages {66}{66}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\sectionentry {7}{References}{67}{References}{0}}
+\headcommand {\beamer@partpages {1}{70}}
+\headcommand {\beamer@subsectionpages {66}{70}}
+\headcommand {\beamer@sectionpages {66}{70}}
+\headcommand {\beamer@documentpages {70}}
+\headcommand {\gdef \inserttotalframenumber {45}}

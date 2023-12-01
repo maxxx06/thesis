@@ -344,6 +344,83 @@
     \field{year}{2012}
   \endentry
 
+  \entry{Frioux2018}{article}{}
+    \name{author}{4}{}{%
+      {{hash=FC}{%
+         family={Frioux},
+         familyi={F\bibinitperiod},
+         given={Cl{\'{e}}mence},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FE}{%
+         family={Fremy},
+         familyi={F\bibinitperiod},
+         given={Enora},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Trottier},
+         familyi={T\bibinitperiod},
+         given={Camille},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Siegel},
+         familyi={S\bibinitperiod},
+         given={Anne},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FC+1}
+    \strng{fullhash}{FCFETCSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    The selection of species exhibiting metabolic behaviors of interest is a
+  challenging step when switching from the investigation of a large microbiota
+  to the study of functions effectiveness. Approaches based on a
+  compartmentalized framework are not scalable. The output of scalable
+  approaches based on a non-compartmentalized modeling may be so large that it
+  has neither been explored nor handled so far.We present the Miscoto tool to
+  facilitate the selection of a community optimizing a desired function in a
+  microbiome by reporting several possibilities which can be then sorted
+  according to biological criteria. Communities are exhaustively identified
+  using logical programming and by combining the non-compartmentalized and the
+  compartmentalized frameworks. The benchmarking of 4.9 million metabolic
+  functions associated with the Human Microbiome Project, shows that Miscoto is
+  suited to screen and classify metabolic producibility in terms of
+  feasibility, functional redundancy and cooperation processes involved. As an
+  illustration of a host-microbial system, screening the Recon 2.2 human
+  metabolism highlights the role of different consortia within a family of 773
+  intestinal bacteria.Miscoto source code, instructions for use and examples
+  are available at: https://github.com/cfrioux/miscoto.%
+    }
+    \verb{doi}
+    \verb 10.1093/bioinformatics/bty588
+    \endverb
+    \field{issn}{1367-4803}
+    \field{number}{17}
+    \field{pages}{i934\bibrangedash i943}
+    \field{title}{{Scalable and exhaustive screening of metabolic functions
+  carried out by microbial consortia}}
+    \verb{url}
+    \verb https://doi.org/10.1093/bioinformatics/bty588
+    \endverb
+    \field{volume}{34}
+    \verb{file}
+    \verb :Users/mlecomte/Library/Application Support/Mendeley Desktop/Download
+    \verb ed/Frioux et al. - 2018 - Scalable and exhaustive screening of metabo
+    \verb lic functions carried out by microbial consortia.pdf:pdf
+    \endverb
+    \field{journaltitle}{Bioinformatics}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{Hoorman2011}{article}{}
     \name{author}{1}{}{%
       {{hash=HJJ}{%

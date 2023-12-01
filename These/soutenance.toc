@@ -8,8 +8,6 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {4}{Discrete model}{44}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{Enrichment}{61}{0}{5}
+\beamer@sectionintoc {5}{Conclusion and perspectives}{63}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {6}{Conclusion and perspectives}{62}{0}{6}
-\defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {7}{Supplementary}{64}{0}{7}
+\beamer@sectionintoc {6}{Supplementary}{66}{0}{6}
