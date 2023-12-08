@@ -1,0 +1,1187 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{BELKAID2014121}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BY}{%
+         family={Belkaid},
+         familyi={B\bibinitperiod},
+         given={Yasmine},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HTW}{%
+         family={Hand},
+         familyi={H\bibinitperiod},
+         given={Timothy\bibnamedelima W.},
+         giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BYHTW1}
+    \strng{fullhash}{BYHTW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    The microbiota plays a fundamental role on the induction, training, and
+  function of the host immune system. In return, the immune system has largely
+  evolved as a means to maintain the symbiotic relationship of the host with
+  these highly diverse and evolving microbes. When operating optimally, this
+  immune system-microbiota alliance allows the induction of protective
+  responses to pathogens and the maintenance of regulatory pathways involved in
+  the maintenance of tolerance to innocuous antigens. However, in high-income
+  countries, overuse of antibiotics, changes in diet, and elimination of
+  constitutive partners, such as nematodes, may have selected for a microbiota
+  that lack the resilience and diversity required to establish balanced immune
+  responses. This phenomenon is proposed to account for some of the dramatic
+  rise in autoimmune and inflammatory disorders in parts of the world where our
+  symbiotic relationship with the microbiota has been the most affected.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.cell.2014.03.011
+    \endverb
+    \field{issn}{0092-8674}
+    \field{number}{1}
+    \field{pages}{121\bibrangedash 141}
+    \field{title}{Role of the Microbiota in Immunity and Inflammation}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0092867414003456
+    \endverb
+    \field{volume}{157}
+    \field{journaltitle}{Cell}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Cao2021}{article}{}
+    \name{author}{14}{}{%
+      {{hash=CW}{%
+         family={Cao},
+         familyi={C\bibinitperiod},
+         given={Wenfan},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={Aubert},
+         familyi={A\bibinitperiod},
+         given={Julie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MMB}{%
+         family={Maillard},
+         familyi={M\bibinitperiod},
+         given={Marie\bibnamedelima Bernadette},
+         giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=BF}{%
+         family={Boissel},
+         familyi={B\bibinitperiod},
+         given={Fran{\c{c}}oise},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Leduc},
+         familyi={L\bibinitperiod},
+         given={Arlette},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TJL}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={Jean\bibnamedelima Luc},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=DSM}{%
+         family={Deutsch},
+         familyi={D\bibinitperiod},
+         given={St{\'{e}}phanie\bibnamedelima Marie},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Camier},
+         familyi={C\bibinitperiod},
+         given={B{\'{e}}n{\'{e}}dicte},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kerjouh},
+         familyi={K\bibinitperiod},
+         given={Ali},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Parayre},
+         familyi={P\bibinitperiod},
+         given={Sandrine},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HOM}{%
+         family={Harel-Oger},
+         familyi={H\bibinithyphendelim O\bibinitperiod},
+         given={Marielle},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GG}{%
+         family={Garric},
+         familyi={G\bibinitperiod},
+         given={Gilles},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Thierry},
+         familyi={T\bibinitperiod},
+         given={Anne},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FH}{%
+         family={Falentin},
+         familyi={F\bibinitperiod},
+         given={H{\'{e}}l{\`{e}}ne},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \keyw{aroma compounds,food process,lactic acid
+  bacteria,metabolism,propionic bacteria}
+    \strng{namehash}{CW+1}
+    \strng{fullhash}{CWAJMMBBFLATJLDSMCBKAPSHOMGGTAFH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    The formation of cheese flavor mainly results from the production of
+  volatile compounds by microorganisms. We investigated how fine-tuning
+  cheese-making process parameters changed the cheese volatilome in a semi-hard
+  cheese inoculated with Lactococcus (L.) lactis, Lactiplantibacillus (L.)
+  plantarum, and Propionibacterium (P.) freudenreichii. A standard (Std) cheese
+  was compared with three variants of technological itineraries: a shorter
+  salting time (7 h vs 10 h, Salt7h), a shorter stirring time (15 min vs 30
+  min, Stir15min), or a higher ripening temperature (16 °C vs 13 °C,
+  Rip16°C). Bacterial counts were similar in the four cheese types, except for
+  a 1.4 log10 reduction of L. lactis counts in Rip16°C cheeses after 7 weeks
+  of ripening. Compared to Std, Stir15min and Rip16°C increased
+  propionibacterial activity, causing higher concentrations of acetic,
+  succinic, and propanoic acids and lower levels of lactic acid. Rip16°C
+  accelerated secondary proteolysis and volatile production. We thus
+  demonstrated that fine-tuning process parameters could modulate the cheese
+  volatilome by influencing specific bacterial metabolisms.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jafc.1c01634
+    \endverb
+    \field{issn}{15205118}
+    \field{number}{30}
+    \field{pages}{8511\bibrangedash 8529}
+    \field{title}{{Fine-Tuning of Process Parameters Modulates Specific
+  Metabolic Bacterial Activities and Aroma Compound Production in Semi-Hard
+  Cheese}}
+    \field{volume}{69}
+    \verb{file}
+    \verb :Users/mlecomte/Downloads/Cao2021-tango1.pdf:pdf
+    \endverb
+    \field{journaltitle}{Journal of Agricultural and Food Chemistry}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Carroll1999}{article}{}
+    \name{author}{6}{}{%
+      {{hash=CNM}{%
+         family={Carroll},
+         familyi={C\bibinitperiod},
+         given={Nora\bibnamedelima M.},
+         giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=RRP}{%
+         family={Ross},
+         familyi={R\bibinitperiod},
+         given={R.\bibnamedelima Paul},
+         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=KSM}{%
+         family={Kelly},
+         familyi={K\bibinitperiod},
+         given={Sharon\bibnamedelima M.},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=PNC}{%
+         family={Price},
+         familyi={P\bibinitperiod},
+         given={Nicholas\bibnamedelima C.},
+         giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Sheehan},
+         familyi={S\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CTM}{%
+         family={Cogan},
+         familyi={C\bibinitperiod},
+         given={Timothy\bibnamedelima M.},
+         giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{Acetolactate synthase,Circular dichroism spectra,Multimerisation}
+    \strng{namehash}{CNM+1}
+    \strng{fullhash}{CNMRRPKSMPNCSDCTM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1999}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    Acetolactate synthase (ALS) is a key enzyme of pyruvate metabolism and
+  produces acetolactate which can then be converted into the flavour compound,
+  diacetyl. The ALS from Leuconostoc lactis NCW1 displays unusual kinetic
+  properties and is expressed at low levels. Thus, the gene encoding ALS from
+  Leuc. lactis NCW1 was cloned and over-expressed in Escherichia coli to
+  facilitate a more detailed study of its functional properties. The
+  recombinant enzyme, purified from E. coli, was active, and its specific
+  activity was dependent on protein concentration, a phenomenon that was also
+  observed in crude extracts of Leuc. lactis NCW1. Circular dichroism spectra
+  of the purified enzyme revealed a loss of secondary structure of the enzyme
+  upon dilution. In addition, the enzyme exhibited a number of multimeric forms
+  on non-denaturing electrophoresis. The K(m) for pyruvate and TPP decreased as
+  the protein concentration increased. The evidence suggests that
+  oligomerisation of enzyme subunits is enhanced at high protein concentrations
+  and that the associated enzyme has greater specific activity than the
+  individual monomers. The kinetic properties of this enzyme make its clone a
+  candidate for the metabolic engineering of lactococcal strains for the
+  increased production of diacetyl. Copyright (C) 1999 Elsevier Science Inc.%
+    }
+    \verb{doi}
+    \verb 10.1016/S0141-0229(99)00005-8
+    \endverb
+    \field{issn}{01410229}
+    \field{number}{1-2}
+    \field{pages}{61\bibrangedash 67}
+    \field{title}{{Characterization of recombinant acetolactate synthase from
+  Leuconostoc lactis NCW1}}
+    \field{volume}{25}
+    \verb{file}
+    \verb :Users/mlecomte/Downloads/1-s2.0-S0141022999000058-main.pdf:pdf
+    \endverb
+    \field{journaltitle}{Enzyme and Microbial Technology}
+    \field{year}{1999}
+  \endentry
+
+  \entry{diener2020}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DC}{%
+         family={Diener},
+         familyi={D\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GSM}{%
+         family={Gibbons},
+         familyi={G\bibinitperiod},
+         given={Sean\bibnamedelima M},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=RAO}{%
+         family={Resendis-Antonio},
+         familyi={R\bibinithyphendelim A\bibinitperiod},
+         given={Osbaldo},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=CN}{%
+         family={Chia},
+         familyi={C\bibinitperiod},
+         given={Nicholas},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Society for Microbiology Journals}%
+    }
+    \strng{namehash}{DCGSMRAO1}
+    \strng{fullhash}{DCGSMRAO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{abstract}{%
+    Compositional changes in the gut microbiota have been associated with a
+  variety of medical conditions such as obesity, Crohn\textquoterights disease,
+  and diabetes. However, connecting microbial community composition to
+  ecosystem function remains a challenge. Here, we introduce MICOM, a
+  customizable metabolic model of the human gut microbiome. By using a
+  heuristic optimization approach based on L2 regularization, we were able to
+  obtain a unique set of realistic growth rates that corresponded well with
+  observed replication rates. We integrated adjustable dietary and taxon
+  abundance constraints to generate personalized metabolic models for
+  individual metagenomic samples. We applied MICOM to a balanced cohort of
+  metagenomes from 186 people, including a metabolically healthy population and
+  individuals with type 1 and type 2 diabetes. Model results showed that
+  individual bacterial genera maintained conserved niche structures across
+  humans, while the community-level production of short-chain fatty acids
+  (SCFAs) was heterogeneous and highly individual specific. Model output
+  revealed complex cross-feeding interactions that would be difficult to
+  measure in vivo. Metabolic interaction networks differed somewhat
+  consistently between healthy and diabetic subjects. In particular, MICOM
+  predicted reduced butyrate and propionate production in a diabetic cohort,
+  with restoration of SCFA production profiles found in healthy subjects
+  following metformin treatment. Overall, we found that changes in diet or
+  taxon abundances have highly personalized effects. We believe MICOM can serve
+  as a useful tool for generating mechanistic hypotheses for how diet and
+  microbiome composition influence community function. All methods are
+  implemented in an open-source Python package, which is available at
+  https://github.com/micom-dev/micom.IMPORTANCE The bacterial communities that
+  live within the human gut have been linked to health and disease. However, we
+  are still just beginning to understand how those bacteria interact and what
+  potential interventions to our gut microbiome can make us healthier. Here, we
+  present a mathematical modeling framework (named MICOM) that can recapitulate
+  the growth rates of diverse bacterial species in the gut and can simulate
+  metabolic interactions within microbial communities. We show that MICOM can
+  unravel the ecological rules that shape the microbial landscape in our gut
+  and that a given dietary or probiotic intervention can have widely different
+  effects in different people.%
+    }
+    \verb{doi}
+    \verb 10.1128/mSystems.00606-19
+    \endverb
+    \field{number}{1}
+    \field{title}{{MICOM: Metagenome-Scale Modeling To Infer Metabolic
+  Interactions in the Gut Microbiota}}
+    \verb{url}
+    \verb https://msystems.asm.org/content/5/1/e00606-19
+    \endverb
+    \field{volume}{5}
+    \verb{file}
+    \verb :Users/mlecomte/Library/Application Support/Mendeley Desktop/Download
+    \verb ed/Diener, Gibbons, Resendis-Antonio - 2020 - MICOM Metagenome-Scale
+    \verb Modeling To Infer Metabolic Interactions in the Gut Microbiota.pdf:pd
+    \verb f
+    \endverb
+    \field{journaltitle}{mSystems}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Ebenhoh2004}{article}{}
+    \name{author}{3}{}{%
+      {{hash=EO}{%
+         family={Ebenh{\"{o}}h},
+         familyi={E\bibinitperiod},
+         given={Oliver},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Handorf},
+         familyi={H\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HR}{%
+         family={Heinrich},
+         familyi={H\bibinitperiod},
+         given={Reinhart},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EOHTHR1}
+    \strng{fullhash}{EOHTHR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{abstract}{%
+    Methods are developed for structural analysis of metabolic networks
+  expanding in size. Expansion proceeds in consecutive generations in which new
+  reactions are attached to the network produced in the previous stage.
+  Different rules are applied resulting in various modes of expansion.
+  Expansion is performed on the set of glycolytic reactions as well as on a
+  very large set of reactions taken from the KEGG database. It is shown that
+  reactions and compounds strongly differ in the generation in which they are
+  attached to the network allowing conclusions for the temporal order of the
+  acquisition during network evolution. The expansion provides efficient tools
+  for detecting new structural characteristics such as substrate-product
+  relationships over long distances.%
+    }
+    \field{issn}{09199454}
+    \field{number}{1}
+    \field{pages}{35\bibrangedash 45}
+    \field{title}{{Structural analysis of expanding metabolic networks.}}
+    \field{volume}{15}
+    \verb{file}
+    \verb :Users/mlecomte/Library/Application Support/Mendeley Desktop/Download
+    \verb ed/Ebenh{\"{o}}h, Handorf, Heinrich - 2004 - Structural analysis of e
+    \verb xpanding metabolic networks.pdf:pdf
+    \endverb
+    \field{journaltitle}{Genome informatics. International Conference on Genome
+  Informatics}
+    \field{year}{2004}
+  \endentry
+
+  \entry{Frioux2018}{article}{}
+    \name{author}{4}{}{%
+      {{hash=FC}{%
+         family={Frioux},
+         familyi={F\bibinitperiod},
+         given={Cl{\'{e}}mence},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=FE}{%
+         family={Fremy},
+         familyi={F\bibinitperiod},
+         given={Enora},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Trottier},
+         familyi={T\bibinitperiod},
+         given={Camille},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Siegel},
+         familyi={S\bibinitperiod},
+         given={Anne},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FC+1}
+    \strng{fullhash}{FCFETCSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    The selection of species exhibiting metabolic behaviors of interest is a
+  challenging step when switching from the investigation of a large microbiota
+  to the study of functions effectiveness. Approaches based on a
+  compartmentalized framework are not scalable. The output of scalable
+  approaches based on a non-compartmentalized modeling may be so large that it
+  has neither been explored nor handled so far.We present the Miscoto tool to
+  facilitate the selection of a community optimizing a desired function in a
+  microbiome by reporting several possibilities which can be then sorted
+  according to biological criteria. Communities are exhaustively identified
+  using logical programming and by combining the non-compartmentalized and the
+  compartmentalized frameworks. The benchmarking of 4.9 million metabolic
+  functions associated with the Human Microbiome Project, shows that Miscoto is
+  suited to screen and classify metabolic producibility in terms of
+  feasibility, functional redundancy and cooperation processes involved. As an
+  illustration of a host-microbial system, screening the Recon 2.2 human
+  metabolism highlights the role of different consortia within a family of 773
+  intestinal bacteria.Miscoto source code, instructions for use and examples
+  are available at: https://github.com/cfrioux/miscoto.%
+    }
+    \verb{doi}
+    \verb 10.1093/bioinformatics/bty588
+    \endverb
+    \field{issn}{1367-4803}
+    \field{number}{17}
+    \field{pages}{i934\bibrangedash i943}
+    \field{title}{{Scalable and exhaustive screening of metabolic functions
+  carried out by microbial consortia}}
+    \verb{url}
+    \verb https://doi.org/10.1093/bioinformatics/bty588
+    \endverb
+    \field{volume}{34}
+    \verb{file}
+    \verb :Users/mlecomte/Library/Application Support/Mendeley Desktop/Download
+    \verb ed/Frioux et al. - 2018 - Scalable and exhaustive screening of metabo
+    \verb lic functions carried out by microbial consortia.pdf:pdf
+    \endverb
+    \field{journaltitle}{Bioinformatics}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Hoorman2011}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HJJ}{%
+         family={Hoorman},
+         familyi={H\bibinitperiod},
+         given={James\bibnamedelima J},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HJJ1}
+    \strng{fullhash}{HJJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{pages}{1\bibrangedash 4}
+    \field{title}{{The Role of Soil Bacteria}}
+    \verb{file}
+    \verb :Users/mlecomte/Downloads/The Role of Soil bacteria.pdf:pdf
+    \endverb
+    \field{journaltitle}{The Ohio State University Extension}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Kaufmann2016GroundingAS}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KB}{%
+         family={Kaufmann},
+         familyi={K\bibinitperiod},
+         given={Benjamin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LN}{%
+         family={Leone},
+         familyi={L\bibinitperiod},
+         given={Nicola},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Perri},
+         familyi={P\bibinitperiod},
+         given={Simona},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Schaub},
+         familyi={S\bibinitperiod},
+         given={Torsten},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KB+1}
+    \strng{fullhash}{KBLNPSST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{pages}{25\bibrangedash 32}
+    \field{title}{Grounding and Solving in Answer Set Programming}
+    \verb{url}
+    \verb https://api.semanticscholar.org/CorpusID:30782765
+    \endverb
+    \field{volume}{37}
+    \field{journaltitle}{AI Mag.}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Mahadevan.2002}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MR}{%
+         family={Mahadevan},
+         familyi={M\bibinitperiod},
+         given={Radhakrishnan},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=EJS}{%
+         family={Edwards},
+         familyi={E\bibinitperiod},
+         given={Jeremy\bibnamedelima S},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=DFJ}{%
+         family={Doyle},
+         familyi={D\bibinitperiod},
+         given={Francis\bibnamedelima J},
+         giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MREJSDFJ1}
+    \strng{fullhash}{MREJSDFJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2002}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    {Flux Balance Analysis (FBA) has been used in the past to analyze microbial
+  metabolic networks. Typically, FBA is used to study the metabolic flux at a
+  particular steady state of the system. However, there are many situations
+  where the reprogramming of the metabolic network is important. Therefore, the
+  dynamics of these metabolic networks have to be studied. In this paper, we
+  have extended FBA to account for dynamics and present two different
+  formulations for dynamic FBA. These two approaches were used in the analysis
+  of diauxic growth in Escherichia coli. Dynamic FBA was used to simulate the
+  batch growth of E. coli on glucose, and the predictions were found to
+  qualitatively match experimental data. The dynamic FBA formalism was also
+  used to study the sensitivity to the objective function. It was found that an
+  instantaneous objective function resulted in better predictions than a
+  terminal-type objective function. The constraints that govern the growth at
+  different phases in the batch culture were also identified. Therefore,
+  dynamic FBA provides a framework for analyzing the transience of metabolism
+  due to metabolic reprogramming and for obtaining insights for the design of
+  metabolic networks.}%
+    }
+    \verb{doi}
+    \verb 10.1016/s0006-3495(02)73903-9
+    \endverb
+    \field{issn}{0006-3495}
+    \field{number}{3}
+    \field{pages}{1331\bibrangedash 1340}
+    \field{title}{{Dynamic Flux Balance Analysis of Diauxic Growth in
+  Escherichia coli}}
+    \field{volume}{83}
+    \field{journaltitle}{Biophysical Journal}
+    \field{year}{2002}
+  \endentry
+
+  \entry{Makhlouf2006}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=MA}{%
+         family={Makhlouf},
+         familyi={M\bibinitperiod},
+         given={Anissa},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MA1}
+    \strng{fullhash}{MA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{M{\'e}thodologie pour l'optimisation dynamique
+  multicrit{\`e}re d'un proc{\'e}d{\'e} discontinu aliment{\'e}: application
+  {\`a} la production bact{\'e}rienne d'ar{\^o}mes laitiers}
+    \list{institution}{1}{%
+      {Institut National Polytechnique de Lorraine}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2006}
+  \endentry
+
+  \entry{McSweeney2000}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MPL}{%
+         family={McSweeney},
+         familyi={M\bibinitperiod},
+         given={Paul\bibnamedelima L.H.},
+         giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=SMJ}{%
+         family={Sousa},
+         familyi={S\bibinitperiod},
+         given={Maria\bibnamedelima Jos{\'{e}}},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{Cheese,Flavour,Volatile flavour compound}
+    \strng{namehash}{MPLSMJ1}
+    \strng{fullhash}{MPLSMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2000}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    The principal pathways for the formation of flavour compounds in cheese
+  (glycolysis, lipolysis and proteolysis) are reviewed. Depending on variety,
+  microflora and ripening conditions, lactate may be metabolized by a number of
+  pathways to various compounds which contribute to cheese flavour or
+  off-flavours. Citrate metabolism by citrate-positive lactococci or
+  Leuconostoc spp. is important in certain varieties (e.g., Dutch cheeses).
+  Lipolysis results directly in the formation of flavour compounds by
+  liberating free fatty acids (FFA). FFA may also be metabolized to
+  alkan-2-ones and fatty acid lactones. Proteolysis of the caseins to a range
+  of small-and intermediate-sized peptides and free amino acids (FAA) probably
+  only contributes to the background flavour of most cheese varieties, but FAA
+  are important precursors for a range of poorly-understood catabolic reactions
+  which produce volatile compounds essential for flavour.%
+    }
+    \verb{doi}
+    \verb 10.1051/lait:2000127
+    \endverb
+    \field{issn}{00237302}
+    \field{number}{3}
+    \field{pages}{293\bibrangedash 324}
+    \field{title}{{Biochemical pathways for the production of flavour compounds
+  in cheeses during ripening: A review}}
+    \field{volume}{80}
+    \verb{file}
+    \verb :Users/mlecomte/Downloads/hal-00895408.pdf:pdf
+    \endverb
+    \field{journaltitle}{Lait}
+    \field{year}{2000}
+  \endentry
+
+  \entry{Orth2010}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=OJD}{%
+         family={Orth},
+         familyi={O\bibinitperiod},
+         given={Jeffrey\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=TI}{%
+         family={Thiele},
+         familyi={T\bibinitperiod},
+         given={Ines},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=PBO}{%
+         family={Palsson},
+         familyi={P\bibinitperiod},
+         given={Bernhard\bibnamedelima O.},
+         giveni={B\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OJDTIPBO1}
+    \strng{fullhash}{OJDTIPBO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{booktitle}{Nature Biotechnology}
+    \verb{doi}
+    \verb 10.1038/nbt.1614
+    \endverb
+    \field{issn}{10870156}
+    \field{title}{{What is flux balance analysis?}}
+    \verb{file}
+    \verb :Users/mlecomte/Library/Application Support/Mendeley Desktop/Download
+    \verb ed/Orth, Thiele, Palsson - 2010 - What is flux balance analysis.pdf:p
+    \verb df
+    \endverb
+    \field{year}{2010}
+  \endentry
+
+  \entry{Ozcan.2020}{article}{}
+    \name{author}{7}{}{%
+      {{hash=OE}{%
+         family={Ozcan},
+         familyi={O\bibinitperiod},
+         given={Emrah},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Seven},
+         familyi={S\bibinitperiod},
+         given={Merve},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Sirin},
+         familyi={S\bibinitperiod},
+         given={Burcu},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CT}{%
+         family={Cakır},
+         familyi={C\bibinitperiod},
+         given={Tunahan},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=NE}{%
+         family={Nikerel},
+         familyi={N\bibinitperiod},
+         given={Emrah},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=TB}{%
+         family={Teusink},
+         familyi={T\bibinitperiod},
+         given={Bas},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=OET}{%
+         family={Oner},
+         familyi={O\bibinitperiod},
+         given={Ebru\bibnamedelima Toksoy},
+         giveni={E\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OE+1}
+    \strng{fullhash}{OESMSBCTNETBOET1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{abstract}{%
+    {In this study, we have investigated the cheese starter culture as a
+  microbial community through a question: can the metabolic behaviour of a
+  co-culture be explained by the characterized individual organism that
+  constituted the co-culture? To address this question, the dairy-origin lactic
+  acid bacteria Lactococcus lactis subsp. cremoris, Lactococcus lactis subsp.
+  lactis, Streptococcus thermophilus and Leuconostoc mesenteroides, commonly
+  used in cheese starter cultures, were grown in pure and four different
+  co-cultures. We used a dynamic metabolic modelling approach based on the
+  integration of the genome-scale metabolic networks of the involved organisms
+  to simulate the co-cultures. The strain-specific kinetic parameters of
+  dynamic models were estimated using the pure culture experiments and they
+  were subsequently applied to co-culture models. Biomass, carbon source,
+  lactic acid and most of the amino acid concentration profiles simulated by
+  the co-culture models fit closely to the experimental results and the
+  co-culture models explained the mechanisms behind the dynamic microbial
+  abundance. We then applied the co-culture models to estimate further
+  information on the co-cultures that could not be obtained by the experimental
+  method used. This includes estimation of the profile of various metabolites
+  in the co-culture medium such as flavour compounds produced and the
+  individual organism level metabolic exchange flux profiles, which revealed
+  the potential metabolic interactions between organisms in the co-cultures.}%
+    }
+    \verb{doi}
+    \verb 10.1002/bit.27565
+    \endverb
+    \field{issn}{0006-3592}
+    \field{number}{1}
+    \field{pages}{223\bibrangedash 237}
+    \field{title}{{Dynamic co‐culture metabolic models reveal the
+  fermentation dynamics, metabolic capacities and interplays of cheese starter
+  cultures}}
+    \field{volume}{118}
+    \field{journaltitle}{Biotechnology and Bioengineering}
+    \field{year}{2020}
+  \endentry
+
+  \entry{10.1093/chemse/bjh067}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RJP}{%
+         family={Royet},
+         familyi={R\bibinitperiod},
+         given={Jean-Pierre},
+         giveni={J\bibinithyphendelim P\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Plailly},
+         familyi={P\bibinitperiod},
+         given={Jane},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RJPPJ1}
+    \strng{fullhash}{RJPPJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    {Over the last ten years, methods of cerebral imaging have revolutionized
+  our knowledge of cognitive processes in humans. An impressive number of
+  papers dealing with cerebral imaging for olfaction have been published to
+  date. Whereas the early works revealed those structures participating in the
+  processing of odours presented passively to subjects, researchers later
+  recorded brain activity when subjects performed specific olfactory tasks
+  based on memory, emotion and identification. From these results, we suggest
+  that there is a dissociation of olfactory processes, with involvement of the
+  right hemisphere in memory processes and the left hemisphere in emotional
+  processes. The review concludes with a summary of how these lateralized
+  processes are consistent with the gestalt-nature of our olfactory
+  perception.}%
+    }
+    \verb{doi}
+    \verb 10.1093/chemse/bjh067
+    \endverb
+    \verb{eprint}
+    \verb https://academic.oup.com/chemse/article-pdf/29/8/731/930410/bjh067.pd
+    \verb f
+    \endverb
+    \field{issn}{0379-864X}
+    \field{number}{8}
+    \field{pages}{731\bibrangedash 745}
+    \field{title}{{Lateralization of Olfactory Processes}}
+    \verb{url}
+    \verb https://doi.org/10.1093/chemse/bjh067
+    \endverb
+    \field{volume}{29}
+    \field{journaltitle}{Chemical Senses}
+    \field{month}{10}
+    \field{year}{2004}
+  \endentry
+
+  \entry{Swindell1996}{article}{}
+    \name{author}{6}{}{%
+      {{hash=SSR}{%
+         family={Swindell},
+         familyi={S\bibinitperiod},
+         given={Simon\bibnamedelima R.},
+         giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BKH}{%
+         family={Benson},
+         familyi={B\bibinitperiod},
+         given={Kim\bibnamedelima H.},
+         giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=GHG}{%
+         family={Griffin},
+         familyi={G\bibinitperiod},
+         given={Hugh\bibnamedelima G.},
+         giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=RP}{%
+         family={Renault},
+         familyi={R\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=ESD}{%
+         family={Ehrlich},
+         familyi={E\bibinitperiod},
+         given={S.\bibnamedelima Dusko},
+         giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=GMJ}{%
+         family={Gasson},
+         familyi={G\bibinitperiod},
+         given={Michael\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SSR+1}
+    \strng{fullhash}{SSRBKHGHGRPESDGMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Diacetyl is an important food flavor compound produced by certain strains
+  of citrate-metabolizing lactic acid bacteria. Citrate is converted to
+  pyruvate, from which diacetyl is produced via intermediate
+  $\alpha$-acetolactate. This paper reports the cloning and analysis of the
+  gene (aldB) encoding $\alpha$- acetolactate decarboxylase from Lactococcus
+  lactis MG1363. Deletion of the MG1363 chromosomal aldB gene was achieved by
+  double crossover homologous recombination. The mutant strain was found to
+  produce diacetyl; $\alpha$- acetolactate decarboxylase activity was
+  eliminated. Overexpression of the cloned ilvBN genes (encoding an
+  $\alpha$-acetolactate synthase) in the aldB deletion strain produced even
+  higher levels of $\alpha$-acetolactate, acetoin and diacetyl.%
+    }
+    \verb{doi}
+    \verb 10.1128/aem.62.7.2641-2643.1996
+    \endverb
+    \field{issn}{00992240}
+    \field{number}{7}
+    \field{pages}{2641\bibrangedash 2643}
+    \field{title}{{Genetic manipulation of the pathway for diacetyl metabolism
+  in Lactococcus lactis}}
+    \field{volume}{62}
+    \verb{file}
+    \verb :Users/mlecomte/Downloads/aem.62.7.2641-2643.1996.pdf:pdf
+    \endverb
+    \field{journaltitle}{Applied and Environmental Microbiology}
+    \field{year}{1996}
+  \endentry
+
+  \entry{Nava2023}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SLdNARA}{%
+         prefix={Sánchez López\bibnamedelima de},
+         prefixi={S\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  d\bibinitperiod},
+         family={Nava\bibnamedelima A},
+         familyi={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+         given={Raja\bibnamedelima A},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SLdNARA1}
+    \strng{fullhash}{SLdNARA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{booktitle}{StatPearls [Internet]}
+    \field{title}{{Physiology, Metabolism.}}
+    \verb{url}
+    \verb www.ncbi.nlm.nih.gov/books/NBK546690/
+    \endverb
+    \field{year}{2023}
+  \endentry
+
+  \entry{Zelezniak2015}{article}{}
+    \name{author}{6}{}{%
+      {{hash=ZA}{%
+         family={Zelezniak},
+         familyi={Z\bibinitperiod},
+         given={Aleksej},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Andrejev},
+         familyi={A\bibinitperiod},
+         given={Sergej},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PO}{%
+         family={Ponomarova},
+         familyi={P\bibinitperiod},
+         given={Olga},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=MDR}{%
+         family={Mende},
+         familyi={M\bibinitperiod},
+         given={Daniel\bibnamedelima R.},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Bork},
+         familyi={B\bibinitperiod},
+         given={Peer},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PKR}{%
+         family={Patil},
+         familyi={P\bibinitperiod},
+         given={Kiran\bibnamedelima Raosaheb},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \keyw{Community metabolism,Cooperation,Metabolic modeling,Naturalization
+  theory,Syntrophy}
+    \strng{namehash}{ZA+1}
+    \strng{fullhash}{ZAASPOMDRBPPKR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{abstract}{%
+    Microbial communities populate most environments on earth and play a
+  critical role in ecology and human health. Their composition is thought to be
+  largely shaped by interspecies competition for the available resources, but
+  cooperative interactions, such as metabolite exchanges, have also been
+  implicated in community assembly. The prevalence of metabolic interactions in
+  microbial communities, however, has remained largely unknown. Here, we
+  systematically survey, by using a genome-scale metabolic modeling approach,
+  the extent of resource competition and metabolic exchanges in over 800
+  communities. We find that, despite marked resource competition at the level
+  of whole assemblies, microbial communities harbor metabolically
+  interdependent groups that recur across diverse habitats. By enumerating
+  flux-balanced metabolic exchanges in these co-occurring subcommunities we
+  also predict the likely exchanged metabolites, such as amino acids and
+  sugars, that can promote group survival under nutritionally challenging
+  conditions. Our results highlight metabolic dependencies as a major driver of
+  species co-occurrence and hint at cooperative groups as recurring modules of
+  microbial community architecture.%
+    }
+    \verb{doi}
+    \verb 10.1073/pnas.1421834112
+    \endverb
+    \field{issn}{10916490}
+    \field{title}{{Metabolic dependencies drive species co-occurrence in
+  diverse microbial communities}}
+    \verb{file}
+    \verb :Users/mlecomte/Downloads/biblio_pdf/6449.full.pdf:pdf
+    \endverb
+    \field{journaltitle}{Proceedings of the National Academy of Sciences of the
+  United States of America}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Zhang2015}{article}{}
+    \name{author}{6}{}{%
+      {{hash=ZYJ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yu\bibnamedelima Jie},
+         giveni={Y\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Sha},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GRY}{%
+         family={Gan},
+         familyi={G\bibinitperiod},
+         given={Ren\bibnamedelima You},
+         giveni={R\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=ZT}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Tong},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=XDP}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Dong\bibnamedelima Ping},
+         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=LHB}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Hua\bibnamedelima Bin},
+         giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \keyw{Cancer,Gut bacteria,Human health,Obesity}
+    \strng{namehash}{ZYJ+1}
+    \strng{fullhash}{ZYJLSGRYZTXDPLHB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{abstract}{%
+    Gut bacteria are an important component of the microbiota ecosystem in the
+  human gut, which is colonized by 1014 microbes, ten times more than the human
+  cells. Gut bacteria play an important role in human health, such as supplying
+  essential nutrients, synthesizing vitamin K, aiding in the digestion of
+  cellulose, and promoting angiogenesis and enteric nerve function. However,
+  they can also be potentially harmful due to the change of their composition
+  when the gut ecosystem undergoes abnormal changes in the light of the use of
+  antibiotics, illness, stress, aging, bad dietary habits, and lifestyle.
+  Dysbiosis of the gut bacteria communities can cause many chronic diseases,
+  such as inflammatory bowel disease, obesity, cancer, and autism. This review
+  summarizes and discusses the roles and potential mechanisms of gut bacteria
+  in human health and diseases.%
+    }
+    \verb{doi}
+    \verb 10.3390/ijms16047493
+    \endverb
+    \field{issn}{14220067}
+    \field{number}{4}
+    \field{pages}{7493\bibrangedash 7519}
+    \field{title}{{Impacts of gut bacteria on human health and diseases}}
+    \field{volume}{16}
+    \verb{file}
+    \verb :Users/mlecomte/Downloads/ijms-16-07493.pdf:pdf
+    \endverb
+    \field{journaltitle}{International Journal of Molecular Sciences}
+    \field{year}{2015}
+  \endentry
+\enddatalist
+\endinput
