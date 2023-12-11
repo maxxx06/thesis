@@ -1,34 +1,22 @@
-\frametitle{Competition  indexes}
-\begin{minipage}{0.5\textwidth}
+\frametitle{Example of adding \textit{a priori} constraints}
 
-\begin{exampleblock}{Polyopsonistic}
-Number of consumers involve in exchangeable metabolites and seed > 1
-\end{exampleblock}{}
+\textit{For a community composed of 6 taxa, which community guaranty the largest metabolic scope with the lowest number of metabolic exchange ?}
+\begin{lstlisting}[style=yaml]
+# Size constraints
+SIZE:
+  size: 6
 
-\begin{lstlisting}[mathescape=True]
-H:{Org2,Org3} % exchanged metabolite
-X1:{Org1} %  the nutrient
+  # Optimisation
+OPTIMISATION:
+  - max
+  - min
+
+# Objectif
+OBJ:
+  - scope
+  - exchanged
 \end{lstlisting}
 
-\begin{lstlisting}[mathescape=True]
- Comp = sum(polyopsonist.values())) / len(community.taxa)
-      = 2/3
-\end{lstlisting}
-
-%\begin{exampleblock}{$\rho$}
-%Identify the reactionary added-value between the reaction scope in community and individually
-%\end{exampleblock}{}
-%
-%\begin{exampleblock}{$\delta$}
-%Identify the producible compounds added-value between the metabolite scope in community and individually
-%\end{exampleblock}{}
-
-\end{minipage}%
-\hspace{0.5cm}
-\hfill
-\begin{minipage}{0.4\textwidth}
-\includegraphics[width=\textwidth]{figures/exchanged.pdf}
-\end{minipage}
-%\end{onlyenv}
-
-
+\begin{alertblock}{}
+Cooperation and competition properties use as optimization criteria
+\end{alertblock}

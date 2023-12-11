@@ -37,6 +37,17 @@ mystyle/.style={
   }
 }
 
+\lstdefinestyle{yaml}{
+     basicstyle=\color{orange}\footnotesize,
+     rulecolor=\color{black},
+     string=[s]{'}{'},
+     stringstyle=\color{yellow},
+     comment=[l]{:},
+     commentstyle=\color{black},
+     morecomment=[l]{-}
+}
+
+
 \lstset
 {
     language=[LaTeX]TeX,
@@ -265,7 +276,7 @@ Supervised by : & David SHERMAN, Hélène FALENTIN \\
 \end{minipage}
 \begin{alertblock}{}
 \centering
-Computation methods are required
+Computational methods are required to tackle the complexity of microbial ecosystems
 \end{alertblock}
 
  \tiny\footcite*{10.1093/chemse/bjh067,BELKAID2014121,Zhang2015,Hoorman2011,McSweeney2000}
@@ -276,7 +287,7 @@ Computation methods are required
 \centering
 \includegraphics[width=0.9\textwidth]{figures/interactions.pdf}
 \begin{itemize}
-\item The direction of the exchange, species involved , ecosystem output
+\item The direction of the exchange, species involved, ecosystem output
 \end{itemize}
 
 \begin{alertblock}{}
@@ -285,6 +296,35 @@ Mechanistic models of bacterial interactions
 \end{alertblock}
 \end{frame}
 
+%\begin{frame}
+%\frametitle{Hybrid approach of the metabolism}
+%\textbf{The approach is hybrid}
+%\begin{minipage}{0.2\textwidth}
+%\begin{itemize}
+%\item Temporal aspect
+%\item Quantitative information
+%\end{itemize}
+%\end{minipage}%
+%\begin{minipage}{0.6\textwidth}
+%\includegraphics[width=\textwidth]{figures/further-discrete.pdf}
+%\end{minipage}%
+%\begin{minipage}{0.2\textwidth}
+%\begin{itemize}
+%\item Snapshot 
+%\item Qualitative information 
+%\end{itemize}
+%\end{minipage}%
+%
+%\textbf{Hybrid background}\\
+%$\rightarrow$ INRAE-Inria PhD student\\
+%$\rightarrow$ Biology and computational background
+%
+%\begin{alertblock}{Hybrid approach}
+%\centering
+%Mathematical or computational formalism choice is determined from the biological issue
+%%consequence: faire un choix, full numerique, discret, ou une combinaison. Ce choix est déterminé par le context d'application.
+%\end{alertblock}
+%\end{frame}
 
 \begin{frame}
 \frametitle{Modeling as a computational method to study microbial communities}
@@ -296,10 +336,47 @@ Mathematical object used to simulate or predict a function
 
 \begin{alertblock}{}
 \centering
-Metabolic modeling for understanding complex ecosystems
+\begin{itemize}
+\item Mathematical or computational formalism choice is determined by the issue
+\item Metabolic modeling for understanding complex ecosystems
+\end{itemize}
+
 \end{alertblock}
 \end{frame}
 
+\begin{frame}
+\frametitle{Objective and contributions}
+\begin{block}{Objective}
+ Contribute to analyzing metabolic interactions of bacterial communities with a hybrid approach
+\end{block}
+
+\begin{enumerate}
+\item Numerical method applied to controlled community involved in cheese production $\rightarrow$ tool designed \footnote{\url{https://forgemia.inra.fr/tango/tango_models}} (\textit{in revision in Metabolic Engineering})
+\begin{itemize}
+\item Multi-omics data integration
+\item Dynamic model $\rightarrow$ \textbf{iterative process}
+\end{itemize}
+
+\item Discrete model for screening metabolic bacterial potential in natural ecosystems $\rightarrow$ CoCoMiCo software \footnote{\url{https://gitlab.inria.fr/ccmc/CoCoMiCo}} (\textit{in prep.})
+
+\begin{itemize}
+\item Inference of \textbf{interaction properties} from KB
+\end{itemize}
+
+\item Improvement of discrete models
+
+\begin{itemize}
+\item Inference of \textbf{temporal information} from KB
+\item Selection of communities based on \textbf{biological constraints} 
+\end{itemize}
+\end{enumerate}
+
+\begin{alertblock}{}
+\centering
+Metabolic modeling for understanding complex ecosystems
+\end{alertblock}
+
+\end{frame}
 
 \begin{frame}
 \frametitle{Metabolism explains observable phenotype}
@@ -365,64 +442,9 @@ $r_5 : $1 acetoin  $\rightarrow$1 butanediol \\
 \tiny \footcite{Nava2023}
 \end{frame}
 
-\begin{frame}
-\frametitle{Hybrid approach of the metabolism}
-\textbf{The approach is hybrid}
-\begin{minipage}{0.2\textwidth}
-\begin{itemize}
-\item Temporal aspect
-\item Quantitative information
-\end{itemize}
-\end{minipage}%
-\begin{minipage}{0.6\textwidth}
-\includegraphics[width=\textwidth]{figures/further-discrete.pdf}
-\end{minipage}%
-\begin{minipage}{0.2\textwidth}
-\begin{itemize}
-\item Snapshot 
-\item Qualitative information 
-\end{itemize}
-\end{minipage}%
 
-\textbf{I am hybrid}\\
-$\rightarrow$ INRAE-Inria PhD student\\
-$\rightarrow$ Biology and computational background
 
-\begin{alertblock}{Hybrid approach}
-\centering
-Mathematical or computational formalism choice is determined from the biological issue
-%consequence: faire un choix, full numerique, discret, ou une combinaison. Ce choix est déterminé par le context d'application.
-\end{alertblock}
-\end{frame}
 
-\begin{frame}
-\frametitle{Objective and contributions}
-\begin{block}{Objective}
- Contribute to analyzing metabolic interactions of bacterial communities
-\end{block}
-
-\begin{enumerate}
-\item Numerical method applied to controlled community involved in cheese production $\rightarrow$ tool designed \footnote{\url{https://forgemia.inra.fr/tango/tango_models}} (\textit{in revision in Metabolic Engineering})
-\begin{itemize}
-\item Multi-omics data integration
-\item Dynamic model $\rightarrow$ \textbf{iterative process}
-\end{itemize}
-
-\item Discrete model for screening metabolic bacterial potential in natural ecosystems $\rightarrow$ CoCoMiCo software \footnote{\url{https://gitlab.inria.fr/ccmc/CoCoMiCo}} (\textit{in prep.})
-
-\begin{itemize}
-\item Inference of \textbf{interaction properties} from KB
-\end{itemize}
-
-\item Improvement of discrete models
-
-\begin{itemize}
-\item Inference of \textbf{temporal information} from KB
-\item Selection of communities based on \textbf{biological constraints} 
-\end{itemize}
-\end{enumerate}
-
-\end{frame}
 
 %
 %\begin{frame}{Contributions and objective}
@@ -548,7 +570,7 @@ From a GEM, a model metabolic has the capacity to simulate and to predict on the
 
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/mass-balance-1}
-\caption{Example of metabolic network}
+\vspace{-0.5cm}\caption{Example of a metabolic network}
 \end{figure}
 
 \end{minipage}%
@@ -582,7 +604,7 @@ From a GEM, a model metabolic has the capacity to simulate and to predict on the
 
 \begin{figure}
 \includegraphics[width=\textwidth]{figures/mass-balance-1}
-\caption{Example of metabolic network}
+\vspace{-0.5cm}\caption{Example of a metabolic network}
 \end{figure}
 
 \end{minipage}%
@@ -601,7 +623,7 @@ From a GEM, a model metabolic has the capacity to simulate and to predict on the
 \end{frame}
 
 \begin{frame}
-\frametitle{FBA utilization to refine genome-scale metabolic model}
+\frametitle{FBA genome-scale metabolic model refinement}
 \begin{itemize}
 \item Modify reactions (flux, add, remove)
 \item Verify known pathway and metabolic activities
@@ -677,7 +699,7 @@ m_j^n/(1-\Delta t * F_j/m_j^n) & \text{ sinon} \\ % (cas implicite)}
 \end{frame}
 
 \begin{frame}
-\frametitle{Dynamic individual calibration}
+\frametitle{Parameter inference}
 \begin{block}{}
 \begin{itemize}
 \item Make individual GSMN accurate for inferring mechanistic bacterial behavior
@@ -746,7 +768,7 @@ Propionate & 0 & 8.31 & 0.02 \\
 \end{frame}
 
 \begin{frame}
-\frametitle{Dynamic modulations}
+\frametitle{Dynamic control of the metabolism}
 
 \textbf{Defining consumption limitation in the model}
 
@@ -760,7 +782,7 @@ c^{ex}_{min,i,j} = max(-\frac{m_{j}}{\Delta t*\sum_{i \in \mathcal{M_j}} b_i}, v
 \item $v^{int}_{i,j}$ close to the FBA value
 \item Balanced resource sharing \\
 \end{itemize}
-
+\vspace{1cm}
 \textbf{Lactose consumption case for LAB}
 
 1- Calculation of pH  from lactate concentration\\
@@ -795,7 +817,7 @@ c^{ex}_{min,i,j} = max(-\frac{m_{lcts_e}}{\Delta t*\sum_{i \in \mathcal{M}(lcts_
 \hspace{0.3cm}
 \hfill
 \begin{minipage}{0.4\textwidth}
-\begin{block}{Take home message}
+\begin{block}{Results after parameters inference}
 Individual metabolic models are well calibrated $\rightarrow$ reproduce experimental data
 \end{block}
 
@@ -837,13 +859,14 @@ Individual metabolic models are well calibrated $\rightarrow$ reproduce experime
 
 \begin{frame}
 \frametitle{Highlighted bacterial community behavior}
-\includegraphics[width=\textwidth]{figures/relative-contribution.pdf}
+\centering
+\includegraphics[width=0.8\textwidth]{figures/relative-contribution.pdf}
 \begin{minipage}{0.5\textwidth}
 
 \begin{itemize}
-\item No competition for lactose
+\item Temporal segregation for lactose
 \item \textit{L. lactis} main lactate producer 
-\item Cooperation between \lactis and \freud
+\item Commensalism between \lactis and \freud
 \end{itemize}
 
 \end{minipage}%
@@ -858,9 +881,9 @@ Individual metabolic models are well calibrated $\rightarrow$ reproduce experime
 
 
 \begin{frame}
-\frametitle{Added-value and limitations}
+\frametitle{Numerical model conclusion}
 \centering
-\textbf{\huge Take home message}
+\textbf{\huge Numerical modelling of a controlled community}
 
 \begin{minipage}{0.45\textwidth}
 \vspace{0.3cm}
@@ -874,12 +897,13 @@ Individual metabolic models are well calibrated $\rightarrow$ reproduce experime
 \hspace{0.5cm}
 \hfill
 \begin{minipage}{0.45\textwidth}
-\begin{block}{Weakness}
+\begin{block}{Weaknesses}
 \begin{itemize}
 \item Greedy process
 \item \textit{A priori} knowledge
 \end{itemize}
 \end{block}
+
 \end{minipage}
 
 
@@ -1071,7 +1095,7 @@ The scope, \textit{i.e.} the metabolic capacity of a network reasons on the bioc
 \end{minipage}%
 \begin{minipage}{0.55\textwidth}
 \begin{block}{}
-Modeler itself from an issue (biological)
+Modeler and biological expert
 \end{block}
 \begin{itemize}
 \item Producibility is initiated by the presence of nutrients,
@@ -1121,7 +1145,7 @@ scope : X,A,D
 \begin{minipage}{0.55\textwidth}
 
 \begin{block}{}
-Modeler itself from an issue (biological)
+Modeler and biological expert
 \end{block}
 \begin{itemize}
 \item Producibility is initiated by the presence of nutrients,
@@ -1175,7 +1199,7 @@ scope : X,A,D,C
 \begin{minipage}{0.55\textwidth}
 
 \begin{block}{}
-Modeler itself from an issue (biological)
+Modeler and biological expert
 \end{block}
 \begin{itemize}
 \item Producibility is initiated by the presence of nutrients,
@@ -1231,7 +1255,7 @@ scope : X,A,D,C,E
 \vspace{-.1cm}
 \textbf{Source of the rules}
 \begin{block}{}
-Modeler itself from an issue (biological)
+Modeler and biological expert
 \end{block}
 \begin{itemize}
 \item Producibility is initiated by the presence of nutrients,
@@ -1291,7 +1315,7 @@ The scope of a network is formalized in 2 logical rules
 \vspace{-.1cm}
 \textbf{Source of the rules}
 \begin{block}{}
-Modeler itself from an issue (biological)
+Modeler and biological expert
 \end{block}
 \begin{itemize}
 \item Producibility is initiated by the presence of nutrients,
@@ -1329,7 +1353,7 @@ available(M, Community) :- scope(metabolite(M,B), Community).
 \end{figure}
 \begin{block}{}
 \begin{itemize}
-\item Closed world assumption
+\item Closed world assumption $\rightarrow$ unknown information is false
 \item Mechanistic model
 \item Solve combinatorial problems
 \end{itemize}
@@ -1354,6 +1378,13 @@ available(M, Community) :- scope(metabolite(M,B), Community).
 \begin{minipage}{0.45\textwidth}
 \includegraphics[width=\textwidth]{figures/properties-2.pdf}
 \end{minipage}
+
+\begin{alertblock}{}
+\begin{itemize}
+\item Redesigned microbial ecology definition of cooperation $\rightarrow$  no growth effect
+\item Effect on donors are not taken into account (0, +, -)
+\end{itemize}
+\end{alertblock}
 }
 
 \only<2>{
@@ -1432,7 +1463,7 @@ available(M, Community) :- scope(metabolite(M,B), Community).
 \only<2>{
 \begin{minipage}{0.4\textwidth}
 \begin{itemize}
-\item Monopsonie
+\item Monopsony
 \end{itemize}
  Monopsony comes from two Greek words: ``monos'' meaning ``single'' and ``opsonia'' meaning ``purchase.''
 \end{minipage}%
@@ -1443,7 +1474,7 @@ available(M, Community) :- scope(metabolite(M,B), Community).
 \end{minipage}
 \begin{minipage}{0.4\textwidth}
 \begin{itemize}
-\item \textbf{Polyopsonie}
+\item \textbf{Polyopsony}
 \end{itemize}
 \end{minipage}%
 \hspace{0.5cm}
@@ -1455,7 +1486,7 @@ available(M, Community) :- scope(metabolite(M,B), Community).
 
 \begin{block}{}
 \begin{itemize}
-\item How cooperation and competition (polyopsonie) rules are defined ?
+\item How cooperation and competition (polyopsony) rules are defined ?
 \end{itemize}
 \end{block}
 }
@@ -1526,11 +1557,11 @@ not scope(metabolite(M,C),
 self(C)).
 \end{lstlisting}
 \begin{lstlisting}[mathescape=True,label={lst:competition}, captionpos=b]
-polyopsonist(M,N) :- 
+polyopsony(M,N) :- 
 N=#count{C,M:exchange(M,_,C)},
 exchange(M,_,_), N > 1.
 		 	
-polyopsonist(S,N) :-
+polyopsony(S,N) :-
 N=#count{B:seed_consumed_by_taxon(S,B)}, 
 N > 1, seed(S).
 \end{lstlisting}
@@ -1553,7 +1584,7 @@ N > 1, seed(S).
 \textbf{Use of logical formalism for characterizing cooperation and competition properties}
 \begin{itemize}
 \item \textit{Exchanged compounds}
-\item Polyopsonie, monopsonie
+\item Polyopsony, monopsony
 \item Bacteria involved in an exchange
 \item $\rho, \delta $ metrics  
 \end{itemize}
@@ -1565,15 +1596,9 @@ N > 1, seed(S).
 \item Use as optimization criteria 
 \end{itemize}
 
-%\[
-%\text{Output} \begin{cases} \textbf{Polyopsonie, monopsonie} \\
-%\text{Exchanged compounds}\\
-%\textbf{Bacteria involved} \text{ (producers, consumers)}\\
-%\textbf{Bacterial interaction indexes} \rightarrow \text{not universal scores}\\
-%\rho, \delta\textbf{ metrics } \\
-%\dots
-%\end{cases}
-%\]
+\begin{alertblock}{}
+Cooperation (exchanged compounds) and competition (polyopsony) properties used for calculating cooperation and competition indexes
+\end{alertblock}
 
 \footcite{Frioux2018}
 \end{frame}
@@ -1584,7 +1609,8 @@ N > 1, seed(S).
 
 \begin{minipage}{0.5\textwidth}
 \begin{block}{Cooperation weight}
-how to qualitatively model the contributions of exchange species?
+Can a species give to everyone in the systeme ? \\
+How to qualitatively model the contributions of exchange species?
 \end{block}
 \textbf{Exchangeable metabolites}\\
 \begin{lstlisting}[mathescape=True]
@@ -1625,7 +1651,7 @@ H:{1.5} % consumers
 \begin{minipage}{0.5\textwidth}
 
 \begin{exampleblock}{Polyopsonistic}
-Number of consumers involve in exchangeable metabolites and seed > 1
+Number of consumers involved in exchangeable metabolites and seed > 1
 \end{exampleblock}{}
 
 \begin{lstlisting}[mathescape=True]
@@ -1661,7 +1687,7 @@ X1:{Org1} %  the nutrient
 
 
 \begin{frame}
-\frametitle{Workflow}
+\frametitle{Workflow for method assessment}
 
 \includegraphics[width=\textwidth]{figures/workflow-ccmc.pdf}
 
@@ -1692,7 +1718,7 @@ X1:{Org1} %  the nutrient
 %\begin{minipage}{0.3\textwidth}
 \begin{alertblock}{}
 \begin{itemize}
-\item Leaf and root ecosystems are not distinguishable from cooperation and competition scores
+\item Leaf and root ecosystems are not distinguishable from cooperation and competition (polyopsony) scores
 \end{itemize}
 \end{alertblock}
 %\end{minipage}
@@ -1709,7 +1735,7 @@ X1:{Org1} %  the nutrient
 %\begin{minipage}{0.37\textwidth}
 \begin{alertblock}{}
 \begin{itemize}
-\item Cooperation and competition indexes are impacted with a taxonomic modification only for small size communities
+\item Cooperation and competition (polyopsony)  indexes are impacted with a taxonomic modification only for small size communities
 \end{itemize}
 \end{alertblock}
 %\end{minipage}
@@ -1723,7 +1749,7 @@ Deduced scores from MICOM accepted by Diener.
 
 \begin{alertblock}{}
 \begin{itemize}
-\item CoCoMiCo tool is faster than SMETANA and MiCOM for characterizing cooperation and competition in large-scale communities
+\item CoCoMiCo tool is faster than SMETANA and MiCOM for characterizing cooperation and competition (polyopsony) in large-scale communities
 \end{itemize}
 \end{alertblock}
 
@@ -1741,16 +1767,16 @@ Deduced scores from MICOM accepted by Diener.
 %\begin{minipage}{0.28\textwidth}
 \begin{block}{}
 \begin{itemize}
-\item Competition and cooperation coherent with MiCOM
+\item Competition (polyopsony) and cooperation coherent with MiCOM
 \end{itemize}
 \end{block}
 %\end{minipage}
 \end{frame}
 
 \begin{frame}
-\frametitle{Discrete model added-value and limitations}
+\frametitle{Discrete model conclusion}
 \centering
-\textbf{\huge Take home message}
+\textbf{\huge Reasoning based model of interactions}
 
 %\begin{minipage}{0.45\textwidth}
 %\begin{block}{Originality}
@@ -1799,7 +1825,7 @@ In silico model usable for screening cooperation and competition at coarse grain
 \hfill
 \begin{minipage}{0.45\textwidth}
 \begin{block}{Threats}
-High number of false-positif
+Risk of false-positive
 \end{block}
 \end{minipage}
 
@@ -1828,23 +1854,51 @@ High number of false-positif
 \frametitle{Adding \textit{a priori} constraints}
 
 \begin{itemize}
-\item High number of false-positif
-\item Use interaction properties as constraints
+\item Reduce CoCoMiCo output 
 \end{itemize}
 \centering
-\includegraphics[width=0.7\textwidth]{figures/enrichissement.pdf}
-\begin{block}{Goal}
-\begin{itemize}
-\item Add flexibility to MISCoTo 
-\item User friendly
-\end{itemize}
-\end{block}
+\includegraphics[width=0.8\textwidth]{figures/enrichissement.pdf}
+%\begin{block}{Goal}
+%\begin{itemize}
+%\item Add flexibility to MISCoTo 
+%\item User friendly
+%\end{itemize}
+%\end{block}
 
 \footcite{Frioux2018}
 \end{frame}
 
+\begin{frame}[fragile]
+\frametitle{Example of adding \textit{a priori} constraints}
+
+\textit{For a community composed of 6 taxa, which community guaranty the largest metabolic scope with the lowest number of metabolic exchange ?}
+\begin{lstlisting}[style=yaml]
+# Size constraints
+SIZE:
+  size: 6
+  
+  # Optimisation
+OPTIMISATION: 
+  - max
+  - min
+
+# Objectif
+OBJ:
+  - scope
+  - exchanged
+\end{lstlisting}
+
+\begin{alertblock}{}
+Cooperation and competition properties use as optimization criteria
+\end{alertblock}
+\end{frame}
+
 \begin{frame}
-\frametitle{Adding logic temporal}
+\frametitle{Adding temporal information: context}
+\begin{itemize}
+\item Temporal segregation for lactose consumption
+\end{itemize}
+
 \centering
 \includegraphics[width=0.8\textwidth]{figures/relative-contribution.pdf}
 
@@ -1853,35 +1907,99 @@ Based on the same formalism of the discrete model, we use temporal operator to c
 \end{block}
 
 %\includegraphics[width=\textwidth]{figures/syntaxe_telingo.pdf}
+\end{frame}
 
-\begin{block}{}
+\begin{frame}
+\frametitle{Example of utilization: Explication}
+Reasoning about actions (RAC) and changes extends our formalism to temporal formalism using linear temporal logic.
+\begin{minipage}{0.7\textwidth}
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.95\textwidth]{figures/Explication.pdf}
+        \label{fig:explication}
+    \end{center}
+\end{figure}
+\end{minipage}%
+\hspace{0.2cm}
+\hfill
+\begin{minipage}{0.25\textwidth}
 \begin{itemize}
-\item Infer potential bacterial interactions
-\item Mechanistic information related to reactions
+\item[time 0] \textbf{R0\_in} activated
+\item[time 1]\textbf{R1\_in}, \textbf{R4} activated, E,B producible
+\item[time 2] ...
 \end{itemize}
-\end{block}
+\end{minipage}
+
+\vspace{-0.1cm}
+\begin{alertblock}{}
+Highlight the need of an potential exchange metabolite, \textbf{Be}, in order to produce \textbf{Ne} given that \textbf{De} is observed.
+\end{alertblock}
+    
+    
+
+%\begin{block}{}
+%\begin{itemize}
+%\item Infer potential bacterial interactions
+%\item Mechanistic information related to reactions
+%\end{itemize}
+%\end{block}
 
 \end{frame}
 
 \section{Conclusion and perspectives}
+
 \begin{frame}
+\frametitle{Conclusion and perspectives}
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.8\textwidth]{figures/conclusion.pdf}
+        \label{fig:explication}
+    \end{center}
+\end{figure}
 
 
-\begin{centering}
-\textbf{Perspectives}
-\begin{itemize}
-\item Work on enrichment part (software...)
-\item Validate experimentally bacterial interactions 
-\item How can we use metatranscriptomic data in both model 
-\end{itemize}
-\vspace{1cm}
-\textbf{Conclusion}
-\begin{itemize}
-\item Build hybrid approach for explainable metabolic modelling of microbial ecosystems'
-\item Numerical model $\rightarrow$ efficient for characterizing bacterial interactions in small communities
-\item Reasoning-based model $\rightarrow$ for screening bacterial interactions in natural communities
-\end{itemize}
-\end{centering}
+%\begin{centering}
+%\textbf{Perspectives}
+%\begin{itemize}
+%\item Work on enrichment part (software...)
+%\item Validate experimentally bacterial interactions 
+%\item How can we use metatranscriptomic data in both model 
+%\end{itemize}
+%\vspace{1cm}
+%\textbf{Conclusion}
+%\begin{itemize}
+%\item Build hybrid approach for explainable metabolic modelling of microbial ecosystems'
+%\item Numerical model $\rightarrow$ efficient for characterizing bacterial interactions in small communities
+%\item Reasoning-based model $\rightarrow$ for screening bacterial interactions in natural communities
+%\end{itemize}
+%\end{centering}
+\end{frame}
+
+\begin{frame}
+\frametitle{Conclusion and perspectives}
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[width=0.8\textwidth]{figures/perspective.pdf}
+        \label{fig:explication}
+    \end{center}
+\end{figure}
+
+
+%\begin{centering}
+%\textbf{Perspectives}
+%\begin{itemize}
+%\item Work on enrichment part (software...)
+%\item Validate experimentally bacterial interactions 
+%\item How can we use metatranscriptomic data in both model 
+%\end{itemize}
+%\vspace{1cm}
+%\textbf{Conclusion}
+%\begin{itemize}
+%\item Build hybrid approach for explainable metabolic modelling of microbial ecosystems'
+%\item Numerical model $\rightarrow$ efficient for characterizing bacterial interactions in small communities
+%\item Reasoning-based model $\rightarrow$ for screening bacterial interactions in natural communities
+%\end{itemize}
+%\end{centering}
 \end{frame}
 
 \begin{frame}

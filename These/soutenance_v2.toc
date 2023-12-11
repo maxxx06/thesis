@@ -2,10 +2,10 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {1}{Motivation}{2}{0}{1}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {2}{Numerical models}{8}{0}{2}
+\beamer@sectionintoc {2}{Numerical models}{7}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {3}{Discrete model}{23}{0}{3}
+\beamer@sectionintoc {3}{Discrete model}{22}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{Enrichment}{48}{0}{4}
+\beamer@sectionintoc {4}{Enrichment}{47}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{Conclusion and perspectives}{51}{0}{5}
+\beamer@sectionintoc {5}{Conclusion and perspectives}{52}{0}{5}
